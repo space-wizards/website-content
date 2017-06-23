@@ -1,0 +1,143 @@
+body
+{
+	color: rgb(200, 200, 200);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	height: 100%;
+	margin: 0;
+}
+
+#background
+{
+	z-index: -10;
+	background: url("/images/background.jpg") black;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+html
+{
+	
+	height: 100%;
+}
+
+#centercolumn
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 75%;
+	height: 100%;
+	min-height: 100%;
+	text-align: left;
+	bottom: 0;
+	-moz-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
+	position: initial;
+	display: table;
+	border-collapse: collapse;
+}
+
+#header
+{
+	padding-top: 50px;
+	overflow: auto;
+}
+
+.left
+{
+	width: 50%;
+	float: left;
+	text-align: left;
+	display: block;
+}
+
+.right
+{
+	width: 50%;
+	float: right;
+	text-align: right;
+	display: block;
+}
+
+#name
+{
+	font-size: 30pt;
+	color: white;
+	font-family: "animal_silenceregular";
+}
+
+#subname
+{
+	color: grey;
+}
+
+.navlink
+{
+	
+	font-size: 20pt;
+	color: rgb(200, 200, 200);
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#main
+{
+	margin-top: 50px;
+}
+
+small
+{
+	color: grey;
+}
+
+.code
+{
+	font-family: Courier New, Courier, monospace;
+}
+
+a
+{
+	color: rgb(200, 200, 200);
+}
+
+#chatlinks
+{
+	padding: 10px;
+}
+
+#chatlinks a.code
+{
+	left: 5px;
+	position: relative;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+	text-decoration: none;
+}
+
+#ircrelaynotice
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+a img
+{
+	position: relative;
+	top: 3px;
+}
+
+#footer
+{
+	bottom: 0;
+	text-align: right;
+	color: grey;
+	font-size: 9pt;
+	display: table-row;
+	vertical-align: bottom;
+	height: 20px;
+}

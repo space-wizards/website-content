@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:space-wizards/space-wizards.github.io.git
+	branch = master
