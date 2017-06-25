@@ -1,0 +1,16 @@
+{{ partial "header.html" }}
+
+<article>
+	<h2 class="articleheader">{{ .Title }}</h2>
+	<span class="articlemeta">{{ .Date.Format "Monday January 2, 2006" }} by {{ .Params.author }}</span>
+	{{ .Content }}
+
+	{{ if .Params.reddit }}
+	<hr />
+	<footer>
+		 <a href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
+	</footer>
+	{{ end }}
+</article>
+
+{{ partial "footer.html" }}

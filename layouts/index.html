@@ -1,7 +1,19 @@
 {{ partial "header.html" }}
+{{ $paginator := .Paginator }}
 
-{{ range first 10 .Data.Pages }}
-	{{ .Render "summary"}}
-{{ end }}
+<section id="newposts">
+	<div id="recentpostswrapper">
+		<h1>Recent posts</h1>{{ template "_internal/pagination.html" . }}
+	</div>
+	<hr />
+
+	{{ range first 10 $paginator.Pages }}
+		{{ .Render "summary"}}
+		<hr />
+	{{ end }}
+	<footer>
+		{{ template "_internal/pagination.html" . }}
+	</footer>
+</section>
 
 {{ partial "footer.html" }}

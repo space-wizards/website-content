@@ -5,6 +5,7 @@ body
 	text-align: center;
 	height: 100%;
 	margin: 0;
+	font-variant-ligatures: normal;
 }
 
 #background
@@ -20,7 +21,7 @@ body
 
 html
 {
-	
+
 	height: 100%;
 }
 
@@ -31,16 +32,14 @@ html
 	margin-right: auto;
 	margin-top: 0;
 	width: 75%;
-	height: 100%;
 	min-height: 100%;
 	text-align: left;
 	bottom: 0;
-	-moz-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
 	-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
 	position: initial;
-	display: table;
-	border-collapse: collapse;
+	display:block;
+	overflow:auto;
 }
 
 #header
@@ -79,14 +78,15 @@ html
 
 .navlink
 {
-	
-	font-size: 20pt;
+
+	font-size: 30pt;
 	color: rgb(200, 200, 200);
 	text-decoration: none;
 	margin-left: 20px;
+	font-family: "animal_silenceregular";
 }
 
-#main
+main
 {
 	margin-top: 50px;
 }
@@ -96,7 +96,7 @@ small
 	color: grey;
 }
 
-.code
+code
 {
 	font-family: Courier New, Courier, monospace;
 }
@@ -131,13 +131,112 @@ a img
 	top: 3px;
 }
 
-#footer
-{
-	bottom: 0;
-	text-align: right;
-	color: grey;
-	font-size: 9pt;
-	display: table-row;
-	vertical-align: bottom;
-	height: 20px;
+hr {
+	margin: 25px 0;
+	height: 1px;
+	border: 0;
+	background: white;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(40, 40, 40, 0.7) 15%, rgba(40, 40, 40, 0.7) 50%, rgba(40, 40, 40, 0.7) 85%, rgba(0, 0, 0, 0));
 }
+
+header > a {
+	text-decoration: none;
+}
+
+.articleheader {
+	margin-bottom: 0px;
+}
+
+.articlemeta {
+	color: dimgrey;
+	font-size: 12pt;
+	display: inline-block;
+	padding-bottom: 7px;
+}
+
+a {
+	color: rgb(200, 200, 255);
+}
+
+a:link {
+	text-decoration: none;
+	color: rgb(200, 200, 255);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul.pagination {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+/* pages list horizontally */
+ul.pagination > li {
+	display: inline-block;
+
+}
+
+div#recentpostswrapper > h1 {
+	margin-bottom: 0;
+}
+
+li.disabled, li.disabled > a {
+	color: rgb(105, 105, 105);
+}
+
+footer {
+	margin-bottom: 50px;
+}
+
+/* Pygments stuff */
+.highlight {
+	padding-left: 30px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 15px;
+}
+
+code {
+	font-family: "Fira Code", "Source Code Pro", monospace;
+}
+
+.highlight .hll { background-color: #ffffcc }
+.highlight .c { color: #008000 } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #6666ff } /* Keyword */
+.highlight .ch { color: #008000 } /* Comment.Hashbang */
+.highlight .cm { color: #008000 } /* Comment.Multiline */
+.highlight .cp { color: #6666ff } /* Comment.Preproc */
+.highlight .cpf { color: #008000 } /* Comment.PreprocFile */
+.highlight .c1 { color: #008000 } /* Comment.Single */
+.highlight .cs { color: #008000 } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gh { font-weight: bold } /* Generic.Heading */
+.highlight .gp { font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { font-weight: bold } /* Generic.Subheading */
+.highlight .kc { color: #6666ff } /* Keyword.Constant */
+.highlight .kd { color: #6666ff } /* Keyword.Declaration */
+.highlight .kn { color: #6666ff } /* Keyword.Namespace */
+.highlight .kp { color: #6666ff } /* Keyword.Pseudo */
+.highlight .kr { color: #6666ff } /* Keyword.Reserved */
+.highlight .kt { color: #2b91af } /* Keyword.Type */
+.highlight .s { color: #a31515 } /* Literal.String */
+.highlight .nc { color: #2b91af } /* Name.Class */
+.highlight .ow { color: #6666ff } /* Operator.Word */
+.highlight .sa { color: #a31515 } /* Literal.String.Affix */
+.highlight .sb { color: #a31515 } /* Literal.String.Backtick */
+.highlight .sc { color: #a31515 } /* Literal.String.Char */
+.highlight .dl { color: #a31515 } /* Literal.String.Delimiter */
+.highlight .sd { color: #a31515 } /* Literal.String.Doc */
+.highlight .s2 { color: #a31515 } /* Literal.String.Double */
+.highlight .se { color: #a31515 } /* Literal.String.Escape */
+.highlight .sh { color: #a31515 } /* Literal.String.Heredoc */
+.highlight .si { color: #a31515 } /* Literal.String.Interpol */
+.highlight .sx { color: #a31515 } /* Literal.String.Other */
+.highlight .sr { color: #a31515 } /* Literal.String.Regex */
+.highlight .s1 { color: #a31515 } /* Literal.String.Single */
+.highlight .ss { color: #a31515 } /* Literal.String.Symbol */

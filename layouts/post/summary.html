@@ -1,0 +1,11 @@
+<article class="summary">
+<h3 class="articleheader"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+<span class="articlemeta">{{ .Date.Format "Monday January 2, 2006" }} by {{ .Params.author }}</span><br />
+{{ .Summary }}
+
+{{ if .Truncated }}
+<div class="read-more-link">
+	<a href="{{ .RelPermalink }}">Read More…</a>
+</div>
+{{ end }}
+</article>
