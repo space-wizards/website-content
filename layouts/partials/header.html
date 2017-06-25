@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="X-UA-Compatible" content="IE=Edge" /> <!-- Ah the memories -->
+
+		{{ partial "meta.html" }}
+	
+		<base href="{{ .Site.BaseURL }}" />
+		<title>{{ if .Title }}{{ .Title }} | {{ end }}Space Station 14</title>
+		<link rel="canonical" href="{{ .Permalink }}" />
+		{{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+
+		{{ partial "head_includes.html" }}
+	</head>
+	<body lang="en">
+		<div id="background"> </div>
+		<div id="centercolumn">
+			<nav id="header">
+				<div class="left">
+					<span id="name">
+						Space Station 14
+					</span>
+					<br>
+					<span id="subname">
+						<br>
+					</span>
+				</div>
+				<div class="right">
+					<a class="navlink" href="/about/">About</a>
+					<!--<a class="navlink" href="#">Get Involved</a>-->
+				</div>
+			</div>
+			<div id="main">

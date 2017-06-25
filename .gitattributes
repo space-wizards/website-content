@@ -1,1 +1,12 @@
 * text=auto
+
+*.woff2 binary
+*.woff binary
+*.css text
+*.jpg binary
+*.svg text
+*.md text
+*.js text
+*.toml text
+*.py text
+*.html text

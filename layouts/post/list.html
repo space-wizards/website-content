@@ -1,7 +1,7 @@
 {{ partial "header.html" }}
 
 {{ range first 10 .Data.Pages }}
-	{{ .Render "summary"}}
+	{{ .Summary }}
 {{ end }}
 
 {{ partial "footer.html" }}

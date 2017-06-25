@@ -1,0 +1,14 @@
+{
+	"files": [
+		"main.ts"
+	],
+	"compileOnSave": true,
+	"compilerOptions": {
+		"outDir": "../js",
+		"removeComments": true,
+		"alwaysStrict": true,
+		"charset": "utf-8",
+		"newLine": "LF",
+		"target": "es3"
+	}
+}
