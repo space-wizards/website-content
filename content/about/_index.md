@@ -26,4 +26,14 @@ We primarily communicate through Discord, although there is an IRC channel that'
 * [Discord Invite](https://discord.gg/t2jac3p)
 * IRC: `irc.rizon.net#spacebus`
 
-We also have some other project services set up.
+We also have some other project services set up:
+
+* [Windows CI builds](https://ci.appveyor.com/project/Silvertorch5/space-station-14/branch/master)
+* [Linux & MacOS CI builds](https://travis-ci.org/space-wizards/space-station-14)
+* [Code Analysis](https://sonarcloud.io/dashboard?id=ss14)
+* [**Project Management**](https://waffle.io/space-wizards/space-station-14)
+
+And have some general links to some related communities too:
+
+* [SS14 Subreddit](https://ss14.reddit.com)
+* [SS13 Subreddit](https://ss13.reddit.com)

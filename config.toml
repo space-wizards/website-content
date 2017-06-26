@@ -4,3 +4,4 @@ title = "Space Station 14"
 ignoreFiles = ["\\.ts$", "tsconfig.json$"]
 PygmentsCodeFences = true
 pygmentsuseclasses = true
+disableKinds = ["taxonomy", "taxonomyTerm"]

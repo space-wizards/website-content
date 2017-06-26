@@ -18,17 +18,33 @@ When you're SURE you did everything right, run `publish.py`. Note that this push
 
 To add a post, simply create a markdown file under `/content/post/` that ends in `.md`. Sane naming please. Inside this file will be the content of the page, along with some other stuff defining title, date of creation, etc...
 
-The content is just regular markdown, the title and stuff however is called "front matter" and it looks like this:
+The content is just regular markdown, the title and stuff however is called "front matter" and is written in TOML inside +++ at the top of the markdown file.Tt looks like this:
 
 ```md
 +++
 title = "doodad" # Title. Duh.
-date = 1970-01-30 # Time. As this is TOML (surprise!) any TOML date-time will do: https://github.com/toml-lang/toml#offset-date-time
+date = 1970-01-30 # Time. As this is TOML, any TOML date-time will do: https://github.com/toml-lang/toml#offset-date-time
 author = "Urist McDude" # Your name.
 reddit = "https://reddit.com/link/to/reddit/thread" # Optional, when provided with a link it'll show as "Join the discussion on Reddit" below the article.
+tags = [
+	"tag1",
+	"tag2",
+	...
+]
+
+categories = [
+	"cat1",
+	"cat2",
+	...
+]
+# Google the difference between categories and tags, seriously Google results give much better results than I can explain here.
 +++
 
 Hi, I'm a blog post!
+
+<!--more-->
+
+And I'm behind the "Read more..." section! Clickbait!
 ```
 
-Also important is the summary split, `<!--more-->`. Put this where you want the summary on the main page listing to split with a "Read More..." link. This happens automatically with Hugo, but Hugo isn't exactly smart about it so I advise you you do it yourself.
+Also important is the summary split, `<!--more-->`. Put this where you want the summary on the main page listing to split with a "Read More..." link. This happens automatically with Hugo, but Hugo isn't exactly smart about it so I advise you you do it yourself. See [Hugo's documentation](https://gohugo.io/content/summaries/)
