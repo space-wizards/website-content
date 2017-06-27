@@ -6,6 +6,7 @@ categories = [
 	"Progress Report"
 ]
 tags = ["website"]
+reddit = "https://www.reddit.com/r/ss14/comments/6jucld/progress_report_1_revive/"
 +++
 
 You're reading this on the new website for SS14! After [lots of hard work with CSS](https://i.imgur.com/Q3cUg29.gif), the website is ready to recieve progress reports and other news.
