@@ -12,7 +12,7 @@ The progress report took a bit to get here, because I uploaded #1 two days too l
 
 <!--more-->
 
-Not all work on a project like SS14 is direct coding. Sure it's the most important, but we still have to organize the project, make contributions easy, write these reports and discuss how we're gonna discuss things lest we turn into BYOND.
+Not all work on a project like SS14 is direct coding. Sure it's the most important, but we still have to organize the project, make contributions easy, write these reports and discuss how we're gonna do things lest we turn into BYOND.
 
 ## Organization
 
