@@ -5,6 +5,7 @@ author = "PJB3005"
 categories = [
 	"Progress Report"
 ]
+reddit = "https://www.reddit.com/r/ss14/comments/6mfniy/progress_report_2_refactor_hell/"
 +++
 
 The progress report took a bit to get here, because I uploaded #1 two days too late, and not a lot of substance for a report happened between then and when #2 should've happened. Not the case anymore though, got plenty to write about this time!
