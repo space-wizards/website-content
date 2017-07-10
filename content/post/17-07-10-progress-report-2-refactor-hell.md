@@ -50,7 +50,7 @@ The current target for alpha is as follows: **a decent base we can build content
 
 ## Code Progress
 
-And finally we get to the most important bit of the report, what we *actually* did. I can bore you enough with what we *want* to do, but dreams aren't exactly useful if we can't put the work in. But we're trying to prove we can!
+And finally we get to the most important bit of the report, what we *actually* did. I can bore you enough with what we *want* to do, but dreams aren't exactly useful if we can't put the work in. But we're trying to prove we can. Nothing exciting yet though, just *refactor hell*.
 
 * [`#204`: Lidgren update, IPv6](https://github.com/space-wizards/space-station-14/pull/204). The age old version of the networking library we were using has been updated and we now have IPv6 support!
 * We've refactored IoC another couple times, in steps. We're at the point where I feel it's pretty good for keeping the place organized. IoC is the very core of our project and it's allowing us to organize everything.
