@@ -5,6 +5,7 @@ date = 2017-07-25
 categories = [
 	"Progress Report"
 ]
+reddit = "https://www.reddit.com/r/ss14/comments/6pf7yj/progress_report_3_ending_the_prealpha/"
 +++
 
 So stuff's been quiet for the past 14 days. I can give you an annoying excuse or I can just accept that weekly progress reports aren't working *yet*. As such **progress reports will no longer be scheduled and done whenever we feel there's something big to report**, like today!
