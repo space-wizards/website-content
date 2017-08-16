@@ -13,7 +13,7 @@ Originally, the SS14 project was a continuation of [Goonstation](https://forum.s
 
 ### Status
 
-Currently, the project is in a "pre-alpha" state. We have many tasks ahead of us. On this website you will be able to find weekly progress reports as long as we're kicking.
+Currently, the project is in a "pre-alpha" state. We have many tasks ahead of us. On this website you will be able to find progress reports as long as we're kicking.
 
 ### Getting involved
 
