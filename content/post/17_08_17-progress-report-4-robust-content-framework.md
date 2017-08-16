@@ -35,7 +35,7 @@ We've gone through a lot of effort to make this work, from asset loading to IoC 
 
 <center><video src="/video/17_08_17-disco-ball-prototype.webm" controls height=300></center>
 
-What you are seeing here (other than my mouse cursor, apologies) is the first practical example of the content repo in use. It's a crude "disco ball", the color just changing with a hue shift over time. The code was terrible because I was in a hurry and there were various limitations in the engine that I've since fixed (couldn't even load sprites from content, joy!), but here's a more cleaned up version of the code. Note that the engine isn't there *yet*, there's still a bunch of refactors ahead, but this is generally what we want to have:
+What you are seeing here (other than my mouse cursor, apologies) is the first example of the content repo in use. It's a crude "disco ball", the color just changing with a hue shift over time. The code was terrible because I was in a hurry and there were various limitations in the engine that I've since fixed (couldn't even load sprites from content, joy!), but here's a more cleaned up version of the code. Note that the engine isn't there *yet*, there's still a bunch of refactors ahead, but this is generally what we want to have:
 
 YAML entity prototype:
 
@@ -126,7 +126,7 @@ What can you do then? **full 3D**. We're not talking high quality model 3D like 
 
 3D has more advantages than scaling though. It would allow us to make rotation a possibility, and probably make multi-z a lot less of a hassle too.
 
-We're still experimenting with the practicality of making 3D models, art style, tooling, etc... **The game will stay top down 3D**, this is only a visual change. Seriously don't freak out I know this is a big decision and highly controversial. If it seriously doesn't work we'll revert to 2D and have our scaling artifacts instead.
+We're still experimenting with the practicality of making 3D models, art style, tooling, etc... **The game will stay top down**, this is only a visual change. Seriously don't freak out I know this is a big decision and highly controversial. If it seriously doesn't work we'll revert to 2D and have our scaling artifacts instead.
 
 # Robusting the SFML
 
