@@ -5,6 +5,7 @@ date = 2017-08-17
 categories = [
 	"Progress Report"
 ]
+reddit = "https://www.reddit.com/r/ss14/comments/6u5hvq/progress_report_4_robust_content_framework/"
 +++
 
 It's been a couple weeks since the last progress report, and lots has happened since then. Refactors, setting up the content repo, and more!
