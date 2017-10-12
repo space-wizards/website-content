@@ -1,4 +1,4 @@
-{{ partial "header.html" }}
+{{ partial "header.html" . }}
 {{ $paginator := .Paginator }}
 
 <section id="newposts">
@@ -16,4 +16,4 @@
 	</footer>
 </section>
 
-{{ partial "footer.html" }}
+{{ partial "footer.html" . }}

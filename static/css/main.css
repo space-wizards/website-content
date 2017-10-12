@@ -27,7 +27,7 @@ html
 
 #centercolumn
 {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.9);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
@@ -35,8 +35,8 @@ html
 	min-height: 100%;
 	text-align: left;
 	bottom: 0;
-	-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
-	box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
+	box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
 	position: initial;
 	display:block;
 	overflow:auto;
@@ -89,17 +89,12 @@ html
 main
 {
 	margin-top: 50px;
-	margin-bottom: 200px; /* Prevent text from akwardly sticking to the bottom of the browser window */
+	margin-bottom: 50px;
 }
 
 small
 {
 	color: grey;
-}
-
-code
-{
-	font-family: Courier New, Courier, monospace;
 }
 
 a
@@ -132,7 +127,8 @@ a img
 	top: 3px;
 }
 
-hr {
+hr
+{
 	margin: 25px 0;
 	height: 1px;
 	border: 0;
@@ -140,15 +136,18 @@ hr {
 	background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(40, 40, 40, 0.7) 15%, rgba(40, 40, 40, 0.7) 50%, rgba(40, 40, 40, 0.7) 85%, rgba(0, 0, 0, 0));
 }
 
-header > a {
+header > a
+{
 	text-decoration: none;
 }
 
-.articleheader {
+.articleheader
+{
 	margin-bottom: 0px;
 }
 
-.articlemeta {
+.articlemeta
+{
 	color: dimgrey;
 	font-size: 12pt;
 	display: inline-block;
@@ -159,37 +158,57 @@ a {
 	color: rgb(200, 200, 255);
 }
 
-a:link {
+a:link
+{
 	text-decoration: none;
 	color: rgb(200, 200, 255);
 }
 
-a:hover {
+a:hover
+{
 	text-decoration: underline;
 }
 
-ul.pagination {
+ul.pagination
+{
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 }
 
 /* pages list horizontally */
-ul.pagination > li {
+ul.pagination > li
+{
 	display: inline-block;
 
 }
 
-div#recentpostswrapper > h1 {
+div#recentpostswrapper > h1
+{
 	margin-bottom: 0;
 }
 
-li.disabled, li.disabled > a {
+li.disabled, li.disabled > a
+{
 	color: rgb(105, 105, 105);
 }
 
-footer {
-	margin-bottom: 50px;
+.bottom-links
+{
+	margin-bottom: 20px;
+	color: dimgray;
+	float: right;
+}
+
+.bottom-links a
+{
+	color: dimgray;
+}
+
+.bottom-links ul > li
+{
+	display: inline-block;
+	margin-left: 25px;
 }
 
 /* Pygments stuff */

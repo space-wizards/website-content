@@ -1,6 +1,13 @@
 <article class="summary">
 <h3 class="articleheader"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-<span class="articlemeta">{{ .Date.Format "Monday January 2, 2006" }} by {{ .Params.author }}</span><br />
+<span class="articlemeta">
+	<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+		{{ .Date.Format "Monday January 2, 2006" }}
+	</time>
+	by
+	<span class="author">{{ .Params.author }}</span>
+</span>
+<br />
 {{ .Summary }}
 
 {{ if .Truncated }}

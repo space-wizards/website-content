@@ -1,8 +1,14 @@
-{{ partial "header.html" }}
+{{ partial "header.html" . }}
 
 <article>
 	<h2 class="articleheader">{{ .Title }}</h2>
-	<span class="articlemeta">{{ .Date.Format "Monday January 2, 2006" }} by {{ .Params.author }}</span>
+	<span class="articlemeta">
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+			{{ .Date.Format "Monday January 2, 2006" }}
+		</time>
+		by
+		<span class="author">{{ .Params.author }}</span>
+	</span>
 	{{ .Content }}
 
 	{{ if .Params.reddit }}
@@ -13,4 +19,4 @@
 	{{ end }}
 </article>
 
-{{ partial "footer.html" }}
+{{ partial "footer.html" . }}
