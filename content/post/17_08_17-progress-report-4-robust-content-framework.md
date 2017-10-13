@@ -22,7 +22,7 @@ The problem is something you might even forget about when you just play SS13 on 
 We're trying to get the best of both worlds here. The ease of programming simple things and keeping codebases possible, while keeping it simple and secure for the end user. No having to install different clients for specific servers.
 How do we pull this off? Glad you asked!
 
-# The Content Repo
+## The Content Repo
 
 Ever since we "inherited" the project, [this has been in the back of our heads](https://github.com/space-wizards/space-station-14/issues/74). The plan is to have the base SS14 repo ([`space-wizards/space-station-14`](https://github.com/space-wizards/space-station-14)) be the "engine". This is the common program that most players and server hosts will be installing. Event loop, rendering, collision, asset management, entity management, the basic things you want no matter what. Along with that goes a second repo, the "content" repo: [`space-wizards/space-station-14-content`](https://github.com/space-wizards/space-station-14-content). What is in this repo? Well... a couple `// TODO:` entry points, a test prototype and a few python scripts. Exciting!
 
@@ -102,7 +102,7 @@ In the next few days we'll probably start writing some simple content like maybe
 
 Oh and by the way, servers like Goon and CM do not have to fear. We'll do the best we can to ensure that the content repo server side can remain closed source. So have at it with that solarium!
 
-# 2D or not 2D
+## 2D or not 2D
 
 So as you may know from the old project, SS14 uses prerendered 3D sprites for humans.
 This means that we have a 3D model, but the client never touches it.
@@ -129,7 +129,7 @@ What can you do then? **full 3D**. We're not talking high quality model 3D like 
 
 We're still experimenting with the practicality of making 3D models, art style, tooling, etc... **The game will stay top down**, this is only a visual change. Seriously don't freak out I know this is a big decision and highly controversial. If it seriously doesn't work we'll revert to 2D and have our scaling artifacts instead.
 
-# Robusting the SFML
+## Robusting the SFML
 
 As you may know if you read the previous reports, SFML is... [yeah... about that...](/images/post/17_08_17-sfml-macos-segfault.png)
 
@@ -138,13 +138,13 @@ However, that's not the point of this (relatively too small) section of the prog
 
 The point is, there is hope, and SS14 mostly works cross platform right now (to our knowledge). At the very least all the fundamentals to make writing content possible is there.
 
-# Designing the Game, not the Engine
+## Designing the Game, not the Engine
 
 As stated before, the goal of SS14 is not only to rid ourselves of BYOND, but also to fix the actual game design tainted by BYOND.
 While there is something to be said about bikeshedding here, our game designer Urist McDorf (yes, that's his online name) doesn't have anything better to do anyways, so he decided to design some systems like power and interaction, which we're gonna need sooner rather than later now that the content repo is set up.
 
 If you want to read the design docs he's written, they can be found [here](https://goo.gl/bnk4qo). Discussion is welcome, but note that **these are not final**. It's his design, it does not necessarily reflect the way SS14 will be going.
 
-# Automatic Nightly Builds
+## Automatic Nightly Builds
 
 Because we have the content repo set up now, we'll soon be writing actual content. To make progress more obvious for the average Joe who doesn't want to read these damn reports (by the way this one is *really* long), we will set up automatic builds of the client and server for download. Just download the client and server, start both and hit connect and you'll have your poorly lit room where you can hopefully do more than just bumping into the walls and that table. We have the build scripts for this written down, and the builds work on both MacOS and Windows (Linux client untested), but we're still working on hosting them automatically somewhere. We'll make an independent announcement when it's done in the next couple days.

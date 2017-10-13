@@ -2,6 +2,10 @@ baseURL = "https://space-wizards.github.io"
 languageCode = "en-us"
 title = "Space Station 14"
 ignoreFiles = ["\\.ts$", "tsconfig.json$"]
-PygmentsCodeFences = true
-pygmentsuseclasses = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# PYGMENTS (Syntax Highlighting) settings!
+# I couldn't get Chroma to parse C# at all.
+PygmentsUseClassic = true
+PygmentsCodeFences = true
+PygmentsUseClasses = true

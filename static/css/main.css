@@ -211,6 +211,17 @@ li.disabled, li.disabled > a
 	margin-left: 25px;
 }
 
+article > h1:first-of-type
+{
+	/* Make Go Back button stick above title */
+	margin-top: 0;
+}
+
+.go-back-link a
+{
+	color: dimgrey;
+}
+
 /* Pygments stuff */
 .highlight {
 	padding-left: 30px;
