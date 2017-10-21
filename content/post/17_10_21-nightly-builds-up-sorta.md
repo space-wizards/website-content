@@ -2,6 +2,7 @@
 title = "Nightly Builds Up!"
 author = "PJB3005"
 date = 2017-10-21
+reddit = "https://www.reddit.com/r/ss14/comments/77v2xg/nightly_builds_up/"
 +++
 
 [Nightly Windows & Linux builds here!](http://84.195.252.227/static/SS14_build/)
