@@ -28,10 +28,9 @@ We primarily communicate through Discord, although there is an IRC channel that'
 
 We also have some other project services set up:
 
-* [Windows CI builds](https://ci.appveyor.com/project/Silvertorch5/space-station-14/branch/master)
-* [Linux & MacOS CI builds](https://travis-ci.org/space-wizards/space-station-14)
+* [Automatic Content Builds](https://ss14.silvertorch5.io/jenkins/job/SS14%20Content%20Build/)
 * [Code Analysis](https://sonarcloud.io/dashboard?id=ss14)
-* [**Project Management**](https://waffle.io/space-wizards/space-station-14)
+* [Project Management](https://waffle.io/space-wizards/space-station-14)
 
 And have some general links to some related communities too:
 

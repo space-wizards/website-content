@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		"Get dat fukken remake!",
 		"Soon&trade;",
 		"Beat up clowns in HD!",
-		"Brought to you by ROBUSTENGINE&trade;",
+		"Brought to you by <s>ROBUSTENGINE&trade;</s>SFML",
 		"Suprisingly not dead!",
 		"We're at it again!",
 		"Now with 20% more space!",
