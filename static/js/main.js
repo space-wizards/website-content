@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Suprisingly not dead!",
         "We're at it again!",
         "Now with 20% more space!",
-        "Honking 24/7!"
+        "Honking 24/7!",
+        "Waiting for Godot"
     ]) + "<br />";
 });
