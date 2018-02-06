@@ -17,18 +17,18 @@ function pick<T>(array: T[]): T {
 }
 
 function initgtag() {
+	window.dataLayer = window.dataLayer || [];
+	gtag('js', new Date());
+	gtag('config', 'UA-113656108-1');
+
 	var s = document.createElement("script");
 	s.src = "https://www.googletagmanager.com/gtag/js?id=UA-113656108-1";
 	s.async = true;
 	document.head.appendChild(s);
-
-	window.dataLayer = window.dataLayer || [];
-	gtag('js', new Date());
-	gtag('config', 'UA-113656108-1');
 }
 
 function gtag(...args: any[]) {
-	window.dataLayer.push(args);
+	window.dataLayer.push(arguments);
 }
 
 interface Window {
