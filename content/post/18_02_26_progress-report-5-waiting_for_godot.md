@@ -83,6 +83,6 @@ So a while ago, we contacted Supernorn (the artist of the original Space Station
 
 ![](/images/old_logo.png)
 
-Injazz decided to bust out Inkscape and change the logo up. Here's the new design:
+Injazz decided to bust out Inkscape and change the logo up. The colour is actually the blue from the Godot logo! (Remie's idea), Here's the new design:
 
 ![](/images/logo.svg)
