@@ -8,6 +8,7 @@ categories = [
 tags = [
 	"Godot"
 ]
+reddit = "https://www.reddit.com/r/ss14/comments/80g1la/progress_report_5_waiting_for_godot"
 +++
 
 So when was the last progress report made? November right?
