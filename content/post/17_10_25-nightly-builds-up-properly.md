@@ -8,6 +8,8 @@ date = 2017-10-25
 
 <!--more-->
 
+**UPDATE (2018/04/13):** This page is now out of date, see the [new page](/about/nightlies.html) for instructions.
+
 Thanks to the last post, me and silver got together again to set up a proper build system, using Jenkins.
 This means the builds automatically update and they're fancy and stuff.
 
