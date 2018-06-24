@@ -4,7 +4,7 @@ date = "2018-04-13"
 type = "about"
 +++
 
-This page'll be updated regularly to tell you how to run the automatically updated builds (nightlies). As soon as we push something it's automatically built and can be downloaded after like, 5 minutes (fast huh).
+This page'll be updated regularly to tell you how to run the automatically updated builds (nightlies). As soon as we push something it's automatically built and can be downloaded after like, 3 minutes (fast huh).
 
 First of all, [here are the downloads.](https://builds.spacestation14.io/jenkins/job/SS14%20Content%20Build/)
 
@@ -16,15 +16,15 @@ Download both the client and server and unzip it somewhere sane. For the client 
 
 ## Linux
 
-Client builds for Linux aren't *currently* made because I (PJB) don't have anybody to test them.
+Download both the client and server and unzip them somewhere sane. For the client, run `spess.sh` from the same folder as the shell script.
 
-Server builds are enabled however! You'll need to install [mono](https://www.mono-project.com/) to run them, but that should be everything. To run the server you need to run `mono SS14.Server.exe` (yes it looks like a Windows exe, that's normal).
+For the server you'll need to install [mono](https://www.mono-project.com/). To run the server you need to run `SS14.Server.exe` with `mono` (yes it looks like a Windows exe, that's normal).
 
 ## MacOS
 
-MacOS builds are currently completely disabled. We could theoretically do the server ones but... who the hell is gonna use MacOS as a server?
+Download both the client and server and unzip them somewhere sane. For the client you can just run the app bundle, *dismiss the popup telling you the app is not from a verified developer and thus you can't open it because Apple treats you like ~~the~~ sheep ~~you are for buying their products~~, open security preferences and hit "Open Anyways".*
 
-If there's demand we'll turn the server builds on (or when we set up client builds, either works).
+For the server you'll need to install [mono](https://www.mono-project.com/). To run the server you need to run `SS14.Server.exe` with `mono` from a terminal (yes it looks like a Windows exe, that's normal).
 
 ## FAQ
 
@@ -33,7 +33,6 @@ If there's demand we'll turn the server builds on (or when we set up client buil
 No, while the main code is .NET, the builds will not start cross-platform. Two reasons:
 
 * We decided to use conditional compilation instead of runtime detection for some platform-specific functions.
-* We are currently using a native Rust library for parts of netcode which does not work cross-platform.
 * Godot is a native program too, good luck running that cross-platform.
 
 While we could theoretically solve both of these, we won't. It's not worth the hassle.
