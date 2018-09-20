@@ -4,6 +4,8 @@ date = "2018-04-13"
 type = "about"
 +++
 
+**NOTE: Nightlies are down right now. Sorry!**
+
 This page'll be updated regularly to tell you how to run the automatically updated builds (nightlies). As soon as we push something it's automatically built and can be downloaded after like, 3 minutes (fast huh).
 
 First of all, [here are the downloads.](https://builds.spacestation14.io/jenkins/job/SS14%20Content%20Build/)
