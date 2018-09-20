@@ -5,6 +5,7 @@ date = 2018-09-19
 categories = [
 	"Progress Report"
 ]
+reddit = "https://old.reddit.com/r/ss14/comments/9hdiru/progress_report_8_writing_some_content/"
 +++
 
 It's pretty nice to get to a point where we can worry purely about content without having to juggle the engine around all the time. I think we're getting close to the point of reaching that now.
