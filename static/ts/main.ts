@@ -14,7 +14,7 @@ function onLoaded() {
 		"Get dat fukken remake!",
 		"Soon&trade;",
 		"Beat up clowns in HD!",
-		"Brought to you by <s>ROBUSTENGINE&trade;</s> <s>SFML</s> Godot Game Engine",
+		"Brought to you by <s>ROBUSTENGINE&trade;</s> <s>SFML</s> <s>Godot Game Engine</s> Clyde",
 		"Suprisingly not dead!",
 		"We're at it again!",
 		"Now with 20% more space!",

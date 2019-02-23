@@ -5,7 +5,7 @@ date = 2019-02-20
 categories = [
 	"Progress Report"
 ]
-#reddit = ""
+reddit = "https://www.reddit.com/r/ss14/comments/atwzua/progress_report_10_nothing_to_say_for_ourselves/"
 +++
 
 Yeah I honestly have nothing to say for myself. You have the right to laugh.

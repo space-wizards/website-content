@@ -5,7 +5,7 @@ date = 2018-12-14
 categories = [
         "Progress Report"
 ]
-#reddit = ""
+reddit = "https://www.reddit.com/r/ss14/comments/a66r95/progress_report_9_the_one_where_we_implemented/"
 +++
 
 Yeah, we really don't have anything to say here, outside of "look at all these features!"
