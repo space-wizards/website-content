@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 
-		{{ partial "meta.html" }}
+		{{ partial "meta.html" . }}
 
 		<base href="{{ .Site.BaseURL }}" />
 		{{ if .Title }}<title>{{ .Title }} - Space Station 14</title>{{ else }}<title>Space Station 14</title>{{ end }}
