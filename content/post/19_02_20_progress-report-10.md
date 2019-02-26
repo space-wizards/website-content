@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #10: Nothing To Say For Ourselves"
 author = "PJB3005"
-date = 2019-02-20
+date = 2019-02-23
 categories = [
 	"Progress Report"
 ]
