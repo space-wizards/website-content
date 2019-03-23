@@ -13,13 +13,13 @@ And especially not such a packed one!
 
 <!--more-->
 
-Indeed, a lot of things got done this week. I also want to thank the new contributors who got and those that are hanging out on Discord/IRC. Contributions are welcome and mean a lot to me!
+Indeed, a lot of things got done this week. I also want to thank the new contributors we got and those that are hanging out on Discord/IRC. Contributions are welcome and mean a lot to me!
 
 ## Shaders Work In Clyde
 
 Another step towards making Clyde more feature complete, it can now load shaders! This means a couple things render correctly now.
 
-One... interesting problem problem is that there really isn't a good existing format for shaders like this. And uh, I of course would like to keep things simple development wise and *not* have to implement a complete GLSL parser. So we just parse the necessary data like shader parameters and copy the code straight into the final shaders sent to the OpenGL driver. Works surprisingly well!
+One... interesting problem is that there really isn't a good existing format for shaders like this. And uh, I of course would like to keep things simple development wise and *not* have to implement a complete GLSL parser. So we just parse the necessary data like shader parameters and copy the code straight into the final shaders sent to the OpenGL driver. Works surprisingly well!
 
 ## Bwoink
 
