@@ -19,9 +19,10 @@ Currently, the project is in a "pre-alpha" state. We have many tasks ahead of us
 
 Rome was not built in a day, and neither was SS14. We can always use extra hands! The entire project is open source and available on GitHub here:
 
-* [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14).
+* Main Repo: [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14).
+* Engine: [space-wizards/RobustToolbox](https://github.com/space-wizards/RobustToolbox).
 
-We primarily communicate through Discord, although there is an IRC channel that's connected through discord with a bot.
+We primarily communicate through Discord, although there is an IRC channel that's connected to Discord with a bot.
 
 * [Discord Invite](https://discord.gg/t2jac3p)
 * IRC: `irc.rizon.net#spacebus`
