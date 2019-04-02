@@ -5,7 +5,7 @@ date = 2019-04-02
 categories = [
 	"Progress Report"
 ]
-reddit = "https://spacestation14.io/post/19_04_02_progress-report-13/"
+reddit = "https://www.reddit.com/r/ss14/comments/b8ns31/progress_report_13_permanent_public_server/"
 +++
 
 Working on a massive project like this can be quite daunting. "Remake SS13" is quite a clear goal but far from concrete. Having intermediate goals to work towards is important. So for now, my goal at least is to get a permanent public server running.
