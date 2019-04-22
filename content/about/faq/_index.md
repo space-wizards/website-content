@@ -25,3 +25,11 @@ A: Absolutely. We have a decent split between "engine" and "content" and are des
 ### Q: hdisry?
 
 A: No.
+
+### Q: Is There a Patreon? Can I donate?
+
+A: No. We have no methods of donating to the project at this time. We don't think it'd help to speed up development. While a system like bounties *might* be nice to encourage contribution, it's also a hassle and a potential source of drama.
+
+### Q: Will SS14 Go On Steam?
+
+A: We currently are not working on a Steam release of any kind. SS14 currently uses direct downloads. We may eventually provide a Steam version to go alongside direct downloads, but Steam will never be necessary to play the game.

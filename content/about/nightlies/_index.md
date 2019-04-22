@@ -18,7 +18,7 @@ Bug reports appreciated!
 
 ## The Launcher
 
-The easiest way to get SS14 right now is to download the [Launcher](https://github.com/space-wizards/SS14.Launcher/releases/tag/v0.1.0) for your platform and run it. It's `SS14.Launcher.exe` on Windows and `SS14.Launcher` on Linux (both native binaries you can run directly). macOS is untested and probably broken and you'd need to launch it from a terminal too. For **Linux and macOS** you will also need to have **[Mono](https://www.mono-project.com/) installed** on your system.
+The easiest way to get SS14 right now is to download the [Launcher](https://github.com/space-wizards/SS14.Launcher/releases/tag/v0.1.2) for your platform and run it. Run `SS14.Launcher.exe` on Windows and run `SS14.Launcher` on Linux and macOS. macOS is untested and probably broken and you'd need to launch it from a terminal too. For **Linux and macOS** you will also need to have **[Mono](https://www.mono-project.com/) installed** on your system.
 
 The launcher will automatically download and update the main client. From there you can connect to our public server with the convenient button in the main menu.
 
@@ -30,13 +30,13 @@ You can get binaries of the client and server for your platform [right here](htt
 
 ### Windows
 
-For the client you should run `SS14.Client.exe`, and for the server you should run `SS14.Server.exe`.
+For the client you should run `Robust.Client.exe`, and for the server you should run `Robust.Server.exe`.
 Then hit "Direct Connect" inside the client and it should all work.
 
 ### Linux
 
 You will need to have [Mono](https://www.mono-project.com/) installed on your system. Pretty much any distro runs it though it's pretty easy to install.
-For the client you will want to run "`mono SS14.Client.exe`" with a terminal, and "`mono SS14.Server.exe`" for the server.
+For the client you will want to run "`mono Robust.Client.exe`" with a terminal, and "`mono Robust.Server.exe`" for the server.
 Then hit "Direct Connect" inside the client and it should all work.
 
 ### MacOS
@@ -45,8 +45,8 @@ Download both the client and server and unzip them somewhere sane.
 You will need to have [Mono](https://www.mono-project.com/) installed on your system.
 For the client you can just run the app directly, *dismiss the popup telling you the app is not from a verified developer and thus you can't open it because Apple treats you like ~~the~~ sheep ~~you are for buying their products~~, open security preferences and hit "Open Anyways".*
 
-To run the server just run "`mono SS14.Server.exe`" with a terminal.
-rminal, and "`mono SS14.Server.exe`" for the server.
+To run the server just run "`mono Robust.Server.exe`" with a terminal.
+rminal, and "`mono Robust.Server.exe`" for the server.
 
 ## System Requirements
 
