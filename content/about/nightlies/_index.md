@@ -18,9 +18,9 @@ Bug reports appreciated!
 
 ## The Launcher
 
-The easiest way to get SS14 right now is to download the [Launcher](https://github.com/space-wizards/SS14.Launcher/releases/tag/v0.1.2) for your platform and run it. Run `SS14.Launcher.exe` on Windows and run `SS14.Launcher` on Linux and macOS. macOS is untested and probably broken and you'd need to launch it from a terminal too. For **Linux and macOS** you will also need to have **[Mono](https://www.mono-project.com/) installed** on your system.
+The easiest way to get SS14 right now is to download the [Launcher](https://github.com/space-wizards/SS14.Launcher/releases/tag/v0.1.3) for your platform and run it. Run `SS14.Launcher.exe` on Windows, run `SS14.Launcher` on Linux and run the app on macOS. For **Linux and macOS** you will also need to have **[Mono](https://www.mono-project.com/) installed** on your system.
 
-The launcher will automatically download and update the main client. From there you can connect to our public server with the convenient button in the main menu.
+The launcher will automatically download and update the main client. From there you can connect to our public server with the convenient button in the main menu. **Note:** the launcher doesn't have an interface of its own yet, so also no progress bar for the actual download. It can take a bit to start depending on your internet connection.
 
 ## Manually
 
@@ -53,7 +53,7 @@ rminal, and "`mono Robust.Server.exe`" for the server.
 ### Every Platform:
 
 * 64-bit OS (amd64)
-* OpenGL 3.3
+* OpenGL 3.3 (as long as you have your video drivers installed and your GPU isn't 15 years old, you have this)
 * 250 MiB free memory should do it. (Client takes approx 100 MiB right now but that's probably gonna increase)
 * Gonna need a decent CPU though because the code is poorly optimized right now.
 
