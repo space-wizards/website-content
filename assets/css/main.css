@@ -21,7 +21,6 @@ body
 
 html
 {
-
 	height: 100%;
 }
 
@@ -97,11 +96,6 @@ small
 	color: grey;
 }
 
-a
-{
-	color: rgb(200, 200, 200);
-}
-
 #chatlinks
 {
 	padding: 10px;
@@ -155,13 +149,12 @@ header > a
 }
 
 a {
-	color: rgb(200, 200, 255);
+	color: rgb(150, 170, 255);
 }
 
 a:link
 {
 	text-decoration: none;
-	color: rgb(200, 200, 255);
 }
 
 a:hover
@@ -225,6 +218,43 @@ article > h1:first-of-type
 img, video {
 	max-width: 100%;
 	max-height: 100%;
+}
+
+#download-container {
+	margin: 50px 0 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.download {
+	flex-basis: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.download-image {
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.download > a, .download > small {
+	text-align: center;
+}
+
+.download-link {
+	margin: 10px 0;
+}
+
+#download-sublinks {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 250px;
+}
+
+#download-sublinks > * {
+	flex-basis: 200px;
+	text-align: center;
 }
 
 /* Pygments stuff */

@@ -1,7 +1,8 @@
-{{ $style := resources.Get "css/main.css" | resources.Minify }}
+{{ $styleMain := resources.Get "css/main.css" }}
+{{ $styleAnimal := resources.Get "fonts/animal_silence/stylesheet.css" }}
+{{ $styleFira := resources.Get "fonts/fira_code/fira_code.css" }}
+{{ $style := slice $styleMain $styleAnimal $styleFira | resources.Concat "css/all.css" | resources.Minify }}
 {{ $js := resources.Get "js/main.js" | resources.Minify }}
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" />
-<link rel="stylesheet" type="text/css" href="/fonts/animal_silence/stylesheet.css" />
-<link rel="stylesheet" type="text/css" href="/fonts/fira_code/fira_code.css" />
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
 <script async src="{{ $js.RelPermalink }}"></script>
