@@ -12,7 +12,7 @@ type = "about"
 		<small><strong>Needs <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">VC++ 2015 Redist</a></strong></small>
 	</div>
 	<div class="download">
-		<a href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Windows_x64.zip"><img src="/images/tux.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Linux_x64.zip"><img src="/images/tux.svg" class="download-image"/></a>
 		<small>Linux 64-bit</small>
 		<a class="download-link" href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Linux_x64.zip">Download launcher</a>
 		<small><strong>Needs <a href="https://www.mono-project.com/download/stable/">Mono</a></strong></small>
