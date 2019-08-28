@@ -1,16 +1,20 @@
 +++
-title = "Progress Report #18: Slightly Better Launcher"
+title = "Progress Report #18: Speech Bubbles & Slightly Better Launcher"
 author = "PJB3005"
 date = 2019-08-28
 categories = [
 	"Progress Report"
 ]
-reddit = "https://www.reddit.com/r/ss14/comments/cwrggt/progress_report_18_slightly_better_launcher/"
+reddit = "https://www.reddit.com/r/ss14/comments/cwrlaw/progress_report_18_speech_bubbles_slightly_better/"
 +++
 
 Writing these into sections is hard, did you know that?
 
 <!--more-->
+
+## Speech Bubbles
+
+<video src="/video/19_08_28-speech-bubbles.mp4" controls>
 
 ## More Dakka (Contributed by metalgearsloth)
 
