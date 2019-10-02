@@ -31,7 +31,6 @@ We also have some other project services set up:
 
 * [Automatic Content Builds](/about/nightlies)
 * [Code Analysis](https://sonarcloud.io/dashboard?id=ss14)
-* [Project Management](https://waffle.io/space-wizards/space-station-14)
 
 And have some general links to some related communities too:
 
