@@ -267,6 +267,7 @@ img, video {
 
 code {
 	font-family: "Fira Code", "Source Code Pro", monospace;
+	font-weight: 500;
 }
 
 .highlight {
