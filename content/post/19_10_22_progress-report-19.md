@@ -117,7 +117,7 @@ The end results, however, are worth it:
 
 {{< imgw "/images/post/pr_19/research" >}}
 
-As always, the interface could use some work, and some of the exact mechanics could use some though.
+As always, the interface could use some work, and some of the exact mechanics could use some thought.
 
 But hey, progress is being made.
 
