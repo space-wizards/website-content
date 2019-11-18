@@ -43,8 +43,10 @@ html
 
 #header
 {
-	padding-top: 50px;
+	padding-top: 10px;
 	overflow: auto;
+	display: flex;
+	align-items: center;
 }
 
 .left
@@ -63,16 +65,12 @@ html
 	display: block;
 }
 
-#name
-{
-	font-size: 30pt;
-	color: white;
-	font-family: "animal_silenceregular";
-}
 
 #subname
 {
 	color: grey;
+	transform: skew(-11.775deg, -3.925deg) translate(0, -15px);
+	display: block;
 }
 
 .navlink
@@ -87,7 +85,7 @@ html
 
 main
 {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 }
 
