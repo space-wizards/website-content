@@ -6,22 +6,21 @@ type = "about"
 
 <div id="download-container">
 	<div class="download">
-		<a href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Windows_x64.zip"><img src="/images/Windows_logo_2012.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Windows.zip"><img src="/images/Windows_logo_2012.svg" class="download-image"/></a>
 		<small>Windows 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Windows_x64.zip">Download launcher</a>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Windows.zip">Download launcher</a>
 		<small><strong>Needs <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">VC++ 2015 Redist</a></strong></small>
 	</div>
 	<div class="download">
-		<a href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Linux_x64.zip"><img src="/images/tux.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip"><img src="/images/tux.svg" class="download-image"/></a>
 		<small>Linux 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_Linux_x64.zip">Download launcher</a>
-		<small><strong>Needs <a href="https://www.mono-project.com/download/stable/">Mono</a></strong></small>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip">Download launcher</a>
 	</div>
 	<div class="download">
-		<a href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_macOS_x64.zip"><img src="/images/Apple_logo.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_macOS.zip"><img src="/images/Apple_logo.svg" class="download-image"/></a>
 		<small>macOS 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/space-station-14/releases/download/v0.2.0/SS14.Launcher_macOS_x64.zip">Download launcher</a>
-		<small><strong>Needs <a href="https://www.mono-project.com/download/stable/">Mono</a></strong></small>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_macOS.zip">Download launcher</a>
+		<small><strong>Currently untested, might not work.<br/>Complain on Discord if it doesn't!</strong></small>
 	</div>
 </div>
 
@@ -37,7 +36,7 @@ type = "about"
 * 64-bit CPU & OS
 * OpenGL 3.3 (as long as you have your video drivers installed and your GPU isn't ancient, you have this)
 * 250 MiB free memory should do it
-* 50 MiB disk space
+* 100 MiB disk space
 
 ### Windows:
 
@@ -45,33 +44,22 @@ type = "about"
 
 ### Linux:
 
-* [Mono](https://www.mono-project.com/)
 * OpenAL
 * Freetype
 
 ### macOS:
 
-* [Mono](https://www.mono-project.com/)
-
+Nothing special for now.
 
 ## Standalone Downloads
 
 You can also download the current client or server binaries directly. It won't auto update via the launcher, but hey.
 
-You can find the builds [right here on Jenkins](https://builds.spacestation14.io/jenkins/job/SS14%20Content/)
+You can find the builds [right here on Jenkins](https://builds.spacestation14.io/jenkins/job/SS14%20Content/).
 
-To run them, just run `Robust.Client.exe` and `Robust.Server.exe`. On Linux/macOS, run them with `mono` via a terminal, not via Wine.
+These builds **require** a [.NET Core 3 runtime](https://dotnet.microsoft.com/download) to be installed on your machine. The launcher does not need this (it's already included).
 
 ## FAQ
-
-#### The code is C#, can't I run the builds cross-platform?
-
-No, while the main code is .NET, the builds will not start cross-platform. Two reasons:
-
-* We decided to use conditional compilation instead of runtime detection for some platform-specific functions.
-* We are shipping multiple native libraries and it'd be a massive waste to package those for each platform into the same download.
-
-While we could theoretically solve both of these, we won't. It's not worth the hassle.
 
 ####  What about supporting other CPU architectures (x86/i686, ARM, ...)?
 

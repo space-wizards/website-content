@@ -9,3 +9,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 PygmentsUseClassic = true
 PygmentsCodeFences = true
 PygmentsUseClasses = true
+
+[markup.goldmark.renderer]
+unsafe= true
