@@ -184,6 +184,8 @@ This does require a bit of effort and organization:
 
 I do hope we can at least get initial Steamworks registration done by the time the next progress report is out, however. (After you "onboard" with Steamworks it still takes a month or so to actually get a functional store page open, oh well, can't blame em.)
 
+**Edit:** I do want to point out that **you will always be able to run the game *without* Steam.** Obviously it'll be more convenient for most people to use Steam, but if you don't want to use it you won't have to.
+
 ## The technical details
 
 ### The move to .NET Core
