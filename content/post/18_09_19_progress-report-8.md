@@ -106,7 +106,7 @@ So we decided to combine both. All construction recipes are centralized in an or
 
 But you still have to slapcraft your way to victory. We just make the steps extremely obvious. For things like walls which have to be placed, it actually lets you place client-side wall ghosts first, so you can plan out everything.
 
-<video src="/video/18_09_19-construction.mp4" controls>
+<video src="/video/18_09_19-construction.mp4" controls></video>
 
 In the future we'll probably experiment with live tooltips showing you just what step you need, so it's not just limited to the interface. Of course, baby steps.
 

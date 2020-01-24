@@ -117,7 +117,7 @@ There are still many things to do. Client bubbling, bandwidth optimizations, cli
 
 But hey, I’m happy for now:
 
-<img src="/images/post/pr_7/6_clients.png" width=1024 />
+<img src="/images/post/pr_7/6_clients.png" width=1024 /></video>
 
 And this was the server:
 

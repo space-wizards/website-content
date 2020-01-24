@@ -73,7 +73,7 @@ Cluster did a lot of work on the content repo. There's a [power network system w
 
 Acruid has been working more engine-side. There's now a proper [transform parenting system](https://github.com/space-wizards/space-station-14/pull/522)! This works pretty much the same as in say Unity or Godot, where an entity's position is relative to the position of its parent. Practical examples of this would be making a shuttle's grid an entity. This makes all entities parented to it be implicitly moved when the shuttle does, with little hassle or bugs.
 
-<center><video src="/video/18_02_28-spinner.mp4" controls height=300></center>
+<center><video src="/video/18_02_28-spinner.mp4" controls height=300></video></center>
 
 Doesn't stop there! We have [mostly-fully fledged map saving](https://github.com/space-wizards/space-station-14/pull/523)! It supports both saving an entire map (think of a map as a z-level in SS13), or storing individual grids of the map (station itself, the shuttle, etc...).
 

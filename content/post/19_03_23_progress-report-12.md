@@ -31,11 +31,11 @@ Quick quiz. I'm gonna embed two audio files. Which of these is the correct sound
 
 A:
 
-<audio controls src="/audio/19_03_23-crowbar_a.ogg">
+<audio controls src="/audio/19_03_23-crowbar_a.ogg"></audio>
 
 B:
 
-<audio controls src="/audio/19_03_23-crowbar_b.ogg">
+<audio controls src="/audio/19_03_23-crowbar_b.ogg"></audio>
 
 Well I obviously wouldn't be making this quiz if the result wasn't counter intuitive. "A" here is `crowbar.ogg` straight from TGStation's GitHub as I am writing this. "B" is what you actually hear in game.
 

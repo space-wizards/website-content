@@ -17,10 +17,10 @@ type = "about"
 		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip">Download launcher</a>
 	</div>
 	<div class="download">
-		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_macOS.zip"><img src="/images/Apple_logo.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.1/SS14.Launcher_macOS.zip"><img src="/images/Apple_logo.svg" class="download-image"/></a>
 		<small>macOS 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_macOS.zip">Download launcher</a>
-		<small><strong>Currently untested, might not work.<br/>Complain on Discord if it doesn't!</strong></small>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.1/SS14.Launcher_macOS.zip">Download launcher</a>
+		<small><strong>Tested, probably works now.<br/>Complain on Discord if it doesn't though!</strong></small>
 	</div>
 </div>
 
