@@ -6,20 +6,20 @@ type = "about"
 
 <div id="download-container">
 	<div class="download">
-		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Windows.zip"><img src="/images/Windows_logo_2012.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.2/SS14.Launcher_Windows.zip"><img src="/images/Windows_logo_2012.svg" class="download-image"/></a>
 		<small>Windows 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Windows.zip">Download launcher</a>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.2/SS14.Launcher_Windows.zip">Download launcher</a>
 		<small><strong>Needs <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">VC++ 2015 Redist</a></strong></small>
 	</div>
 	<div class="download">
-		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip"><img src="/images/tux.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.2/SS14.Launcher_Linux.zip"><img src="/images/tux.svg" class="download-image"/></a>
 		<small>Linux 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip">Download launcher</a>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.2/SS14.Launcher_Linux.zip">Download launcher</a>
 	</div>
 	<div class="download">
-		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.1/SS14.Launcher_macOS.zip"><img src="/images/Apple_logo.svg" class="download-image"/></a>
+		<a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.2/SS14.Launcher_macOS.zip"><img src="/images/Apple_logo.svg" class="download-image"/></a>
 		<small>macOS 64-bit</small>
-		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.1/SS14.Launcher_macOS.zip">Download launcher</a>
+		<a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.2/SS14.Launcher_macOS.zip">Download launcher</a>
 		<small><strong>Tested, probably works now.<br/>Complain on Discord if it doesn't though!</strong></small>
 	</div>
 </div>
