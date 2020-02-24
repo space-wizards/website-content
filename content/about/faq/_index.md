@@ -1,5 +1,5 @@
 +++
-title = "Frequency Asked Questions"
+title = "Frequently Asked Questions"
 date = "2019-03-28"
 type = "about"
 +++
@@ -20,7 +20,7 @@ A: Sure you can. Hop on Discord or IRC and look at GitHub. We can use any help w
 
 ### Q: Will SS14 Support Multiple Codebases?
 
-A: Absolutely. We have a decent split between "engine" and "content" and are designing it so that different servers should be just as comfortable to switch to as BYOND.
+A: It already does!
 
 ### Q: hdisry?
 
