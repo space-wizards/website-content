@@ -6,7 +6,7 @@
 		{{ partial "meta.html" . }}
 
 		<base href="{{ .Site.BaseURL }}" />
-		{{ if .Title }}<title>{{ .Title }} - Space Station 14</title>{{ else }}<title>Space Station 14</title>{{ end }}
+		{{ if .Title }}<title>{{ .Title }} - SS14</title>{{ else }}<title>Space Station 14</title>{{ end }}
 		<link rel="canonical" href="{{ .Permalink }}" />
 		{{ if .RSSLink }}
 			<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -16,18 +16,20 @@
 		{{ partial "head_includes.html" }}
 	</head>
 	<body lang="en">
-		<div id="background"> </div>
+		<div id="background" class="background"> </div>
+		<div id="background-2" class="background"> </div>
 		<div id="centercolumn">
 			<nav id="header">
-				<header class="left">
+				<header>
 					<a href="/" id="name">
-						<img src="/images/newer.svg" height="100" />
+						<img id="logo-tall" src="/images/new_logo.svg" height="100" />
+						<img id="logo-long" src="/images/newer.svg" height="100" />
 					</a>
 				</header>
-				<div class="right">
-					<a class="navlink" href="/about/">About</a>
-					<a class="navlink" href="/about/nightlies/">Download</a>
-					<a class="navlink" href="/about/faq/">FAQ</a>
+				<div id="navlinks">
+					<a class="navlink" href="/about/">About</a><br />
+					<a class="navlink" href="/about/nightlies/">Play</a><br />
+					<a class="navlink" href="/about/faq/">FAQ</a><br />
 					<!--<a class="navlink" href="#">Get Involved</a>-->
 				</div>
 			</nav>

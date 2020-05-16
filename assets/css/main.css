@@ -1,22 +1,15 @@
 body
 {
+	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
+	/* Oh well */
+	background: black;
+	
 	color: rgb(200, 200, 200);
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	height: 100%;
 	margin: 0;
 	font-variant-ligatures: normal;
-}
-
-#background
-{
-	z-index: -10;
-	background: url("/images/background.jpg") black;
-	background-size: cover;
-	background-attachment: fixed;
-	height: 100%;
-	width: 100%;
-	position: fixed;
 }
 
 html
@@ -26,43 +19,93 @@ html
 
 #centercolumn
 {
-	background-color: rgba(0, 0, 0, 0.9);
 	margin-left: auto;
 	margin-right: auto;
+	width: 95%;
 	margin-top: 0;
-	width: 75%;
 	min-height: 100%;
 	text-align: left;
 	bottom: 0;
-	-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
-	box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
 	position: initial;
-	display:block;
-	overflow:auto;
+	display: block;
+	overflow: auto;
+}
+
+.background 
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+#background-2
+{
+	z-index: -9;
+}
+
+#logo-tall
+{
+	display: none;
+	min-height: 101px;
+}
+
+@media screen and (max-width: 1019px)
+{
+	#background-2
+	{
+		background-color: rgba(0, 0, 0, 0.9);	
+	}
+
+	#background
+	{
+		z-index: -10;
+		/*
+		On this smaller layout the background is entirely covered by the center column,
+		so we use a smaller, heavily compressed image.
+		Can't make out the loss in detail anyways.
+		*/
+		background: url("/images/background-small.jpg") black;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+@media screen and (min-width: 1020px)
+{
+	#centercolumn
+	{
+		width: 75%;
+		background-color: rgba(0, 0, 0, 0.9);	
+		-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
+		box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
+	}
+
+	#background
+	{
+		z-index: -10;
+		background: url("/images/background.jpg") black;
+		background-size: cover;
+		background-attachment: fixed;
+	}
 }
 
 #header
 {
 	padding-top: 10px;
-	overflow: auto;
+	overflow: hidden;
 	display: flex;
-	align-items: center;
 }
 
-.left
+#navlinks
 {
-	width: 50%;
-	float: left;
-	text-align: left;
-	display: block;
-}
-
-.right
-{
-	width: 50%;
-	float: right;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	display: flex;
+	flex-basis: 0px;
+	flex-grow: 1;
 	text-align: right;
-	display: block;
+	align-items: center;
+	margin-left: auto;
 }
 
 
@@ -75,12 +118,56 @@ html
 
 .navlink
 {
-
 	font-size: 30pt;
 	color: rgb(200, 200, 200);
 	text-decoration: none;
 	margin-left: 20px;
 	font-family: "animal_silenceregular";
+}
+
+
+@media screen and (max-width: 550px)
+{
+	#logo-tall
+	{
+		display: block;
+	}
+
+	#logo-long
+	{
+		display: none;
+	}
+
+	.navlink
+	{
+		font-size: 25pt;	
+	}
+}
+
+@media screen and (max-width: 330px)
+{
+	.navlink
+	{
+		font-size: 20pt;
+	}
+
+	#header
+	{
+		flex-wrap: wrap;
+	}
+
+	#navlinks
+	{
+		justify-content: space-around;
+		align-content: center;
+	}
+
+	.navlink
+	{
+		margin-left: 0px;
+		flex: 1 1 auto;
+		text-align: center;
+	}
 }
 
 main
@@ -111,12 +198,6 @@ small
 {
 	display: inline-block;
 	margin-top: 10px;
-}
-
-a img
-{
-	position: relative;
-	top: 3px;
 }
 
 hr
