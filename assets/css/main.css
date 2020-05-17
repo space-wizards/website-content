@@ -277,6 +277,61 @@ code {
 	--number: #b5cea8;
 }
 
+#TableOfContents:before {
+	content: "Contents";
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 10px;
+    display: block;
+}
+#TableOfContents {
+	font-size: 13px;
+	padding: 2em;
+	width: 30em;
+}
+#TableOfContents {
+	display: table-row;
+} 
+#TableOfContents ul {
+	display: table;
+	list-style-type: none;
+	counter-reset: item;
+	padding-left: 1em;
+	margin: 0;
+	padding: 0;
+} 
+#TableOfContents li {
+	display: table-row;
+	counter-increment: item;
+}
+#TableOfContents li:before {
+	content: counters(item, ".") ". ";
+	display: table-cell;
+	text-align: right;
+	padding-right: 0.6em;
+} 
+#TableOfContents li:after {
+	content: '';
+	display: block;
+	padding-bottom: 0.6em;
+}
+#TableOfContents li li:after {
+	padding-bottom: 0;
+} 
+#TableOfContents li li:before {
+	content: counters(item, ".") " ";
+}
+
+article img:not(.download-image), article video {
+	max-width: 40em;
+	min-width: 20em;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 2px; 
+	border: 1px solid rgb(80, 80, 80); 
+} 
+
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: var(--comment) } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
