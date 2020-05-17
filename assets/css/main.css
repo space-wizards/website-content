@@ -277,6 +277,285 @@ code {
 	--number: #b5cea8;
 }
 
+body
+{
+	color: rgb(200, 200, 200);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	height: 100%;
+	margin: 0;
+	font-variant-ligatures: normal;
+}
+
+#background
+{
+	z-index: -10;
+	background: url("/images/background.jpg") black;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+html
+{
+	height: 100%;
+}
+
+#centercolumn
+{
+	background-color: rgba(0, 0, 0, 0.9);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 75%;
+	min-height: 100%;
+	text-align: left;
+	bottom: 0;
+	-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
+	box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
+	position: initial;
+	display:block;
+	overflow:auto;
+}
+
+#header
+{
+	padding-top: 10px;
+	overflow: auto;
+	display: flex;
+	align-items: center;
+}
+
+.left
+{
+	width: 50%;
+	float: left;
+	text-align: left;
+	display: block;
+}
+
+.right
+{
+	width: 50%;
+	float: right;
+	text-align: right;
+	display: block;
+}
+
+
+#subname
+{
+	color: grey;
+	transform: skew(-11.775deg, -3.925deg) translate(0, -15px);
+	display: block;
+}
+
+.navlink
+{
+
+	font-size: 30pt;
+	color: rgb(200, 200, 200);
+	text-decoration: none;
+	margin-left: 20px;
+	font-family: "animal_silenceregular";
+}
+
+main
+{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+small
+{
+	color: grey;
+}
+
+#chatlinks
+{
+	padding: 10px;
+}
+
+#chatlinks a.code
+{
+	left: 5px;
+	position: relative;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+	text-decoration: none;
+}
+
+#ircrelaynotice
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+a img
+{
+	position: relative;
+	top: 3px;
+}
+
+hr
+{
+	margin: 25px 0;
+	height: 1px;
+	border: 0;
+	background: white;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(40, 40, 40, 0.7) 15%, rgba(40, 40, 40, 0.7) 50%, rgba(40, 40, 40, 0.7) 85%, rgba(0, 0, 0, 0));
+}
+
+header > a
+{
+	text-decoration: none;
+}
+
+.articleheader
+{
+	margin-bottom: 0px;
+}
+
+.articlemeta
+{
+	color: dimgrey;
+	font-size: 12pt;
+	display: inline-block;
+	padding-bottom: 7px;
+}
+
+a {
+	color: rgb(150, 170, 255);
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+ul.pagination
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+/* pages list horizontally */
+ul.pagination > li
+{
+	display: inline-block;
+
+}
+
+div#recentpostswrapper > h1
+{
+	margin-bottom: 0;
+}
+
+li.disabled, li.disabled > a
+{
+	color: rgb(105, 105, 105);
+}
+
+.bottom-links
+{
+	margin-bottom: 20px;
+	color: dimgray;
+	float: right;
+}
+
+.bottom-links a
+{
+	color: dimgray;
+}
+
+.bottom-links ul > li
+{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+article > h1:first-of-type
+{
+	/* Make Go Back button stick above title */
+	margin-top: 0;
+}
+
+.go-back-link a
+{
+	color: dimgrey;
+}
+
+img, video {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#download-container {
+	margin: 50px 0 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.download {
+	flex-basis: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.download-image {
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.download > a, .download > small {
+	text-align: center;
+}
+
+.download-link {
+	margin: 10px 0;
+}
+
+#download-sublinks {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 250px;
+}
+
+#download-sublinks > * {
+	flex-basis: 200px;
+	text-align: center;
+}
+
+/* Pygments stuff */
+.highlight {
+	padding-left: 30px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 15px;
+}
+
+code {
+	font-family: "Fira Code", "Source Code Pro", monospace;
+	font-weight: 500;
+}
+
+.highlight {
+	--comment: #608b4e;
+	--string: #a31515;
+	--keyword: #569cd6;
+	--method: #dcdcaa;
+	--classname: #4ec9b0;
+	--number: #b5cea8;
+}
+
 #TableOfContents:before {
 	content: "Contents";
 	text-align: center;
@@ -331,6 +610,49 @@ article img:not(.download-image), article video {
 	padding: 2px; 
 	border: 1px solid rgb(80, 80, 80); 
 } 
+
+.highlight .hll { background-color: #ffffcc }
+.highlight .c { color: var(--comment) } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: var(--keyword) } /* Keyword */
+.highlight .ch { color: var(--comment) } /* Comment.Hashbang */
+.highlight .cm { color: var(--comment) } /* Comment.Multiline */
+.highlight .cp { color: var(--keyword) } /* Comment.Preproc */
+.highlight .cpf { color: var(--comment) } /* Comment.PreprocFile */
+.highlight .c1 { color: var(--comment) } /* Comment.Single */
+.highlight .cs { color: var(--comment) } /* Comment.Special */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gh { font-weight: bold } /* Generic.Heading */
+.highlight .gp { font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { font-weight: bold } /* Generic.Subheading */
+.highlight .kc { color: var(--keyword) } /* Keyword.Constant */
+.highlight .kd { color: var(--keyword) } /* Keyword.Declaration */
+.highlight .kn { color: var(--keyword) } /* Keyword.Namespace */
+.highlight .kp { color: var(--keyword) } /* Keyword.Pseudo */
+.highlight .kr { color: var(--keyword) } /* Keyword.Reserved */
+.highlight .kt { color: var(--keyword) } /* Keyword.Type */
+.highlight .s { color: var(--string) } /* Literal.String */
+.highlight .m { color: var(--number) } /* Literal.Number */
+.highlight .nc { color: var(--classname) } /* Name.Class */
+.highlight .nn { color: var(--classname) } /* Name.Namespace */
+.highlight .ow { color: #6666ff } /* Operator.Word */
+.highlight .sa { color: var(--string) } /* Literal.String.Affix */
+.highlight .sb { color: var(--string) } /* Literal.String.Backtick */
+.highlight .sc { color: var(--string) } /* Literal.String.Char */
+.highlight .dl { color: var(--string) } /* Literal.String.Delimiter */
+.highlight .sd { color: var(--string) } /* Literal.String.Doc */
+.highlight .s2 { color: var(--string) } /* Literal.String.Double */
+.highlight .se { color: var(--string) } /* Literal.String.Escape */
+.highlight .sh { color: var(--string) } /* Literal.String.Heredoc */
+.highlight .si { color: var(--string) } /* Literal.String.Interpol */
+.highlight .sx { color: var(--string) } /* Literal.String.Other */
+.highlight .sr { color: var(--string) } /* Literal.String.Regex */
+.highlight .s1 { color: var(--string) } /* Literal.String.Single */
+.highlight .ss { color: var(--string) } /* Literal.String.Symbol */
+.highlight .nf { color: var(--method) } /* Name.Function */
+
+
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: var(--comment) } /* Comment */
