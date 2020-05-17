@@ -372,3 +372,4 @@ article img:not(.download-image), article video {
 .highlight .s1 { color: var(--string) } /* Literal.String.Single */
 .highlight .ss { color: var(--string) } /* Literal.String.Symbol */
 .highlight .nf { color: var(--method) } /* Name.Function */
+
