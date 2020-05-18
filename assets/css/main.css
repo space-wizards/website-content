@@ -59,7 +59,7 @@ html
 
 .right
 {
-	width: 50%;
+	width: 70%;
 	float: right;
 	text-align: right;
 	display: block;
@@ -184,32 +184,17 @@ li.disabled, li.disabled > a
 	color: rgb(105, 105, 105);
 }
 
-.bottom-links
-{
-	margin-bottom: 20px;
-	color: dimgray;
-	float: right;
-}
-
-.bottom-links a
-{
-	color: dimgray;
-}
-
-.bottom-links ul > li
-{
-	display: inline-block;
-	margin-left: 25px;
-}
-
-article > h1:first-of-type
-{
+article > h1:first-of-type {
 	/* Make Go Back button stick above title */
 	margin-top: 0;
 }
 
-.go-back-link a
-{
+article > h1:first-of-type {
+	/* Make Go Back button stick above title */
+	margin-top: 0;
+}
+
+.go-back-link a {
 	color: dimgrey;
 }
 
@@ -218,38 +203,77 @@ img, video {
 	max-height: 100%;
 }
 
+.bottom-links {
+	margin-bottom: 20px;
+	color: dimgray;
+	float: right;
+}
+.bottom-links a {
+	color: dimgray;
+}
+.bottom-links ul > li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.bottom-links .github, .bottom-links .steam {
+	margin-bottom: 6px;
+}
+.bottom-links .discord, .bottom-links .rss {
+	margin-bottom: 4px ;
+}
+
+#upper-links-container, #media-img, #media-video {
+	flex-flow: row wrap;
+	margin: 40px 0 40px 0;
+	display: flex;
+	justify-content: center;
+}
+.upper-links, #media-img img, #media-video video {
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: center;
+}
+.upper-links div, #media-img div, #media-video div {
+	flex-flow: row wrap;
+	display: flex;
+	margin: 0 0 0 40px;
+}
+.upper-links a {
+	font-size: 20px;
+	margin-left: 5px;
+	color: lightgray;
+}
+.upper-links .discord, .upper-links .github, .upper-links .steam {
+	margin-top: 2px;
+} 
+
 #download-container {
+	padding: 100px;
 	margin: 50px 0 50px;
 	display: flex;
 	justify-content: center;
 }
-
 .download {
 	flex-basis: 300px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
-
 .download-image {
 	height: 150px;
 	margin-bottom: 10px;
 }
-
 .download > a, .download > small {
 	text-align: center;
 }
-
 .download-link {
 	margin: 10px 0;
 }
-
 #download-sublinks {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 250px;
 }
-
 #download-sublinks > * {
 	flex-basis: 200px;
 	text-align: center;
@@ -286,13 +310,11 @@ code {
     display: block;
 }
 #TableOfContents {
+	display: table-row;
 	font-size: 13px;
 	padding: 2em;
 	width: 30em;
 }
-#TableOfContents {
-	display: table-row;
-} 
 #TableOfContents ul {
 	display: table;
 	list-style-type: none;
@@ -322,6 +344,30 @@ code {
 #TableOfContents li li:before {
 	content: counters(item, ".") " ";
 }
+
+#media-img, #media-video {
+	margin: 0;
+}
+#media-video video, #media-img img {
+	width: 0px;
+} 
+#media-img div, #media-video div {
+	margin: 0;
+}
+#media-toc {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 210px 0 210px 0; 
+}
+#media-toc div {
+	margin: 0 100px 0 100px;
+	padding: 50px 0 50px 0;  
+}
+.media-toc-item a {
+	color: whitesmoke;
+	font-size: 50px;
+} 
 
 article img:not(.download-image), article video {
 	max-width: 40em;

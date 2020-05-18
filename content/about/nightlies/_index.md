@@ -1,7 +1,7 @@
 +++
 title = "Downloads"
 date = "2018-04-13"
-type = "about"
+type = "nightlies"
 +++
 
 <div id="download-container">
