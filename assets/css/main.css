@@ -184,16 +184,6 @@ li.disabled, li.disabled > a
 	color: rgb(105, 105, 105);
 }
 
-article > h1:first-of-type {
-	/* Make Go Back button stick above title */
-	margin-top: 0;
-}
-
-article > h1:first-of-type {
-	/* Make Go Back button stick above title */
-	margin-top: 0;
-}
-
 .go-back-link a {
 	color: dimgrey;
 }
@@ -201,25 +191,6 @@ article > h1:first-of-type {
 img, video {
 	max-width: 100%;
 	max-height: 100%;
-}
-
-.bottom-links {
-	margin-bottom: 20px;
-	color: dimgray;
-	float: right;
-}
-.bottom-links a {
-	color: dimgray;
-}
-.bottom-links ul > li {
-	display: inline-block;
-	margin-left: 25px;
-}
-.bottom-links .github, .bottom-links .steam {
-	margin-bottom: 6px;
-}
-.bottom-links .discord, .bottom-links .rss {
-	margin-bottom: 4px ;
 }
 
 #upper-links-container, #media-img, #media-video {
@@ -245,36 +216,80 @@ img, video {
 }
 .upper-links .discord, .upper-links .github, .upper-links .steam {
 	margin-top: 2px;
-} 
+}
+.trademark-top {
+	font-size: 8px;
+	position: relative;
+	bottom: 12px;
+	right: 30px;
+}
+.bottom-links {
+	margin-bottom: 20px;
+	color: dimgray;
+	float: right;
+}
+.bottom-links a {
+	color: dimgray;
+}
+.bottom-links ul > li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.bottom-links .github, .bottom-links .steam, .bottom-links .email {
+	margin-bottom: 6px;
+}
+.bottom-links .discord, .bottom-links .rss, .bottom-links .matrix {
+	margin-bottom: 4px ;
+}
+.bottom-links .IRC {
+	margin-bottom: 9px;
+}
+.bottom-links .reddit {
+	margin-bottom: 3px;
+}
+.trademark-bottom {
+	font-size: 8px;
+	position: relative;
+	bottom: 18px;
+	right: 83px;
+}
 
 #download-container {
+	border: yellow 1px solid;
 	padding: 100px;
 	margin: 50px 0 50px;
 	display: flex;
 	justify-content: center;
 }
 .download {
+	border: red 1px solid;
 	flex-basis: 300px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
 .download-image {
+	border: blue 1px solid;
 	height: 150px;
 	margin-bottom: 10px;
 }
 .download > a, .download > small {
+	/* display: flex; */
+	border: green 1px solid;
 	text-align: center;
 }
 .download-link {
+	border: purple 1px solid;
 	margin: 10px 0;
 }
 #download-sublinks {
+	border: white 1px solid;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 250px;
 }
 #download-sublinks > * {
+	border: yellow 1px solid;
 	flex-basis: 200px;
 	text-align: center;
 }
@@ -377,6 +392,10 @@ article img:not(.download-image), article video {
 	padding: 2px; 
 	border: 1px solid rgb(80, 80, 80); 
 } 
+
+.contact {
+	text-align: center;
+}
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: var(--comment) } /* Comment */

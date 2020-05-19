@@ -5,8 +5,8 @@ type = "media"
 +++
 
 <div id="media-toc">
-    <div class="media-toc-item"><a href="http://localhost:1313/about/media/#media-video">Videos</a></div>
-    <div class="media-toc-item"><a href="http://localhost:1313/about/media/#media-img">Pictures</a></div>
+    <div class="media-toc-item"><a href="/about/media/#media-video">Videos</a></div>
+    <div class="media-toc-item"><a href="/about/media/#media-img">Pictures</a></div>
 </div>
 <hr></hr>
 <div id="media-video">
@@ -67,9 +67,9 @@ type = "media"
 	<a target="_blank" href="/images/post/pr_18/dakka.png"><img src="images/post/pr_18/dakka.png"></a>
 	<a target="_blank" href="/images/post/pr_17/ui_mockup.png"><img src="images/post/pr_17/ui_mockup.png"></a>
 	<a target="_blank" href="/images/post/pr_17/top_left_buttons.png"><img src="images/post/pr_17/top_left_buttons.png"></a>
-	<a target="_blank" href="/images/post/pr_17/status_effects.png"><img src="images/post/pr_17/status_effects.png"></a>
 	<a target="_blank" href="/images/post/pr_17/quick_bar.png"><img src="images/post/pr_17/quick_bar.png"></a>
 	<a target="_blank" href="/images/post/pr_17/in_game.png"><img src="images/post/pr_17/in_game.png"></a>
+	<a target="_blank" href="/images/post/pr_17/status_effects.png"><img src="images/post/pr_17/status_effects.png"></a>
 	<a target="_blank" href="/images/post/pr_16/outline.png"><img src="images/post/pr_16/outline.png"></a>
 	<a target="_blank" href="/images/post/pr_15/lathe.png"><img src="images/post/pr_15/lathe.png"></a>
 	<a target="_blank" href="/images/post/pr_15/lasser.png"><img src="images/post/pr_15/lasser.png"></a>
