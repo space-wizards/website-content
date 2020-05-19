@@ -245,8 +245,13 @@ img, video {
 	margin-bottom: 9px;
 }
 .bottom-links .reddit {
+	padding-right: 1px;
 	margin-bottom: 3px;
 }
+.bottom-links .email {
+	position: relative;
+	left: 5px;
+} 
 .trademark-bottom {
 	font-size: 8px;
 	position: relative;

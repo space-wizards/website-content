@@ -5,7 +5,7 @@ type = "contact"
 +++
 
 Both the IRC , matrix and OOC chat (in-game) have a relay to the discord, so if you prefer either of those platforms, use them whitout fear of being ignored. (The matrix relay has a huge delay, so take that into account)
-## You can find us in:
+## You can contact us via:
 <hr></hr>
 <div id="email" class="contact"><div>Email</div><div><code>telecommunications@spacestation14.io</code></div></div>
 <hr></hr>
