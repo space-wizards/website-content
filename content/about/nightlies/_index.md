@@ -5,9 +5,9 @@ type = "nightlies"
 +++
 
 <div class="download-image-container">
-	<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Windows.zip"><img class="download-img" src="/images/Windows_logo_2012.svg"></a><small><figcaption class="download-name">Windows 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip">Download launcher</a></figcaption><figcaption><small><strong>Needs <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">VC++ 2015 Redist</a></strong></small></figcaption></div></div>
-	<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip"><img class="download-img" src="/images/tux.svg"></a><small><figcaption class="download-name">Linux 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.0/SS14.Launcher_Linux.zip">Download launcher</a></div></div>
-	<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.1/SS14.Launcher_macOS.zip"><img class="download-img" src="/images/Apple_logo.svg"></a><small><figcaption class="download-name">macOs 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.2.1/SS14.Launcher_macOS.zip">Download launcher</a></figcaption><figcaption><small><strong>Tested, probably works now.<br/>Complain on Discord if it doesn't though!</strong></small></figcaption></div></div>
+	<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.7/SS14.Launcher_Windows.zip"><img class="download-img" src="/images/Windows_logo_2012.svg"></a><small><figcaption class="download-name">Windows 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.7/SS14.Launcher_Windows.zip">Download launcher</a></figcaption><figcaption><small><strong>Needs <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">VC++ 2015 Redist</a></strong></small></figcaption></div></div>
+	<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.7/SS14.Launcher_Linux.zip"><img class="download-img" src="/images/tux.svg"></a><small><figcaption class="download-name">Linux 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.7/SS14.Launcher_Linux.zip">Download launcher</a></div></div>
+	<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.7/SS14.Launcher_macOS.zip"><img class="download-img" src="/images/Apple_logo.svg"></a><small><figcaption class="download-name">macOs 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/download/v0.3.7/SS14.Launcher_macOS.zip">Download launcher</a></figcaption><figcaption><small><strong>Tested, probably works now.<br/>Complain on Discord if it doesn't though!</strong></small></figcaption></div></div>
 </div>
 <div id="download-sublinks">
 	<small><a href="/about/nightlies/#system-requirements">System requirements</a></small>
@@ -21,7 +21,7 @@ type = "nightlies"
 * 64-bit CPU & OS
 * OpenGL 3.3 (as long as you have your video drivers installed and your GPU isn't ancient, you have this)
 * 250 MiB free memory should do it
-* 100 MiB disk space
+* 200 MiB disk space
 
 ### Windows:
 
@@ -34,7 +34,7 @@ type = "nightlies"
 
 ### macOS:
 
-Nothing special for now.
+* High Sierra or greater
 
 ## Standalone Downloads
 

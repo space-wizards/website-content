@@ -1,5 +1,5 @@
 +++
-title = "Frequency Asked Questions"
+title = "Frequently Asked Questions"
 date = "2019-03-28"
 type = "faq"
 +++
@@ -20,7 +20,7 @@ A: Sure you can. Hop on Discord or IRC and look at GitHub. We can use any help w
 
 ### Q: Will SS14 Support Multiple Codebases?
 
-A: Absolutely. We have a decent split between "engine" and "content" and are designing it so that different servers should be just as comfortable to switch to as BYOND.
+A: It already does!
 
 ### Q: hdisry?
 
@@ -32,4 +32,4 @@ A: No. We have no methods of donating to the project at this time. We don't thin
 
 ### Q: Will SS14 Go On Steam?
 
-A: We currently are not working on a Steam release of any kind. SS14 currently uses direct downloads. We may eventually provide a Steam version to go alongside direct downloads, but Steam will never be necessary to play the game.
+A: Yes! We're actively working on getting the store page ready for publishing. It'll obviously be free on steam too.
