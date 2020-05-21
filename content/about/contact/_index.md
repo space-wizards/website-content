@@ -12,9 +12,7 @@ Both the IRC , matrix and OOC chat (in-game) have a relay to the discord, so if 
 <div id="IRC" class="contact">IRC<div><code>irc.rizon.net#spacebus</code></div></div>
 <hr></hr>
 <div class="contact"><a href="https://discord.gg/t2jac3p">Discord</a></div>
-<hr></hr>
 <div id="matrix" class="contact"><a href="https://matrix.to/#/!HqPKfiixhDatIneWiM:matrix.org?via=matrix.org&via=t2bot.io">Matrix</a></div>
-<hr></hr>
 <div id="reddit" class="contact"><a href="https://reddit.com/r/ss14">Subreddit</a></div>
 <hr></hr>
 

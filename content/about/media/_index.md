@@ -9,31 +9,30 @@ type = "media"
     <div class="media-toc-item"><a href="/about/media/#media-img">Pictures</a></div>
 </div>
 <hr></hr>
-<div id="media-video">
-	<div><video src="/video/20_01_24-moving-shuttle.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/20_01_21-item-cooldown.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/20_01_11-interaction-range-outline.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/20_01_11-gun-item-status.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/20_01_11-flashlight-item-status.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_10_22-attack-animations.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_10_22-animations.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_10_21-midi-input.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_10_21-hackerman.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_10_21-chem-dispenser.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_08_28-speech-bubbles.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_07_07-boom.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_04_22-locker-push.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_04_22-locker-enter.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_04_22-footsteps.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/19_03_17-door-animations.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_12_14-storage.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_12_13-throwing.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_12_13-species.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_12_13-clockcult-radials.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_09_19-construction.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_04_13-godot-guns.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/18_02_28-spinner.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
-	<div><video src="/video/17_08_17-disco-ball-prototype.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
+<div class="video-container">
+	<div><figcaption class="video-title">Moving Shuttle</figcaption><video src="/video/20_01_24-moving-shuttle.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Item Cooldown</figcaption><video src="/video/20_01_21-item-cooldown.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Range Outline</figcaption><video src="/video/20_01_11-interaction-range-outline.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Guns Item Status</figcaption><video src="/video/20_01_11-gun-item-status.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Flashlight Item Status</figcaption><video src="/video/20_01_11-flashlight-item-status.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Attack Animations</figcaption><video src="/video/19_10_22-attack-animations.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Menu Animations</figcaption><video src="/video/19_10_22-animations.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">MIDI input</figcaption><video src="/video/19_10_21-midi-input.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Door Hacking</figcaption><video src="/video/19_10_21-hackerman.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Chem Dispenser</figcaption><video src="/video/19_10_21-chem-dispenser.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Speech Bubbles</figcaption><video src="/video/19_08_28-speech-bubbles.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Explosion</figcaption><video src="/video/19_07_07-boom.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Pushing Lockers</figcaption><video src="/video/19_04_22-locker-push.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Hiding in a Locker</figcaption><video src="/video/19_04_22-locker-enter.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Footsteps</figcaption><video src="/video/19_04_22-footsteps.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Door Animations</figcaption><video src="/video/19_03_17-door-animations.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Storing Items</figcaption><video src="/video/18_12_14-storage.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Throwing Items</figcaption><video src="/video/18_12_13-throwing.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Damage States</figcaption><video src="/video/18_12_13-species.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Construction</figcaption><video src="/video/18_09_19-construction.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Gun Play</figcaption><video src="/video/18_04_13-godot-guns.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Items Spinning</figcaption><video src="/video/18_02_28-spinner.mp4" controls playsinline preload="none" poster="/images/splash.png"></div>
+	<div><figcaption class="video-title">Disco Ball</figcaption><video src="/video/17_08_17-disco-ball-prototype.webm" controls playsinline preload="none" poster="/images/splash.png"></div>
 </div>
 <hr></hr>
 <div id="media-img">
