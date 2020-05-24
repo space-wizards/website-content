@@ -277,7 +277,9 @@ img, video {
 	max-width: 100%;
 	max-height: 100%;
 }
-
+#upper-links-container {
+	padding-right: 82px;
+}
 #upper-links-container, #media-img, #media-video {
 	flex-flow: row wrap;
 	margin: 40px 0 40px 0;
@@ -479,10 +481,8 @@ code {
 article img:not(.download-img), article video {
 	max-width: 40em;
 	min-width: 20em;
-	border-radius: 10px;
 	margin: 10px;
 	padding: 2px; 
-	border: 1px solid rgb(80, 80, 80); 
 } 
 
 .contact {
