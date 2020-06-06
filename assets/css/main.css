@@ -281,7 +281,7 @@ img, video {
 	flex-flow: row wrap;
 	
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 #media-img, #media-video {
