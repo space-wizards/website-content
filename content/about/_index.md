@@ -26,7 +26,6 @@ We primarily communicate through Discord, although there is an IRC channel that'
 
 * [Discord Invite](https://discord.gg/T5EejNS)
 * IRC: `irc.rizon.net#spacebus`
-* [Matrix](https://matrix.to/#/!HqPKfiixhDatIneWiM:matrix.org?via=matrix.org&via=t2bot.io) Warning: Expect severe message delay.
 
 We also have some other project services set up:
 

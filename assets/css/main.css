@@ -277,38 +277,45 @@ img, video {
 	max-width: 100%;
 	max-height: 100%;
 }
-#upper-links-container {
-	padding-right: 82px;
-}
 #upper-links-container, #media-img, #media-video {
 	flex-flow: row wrap;
-	margin: 40px 0 40px 0;
+	
 	display: flex;
 	justify-content: center;
 }
+
+#media-img, #media-video {
+	margin: 40px 0 40px 0;
+}
+
 .upper-links, #media-img img, #media-video video {
 	flex-flow: row wrap;
 	display: flex;
 	justify-content: center;
 }
-.upper-links div, #media-img div, #media-video div {
+#media-img div, #media-video div {
 	flex-flow: row wrap;
 	display: flex;
 	margin: 0 0 0 40px;
 }
-.upper-links a {
+#upper-links-container a {
 	font-size: 20px;
-	margin-left: 5px;
 	color: lightgray;
+	display: flex;
+	align-items: center;
 }
-.upper-links .discord, .upper-links .github, .upper-links .steam {
-	margin-top: 2px;
+
+#upper-links-container > div {
+	margin: 0 10px;
 }
+
+.upper-link-text {
+	display: inline-block;
+	margin-left: 2px;
+}
+
 .trademark-top {
 	font-size: 8px;
-	position: relative;
-	bottom: 12px;
-	right: 30px;
 }
 
 .bottom-links {
@@ -438,7 +445,7 @@ code {
 #TableOfContents li:after {
 	content: '';
 	display: block;
-	padding-bottom: 0.6em;
+	padding-bottom: 0.2em;
 }
 #TableOfContents li li:after {
 	padding-bottom: 0;
