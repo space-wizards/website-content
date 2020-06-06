@@ -13,8 +13,10 @@
 		by
 		<span class="author">{{ .Params.author }}</span>
 	</span>
-	{{ .Content }}
 
+	{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }} <!--- The links from the Toc redirect by default to the siteURL, this is my workaround to that --->
+	{{  .Content }}
+	
 	{{ if .Params.reddit }}
 	<hr />
 	<footer>

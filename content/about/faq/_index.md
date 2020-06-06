@@ -1,7 +1,7 @@
 +++
 title = "Frequently Asked Questions"
 date = "2019-03-28"
-type = "about"
+type = "faq"
 +++
 
 # Frequently Asked Questions

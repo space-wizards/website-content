@@ -120,7 +120,7 @@ Honestly though, nobody was really warm on it but I also could't think of a bett
 
 Luckily, **unusualcrow** came up with the current icon, and it looks great:
 
-![](/images/icon.svg)
+![](/images/icon.png)
 
 This is the icon we will be using from now on for stuff like window icons, the websites favicon (in your tab bar) and so on.
 
