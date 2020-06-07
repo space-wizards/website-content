@@ -10,6 +10,18 @@ type = "media"
 </div>
 <hr></hr>
 <div class="video-container">
+	<div><figcaption class="video-title">Cooldown Circle</figcaption><video src="/video/pr_22/cooldown.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Gravity Demostration</figcaption><video src="/video/pr_22/gravity.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Hacking Interface</figcaption><video src="/video/pr_22/hacking_interface.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Hacking Demostration</figcaption><video src="/video/pr_22/hacking-v2.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Jaw of Life</figcaption><video src="/video/pr_22/jawsofmemes.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Enviromental Suicides</figcaption><video src="/video/pr_22/microwave.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Audio Occlusion</figcaption><video src="/video/pr_22/occlusion.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Scripting Interface</figcaption><video src="/video/pr_22/scripting.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Skub</figcaption><video src="/video/pr_22/skub.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Smart Equip</figcaption><video src="/video/pr_22/smart_equip.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Solars</figcaption><video src="/video/pr_22/solars.mp4" controls playsinline preload=metadata></div>
+	<div><figcaption class="video-title">Microwave</figcaption><video src="/video/pr_22/wzhzhzh.mp4" controls playsinline preload=metadata></div>
 	<div><figcaption class="video-title">Moving Shuttle</figcaption><video src="/video/20_01_24-moving-shuttle.mp4" controls playsinline preload=metadata></div>
 	<div><figcaption class="video-title">Item Cooldown</figcaption><video src="/video/20_01_21-item-cooldown.mp4" controls playsinline preload=metadata></div>
 	<div><figcaption class="video-title">Range Outline</figcaption><video src="/video/20_01_11-interaction-range-outline.mp4" controls playsinline preload=metadata></div>
@@ -36,6 +48,18 @@ type = "media"
 </div>
 <hr></hr>
 <div id="media-img">
+	<a target="_blank" href="/images/post/pr_22/bartending.webp"><img src="/images/post/pr_22/bartending.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/body_system.webp"><img src="/images/post/pr_22/body_system.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/cssource.webp"><img src="/images/post/pr_22/cssource.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/emotes.webp"><img src="/images/post/pr_22/emotes.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/equip_error.webp"><img src="/images/post/pr_22/equip_error.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/ghosts.webp"><img src="/images/post/pr_22/ghosts.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/right_click.webp"><img src="/images/post/pr_22/right_click.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/saltern.webp"><img src="/images/post/pr_22/saltern.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/ss14_library_capsule_resize_600x900.webp"><img src="/images/post/pr_22/ss14_library_capsule_resize_600x900.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/stuns.webp"><img src="/images/post/pr_22/stuns.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/uplink.webp"><img src="/images/post/pr_22/uplink.webp"></a>
+	<a target="_blank" href="/images/post/pr_22/wzhzhzh.webp"><img src="/images/post/pr_22/wzhzhzh.webp"></a>
     <a target="_blank" href="/images/post/pr_20/windows.png"><img src="/images/post/pr_20/windows.png"></a><p></p>
 	<a target="_blank" href="/images/post/pr_20/old_logo.png"><img src="/images/post/pr_20/old_logo.png"></a>
 	<a target="_blank" href="/images/post/pr_20/launcher.png"><img src="images/post/pr_20/launcher.png"></a>

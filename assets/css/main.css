@@ -454,11 +454,9 @@ code {
 	content: counters(item, ".") " ";
 }
 
-#media-img, .video-container {
-	margin: 0;
-}
 .video-container video, #media-img img {
-    width: 0;
+	width: 335px;
+	margin: 10px;
 }
 .video-container  {
 	display: flex;
@@ -484,13 +482,6 @@ code {
 	color: whitesmoke;
 	font-size: 50px;
 }
-
-article img:not(.download-img), article video {
-	max-width: 40em;
-	min-width: 20em;
-	margin: 10px;
-	padding: 2px; 
-} 
 
 .contact {
 	text-align: center;
