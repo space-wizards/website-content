@@ -143,6 +143,8 @@ And now we're planning to port [way better bartending (my personal opinion) - fr
 There is now a microwave, and we are incredibly pleased with the sound it makes.
 
 ### Audio Occlusion
+*Contributed by Clyybber*
+
 <video src="/video/pr_22/occlusion.mp4" controls></video>
 
 ### Instruments and MIDI
@@ -288,6 +290,7 @@ Currently, the basic framework for prediction is implemented, but nothing is wri
 {{< imgw "/images/post/pr_22/wzhzhzh" >}}
 
 ### I Forgot to Install CS: Source
+*Contributed by Swept, PJB3005*
 
 {{< imgw "/images/post/pr_22/cssource" >}}
 
