@@ -18,10 +18,17 @@ type = "nightlies"
 
 ### Every Platform:
 
+#### Minimum
 * 64-bit CPU & OS
-* OpenGL 3.3 (as long as you have your video drivers installed and your GPU isn't ancient, you have this)
-* 250 MiB free memory should do it
-* 200 MiB disk space
+* Memory: 2GB Ram
+* Graphics: OpenGL 3.3 or greater
+* Storage: 512MB disk space
+
+#### Recommended
+* 64-bit CPU & OS
+* Memory: 4GB Ram
+* Graphics: OpenGL 3.3 or greater
+* Storage: 1GB disk space
 
 ### Windows:
 
