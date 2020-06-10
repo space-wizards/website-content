@@ -1,6 +1,6 @@
 +++
 title = "Frequently Asked Questions"
-date = "Last Updated 6/9/20"
+date = "2020-06-09"
 type = "faq"
 +++
 
@@ -20,7 +20,7 @@ A: Sure you can. Hop on Discord or IRC and look at GitHub and our [HackMD Wiki](
 
 ### Q: Are you Unitystation?
 
-A: No. Unitystation is a completely different project with it's own design decisions, goals, and runs on an entirely different engine. 
+A: No. Unitystation is a completely different project with it's own design decisions, goals, and runs on an entirely different engine.
 
 ### Q: Will SS14 Support Multiple Codebases?
 
