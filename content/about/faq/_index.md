@@ -32,4 +32,4 @@ A: [Yes.](https://github.com/space-wizards/space-station-14) We started a Patreo
 
 ### Q: Where can I play SS14?
 
-A: You can download SS14 right now from our website, or wait for our free Steam release which we estimate will come out in Fall of 2020.
+A: Spacestation 14 is currently in a loosly defined "pre-alpha" stage. You can download the client right now and play on our servers, but it's mainly for testing at the moment. A fair estimate of when the game will be 'complete' isn't possible, though we will be releasing the game for free on Steam around fall of 2020 as we continue to work on it.
