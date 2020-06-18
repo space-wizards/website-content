@@ -234,7 +234,7 @@ This can be used for any action the AI can take, e.g. selecting food based on it
 The basic system has been implemented, but not yet merged. A lot of work is still necessary to refine the system and make it great for gameplay.
 
 ### Skub
-skub 
+skub
 
 <video src="/video/pr_22/skub.mp4" autoplay muted loop playsinline></video>
 
@@ -290,7 +290,7 @@ Currently, the basic framework for prediction is implemented, but nothing is wri
 {{< imgw "/images/post/pr_22/wzhzhzh" >}}
 
 ### I Forgot to Install CS: Source
-*Contributed by Swept, PJB3005*
+*Contributed by Swept, PJB3005 (Thanks yeeye for the awesome sprite!)*
 
 {{< imgw "/images/post/pr_22/cssource" >}}
 
