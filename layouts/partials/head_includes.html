@@ -5,5 +5,4 @@
 {{ $js := resources.Get "js/main.js" | resources.Minify }}
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" />
-<!-- Disabled because we don't have the subname anymore, and that's all it was used for. -->
-<!-- <script async src="{{ $js.RelPermalink }}"></script> -->
+<script async src="{{ $js.RelPermalink }}"></script>

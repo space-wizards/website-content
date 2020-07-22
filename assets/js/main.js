@@ -3,17 +3,33 @@ function pick(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 function onLoaded() {
-    document.getElementById("subname").innerHTML = pick([
-        "Crashing SS13, with no survivors!",
-        "Get dat fukken remake!",
-        "Soon&trade;",
-        "Beat up clowns in HD!",
-        "Brought to you by <s>ROBUSTENGINE&trade;</s> <s>SFML</s> <s>Godot Game Engine</s> Clyde",
-        "Suprisingly not dead!",
-        "We're at it again!",
-        "Now with 20% more space!",
-        "Honking 24/7!"
-    ]) + "<br />";
+    setupVideoIntersectionObserver();
+}
+if (document.readyState !== "loading") {
+    onLoaded();
+}
+else {
+    document.addEventListener("DOMContentLoaded", onLoaded);
+}
+function setupVideoIntersectionObserver() {
+    if (!('IntersectionObserver' in window)) {
+        return;
+    }
+    var observer = new IntersectionObserver(intersectionCallback, {});
+    document.querySelectorAll("video").forEach(function (v) {
+        v.pause();
+        observer.observe(v);
+    });
+}
+function intersectionCallback(entries, observer) {
+    for (var _i = 0, entries_1 = entries; _i < entries_1.length; _i++) {
+        var entry = entries_1[_i];
+        var element = entry.target;
+        if (entry.isIntersecting)
+            element.play();
+        else
+            element.pause();
+    }
 }
 if (document.readyState !== "loading") {
     onLoaded();
