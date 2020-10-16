@@ -5,7 +5,7 @@ date = 2020-10-16
 categories = [
     "Progress Report"
 ]
-reddit = "PLACEHOLDER for Reddit post."
+reddit = "https://old.reddit.com/r/SS13/comments/jciipx/ss14_progress_report_24_atmos_sim_remake_now/"
 +++
 
 <!--more-->
