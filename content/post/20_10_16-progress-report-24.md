@@ -8,6 +8,8 @@ categories = [
 reddit = "PLACEHOLDER for Reddit post."
 +++
 
+[Thread theme](https://youtu.be/atdsXPYqD7U)
+
 <!--more-->
 
 ## Barebones rounds!
