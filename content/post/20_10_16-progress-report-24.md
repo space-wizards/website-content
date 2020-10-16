@@ -112,7 +112,7 @@ We added handcuffs and makeshift cable cuffs to the game. To handcuff someone, y
 
 Random events can now occur on the station, or be triggered by admins directly. At the moment only a powergrid failure, bolts-down event, and radiation storm have been implemented though the system is in place to easily add more.
 
-### Disposals
+### Disposals and conveyors
 *Contributed by DrSmugleaf and juliangiebel*
 
 You can now dump trash as a janitor and provide the clown with expedient transit out of the captain's office using the disposals system. We also have conveyor belts!
