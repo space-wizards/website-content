@@ -1,21 +1,19 @@
 +++
-title = "Progress Report #24: Atmos"
+title = "Progress Report #24: Atmos Sim Remake Now Simulates Atmos"
 author = "Many people on Discord"
-date = 2020-08-16
+date = 2020-10-16
 categories = [
     "Progress Report"
 ]
 reddit = "PLACEHOLDER for Reddit post."
 +++
 
-Atmos is done! (Alternatively: We did it reddit)
-
 <!--more-->
 
 ## Barebones rounds!
 Throughout the years, we've put a lot of work into developing the engine and framework necessary for Space Station 14 to have playable content. Last year, we transitioned to developing player-facing features and gameplay in earnest, and we've made a lot of progress in that short timespan!
 
-SS14 now has playable, albeit **barebones**, rounds. As we add more features, the number of complex interactions grows, and so does the need for testing the game with real players. Help us by joining our [Discord](https://discord.gg/nGMK9jX) to get the Tester role, and we'll notify you whenever we put a bunch of people together for a playtest!
+SS14 now has playable, albeit **barebones**, rounds. As we add more features the number of complex interactions grows, and so does the need for testing the game with real players. Help us by joining our [Discord](https://discord.gg/nGMK9jX) to get the Tester role, and we'll notify you whenever we put a bunch of people together for a playtest!
 
 ## Clarification about the Steam release
 We're all excited for SS14's [upcoming Steam release](https://store.steampowered.com/app/1255460/Space_Station_14/), and we're grateful for the community's enthusiasm, but we also want to temper some unrealistic expectations. SS14 isn't finished, and won't be any time soon. **We're launching on Steam mainly as a way to make it easier to discover, download, and play the game.** The Steam release doesn't mean the game's done, or that it has most of the features you'd expect in a remake. Don't forget that we're only releasing into **Early Access**.
@@ -109,13 +107,13 @@ We added handcuffs and makeshift cable cuffs to the game. To handcuff someone, y
 
 <video src="/video/pr_24/handcuffing.mp4" autoplay muted loop playsinline></video>
 
-### Station Events
+### Station events
 *Contributed by metalgearsloth*
 
 Random events can now occur on the station, or be triggered by admins directly. At the moment only a powergrid failure, bolts-down event, and radiation storm have been implemented though the system is in place to easily add more.
 
 ### Disposals
-*Contributed by juliangiebel*
+*Contributed by DrSmugleaf and juliangiebel*
 
 You can now dump trash as a janitor, mail parcels as cargo, or provide the clown with expedient transit out of the captain's office using the disposals system. We also have conveyor belts!
 
@@ -236,7 +234,7 @@ Nanotrasen Block Game™ is a wacky new game for employees to play during their 
 
 \*Persistent highscores are not currently guaranteed to persist due to potential database changes.
 
-### More Furniture
+### More furniture
 *Contributed by SweptWasTaken*
 
 {{< imgw "/images/post/pr_24/furniture" >}}
