@@ -42,7 +42,8 @@ Here's a **non-exhaustive** highlight reel of what SS14's atmos currently entail
 - Firelocks. They also prevent decompression.
 - Gas analyzer. *exp111*
 - Pipenet, pipes, and pumps. *collinlunn*
-- Breathing, oxygen tank, and mask. *Credath*
+- Breathing. *DrSmugleaf*
+- Oxygen tanks and masks. *Credath*
 - Fire extinguishers and cabinets. *SoulSloth and Zumorica*
 
 ### Antimatter engine
@@ -72,7 +73,7 @@ You can now direct other players' attention by pointing at things.
 We laid the groundwork for a more comprehensive medical system, with mob code receiving an extensive variety of improvements. Three of the biggest changes are mob presets, body parts, and mechanisms: mob presets make it easy to add nonhuman species, body parts are their own entities that players can perform surgery on, and mechanisms represent organs or other devices within the body, each of which has its own custom behaviour.
 
 ### More hands
-*Contributed by DrStupidIdiotLeaf*
+*Contributed by DrSmugleaf*
 
 Mobs can have more than two hands.
 
@@ -178,7 +179,6 @@ The lantern has been added, featuring a soft yellow glow. Flashlights will now f
 
 Glowsticks and flares have been added. Glowsticks last a long time with a weaker glow, while flares last a shorter duration but are much brighter. As a bonus, it's now easier for contributors to define lighting effects for items.
 
-<video src="/video/pr_24/elights.mp4" autoplay muted loop playsinline></video>
 <video src="/video/pr_24/flares.mp4" autoplay muted loop playsinline></video>
 
 ### Signs and plaques
@@ -244,7 +244,7 @@ Nanotrasen Block Game™ is a wacky new game for employees to play during their 
 - Slipping moves you forward some tiles now. *DrSmugleaf*
 - AI mobs now have simple visual health states like critical and dead. *metalgearsloth*
 - Item status for all weapons. *exp111*
-- SSS gamemode improvements, like a HUD button that displays your role and allies, all airlock access... *DrSmugleaf, Visne and more?*
+- SSS gamemode improvements, like a HUD button that displays your role and allies, all airlock access, an overhead label to mark your fellow traitors... *DrSmugleaf, Visne and more?*
 - You can weld doors now. *metalgearsloth*
 - Memory leek. *Swept*
 - Ghost teleporting. *NuclearWinter*
