@@ -1,6 +1,6 @@
 +++
 title = "Progress Report #24: Atmos"
-author = "SS14 Coders"
+author = "Many people on Discord"
 date = 2020-08-16
 categories = [
     "Progress Report"
@@ -8,19 +8,21 @@ categories = [
 reddit = "PLACEHOLDER for Reddit post."
 +++
 
-Sadly atmos is not done yet. A lot of other stuff is though!
+Atmos is done! (Alternatively: We did it reddit)
 
 <!--more-->
 
 ## Barebones rounds!
-The majority of SS14’s development time has been spent on creating the engine and the framework necessary for future content. Development of player-facing features and gameplay only began in earnest in the last year, but we’ve made substantial progress in that short timespan!
+Throughout the years, we've put a lot of work into developing the engine and framework necessary for Space Station 14 to have playable content. Last year, we transitioned to developing player-facing features and gameplay in earnest, and we've made a lot of progress in that short timespan!
 
-Playable (albeit barebones) rounds are now feasible. We’re officially entering the regular testing phase. Join our [Discord](https://discord.gg/MwDDf6t) and ask a Badmin for the Tester role and be notified whenever we get a bunch of people together for playtesting!
+SS14 now has playable, albeit **barebones**, rounds. As we add more features, the number of complex interactions grows, and so does the need for testing the game with real players. Help us by joining our [Discord](https://discord.gg/nGMK9jX) to get the Tester role, and we'll notify you whenever we put a bunch of people together for a playtest!
 
 ## Clarification about the Steam release
-Everyone is excited for SS14's [upcoming Steam release](https://store.steampowered.com/app/1255460/Space_Station_14/), but we wanted to make a few things clear. SS14 is *not* finished, nor will it be finished any time soon. This has never been our goal for the Steam release; **the purpose of the Steam release is to make SS14 more accessible to players.** We are, after all, releasing the game into **Early Access**.
+We're all excited for SS14's [upcoming Steam release](https://store.steampowered.com/app/1255460/Space_Station_14/), and we're grateful for the community's enthusiasm, but we also want to temper some unrealistic expectations. SS14 isn't finished, and won't be any time soon. **We're launching on Steam mainly as a way to make it easier to discover, download, and play the game.** The Steam release doesn't mean the game's done, or that it has most of the features you'd expect in a remake. Don't forget that we're only releasing into **Early Access**.
 
-Much like SS13, SS14 is continually evolving and improving, and is in fact [already "playable"](https://spacestation14.io/about/nightlies/). So even though a basic gameplay loop is already in, please keep in mind that we're not at the point where we expect players to make the jump from SS13 to SS14, nor do we expect the servers to remain populated outside of playtesting events (for which we recommend you hang around on our Discord and request the Tester role).
+So while SS14 is [already "playable"](https://spacestation14.io/about/nightlies/), **we don't expect or encourage players to jump from SS13 to SS14 yet**, nor do we expect our servers to be populated outside of playtesting events. And if you'd like to help playtest, ask for the Tester role over on our discord.
+
+Anyway, let's see the new features we've added!
 
 ## New content!
 
@@ -31,7 +33,7 @@ Much like SS13, SS14 is continually evolving and improving, and is in fact [alre
 <video src="/video/pr_24/gasmixing.mp4" autoplay muted loop playsinline></video>
 <video src="/video/pr_24/depressurization.mp4" autoplay muted loop playsinline></video>
 
-The remake of the atmospherics simulator finally has atmospherics! It is inspired by [monstermos](https://github.com/yogstation13/extools/tree/master/byond-extools/src/monstermos) and we called it *zumos* after the dev who contributed it. It is significantly more performant than SS13's LINDA or ZAS atmospherics; you can burn down the entire station without any lag.
+The atmospherics simulator remake finally has atmospherics! It's inspired by [monstermos](https://github.com/yogstation13/extools/tree/master/byond-extools/src/monstermos), and we're calling it *zumos*, in honor of its developer, Zumorica. It performs much better than SS13's LINDA and ZAS atmospherics systems - you can burn down the entire station without grinding gameplay to a halt.
 
 Here's a **non-exhaustive** highlight reel of what SS14's atmos currently entails (contributed by Zumorica unless otherwise noted):
 
@@ -40,9 +42,10 @@ Here's a **non-exhaustive** highlight reel of what SS14's atmos currently entail
 - A variety of gasses with different effects and reactions (tritium fires, anyone?).
 - Fire, fire damage, and heat conduction through walls.
 - Firelocks. They also prevent decompression.
-- Gas analyzer. *Contributed by exp111*
-- Pipenet, pipes, and pumps. *Contributed by collinlunn*
-- Breathing, oxygen tank, and mask. *Contributed by Credath*
+- Gas analyzer. *exp111*
+- Pipenet, pipes, and pumps. *collinlunn*
+- Breathing, oxygen tank, and mask. *Credath*
+- Fire extinguishers and cabinets. *SoulSloth and Zumorica*
 
 ### Antimatter engine
 *Contributed by ancientpower*
@@ -54,9 +57,9 @@ While it still needs some polish, the classic building block engine is now in th
 ### Pulling
 *Contributed by InquisitivePenguin and DrSmugleaf*
 
-REFUSE TO MAKE VIDS FOR THIS UNTIL SOMEONE MERGES PULLING PRED
+You can now pull objects and players, just like in SS13.
 
-Objects and other players can now be pulled, just like in SS13.
+<video src="/video/pr_24/pulling.mp4" autoplay muted loop playsinline></video>
 
 ### Pointing
 *Contributed by DrSmugleaf*
@@ -68,17 +71,22 @@ You can now direct other players' attention by pointing at things.
 ### Mob improvements
 *Contributed by DrSmugleaf and GlassEclipse*
 
-The groundwork has been laid for a comprehensive medical system, with mob code receiving an extensive variety of improvements. Mob presets are in, paving the way for nonhuman species. Bodyparts are now their own entities and players can perform basic surgery on them.
+We laid the groundwork for a more comprehensive medical system, with mob code receiving an extensive variety of improvements. Three of the biggest changes are mob presets, body parts, and mechanisms: mob presets make it easy to add nonhuman species, body parts are their own entities that players can perform surgery on, and mechanisms represent organs or other devices within the body, each of which has its own custom behaviour.
 
 ### More hands
 *Contributed by DrStupidIdiotLeaf*
 
 Mobs can have more than two hands.
 
+{{< imgw "/images/post/pr_24/hands" >}}
+
 ### More construction improvements
 *Contributed by Zumorica*
 
-Construction's backend has been completely reworked. It's [much easier](https://hackmd.io/@ss14/docs/%2FGP3vTF_QSp-oLOJuhobsPg) for contributors to add construction steps to things, construction steps can be much more versatile, and they can easily provide more detailed feedback to players.
+We completely reworked the backend system for construction. This makes it [much easier](https://hackmd.io/@ss14/docs/%2FGP3vTF_QSp-oLOJuhobsPg) for contributors to add construction steps to things, as well as making construction steps more versatile and providing more detailed feedback to players.
+
+{{< imgw "/images/post/pr_24/construction" >}}
+<video src="/video/pr_24/construction.mp4" autoplay muted loop playsinline></video>
 
 ### Climbing
 *Contributed by nüke*
@@ -92,12 +100,12 @@ You can now click and drag yourself (or others) onto a table or other climbable 
 
 You can now strip items from other players. The current UI is a placeholder, but a new inventory-like UI is currently a work-in-progress. Combined with the newly added handcuffs, Security can now keep the greytide in check!
 
-<video src="/video/pr_24/routing.mp4" autoplay muted loop playsinline></video>
+<video src="/video/pr_24/stripmeup.mp4" autoplay muted loop playsinline></video>
 
 ### Handcuffs
 *Contributed by nüke*
 
-Handcuffs and makeshift cablecuffs are now in the game. Handcuffing someone requires that both parties stand still with no interruptions for a short duration. If you stun someone, the time to handcuff them is shortened. People with more than 2 arms are also taken into consideration, so if you want to stop people with 4 arms from picking stuff up you will need 2 sets of cuffs.
+We added handcuffs and makeshift cable cuffs to the game. To handcuff someone, you and the target both need to stand still with no interruptions for a short while. It takes less time to cuff stunned players, and you're gonna need extra cuffs for people with more than two arms.
 
 <video src="/video/pr_24/handcuffing.mp4" autoplay muted loop playsinline></video>
 
@@ -109,62 +117,57 @@ Random events can now occur on the station, or be triggered by admins directly. 
 ### Disposals
 *Contributed by juliangiebel*
 
+You can now dump trash as a janitor, mail parcels as cargo, or provide the clown with expedient transit out of the captain's office using the disposals system. We also have conveyor belts!
+
 {{< imgw "/images/post/pr_24/disposalgui" >}}
-
-### Conveyors
-*Contributed by juliangiebel*
-
 <video src="/video/pr_24/mailing.mp4" autoplay muted loop playsinline></video>
 <video src="/video/pr_24/routing.mp4" autoplay muted loop playsinline></video>
 
 ### Admin menu
 *Contributed by exp111*
 
-{{< imgw "/images/post/pr_24/disposalgui" >}}
+{{< imgw "/images/post/pr_24/admin" >}}
 
-Admins now have a menu with a variety of buttons for ~~admin abuse~~ moderating the game. Like most of SS14's UIs, the visuals are non-final.
+Our admins have been itching to inflict abuse on innocent players, and we're fulfilling their darkest wishes with this button pressing UI. The visuals aren't final, but we can't say the same about the tyrannical bans that the admins will inflict.
 
 ### do_after
 *Contributed by metalgearsloth*
 
-This was a blocker preventing many systems from being fully implemented, but it is now finally in. This is the progress bar that appears above your character for interruptable timed actions such as: stripping characters, handcuffing, vaulting tables, etc.
+You know the task bar from SS13 that appears when you're cuffing someone, or vaulting a table, or welding a door shut? Known as "do_after" from SS13 code, it's an important part of many upcoming features involving interruptable tasks, and we finally got around to implementing it in SS14.
 
 ### Machine linking
 *Contributed by ShadowCommander*
 
 Machines can now be easily linked together. A practical example of this would be linking conveyors to a conveyor switch.
 
-### Click attacks
-*Contributed by Zumorica*
-
-You can now attack things by clicking them while in combat mode. You can still perform wide attacks using spacebar, though.
-
 ### Cloning
 *Contributed by SoulSloth*
 
-We have transcended death, medbay can now clone corpses.
+If you thought death was going to let you escape a round of SS14, you'll have to try harder, as our new cloning machines will drag you back to life against your wishes.
+
+<video src="/video/pr_24/cloning.mp4" autoplay muted loop playsinline></video>
 
 ### Handheld radio and headsets
 *Contributed by Bright0*
 
 A basic (and non-final) implementation of telecomms has been added, with both handheld radios and headsets. Currently, Common is the only channel.
 
+<video src="/video/pr_24/radios.mp4" autoplay muted loop playsinline></video>
+
 ### Accent system
 *Contributed by exp111*
 
-{{< imgw "/images/post/pr_24/accent" >}}
-
 Speech can now be automatically modified for things like slurred speech while drunk, lizardpeople hissing, etc.
+
+{{< imgw "/images/post/pr_24/accent" >}}
+{{< imgw "/images/post/pr_24/cursedaccent" >}}
 
 ### Spray bottles
 *Contributed by exp111 and Zumorica*
 
 The ~~Clown~~ Janitor now has another tool in their arsenal, and can now spray things with chemicals.
 
-### Fire extinguisher
-*Contributed by SoulSloth and Zumorica*
-
-We didn't start the fire. Fire extinguishers have been added, and should be pretty self-explanatory.
+<video src="/video/pr_24/cloning.mp4" autoplay muted loop playsinline></video>
 
 ### Lantern, flashlight improvement, emergency lights
 *Contributed by SoulSloth and juliangiebel*
@@ -172,6 +175,7 @@ We didn't start the fire. Fire extinguishers have been added, and should be pret
 The lantern has been added, featuring a soft yellow glow. Flashlights will now flicker when their battery is going out. Emergency lights will now be activated when the station loses power.
 
 <video src="/video/pr_24/elights.mp4" autoplay muted loop playsinline></video>
+<video src="/video/pr_24/flashlights.mp4" autoplay muted loop playsinline></video>
 
 ### Glowsticks and flares
 *Contributed by nüke*
@@ -193,6 +197,8 @@ Signs have been added to the Saltern directing you to the various departments.
 
 The RCD now has feature parity with SS13, minus the radial menu. Walls, floors, and airlocks can now all be created or destroyed by the RCD. Try not to immediately vent the station.
 
+<video src="/video/pr_24/rcd.mp4" autoplay muted loop playsinline></video>
+
 ### Cream pies
 *Contributed by Zumorica*
 
@@ -212,41 +218,47 @@ The singularity engine has found its way into SS14: Emitters, containment field 
 Bringing the classic acts of vandalism (and sometimes even art) to SS14! Now with a proper UI and pixel-based placement.
 
 {{< imgw "/images/post/pr_24/yiffinhell" >}}
+{{< imgw "/images/post/pr_24/crayon" >}}
 
-### Arcade Machines
+### Space-Villain-Game
 *Contributed by PaulRitter*
 
-Added some arcade games:
-
-#### Space-Villain-Game
 A simple game to kill time in the bar.
 
+{{< imgw "/images/post/pr_24/svarcade" >}}
 
-#### Nanotrasen Block Game™
+### Nanotrasen Block Game™
+*Contributed by PaulRitter*
 
-{{< imgw "/images/post/pr_24/nbg" >}}
+<video src="/video/pr_24/blockgame.mp4" autoplay muted loop playsinline></video>
 
 Nanotrasen Block Game™ is a wacky new game for employees to play during their break. There are separate leaderboards for the current round and all-time\*. Challenge your compatriots and become the best NBG player in the star system.
 
 \*Persistent highscores are not currently guaranteed to persist due to potential database changes.
 
+### More Furniture
+*Contributed by SweptWasTaken*
+
+{{< imgw "/images/post/pr_24/furniture" >}}
+
 ## Tiny things
 
-- Closed soda cans spill if you throw them around too much. *Contributed by DrSmugleaf*
-- Cursed lockers that teleport you to other lockers on the station. *Contributed by Zumorica*
-- Examine window feedback for a construction's next step and for when things are powered. *Contributed by Kmc2000 and exp111*
-- Slipping moves you forward some tiles now. *Contributed by DrSmugleaf*
-- AI mobs now have simple visual health states like critical and dead. *Contributed by metalgearsloth*
-- Item status for all weapons. *Contributed by exp111*
-- SSS gamemode improvements, like a HUD button that displays your role and allies, all airlock access... *Contributed by DrSmugleaf, Visne and more?*
-- You can weld doors now. *Contributed by metalgearsloth*
-- Memory leek. *Contributed by Swept*
-- The lobby now shows which players are ready. *Contributed by exp111*
-- Inventory slots show if current held item fits. *Contributed by StrawberryMoses*
-- Ported additional Security outfits. *Contributed by StrawberryMoses*
-- More simple mobs. Ian, space carp, etc. *Contributed by Swept*
-- Added factions to AI mobs. *Contributed by metalgearsloth*
-- Examining a container with reagent(s) in it will now have colored text that has a physical description of the substance. *Contributed by nüke*
+- Closed soda cans spill if you throw them around too much. *DrSmugleaf*
+- Cursed lockers that teleport you to other lockers on the station. *Zumorica*
+- Examine window feedback for a construction's next step and for when things are powered. *Kmc2000 and exp111*
+- Slipping moves you forward some tiles now. *DrSmugleaf*
+- AI mobs now have simple visual health states like critical and dead. *metalgearsloth*
+- Item status for all weapons. *exp111*
+- SSS gamemode improvements, like a HUD button that displays your role and allies, all airlock access... *DrSmugleaf, Visne and more?*
+- You can weld doors now. *metalgearsloth*
+- Memory leek. *Swept*
+- You can now use mouse-click for melee attacks. *Zumorica*
+- The lobby now shows which players are ready. *exp111*
+- Inventory slots show if current held item fits. *StrawberryMoses*
+- Ported additional Security outfits. *StrawberryMoses*
+- More simple mobs. Ian, space carp, etc. *Swept*
+- Added factions to AI mobs. *metalgearsloth*
+- Examining a container with reagent(s) in it will now have colored text that has a physical description of the substance. *nüke*
 
 ## Technical details
 
