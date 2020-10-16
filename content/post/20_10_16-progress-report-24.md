@@ -117,11 +117,9 @@ Random events can now occur on the station, or be triggered by admins directly. 
 ### Disposals
 *Contributed by DrSmugleaf and juliangiebel*
 
-You can now dump trash as a janitor, mail parcels as cargo, or provide the clown with expedient transit out of the captain's office using the disposals system. We also have conveyor belts!
+You can now dump trash as a janitor and provide the clown with expedient transit out of the captain's office using the disposals system. We also have conveyor belts!
 
 {{< imgw "/images/post/pr_24/disposalgui" >}}
-<video src="/video/pr_24/mailing.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_24/routing.mp4" autoplay muted loop playsinline></video>
 
 ### Admin menu
 *Contributed by exp111*
@@ -167,7 +165,7 @@ Speech can now be automatically modified for things like slurred speech while dr
 
 The ~~Clown~~ Janitor now has another tool in their arsenal, and can now spray things with chemicals.
 
-<video src="/video/pr_24/cloning.mp4" autoplay muted loop playsinline></video>
+<video src="/video/pr_24/spacelube.mp4" autoplay muted loop playsinline></video>
 
 ### Lantern, flashlight improvement, emergency lights
 *Contributed by SoulSloth and juliangiebel*
@@ -204,12 +202,11 @@ The RCD now has feature parity with SS13, minus the radial menu. Walls, floors, 
 
 The Clown can now ~~assault~~ entertain crewmembers by throwing pies at them.
 
-### LORD SINGULOTH
+### Particle Accelerator
 *Contributed by unusualcrow and PaulRitter*
 
-The singularity engine has found its way into SS14: Emitters, containment field generators, and a fully constructable particle accelerator. And yes, it can eat a hole through the station. All hail Lord Singuloth!
+A fully constructable particle accelerator.
 
-{{< imgw "/images/post/pr_24/singulo" >}}
 {{< imgw "/images/post/pr_24/particle" >}}
 
 ### Crayons
@@ -252,6 +249,7 @@ Nanotrasen Block Game™ is a wacky new game for employees to play during their 
 - SSS gamemode improvements, like a HUD button that displays your role and allies, all airlock access... *DrSmugleaf, Visne and more?*
 - You can weld doors now. *metalgearsloth*
 - Memory leek. *Swept*
+- Ghost teleporting. *NuclearWinter*
 - You can now use mouse-click for melee attacks. *Zumorica*
 - The lobby now shows which players are ready. *exp111*
 - Inventory slots show if current held item fits. *StrawberryMoses*
@@ -279,6 +277,21 @@ And no, we're not sending your password to the game servers like BYOND does.
 *Contributed by 20kdc*
 
 The game can now run targeting OpenGL ES2 as graphics API, optionally via ANGLE on Windows. This basically means that it'll run on literally any potato laptop made in the last decade and a half, probably.
+
+## Future content
+
+### Lord Singuloth
+
+Yes, it can eat a hole through the station.
+
+{{< imgw "/images/post/pr_24/singulo" >}}
+
+### Disposal mailing
+
+<video src="/video/pr_24/mailing.mp4" autoplay muted loop playsinline></video>
+<video src="/video/pr_24/routing.mp4" autoplay muted loop playsinline></video>
+
+
 
 ## Credits
 
