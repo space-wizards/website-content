@@ -49,7 +49,9 @@ You can also download the current client or server binaries directly. It won't a
 
 You can find the builds [right here on Jenkins](https://builds.spacestation14.io/jenkins/job/SS14%20Content/).
 
-These builds **require** a [.NET Core 3 runtime](https://dotnet.microsoft.com/download) to be installed on your machine. The launcher does not need this (it's already included).
+If you're interested in hosting your own SS14 server, check out our [hosting documentation](https://hackmd.io/@ss14/for-hosting).
+
+These builds **require** a [.NET 5 runtime](https://dotnet.microsoft.com/download) to be installed on your machine. The launcher does not need this (it's already included).
 
 ## FAQ
 
