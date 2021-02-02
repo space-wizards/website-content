@@ -1,9 +1,14 @@
+*
+{
+	box-sizing: border-box;
+}
+
 body
 {
 	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
 	/* Oh well */
 	background: black;
-	
+
 	color: rgb(200, 200, 200);
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
@@ -31,7 +36,7 @@ html
 	overflow: auto;
 }
 
-.background 
+.background
 {
 	height: 100%;
 	width: 100%;
@@ -53,7 +58,7 @@ html
 {
 	#background-2
 	{
-		background-color: rgba(0, 0, 0, 0.9);	
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 
 	#background
@@ -75,7 +80,7 @@ html
 	#centercolumn
 	{
 		width: 75%;
-		background-color: rgba(0, 0, 0, 0.9);	
+		background-color: rgba(0, 0, 0, 0.9);
 		-webkit-box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
 		box-shadow: 0px 0px 80px 100px rgba(0,0,0,0.9);
 	}
@@ -141,7 +146,7 @@ html
 
 	.navlink
 	{
-		font-size: 25pt;	
+		font-size: 25pt;
 	}
 }
 
@@ -247,7 +252,7 @@ a:hover {
 
 ul.pagination
 {
-	display: inline-block;
+	display: flex;
 	margin: 0;
 	padding: 0;
 }
@@ -255,8 +260,8 @@ ul.pagination
 /* pages list horizontally */
 ul.pagination > li
 {
-	display: inline-block;
-
+	display: block;
+	margin: 0 4px;
 }
 
 div#recentpostswrapper > h1
@@ -344,7 +349,7 @@ img, video {
 .bottom-links .email {
 	position: relative;
 	left: 5px;
-} 
+}
 .trademark-bottom {
 	font-size: 8px;
 	position: relative;
@@ -358,7 +363,7 @@ img, video {
 	justify-content: center;
 	padding: 70px 0 70px 0;
 	margin: 0 0 0 0;
-} 
+}
 .download-image {
 	display: flex;
 	justify-content: center;
@@ -429,7 +434,7 @@ code {
 	padding-left: 1em;
 	margin: 0;
 	padding: 0;
-} 
+}
 #TableOfContents li {
 	display: table-row;
 	counter-increment: item;
@@ -439,7 +444,7 @@ code {
 	display: table-cell;
 	text-align: right;
 	padding-right: 0.6em;
-} 
+}
 #TableOfContents li:after {
 	content: '';
 	display: block;
@@ -447,7 +452,7 @@ code {
 }
 #TableOfContents li li:after {
 	padding-bottom: 0;
-} 
+}
 #TableOfContents li li:before {
 	content: counters(item, ".") " ";
 }
@@ -470,11 +475,11 @@ code {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	padding: 210px 0 210px 0; 
+	padding: 210px 0 210px 0;
 }
 #media-toc div {
 	margin: 0 100px 0 100px;
-	padding: 50px 0 50px 0;  
+	padding: 50px 0 50px 0;
 }
 .media-toc-item a {
 	color: whitesmoke;
