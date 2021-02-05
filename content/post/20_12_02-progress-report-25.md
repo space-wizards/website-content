@@ -12,12 +12,37 @@ reddit = ""
 
 ## Playtest
 
+We're proud to announce that Space Station 14 is [now available](https://store.steampowered.com/app/1255460/Space_Station_14/) through the new Steam Playtest feature. Originally we were planning to do a full release through Early Access, but we felt that a more limited release was a better match for the current state of SS14 development.
+
+To gain access, simply visit the SS14 store page and click Request Access. We set the number of players that we want to grant access to, and Steam handles the rest. If you don't receive access immediately, just be patient! More users will be added over time.
+
+We don't currently have a set date for a wider Early Access release, it depends on how well the playtests go and how quickly more content is added.
+
+Much work went into last minute preparations to get ready for Steam; combined with exams, ~~the devs all playing Factorio~~, and the holidays, this progress report is unusually light. But we still have some new treats!
+
 ## New Content!
 
 ### Botany
 *Contributed by Zumorica*
 
 *Video of someone doing botany stuff
+
+Botany is in! This includes trays, seeds, planting, harvesting, nutriments, weeds, pests, and plenty more! Botanists can finally supply the station with ~~drugs~~ food, making the station even more self-sufficient. As a bonus, adding new plants is trivial and doesn't require writing any C# code.
+
+### UI improvements
+*Screenshot of all the UI, including the context menu*
+
+
+
+#### Action Hotbar
+*Contributed by chairbender, building on earlier work by ShadowCommander*
+
+We now have an actions hotbar, along with a window for searching available actions to put into the hotbar. Actions can be granted to the player, or be provided via items. They will automatically populate the hotbar when granted, and can be rearranged by dragging or removed via right click. The system currently supports instant, targeted, and toggle actions. Right now, we have a sceam and disarm action as well as item actions for toggling internals and lights.
+
+There is still additional functionality planned for it, such as saving your layouts between rounds and allowing you to configure how actions auto-populate into it, but this is enough to allow us to start adding more fun and useful actions!
+
+{{< imgw "/images/post/pr_25/hotbar" >}}
+{{< imgw "/images/post/pr_25/actions" >}}
 
 ### Alerts System and UI
 *Contibuted by chairbender*
@@ -66,24 +91,54 @@ Ports Eris-style power cells. They come in three distinct sizes, S, M and L, eac
 ### LORD SINGULOTH <!-- We teased it last time but now it's in -->
 *Contributed by unusualcrow and PaulRitter*
 
-## Talk about more maps being developed
+### Cigarettes and Matches
+*Contributed by Ygg01*
 
-*Screenshots of monad
-*Video of area delete (Contributed by Manel)
-*Screenshots of box? (Possibly implemented by this point)
+**Insert a picture of a smoking detective?**
 
-## Minor things
+You can now roleplay as a hardboiled, chainsmoking noir detective.
 
-- Flashlights for hard hats
-- Live preview for character customizer
-- More belts and welders
-- Replaced the cev-eris maint airlocks
-- Most lockers have been filled
-- Lockers now enforce access restrictions
-- Pulling now takes up a hand
-- Meat Spike
-- Content Pruning
-- Dead bodies are disposable
+### Cargo Telepad
+*Contributed by GraniteSidewalk*
+
+Although shuttles loom on the horizon after the upcoming physics rework is finished, we thought it'd be nice to add a placeholder to Cargonia. Incoming cargo crates will now be beamed to a tele-pad adjacent to the computer, rather than just appearing out of thin air.
+
+<video src="/video/pr_25/telepad.mp4" autoplay muted loop playsinline></video>
+
+### Smoke and foam chemical reactions
+*Contributed by Radrark*
+
+**Insert the video of space cleaner in action.**
+
+Chemical reactions can now result in smoke or foam, just like in SS13.
+
+### Instrument Improvements
+
+*Contributed by Zumorica*
+The instrument UI now has a slider that can be used to rewind or fast-forward the playback of the MIDI song you're playing. Also, other players' instruments should sound better now.
+
+{{< imgw "/images/post/pr_25/instrument" >}}
+
+## Tiny things
+
+- Containment field emitters emit soft light now. *Contributed by 20kdc*
+- Wall lights are now buildable. *Contributed by Macoron*
+- Light bulbs are now destructible. *Contributed by ZeWaka*
+- Kitchen knife and sliceable foods. *Contributed by mirrorcult*
+- Rounds have time limits now. *Contributed by DrSmuglive*
+- Disposal units flush air now. *Contributed by DrSmuglead*
+- Cow tools have been added. *Contributed by PaulRitter*
+- Now the options menu has a slider for master volume. *Contributed by ManelNavola*
+- PDA now has a pen. *Contributed by exp111*
+- Added suicide for Crematorium and Recycler. *Contributed by ManelNavola*
+- Pulling and grabbing merged (pulling takes up a hand now). *Contributed by DrSmuglaught*
+- Flashlights for hard hats and hardsuits. *Contributed by Macoron*
+- Live preview for the character creator. *Contributed by metalgearsloth*
+- More belts and welders. *Contributed by SweptWasTaken*
+- Replaced the cev-eris maint airlocks. *Contributed by SweptWasTaken*
+- Many crates have been filled. *Contributed by SweptWasTaken*
+- Many lockers have been filled. *Contributed by DmitriyRubetskoy*
+- Lockers now enforce access restrictions. *Contributed by brndd*
 
 ## Technical details.
 
