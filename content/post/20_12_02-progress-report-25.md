@@ -245,6 +245,8 @@ You are able to name controls which will then be turned into properties of your 
 
 Thanks to acvisy, ancientpower, Big_McLarge_Huge, Bobberunio, Cakey, Calicifer, chairbender, Clusterfack, Creadth, Cyberate, Dean, Diklyquill, Dongle, Enzoman12, Krystal Disc, Mario, Micadurp, MrCroa, ninj4, November = Christmas, Quonn, ThatGuyGW, Tomeno, Secret Flowers, Showgun, Third, vifs_vestige, Wolfiten, Xenon Dragon, Zandario and NetGlitch for keeping the lights on.
 
+https://imgur.com/66NENcl
+
 ## Credits
 
 The contributors since the last progress report were: 20kdc, Acruid, AJCM-git, BananaFlambe, bhespiritu, brndd, chairbender, Clyybber, ColdAutumnRain, collinlunn, DamianX, daniel-cr, DmitriyRubetskoy, DmitriyZodiak, DrSmugleaf, DTanxxx, exp111, Git-Nivrak, GraniteSidewalk, ike709, JohnGinnane, juliangiebel, kira-er, komunre, LetterN, lzimann, Macoron, ManelNavola, Markek1, metalgearsloth, mirrorcult, moonheart08, namespace-Memory, Nukeuler123, PaulRitter, PJB3005, Radrark, RedlineTriad, Rember, RemieRichards, Rich-Dunne, rneuser, Rockdtben, SaphireLattice, ShadowCommander, SweptWasTaken, Tarlan2, tmtmtl30, Tomeno, Ygg01, ZeWaka, zionnBE, Zumorica
