@@ -210,28 +210,24 @@ The instrument UI now has a slider that can be used to rewind or fast-forward th
 - Magboots. *Contributed by PJB*
 - Context Menu improvements. *Contributed by daniel-cr*
 
-## Technical details.
+## Technical stuff
 
-### Sandboxing
-*Contributed by PJB*
+### Mapping Merge Driver
+*Contributed by 20kdc based on work by DrSmugleaf*
 
-### Perfomance improvements
-*Contributed by Zumorica*
--SIMD atmos
--.NET 5.0
-*Contributed by PJB*
--Map load speed
+How a merge driver is supposed to work:
 
-### Damage rework
-*Contributed by DrSmugleaf*
+There are two "finished" branches to merge, and the "common base".
+The goal of the merge driver is to apply the changes made by both branches from the common base, inferring what those changes are, exactly, from the data in the common base.
 
-### Sandboxing
-*Contributed by PJB*
-
-### Performance Improvements
-- SIMD atmos *Contributed by Zumorica*
-- .NET 5.0 support *Contributed by PJB*
-- Map load speed
+For example, given these two hypothetical strings that you are supposed to merge:
+A:`ABCDEF`
+and
+C:`ABCXDG`
+you can't reliably merge these without ignoring any deletions that were intentionally made in one branch and not another.
+But if you know of the common base string, B:`ABCDE`, then you know that A adds F, while C removes D and adds X and G.
+Therefore, you know the correct answer is `ABCXEFG` or `ABCXEGF`.
+This is the basic principle behind why a merge driver must receive 3 sources - it uses the common base to determine what changes each branch made.
 
 ### XamlUI
 *Contributed by PaulRitter*
@@ -240,6 +236,13 @@ Compiles Xaml-Resources into IL-Code and weaves it into the Assembly to allow us
 Using a framework like XamlX for this allows us to later add many more IL-Emitters to automatically do things like insert `Loc.GetString()`-Calls etc.
 - Code-Behind
 You are able to name controls which will then be turned into properties of your corresponding C#-Class. This way you can directly access the UI you defined in XAML in your Code.
+
+- Sandboxing *Contributed by PJB*
+- Perfomance improvements *Contributed by Zumorica*
+- SIMD atmos *Contributed by Zumorica*
+- .NET 5.0 *Contributed by Zumorica*
+- Map load speed *Contributed by PJB*
+- Damage rework *Contributed by DrSmugleaf*
 
 ## Patrons
 
