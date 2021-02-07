@@ -1,7 +1,7 @@
 +++
-title = "Progress Report #25: Tired of Waiting"
+title = "Progress Report #25: Blowing Off Steam"
 author = "Many people on Discord"
-date = 2020-12-02
+date = 2021-02-07
 categories = [
     "Progress Report"
 ]
@@ -16,7 +16,7 @@ We're proud to announce that Space Station 14 is [now available](https://store.s
 
 To gain access, simply visit the SS14 store page and click Request Access. You'll be added to the pool of people who are waiting, which we randomely draw from when we feel we could use more players.
 
-![](https://i.imgur.com/ZAgLlkj.png)
+{{< imgw "/images/post/pr_25/playtest" >}}
 
 If you don't receive access immediately, just be patient! More users will be added over time.
 
