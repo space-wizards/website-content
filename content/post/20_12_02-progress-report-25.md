@@ -59,7 +59,7 @@ What was previously known as "status effects" has been expanded into a more gene
 #### Minor UI Things
 * Improved top menu buttons *Contributed by chairbender*
 * Improved Inventory / Hand Slots UI *Contributed by chairbender*
-* Improved job preference menu *Contributed by Rockdtben*
+* Improved job preference menu *Contributed by Rockdtben and DrSmugleaf*
 
 ### Traitor Gamemode & Objectives
 *Contributed by PaulRitter*
@@ -87,10 +87,18 @@ The admin menu was mentioned in the last progress report but it's gotten some ne
 <video src="/video/pr_25/admin.mp4" autoplay muted loop playsinline></video>
 
 ### Magboots
+*Contributed by PJB3005*
 
 You now have magboots. They help you avoid getting thrown around the place by airflow.
 
 <video src="/video/pr_25/magboots.mp4" autoplay muted loop playsinline></video>
+
+### Fancy Pickup Animations
+*Contributed by RemieRichards*
+
+Fancy pickup animations for all items!
+
+<video src="/video/pr_25/pickup.mp4" autoplay muted loop playsinline></video>
 
 ### Gas tanks and Internals
 *Contributed by Creadth and Zumorica*
@@ -107,7 +115,7 @@ Gas canisters now exist, ripe for plasma flooding.
 <video src="/video/pr_25/canisters.mp4" autoplay muted loop playsinline></video>
 
 ### Mortician's Menagerie (All the crematorium stuff)
-*Contributed by RemieRichards
+*Contributed by RemieRichards*
 
 The Traitor's ~~murderbone victims~~ targets won't be left littering the halls, because the morgue is now fully equipped with functioning morgue trays, body bags, and a crematorium.
 
@@ -199,6 +207,7 @@ The instrument UI now has a slider that can be used to rewind or fast-forward th
 - Lockers now enforce access restrictions. *Contributed by brndd*
 - Context Menu improvements. *Contributed by daniel-cr*
 - Window breaking is now prettier and makes a sound. *Contributed by brndd & Macoron*
+- You can rig power-cells to explode. *Contributed by PJB*
 
 ## Technical stuff
 
