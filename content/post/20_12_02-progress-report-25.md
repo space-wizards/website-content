@@ -87,7 +87,7 @@ The admin menu was mentioned in the last progress report but it's gotten some ne
 <video src="/video/pr_25/admin.mp4" autoplay muted loop playsinline></video>
 
 ### Magboots
-*Contributed by PJB3005*
+*Contributed by PJB*
 
 You now have magboots. They help you avoid getting thrown around the place by airflow.
 
