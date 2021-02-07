@@ -14,9 +14,9 @@ reddit = ""
 
 We're proud to announce that Space Station 14 is [now available](https://store.steampowered.com/app/1255460/Space_Station_14/) through the new Steam Playtest feature. Originally we were planning to do a full release through Early Access, but we felt that a more limited release was a better match for the current state of SS14 development.
 
-To gain access, simply visit the SS14 store page and click Request Access. You'll be added to the pool of people who are waiting, which we randomely draw from when we feel we could use more players.
+To gain access, simply visit the SS14 store page and click Request Access. You'll be added to the pool of people who are waiting, which we randomly draw from when we feel we could use more players.
 
-{{< imgw "/images/post/pr_25/playtest" >}}
+[![](/images/post/pr_25/playtest.png)](https://store.steampowered.com/app/1255460/Space_Station_14/)
 
 If you don't receive access immediately, just be patient! More users will be added over time.
 
@@ -24,7 +24,7 @@ We don't currently have a set date for a wider Early Access release, it depends 
 
 Much work went into last minute preparations to get ready for Steam; combined with exams, ~~the devs all playing Factorio~~, and the holidays, this progress report is relatively light. But we still have some new treats!
 
-Of course, you can always download the non-Steam build from [Our downloads page](/about/nightlies). Obviously it'll never be as convenient as Steam, but the option is always available.
+Of course, you can always download the non-Steam build from [our downloads page](/about/nightlies). Obviously it'll never be as convenient as Steam, but the option is always available.
 
 ## Progress!
 
@@ -59,7 +59,7 @@ What was previously known as "status effects" has been expanded into a more gene
 #### Minor UI Things
 * Improved top menu buttons *Contributed by chairbender*
 * Improved Inventory / Hand Slots UI *Contributed by chairbender*
-* Improved job preference menu *Contributed by Rockdtben*
+* Improved job preference menu *Contributed by Rockdtben & DrSmugleaf*
 
 ### Traitor Gamemode & Objectives
 *Contributed by PaulRitter*
@@ -87,6 +87,7 @@ The admin menu was mentioned in the last progress report but it's gotten some ne
 <video src="/video/pr_25/admin.mp4" autoplay muted loop playsinline></video>
 
 ### Magboots
+*Contributed by PJB*
 
 You now have magboots. They help you avoid getting thrown around the place by airflow.
 
@@ -112,6 +113,13 @@ Gas canisters now exist, ripe for plasma flooding.
 The Traitor's ~~murderbone victims~~ targets won't be left littering the halls, because the morgue is now fully equipped with functioning morgue trays, body bags, and a crematorium.
 
 <video src="/video/pr_25/mortician.mp4" autoplay muted loop playsinline></video>
+
+### Trash Bags & Pickup Animations
+*Contributed by RemieRichards*
+
+Now you can pick up trash and steal any other valuables on the ground, in style!
+
+<video src="/video/pr_25/trash.mp4" autoplay muted loop playsinline></video>
 
 ### Eris Power Cells
 *Contributed by brndd*
@@ -199,6 +207,8 @@ The instrument UI now has a slider that can be used to rewind or fast-forward th
 - Lockers now enforce access restrictions. *Contributed by brndd*
 - Context Menu improvements. *Contributed by daniel-cr*
 - Window breaking is now prettier and makes a sound. *Contributed by brndd & Macoron*
+- You can now feel hypospray-supplied tiny pricks. *Contributed by PJB*
+- You can now rig power cells to explode by injecting phoron. *Contributed by PJB*
 
 ## Technical stuff
 
