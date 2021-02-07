@@ -14,13 +14,19 @@ reddit = ""
 
 We're proud to announce that Space Station 14 is [now available](https://store.steampowered.com/app/1255460/Space_Station_14/) through the new Steam Playtest feature. Originally we were planning to do a full release through Early Access, but we felt that a more limited release was a better match for the current state of SS14 development.
 
-To gain access, simply visit the SS14 store page and click Request Access. We set the number of players that we want to grant access to, and Steam handles the rest. If you don't receive access immediately, just be patient! More users will be added over time.
+To gain access, simply visit the SS14 store page and click Request Access. You'll be added to the pool of people who are waiting, which we randomely draw from when we feel we could use more players.
+
+![](https://i.imgur.com/ZAgLlkj.png)
+
+If you don't receive access immediately, just be patient! More users will be added over time.
 
 We don't currently have a set date for a wider Early Access release, it depends on how well the playtests go and how quickly more content is added.
 
-Much work went into last minute preparations to get ready for Steam; combined with exams, ~~the devs all playing Factorio~~, and the holidays, this progress report is unusually light. But we still have some new treats!
+Much work went into last minute preparations to get ready for Steam; combined with exams, ~~the devs all playing Factorio~~, and the holidays, this progress report is relatively light. But we still have some new treats!
 
-## New Content!
+Of course, you can always download the non-Steam build from [Our downloads page](/about/nightlies). Obviously it'll never be as convenient as Steam, but the option is always available.
+
+## Progress!
 
 ### Botany
 *Contributed by Zumorica*
@@ -36,9 +42,9 @@ Botany is in! This includes trays, seeds, planting, harvesting, nutriments, weed
 #### Action Hotbar
 *Contributed by chairbender, building on earlier work by ShadowCommander*
 
-We now have an actions hotbar, along with a window for searching available actions to put into the hotbar. Actions can be granted to the player, or be provided via items. They will automatically populate the hotbar when granted, and can be rearranged by dragging or removed via right click. The system currently supports instant, targeted, and toggle actions. Right now, we have a sceam and disarm action as well as item actions for toggling internals and lights.
+We now have an actions hotbar! The idea is this hotbar will be used for all common actions you may need quick access to, from toggling your helmet light to wizard spells.
 
-There is still additional functionality planned for it, such as saving your layouts between rounds and allowing you to configure how actions auto-populate into it, but this is enough to allow us to start adding more fun and useful actions!
+The layout of the hotbar can be re-arranged if you feel so inclined. There are some minor things that have to be added like allowing you to save layouts between round, but for the most part it's very solid already.
 
 {{< imgw "/images/post/pr_25/hotbar" >}}
 {{< imgw "/images/post/pr_25/actions" >}}
@@ -46,30 +52,14 @@ There is still additional functionality planned for it, such as saving your layo
 #### Alerts System and UI
 *Contibuted by chairbender*
 
-What was previously known as "status effects" has been expanded into a more general "alerts" system, which allows contributors to easily define and modify the alert icons and tooltips. They also use significantly less bandwidth.
-
-As shown below, the corresponding UI was improved to closely match our UI mockups. Alert tooltips now have formatted text and color, and the alerts live in an improved grid container which can dynamically expand as more alerts appear.
+What was previously known as "status effects" has been expanded into a more general "alerts" system, which allows contributors to easily define and modify the alert icons and tooltips.
 
 {{< imgw "/images/post/pr_25/alerts" >}}
 
-#### Top Menu Improvements
-*Contributed by chairbender*
-
-Updated the look and feel of the top menu and added a button for the new actions window. Additionally, all of the hotkey reminders underneath each menu item will now update if you rebind them to other keys.
-
-{{< imgw "/images/post/pr_25/topbar" >}}
-
-#### Improved Inventory / Hand Slots UI
-*Contributed by chairbender*
-
-Among a few visual tweaks to the active hand / item action highlight and the item status indicators, the new bottom layout brings all the item slots closer together in the center, which should make it easier to move the mouse between the slots.
-
-{{< imgw "/images/post/pr_25/bottombar" >}}
-
-#### Job Preference improvements
-*Contributed by Rockdtben*
-
-{{< imgw "/images/post/pr_25/pref" >}}
+#### Minor UI Things
+* Improved top menu buttons *Contributed by chairbender*
+* Improved Inventory / Hand Slots UI *Contributed by chairbender*
+* Improved job preference menu *Contributed by Rockdtben*
 
 ### Traitor Gamemode & Objectives
 *Contributed by PaulRitter*
@@ -82,7 +72,7 @@ Implemented objectives so far are:
 - Survive
 - Kill a random person
 
-The objectives are built upon a robust system, enabling the quick and easy addition of more objectives in the future. These can be thought of as a proof-of-concept.
+{{< imgw "/images/post/pr_25/objectives" >}}
 
 ### Traitor Deathmatch Gamemode
 *Contributed by 20kdc, with PDA redemption machine sprite by Tomeno*
@@ -96,19 +86,25 @@ The admin menu was mentioned in the last progress report but it's gotten some ne
 
 <video src="/video/pr_25/admin.mp4" autoplay muted loop playsinline></video>
 
+### Magboots
+
+You now have magboots. They help you avoid getting thrown around the place by airflow.
+
+<video src="/video/pr_25/magboots.mp4" autoplay muted loop playsinline></video>
+
 ### Gas tanks and Internals
 *Contributed by Creadth and Zumorica*
 
-<video src="/video/pr_25/tanks.mp4" autoplay muted loop playsinline></video>
+You can now avoid dying in vacuums. At least from the oxygen loss.
+
 {{< imgw "/images/post/pr_25/tanks" >}}
 
 ### Gas Canisters
-*Contributed by 20kdc, clement-or, and ike709*
+*Contributed by clement-or, help from 20kdc and ike709*
 
-Gas canisters have been added for all implemented gasses, plus the classic yellow toxins canister for all of your mixing needs!
+Gas canisters now exist, ripe for plasma flooding.
 
 <video src="/video/pr_25/canisters.mp4" autoplay muted loop playsinline></video>
-*Editor's note, these tank sprites have been replaced with tgstation's sprites.
 
 ### Mortician's Menagerie (All the crematorium stuff)
 *Contributed by RemieRichards
@@ -117,14 +113,7 @@ The Traitor's ~~murderbone victims~~ targets won't be left littering the halls, 
 
 <video src="/video/pr_25/mortician.mp4" autoplay muted loop playsinline></video>
 
-### Prettier window breaking
-*Contributed by brndd & Macoron*
-
-Windows make a sound when damaged and destroyed and drop glass shards, which can be refined back into sheets using a welder.
-
-<video src="/video/pr_25/windows.mp4" autoplay muted loop playsinline></video>
-
-### Power cells
+### Eris Power Cells
 *Contributed by brndd*
 
 Ports Eris-style power cells. They come in three distinct sizes, S, M and L, each size having more charge than the last and fitting into different kinds of devices.
@@ -183,6 +172,7 @@ Chemical reactions can now result in smoke or foam, just like in SS13.
 ### Instrument Improvements
 
 *Contributed by Zumorica*
+
 The instrument UI now has a slider that can be used to rewind or fast-forward the playback of the MIDI song you're playing. Also, other players' instruments should sound better now.
 
 {{< imgw "/images/post/pr_25/instrument" >}}
@@ -207,48 +197,31 @@ The instrument UI now has a slider that can be used to rewind or fast-forward th
 - Many crates have been filled. *Contributed by SweptWasTaken*
 - Many lockers have been filled. *Contributed by DmitriyRubetskoy*
 - Lockers now enforce access restrictions. *Contributed by brndd*
-- Magboots. *Contributed by PJB*
 - Context Menu improvements. *Contributed by daniel-cr*
+- Window breaking is now prettier and makes a sound. *Contributed by brndd & Macoron*
 
 ## Technical stuff
 
 ### Mapping Merge Driver
-*Contributed by 20kdc based on work by DrSmugleaf*
+*Contributed by 20kdc & DrSmugleaf*
 
-How a merge driver is supposed to work:
-
-There are two "finished" branches to merge, and the "common base".
-The goal of the merge driver is to apply the changes made by both branches from the common base, inferring what those changes are, exactly, from the data in the common base.
-
-For example, given these two hypothetical strings that you are supposed to merge:
-A:`ABCDEF`
-and
-C:`ABCXDG`
-you can't reliably merge these without ignoring any deletions that were intentionally made in one branch and not another.
-But if you know of the common base string, B:`ABCDE`, then you know that A adds F, while C removes D and adds X and G.
-Therefore, you know the correct answer is `ABCXEFG` or `ABCXEGF`.
-This is the basic principle behind why a merge driver must receive 3 sources - it uses the common base to determine what changes each branch made.
+We now have a merge driver to automatically resolve conflicts in map edits. This should make it easier to work on map files concurrently.
 
 ### XamlUI
 *Contributed by PaulRitter*
-- XamlIL
-Compiles Xaml-Resources into IL-Code and weaves it into the Assembly to allow us to now model our UI (almost) entirely in XAML. In short, it converts Xaml-UI-Definitions into Code-UI-Definitions.
-Using a framework like XamlX for this allows us to later add many more IL-Emitters to automatically do things like insert `Loc.GetString()`-Calls etc.
-- Code-Behind
-You are able to name controls which will then be turned into properties of your corresponding C#-Class. This way you can directly access the UI you defined in XAML in your Code.
 
-- Sandboxing *Contributed by PJB*
-- Perfomance improvements *Contributed by Zumorica*
-- SIMD atmos *Contributed by Zumorica*
-- .NET 5.0 *Contributed by Zumorica*
-- Map load speed *Contributed by PJB*
-- Damage rework *Contributed by DrSmugleaf*
+We have laid the basic ground work for allowing UIs to be defined in XAML. Compiling XAML files to IL and generating necessary code behind is now possible, thanks to XamlIL and other various bits of code from [Avalonia UI](https://avaloniaui.net/).
+
+### Sandboxing
+*Contributed by PJB*
+
+When you connect to a server, the launcher has to download code from that server to be able to execute the game. That code is now sandboxed so you can't just get malware by connecting to sketchy servers anymore.
+
+Sandboxing is currently implemented by verifying the IL of all loaded assemblies and checking all referenced members against a massive whitelist.
 
 ## Patrons
 
-Thanks to acvisy, ancientpower, Big_McLarge_Huge, Bobberunio, Cakey, Calicifer, chairbender, Clusterfack, Creadth, Cyberate, Dean, Diklyquill, Dongle, Enzoman12, Krystal Disc, Mario, Micadurp, MrCroa, ninj4, November = Christmas, Quonn, ThatGuyGW, Tomeno, Secret Flowers, Showgun, Third, vifs_vestige, Wolfiten, Xenon Dragon, Zandario and NetGlitch for keeping the lights on.
-
-https://imgur.com/66NENcl
+Thanks to Acvisy, Altana, Anthony Fleck, arthropods, Await Future, Bobberunio, Christopher Marmentini, clyf, creadth, Crocs Enthusiast ., Curtis Pearson, Daniel Thompson, Darren Brady, dean, DramaBuns, Durp, Eric VW, Evan Armstrong, Jan Doodt, Joshington Awesomahee, Kerb 755, KrystalDisc, Kyle Hipke, Mathieu Déom, merklaw, MonkeePawl, Mono, NetGlitch, Nico Thate, queednyeb, Robert Reed, Robin Rottstock, Star Lord, ThatGuyGW, Third, Tomeno, vifs, Wolfiten, Zandario
 
 ## Credits
 
