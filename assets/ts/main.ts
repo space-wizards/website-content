@@ -42,7 +42,10 @@ function setupVideoIntersectionObserver() {
 	let videos = document.querySelectorAll("video");
 	for (let i = 0; i < videos.length; i++) {
 		let video = videos[i];
-		video.pause();
+		if (video.paused && !video.autoplay) {
+			video.attributes["was-paused"] = true;
+		}
+
 		observer.observe(video);
 	}
 }
@@ -50,10 +53,16 @@ function setupVideoIntersectionObserver() {
 function intersectionCallback(entries: IntersectionObserverEntry[], observer: IntersectionObserver) {
 	for (const entry of entries) {
 		let element = <HTMLMediaElement>entry.target;
-		if (entry.isIntersecting)
-			element.play();
-		else
+		if (entry.isIntersecting) {
+			if (!element.attributes["was-paused"]) {
+				element.play();
+			}
+		} else {
+			if (element.paused && !element.autoplay) {
+				element.attributes["was-paused"] = true;
+			}
 			element.pause();
+		}
 	}
 }
 
