@@ -2,7 +2,8 @@
 {{ $styleAnimal := resources.Get "fonts/animal_silence/stylesheet.css" }}
 {{ $styleFira := resources.Get "fonts/fira_code/fira_code.css" }}
 {{ $style := slice $styleMain $styleAnimal $styleFira | resources.Concat "css/all.css" | resources.Minify }}
-{{ $js := resources.Get "js/main.js" | resources.Minify }}
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+{{ $js := resources.Get "js/main.js" }}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" />
 <script async src="{{ $js.RelPermalink }}"></script>

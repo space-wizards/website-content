@@ -4,22 +4,64 @@ function pick(array) {
 }
 function onLoaded() {
     setupVideoIntersectionObserver();
+    setupGallery();
 }
-if (document.readyState !== "loading") {
-    onLoaded();
+var SELECTED_GALLERY_IMG;
+var SELECTED_THUMB;
+var GALLERY_IMGS = {};
+var GALLERY_THUMBS = {};
+function setupGallery() {
+    var imgs = document.querySelectorAll(".gallery-img");
+    for (var i = 0; i < imgs.length; i++) {
+        var img = imgs[i];
+        var imgId = img.dataset.galleryId;
+        console.log("img: " + i + ": " + imgId);
+        GALLERY_IMGS[imgId] = img;
+        if (img.classList.contains("active")) {
+            SELECTED_GALLERY_IMG = img;
+        }
+    }
+    var thumbs = document.querySelectorAll(".gallery-thumb");
+    var _loop_1 = function () {
+        var thumb = thumbs[i];
+        var imgId = thumb.dataset.galleryId;
+        console.log("thumb " + i + ": " + imgId);
+        GALLERY_THUMBS[imgId] = thumb;
+        if (GALLERY_IMGS[imgId] == SELECTED_GALLERY_IMG) {
+            thumb.classList.add("active");
+            SELECTED_THUMB = thumb;
+        }
+        thumb.addEventListener("click", function (event) {
+            switchToImage(imgId);
+        });
+    };
+    for (var i = 0; i < thumbs.length; i++) {
+        _loop_1();
+    }
 }
-else {
-    document.addEventListener("DOMContentLoaded", onLoaded);
+function switchToImage(imgId) {
+    var selected = SELECTED_GALLERY_IMG;
+    var selectedThumb = SELECTED_THUMB;
+    var newSelected = GALLERY_IMGS[imgId];
+    var newSelectedThumb = GALLERY_THUMBS[imgId];
+    selected.classList.remove("active");
+    newSelected.classList.add("active");
+    selectedThumb.classList.remove("active");
+    newSelectedThumb.classList.add("active");
+    SELECTED_GALLERY_IMG = newSelected;
+    SELECTED_THUMB = newSelectedThumb;
 }
 function setupVideoIntersectionObserver() {
     if (!('IntersectionObserver' in window)) {
         return;
     }
-    var observer = new IntersectionObserver(intersectionCallback, {});
-    document.querySelectorAll("video").forEach(function (v) {
-        v.pause();
-        observer.observe(v);
-    });
+    var observer = new IntersectionObserver(intersectionCallback);
+    var videos = document.querySelectorAll("video");
+    for (var i = 0; i < videos.length; i++) {
+        var video = videos[i];
+        video.pause();
+        observer.observe(video);
+    }
 }
 function intersectionCallback(entries, observer) {
     for (var _i = 0, entries_1 = entries; _i < entries_1.length; _i++) {

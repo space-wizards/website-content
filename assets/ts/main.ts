@@ -22,12 +22,61 @@ function onLoaded() {
 		]) + "<br />"; */
 
 	setupVideoIntersectionObserver();
+	setupGallery();
 }
 
-if (document.readyState !== "loading") {
-	onLoaded();
-} else {
-	document.addEventListener("DOMContentLoaded", onLoaded);
+let SELECTED_GALLERY_IMG: HTMLImageElement;
+let SELECTED_THUMB: HTMLImageElement;
+let GALLERY_IMGS: { [id: string] : HTMLImageElement } = {};
+let GALLERY_THUMBS: { [id: string] : HTMLImageElement } = {};
+
+function setupGallery() {
+	let imgs = document.querySelectorAll(".gallery-img");
+	for (var i = 0; i < imgs.length; i++) {
+		let img = <HTMLImageElement> imgs[i];
+		let imgId = img.dataset.galleryId;
+		console.log(`img: ${i}: ${imgId}`);
+		GALLERY_IMGS[imgId] = img;
+
+		if (img.classList.contains("active"))
+		{
+			SELECTED_GALLERY_IMG = img;
+		}
+	}
+
+	let thumbs = document.querySelectorAll(".gallery-thumb");
+	for (var i = 0; i < thumbs.length; i++) {
+		let thumb = <HTMLImageElement> thumbs[i];
+		let imgId = thumb.dataset.galleryId;
+		console.log(`thumb ${i}: ${imgId}`);
+		GALLERY_THUMBS[imgId] = thumb;
+
+		if (GALLERY_IMGS[imgId] == SELECTED_GALLERY_IMG)
+		{
+			thumb.classList.add("active");
+			SELECTED_THUMB = thumb;
+		}
+
+		thumb.addEventListener("click", event => {
+			switchToImage(imgId);
+		});
+	}
+}
+
+function switchToImage(imgId: string) {
+	let selected = SELECTED_GALLERY_IMG;
+	let selectedThumb = SELECTED_THUMB;
+	let newSelected = GALLERY_IMGS[imgId];
+	let newSelectedThumb = GALLERY_THUMBS[imgId];
+
+	selected.classList.remove("active");
+	newSelected.classList.add("active");
+
+	selectedThumb.classList.remove("active");
+	newSelectedThumb.classList.add("active");
+
+	SELECTED_GALLERY_IMG = newSelected;
+	SELECTED_THUMB = newSelectedThumb;
 }
 
 function setupVideoIntersectionObserver() {
@@ -56,6 +105,7 @@ function intersectionCallback(entries: IntersectionObserverEntry[], observer: In
 			element.pause();
 	}
 }
+
 
 if (document.readyState !== "loading") {
 	onLoaded();
