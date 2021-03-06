@@ -11,7 +11,7 @@ type = "nightlies"
 </div>
 <div id="download-sublinks">
 	<small><a href="/about/nightlies/#system-requirements">System requirements</a></small>
-	<small><a href="/about/nightlies/#standalone-downloads">Standalone downloads</a></small>
+	<small><a href="/about/nightlies/#server-hosting">Server hosting</a></small>
 </div>
 
 ## System Requirements
@@ -42,24 +42,22 @@ type = "nightlies"
 ### macOS:
 
 * High Sierra or greater
+* M1 Macs probably do not work
 
-## Standalone Downloads
+## Server Hosting
 
-You can also download the current client or server binaries directly. It won't auto update via the launcher, but hey.
-
-You can find the builds [right here on Jenkins](https://builds.spacestation14.io/jenkins/job/SS14%20Content/).
-
-These builds **require** a [.NET Core 3 runtime](https://dotnet.microsoft.com/download) to be installed on your machine. The launcher does not need this (it's already included).
+If you would like to host your own server, see the [server hosting tutorial](https://hackmd.io/@ss14/for-hosting) page on HackMD.
 
 ## FAQ
 
-####  What about supporting other CPU architectures (x86/i686, ARM, ...)?
-
-Right now we only support x64.
-
-* x86/i686: Not happening. While we totally *could* do this, there is no reason to still drag x86 behind us. If you can't run an x64 program in 2018, you ought to get off Windows XP. CPUs that aren't x64 are too slow to run SS14 anyways. (actually this might not be true but it's still not worth supporting) It complicates the build tools for no reason.
-* ARM/ARM64: Could/probably will happen if somebody codes it, but it's not a priority. Mono does support it.
-
-####  Is this malware?
+#### Is this malware?
 
 No. If you're paranoid you can download the code yourself and build from source though.
+
+#### What about 32-bit support?
+
+32-bit (x86) is not supported and never will be, period.
+
+#### What about ARM?
+
+ARM is currently supported for Linux servers but nowhere else.

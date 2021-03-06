@@ -1,3 +1,8 @@
+*
+{
+	box-sizing: border-box;
+}
+
 body
 {
 	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
@@ -272,7 +277,7 @@ a:link
 
 ul.pagination
 {
-	display: inline-block;
+	display: flex;
 	margin: 0;
 	padding: 0;
 }
@@ -280,8 +285,8 @@ ul.pagination
 /* pages list horizontally */
 ul.pagination > li
 {
-	display: inline-block;
-
+	display: block;
+	margin: 0 4px;
 }
 
 div#recentpostswrapper > h1

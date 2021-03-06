@@ -28,7 +28,7 @@ A: It already does! If you're looking to start your own SS14 codebase fork the [
 
 ### Q: Is There a Patreon? Can I donate?
 
-A: [Yes.](https://github.com/space-wizards/space-station-14) We started a Patreon in order to pay for productivity software, server hosting, work commissions, and more! In addition to providing rewards, we will also regularly post a financial statement that shows how our income is being used in the game's development. We want to give our patrons full trust and confidence, and we believe that being 100% transparent about how the money is being used is best.
+A: [Yes.](https://www.patreon.com/spacestation14) We started a Patreon in order to pay for productivity software, server hosting, work commissions, and more! In addition to providing rewards, we will also regularly post a financial statement that shows how our income is being used in the game's development. We want to give our patrons full trust and confidence, and we believe that being 100% transparent about how the money is being used is best.
 
 ### Q: Where can I play SS14?
 
