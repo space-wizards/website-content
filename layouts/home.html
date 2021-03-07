@@ -68,13 +68,15 @@
 <hr class="nomargin mb-4">
 <div class="container">
 	<div class="row">
-	<div class="col-md-8">
+	<div class="col-md-9">
 		<h2>Updates</h2>
 		{{ range first 3 $paginator.Pages }}
 			{{ .Render "summary"}}
 		{{ end }}
+
+		<a href="/post">See all posts</a>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-3">
 		<h2>Links</h2>
 		<div class="d-flex flex-column align-items-md-start align-items-center" id="logos-container">
 			<a href="https://discord.gg/t2jac3p"><img src="/images/discord.svg" width="200" /></a>
