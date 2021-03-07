@@ -3,7 +3,7 @@
 {{ $styleFira := resources.Get "fonts/fira_code/fira_code.css" }}
 {{ $style := slice $styleMain $styleAnimal $styleFira | resources.Concat "css/all.css" | resources.Minify }}
 {{ $js := resources.Get "js/main.js" }}
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" />
 <script async src="{{ $js.RelPermalink }}"></script>

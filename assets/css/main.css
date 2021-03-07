@@ -1,8 +1,3 @@
-*
-{
-	box-sizing: border-box;
-}
-
 body
 {
 	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
@@ -44,11 +39,7 @@ body {
 	flex-direction: column;
 }
 
-.bottom-links {
-	margin-top: auto;
-	background-image: url("/images/stripeback.svg");
-	border-top: 2px solid #525252 !important;
-}
+
 /*
 .bottom-links > ul {
 	margin-top: auto;
@@ -189,12 +180,6 @@ h3 {
 	#header
 	{
 		flex-wrap: wrap;
-	}
-
-	.navlinks
-	{
-		justify-content: space-around;
-		align-content: center;
 	}
 
 	.navlink
@@ -347,16 +332,29 @@ img, video {
 }
 
 .bottom-links {
+	margin-top: auto;
+	background-image: url("/images/stripeback.svg");
+	border-top: 2px solid #525252 !important;
+}
+
+.bottom-links li {
+	margin: 0;
+}
+
+.bottom-links {
 	color: rgb(156, 156, 156);
 	float: right;
 }
+
 .bottom-links a {
 	color: rgb(156, 156, 156);
 }
+
 .bottom-links ul > li {
 	display: inline-block;
-	margin-left: 25px;
+	margin: 0 8px;
 }
+
 .bottom-links .github, .bottom-links .steam, .bottom-links .email {
 	margin-bottom: 6px;
 }
@@ -576,13 +574,6 @@ code {
 	font-weight: 500;
 }
 
-
-#logos-container {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-}
-
 #logos-container > * {
 	margin: 15px 0px;
 }
@@ -598,6 +589,7 @@ code {
 #gallery-thumbs {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .gallery-thumb {
@@ -614,18 +606,17 @@ code {
 .gallery-img {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	transition: opacity 0.25s linear;
 	opacity: 0;
 	margin: auto auto;
-	top: 0;
-	left: 0;
 	display: flex;
 	justify-content: center;
 }
 
 .gallery-img.active {
 	opacity: 1;
+	position: initial;
 }
 
 .gallery-img > img {
@@ -639,8 +630,8 @@ code {
 }
 
 #gallery-img-wrap {
+	display: inline-block;
 	width: 100%;
-	min-height: 300px;
 	min-width: 200px;
 	position: relative;
 	margin-bottom: 10px;
