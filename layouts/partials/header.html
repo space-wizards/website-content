@@ -16,26 +16,48 @@
 		{{ partial "head_includes.html" }}
 	</head>
 	<body lang="en">
-		<div id="centercolumn">
-			<nav id="header">
-				<div class="container-lg">
-					<div class="d-flex">
-					<header class="col-mb-1">
-						<a href="/" id="name">
-							<img id="logo" src="/images/icon-new.svg" height="50" />
-						</a>
-					</header>
-					<div class="d-flex flex-wrap justify-content-around justify-content-md-start navlinks col-mb-11">
-						<a class="navlink" href="/about/">About</a>
-						<a class="navlink" href="/about/nightlies/">Play!</a>
-						<a class="navlink" href="/about/contact/">Contact</a>
-						<a class="navlink" href="/about/media/">Media</a>
-						<a class="navlink" href="/about/faq/">FAQ</a>
-					</div>
-					</div>
-				</div>
+		<div id="header">
+			<div class="container-lg">
+				<nav class="navbar navbar-expand-lg navbar-dark p-0">
+					<a href="/" id="name" class="navbar-brand">
+						<img id="logo" src="/images/icon-new.svg" height="50" />
+					</a>
 
-			</nav>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					{{ $nla := .Params.navlinkactive }}
+
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "home" }} active {{ end }}" href="/">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "posts" }} active {{ end }}" href="/post/">Posts</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "play" }} active {{ end }}" href="/about/nightlies/">Play</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "about" }} active {{ end }}" href="/about/">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "media" }} active {{ end }}" href="/about/media/">Media</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "contact" }} active {{ end }}" href="/about/contact/">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link navlink {{if eq $nla "faq" }} active {{ end }}" href="/about/faq/">FAQ</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+			</div>
+		</div>
 <!-- 			<nav id="upper-links-container" class="centercontent">
 			    <div><a href="https://www.patreon.com/spacestation14"><span class="upper-link-text">Patreon</span></a></div>
 			    <div><a href="https://discord.gg/t2jac3p"><span class="upper-link-text">Discord</span></a></div>

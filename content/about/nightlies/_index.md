@@ -1,7 +1,7 @@
 +++
 title = "Downloads"
 date = "2018-04-13"
-type = "nightlies"
+navlinkactive = "play"
 +++
 
 <div class="download-image-container">

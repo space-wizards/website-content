@@ -1,29 +1,24 @@
 {{ partial "header.html" . }}
 
-<nav class="go-back-link centercontent">
-	<a href="/">← Go Back</a>
-</nav>
 
 <article>
-	<div class="centercontent">
+	<div class="container mt-3">
 		<h1 class="articleheader first-header">{{ .Title }}</h2>
 		<span class="articlemeta">
 			<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
 				{{ .Date.Format "Monday January 2, 2006" }}
 			</time>
-			by
-			<span class="author">{{ .Params.author }}</span>
 		</span>
 	</div>
 
-	<div class="centercontent">
+	<div class="container">
 	{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }} <!--- The links from the Toc redirect by default to the siteURL, this is my workaround to that --->
 	{{  .Content }}
 	</div>
 
 	{{ if .Params.reddit }}
 	<hr />
-	<footer>
+	<footer class="container">
 		 <a href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
 	</footer>
 	{{ end }}

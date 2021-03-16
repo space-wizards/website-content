@@ -18,3 +18,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/icon.png" type="image/png">
+
+{{ if .Params.metadesc }}
+	<meta name="description" content="{{ .Params.metadesc }}" />
+	<meta property="og:description" content="{{ .Params.metadesc }}"/>
+	<meta name="twitter:description" content="{{ .Params.metadesc }}"/>
+{{ end }}

@@ -2,6 +2,7 @@
 title = "Frequently Asked Questions"
 date = "2020-06-09"
 type = "faq"
+navlinkactive = "faq"
 +++
 
 # Frequently Asked Questions

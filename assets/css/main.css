@@ -3,10 +3,12 @@ body
 	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
 	/* Oh well */
 	background: #25252A;
+	background: url("/images/background.jpg") black;
+	background-size: cover;
+   	background-attachment: fixed;
 
 	color: rgb(200, 200, 200);
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
 	height: 100%;
 	margin: 0;
 	font-variant-ligatures: normal;
@@ -24,14 +26,6 @@ html
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
-}
-#centercolumn
-{
-
-	margin-top: 0;
-	text-align: left;
-	bottom: 0;
-	position: initial;
 }
 
 body {
@@ -63,8 +57,8 @@ body {
 	display: none;
 	min-height: 101px;
 }
-/*
-@media screen and (max-width: 1019px)
+
+@media screen and (max-width: 1020px)
 {
 	#background-2
 	{
@@ -73,21 +67,20 @@ body {
 
 	#background
 	{
-		z-index: -10; */
+		z-index: -10;
 		/*
 		On this smaller layout the background is entirely covered by the center column,
 		so we use a smaller, heavily compressed image.
 		Can't make out the loss in detail anyways.
 		*/
-		/* background: url("/images/background-small.jpg") black; */
-/* 		background-size: cover;
+		background: url("/images/background-small.jpg") black;
+ 		background-size: cover;
 		background-attachment: fixed;
 	}
 }
 
 
 
-*/
 @media screen and (min-width: 1020px)
 {
 	.centercontent
@@ -100,15 +93,13 @@ body {
 		*/
 	}
 
-	/*
-	#background
+/* 	#background
 	{
-		z-index: -10; */
-		/* background: url("/images/background.jpg") black; */
-/* 		background-size: cover;
+		z-index: -10;
+		background: url("/images/background.jpg") black;
+ 		background-size: cover;
 		background-attachment: fixed;
-	}
-	 */
+	} */
 }
 
 #header
@@ -117,13 +108,18 @@ body {
 	display: flex;
 	background-color: #212126;
 	border-bottom: 2px solid #525252;
-	padding: 4px 0px;
+}
+
+.navbar
+{
+	width: 100%;
 }
 
 .navlinks
 {
 	margin-left: auto;
 	align-self: center;
+	font-weight: 600;
 }
 
 .summary
@@ -144,11 +140,12 @@ h3 {
 
 .navlink
 {
-	font-size: 30pt;
+	font-size: 20pt;
 	color: rgb(200, 200, 200);
 	text-decoration: none;
 	margin-left: 20px;
-	font-family: "Comic Sans MS";
+	text-align: center;
+	/* font-family: "Comic Sans MS"; */
 }
 
 
@@ -163,30 +160,13 @@ h3 {
 	{
 		display: none;
 	}
-
-	.navlink
-	{
-		font-size: 25pt;
-	}
 }
 
 @media screen and (max-width: 330px)
 {
-	.navlink
-	{
-		font-size: 20pt;
-	}
-
 	#header
 	{
 		flex-wrap: wrap;
-	}
-
-	.navlink
-	{
-		margin-left: 0px;
-		flex: 1 1 auto;
-		text-align: center;
 	}
 }
 
@@ -335,6 +315,7 @@ img, video {
 	margin-top: auto;
 	background-image: url("/images/stripeback.svg");
 	border-top: 2px solid #525252 !important;
+	line-height: 200%;
 }
 
 .bottom-links li {
@@ -534,6 +515,10 @@ code {
 }
 
 #center-logo-container::before {
+
+}
+
+#center-logo-background {
 	content: "";
 	background: url("/images/2020-9-18_18.27.25.png");
 	filter: blur(1px);
@@ -541,6 +526,7 @@ code {
 	height: 100%;
 	position: absolute;
 	z-index: -1;
+	overflow: hidden;
 }
 
 #center-logo-logo {
@@ -597,6 +583,7 @@ code {
 	margin: 2px;
 	cursor: pointer;
 	max-width: 100px;
+	position: relative;
 }
 
 .gallery-thumb.active {
@@ -605,7 +592,9 @@ code {
 }
 
 .gallery-img {
-	position: absolute;
+	/* position: absolute; */
+	grid-column: a;
+	grid-row: a;
 	width: 100%;
 	height: auto;
 	transition: opacity 0.25s linear;
@@ -617,7 +606,7 @@ code {
 
 .gallery-img.active {
 	opacity: 1;
-	position: initial;
+	/* position: initial; */
 }
 
 .gallery-img > img {
@@ -631,11 +620,13 @@ code {
 }
 
 #gallery-img-wrap {
-	display: inline-block;
+	display: grid;
 	width: 100%;
 	min-width: 200px;
 	position: relative;
 	margin-bottom: 10px;
+	grid-template-columns: [a] 1fr;
+	grid-template-rows: [a] 1fr;
 }
 
 /* Thanks to z20kdc for figuring this out. */

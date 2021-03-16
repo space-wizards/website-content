@@ -2,6 +2,7 @@
 title = "Space Station 14 Videos and Images"
 date = "2020-05-17"
 type = "contact"
+navlinkactive = "contact"
 +++
 
 Both the IRC , matrix and OOC chat (in-game) have a relay to the discord, so if you prefer either of those platforms, use them whitout fear of being ignored. (The matrix relay has a huge delay, so take that into account)
