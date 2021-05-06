@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #26: Tons of Progress"
 author = "Many people on Discord"
-date = 2021-05-07
+date = 2021-05-05
 categories = [
     "Progress Report"
 ]
@@ -110,7 +110,7 @@ Ghost roles have been added, allowing unrobust players to return as a mouse or a
 ### Station Ambience
 *Contributed by tmtmtl30*
 
-<video src="/video/pr_26/ambience.mp4" playsinline></video>
+<video src="/video/pr_26/ambience.mp4" autoplay loop playsinline></video>
 
 SS13's background hum has been added to SS14. It can be disabled in the settings.
 
@@ -118,7 +118,7 @@ SS13's background hum has been added to SS14. It can be disabled in the settings
 *Contributed by Swept and ike709*
 
 Our new mixtape just dropped, with the hottest license-compliant beats available. Here's a list:
-- [-Sector11](https://www.newgrounds.com/audio/listen/312622) (thunderdome.ogg) by MashedByMachines
+- [Sector11](https://www.newgrounds.com/audio/listen/312622) (thunderdome.ogg) by MashedByMachines
 - [Endless Space](https://www.newgrounds.com/audio/listen/67583) by SolusLunes
 - [Space Asshole](https://www.youtube.com/watch?v=9FCF2Y4lIWk) by [Chris Remo](https://chrisremo.bandcamp.com/)
 - [Absconditus](https://bandcamp.zhaytee.net/track/absconditus) by ZhayTee
