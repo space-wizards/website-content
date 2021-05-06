@@ -137,7 +137,7 @@ Our new mixtape just dropped, with the hottest license-compliant beats available
 - Added a bar backroom *Contributed by BulletGrade*
 
 ### Rollerbeds
-*Contributed by *
+*Contributed by clement-or*
 
 <video src="/video/pr_26/rollerbeds.mp4" autoplay loop playsinline></video>
 
