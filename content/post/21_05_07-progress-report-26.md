@@ -23,6 +23,8 @@ Please read [the rules](https://forum.spacestation14.io/index.php?/topic/5-globa
 ### New Chatbox
 *Contributed by chairbender and ike709*
 
+<video src="/video/pr_26/chat.mp4" autoplay muted loop playsinline></video>
+
 A myriad of improvements have been made to the chatbox:
 - It's resizable now!
 - Rather than using message prefixes for channels, you now cycle channels with Tab or the channel's hotkey.
@@ -32,6 +34,8 @@ A myriad of improvements have been made to the chatbox:
 *Contributed by 20kdc, Zumorica, and PJB3005*
 
 <video src="/video/pr_26/viewport.mp4" autoplay muted loop playsinline></video>
+
+
 
 ### HUD Inventory
 *Contributed by ike709*
@@ -105,6 +109,8 @@ NOTE: As of this progress report, lots of recipes for this food are still unimpl
 ### Ghost Roles
 *Contributed by Zumorica*
 
+{{< imgw "/images/post/pr_26/ghost" >}}
+
 Ghost roles have been added, allowing unrobust players to return as a mouse or a CentCom Official. For moderation purposes ghost roles are currently created solely by admins.
 
 ### Station Ambience
@@ -130,6 +136,13 @@ Our new mixtape just dropped, with the hottest license-compliant beats available
 - Hardened the station exterior with reinforced walls *Contributed by Swept*
 - Added a bar backroom *Contributed by BulletGrade*
 
+### Rollerbeds
+*Contributed by *
+
+<video src="/video/pr_26/rollerbeds.mp4" autoplay loop playsinline></video>
+
+You can now grow weed and cannabis and roll it into joints/cigarettes! There's also a lot more cigarette types in vending machines.
+
 ### Airlock Construction
 *Contributed by ShadowCommander*
 
@@ -149,6 +162,8 @@ The context menu has been improved, making large stacks of items easier to manag
 
 ### Votes
 *Contributed by PJB3005*
+
+<video src="/video/pr_26/vote.mp4" autoplay loop playsinline></video>
 
 Players can now vote to restart the round (i ded) or change the next round's gamemode.
 
@@ -174,6 +189,8 @@ A simple command which displays health-bars over players heads. Useful for testi
 - Admin menu now can set temperature and add gases *Contributed by metalgearsloth*
 - Extended gamemode *Contributed by Zumorica in less than 2:30 minutes*
 - You can customize your eyes color now *Contributed by Rember*
+- There is now a toilet on the station. *Contributed by Macoron*
+- Clown cannon. *Contributed by Zumorica*
 - Unified the server/client consoles *Contributed by Acruid*
 - You now spill whatever is in your hand when falling. *Contributed by Clyybber* <!-- We need a video of someone falling with a potassium and water beakers in hand -->
 - Latejoins are now announced via radio *Contributed by ike709*
