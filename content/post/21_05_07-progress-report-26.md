@@ -35,7 +35,7 @@ A myriad of improvements have been made to the chatbox:
 
 <video src="/video/pr_26/viewport.mp4" autoplay muted loop playsinline></video>
 
-
+These improvements to the viewport will eliminate the advantage people with bigger monitors got. Essentially it scales the view of the game so that everybody can see exactly the same amount of tiles.
 
 ### HUD Inventory
 *Contributed by ike709*
@@ -137,7 +137,7 @@ Our new mixtape just dropped, with the hottest license-compliant beats available
 - Added a bar backroom *Contributed by BulletGrade*
 
 ### Rollerbeds
-*Contributed by clement-or*
+*Contributed by Topy*
 
 <video src="/video/pr_26/rollerbeds.mp4" autoplay loop playsinline></video>
 
@@ -202,8 +202,18 @@ A simple command which displays health-bars over players heads. Useful for testi
 ### Fluent Localization
 *Contributed by RemieRichards*
 
-### Lighting Optimizations
-*Contributed by PJB3005*
+We replaced our localization system's backing library, NGettext (a .NET gnu `gettext` port), with a .NET implementation of [Project Fluent.](https://projectfluent.org/)
+
+Project Fluent is Mozilla's modern localization system, which allows for among other things, asymmetrical localization; Asymmetrical localization is important if we want to fully support languages with grammar that differs greatly from english.
+
+Something like `gettext` simply swaps out a source message with a translated message, this isn't very scalable outside of simplistic examples ("Hello" -> "こんにちは"). This can unfortunately lead to source grammar and source concepts leaking into target languages, which at best leads to unnatural translations and at worst complete gibberish.
+
+One major consequence of this change is that **all** localized text is now stored outside of C# code, *including the source language, english*.
+This shouldn't be a major obstacle as generally localization is a write-once affair and for ease of contribution localization can be temporarily skipped,  simply passing through source text verbatim, while also displaying a warning in the game's log so we know to come back to it later.
+
+We've also got plans to build some roslyn analyzers to make working with localization even easier, with things to look forward to like automatic scanning for missing translations in a particular language (imagine english implements the message `hello-world` as "Hello World!", but the french translation files have no entry for `hello-world`)
+
+Check out our [localization guide](https://hackmd.io/@ss14/localization) and have a play on project fluent's interactive [playground!](https://projectfluent.org/play/)
 
 ### Physics rework
 *Contributed by metalgearsloth*
@@ -226,14 +236,16 @@ This also allows us to remove a lot of cruft with controllers as previously velo
 *Contributed by PaulRitter and DrSmugleaf*
 <!-- Documentation: https://hackmd.io/@ss14/serialization -->
 
-### Viewport Improvements
-*Contributed by PJB3005, 20kdc and Zumorica*
-
-### Analyzer [REMOVE?] <!-- which analyzer is this referring to? -->
-*Contributed by PaulRitter*
+Our serialization system has been revamped to make it easier for developers to create new components and prototypes and add content to the game.
+Previously, each property needed at least one line of code (or at worst more than a dozen) to be written for them to be read from and written to YAML files.
+Now, the same can be done by writing `[DataField("propertyId")]` above each of them. Everything else is handled in the background automatically, and more performantly than before.
+This also enables us to lint our YAML files for errors, typos and invalid data, avoiding unnecessary bugs that were cumbersome to spot manually.
+It also makes a YAML/prototype editor possible if needed in the future, as you can easily access and validate each property used by a component, prototype, or any other kind of data definition.
 
 ### Pseudo Airlock Prediction
 *Contributed by tmtmtl30*
+
+Essentially with prediction and airlocks you used to just teleport to the other side of an airlock when going through it. Now you just go through effortlessly and it looks great!
 
 ### YAML Hot Reloading
 *Contributed by DrSmugleaf and InquisitivePenguin*
@@ -241,11 +253,14 @@ This also allows us to remove a lot of cruft with controllers as previously velo
 
 https://youtu.be/5QrNRLp5miM
 
+Entities (stuff like walls, objects, players etc.) are composed of a set of components (stuff that defines if it's a food, tool, etc.). Our entities/prototypes are defined in YAML while the components are coded in C#. With YAML hot-reloading, we can modify things in the files for anything that's defined in YAML (Pretty much everything) and have it auto-update in game. Kinda like Garry's Mod.
+
+This is super cool and will cut down on development time even more, since before you'd have to rebuild and restart the server if you messed up one line of YAML.
+
+In SS13 coding terms, this is like reloading an item dm file while the server is running and seeing the effects immediately.
+
 ### RobustToolbox Singleplayer Support
 *Contributed by Zumorica*
-
-### Network View Bubble
-*Contributed by Acruid*
 
 ## Patrons
 
