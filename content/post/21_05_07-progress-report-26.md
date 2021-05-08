@@ -182,20 +182,21 @@ You can now kick, ban and teleport to players from the admin panel.
 A simple command which displays health-bars over players heads. Useful for testing and admins.
 
 ## Tiny things
-- Holiday system added. The game can now run special events on certain dates and give messages like "Merry Christmas" *Contributed by Zumorica*
-- Gas leak event *Contributed by metalgearsloth*
-- Inflatable walls *Contributed by ShadowCommander*
-- Stacked sprites now can be visualized *Contributed by Ygg01*
-- Admin menu now can set temperature and add gases *Contributed by metalgearsloth*
-- Extended gamemode *Contributed by Zumorica in less than 2:30 minutes*
-- You can customize your eyes color now *Contributed by Rember*
+- Holiday system added. The game can now run special events on certain dates and give messages like "Merry Christmas". *Contributed by Zumorica*
+- Gas leak event. *Contributed by metalgearsloth*
+- Inflatable walls. *Contributed by ShadowCommander*
+- Stacked sprites now can be visualized. *Contributed by Ygg01*
+- Admin menu now can set temperature and add gases. *Contributed by metalgearsloth*
+- Airlock construction .*Contributed by ShadowCommander*
+- Extended gamemode. *Contributed by Zumorica in less than 2:30 minutes*
+- You can customize your eyes color now. *Contributed by Rember*
 - There is now a toilet on the station. *Contributed by Macoron*
 - Clown cannon. *Contributed by Zumorica*
-- Unified the server/client consoles *Contributed by Acruid*
+- Unified the server/client consoles. *Contributed by Acruid*
 - You now spill whatever is in your hand when falling. *Contributed by Clyybber* <!-- We need a video of someone falling with a potassium and water beakers in hand -->
-- Latejoins are now announced via radio *Contributed by ike709*
-- Verb icons *Contributed by Swept*
-- Ghosts can now spook players by flickering lights *Contributed by Macoron*
+- Latejoins are now announced via radio. *Contributed by ike709*
+- Verb icons. *Contributed by Swept*
+- Ghosts can now spook players by flickering lights. *Contributed by Macoron*
 
 ## Technical details
 
