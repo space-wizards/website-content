@@ -1,5 +1,5 @@
 +++
-title = "Progress Report #26: Tons of Progress"
+title = "Progress Report #26: Lītigium In Forīs"
 author = "Many people on Discord"
 date = 2021-05-05
 categories = [
@@ -12,6 +12,8 @@ reddit = ""
 
 ## Official Forums
 
+{{< imgw "/images/post/pr_26/forum" >}}
+
 Space Station 14 now has an [official forum](https://forum.spacestation14.io/)! You can login to it with your SS14 account.
 
 The forum will mainly be used for ban appeals and other administrative stuff so it's pretty barebones for now. If it gets enough activity we'll add more general forums and stuff.
@@ -19,6 +21,20 @@ The forum will mainly be used for ban appeals and other administrative stuff so 
 Please read [the rules](https://forum.spacestation14.io/index.php?/topic/5-global-forum-rules/) before posting.
 
 ## Progress!
+
+### Physics Rework <!-- It should have a non-technical section too for the commoners -->
+*Contributed by metalgearsloth and Acruid.*
+
+A huge thanks to metalgearsloth for slaving over a complete physics rework for SS14. If you want to see the technicalities of it he's done a detailed write-up in the technical section but here's a few bullet-points to demonstrate the advantages of the rework.
+
+* Circle colliders for players (This means you won't need to be pixel-perfect when going through airlocks and doorways).
+<video src="/video/pr_26/circle.mp4" autoplay muted loop playsinline></video>
+* Items can rotate when thrown and bounce.
+<video src="/video/pr_26/throw.mp4" autoplay muted loop playsinline></video>
+* Pushing is less jittery.
+<video src="/video/pr_26/pushing.mp4" autoplay muted loop playsinline></video>
+
+Again, this physics update is huge and most of it won't be noticed by players so send metalgearsloth and Acruid hugs and kisses.
 
 ### New Chatbox
 *Contributed by chairbender and ike709*
@@ -37,10 +53,17 @@ A myriad of improvements have been made to the chatbox:
 
 These improvements to the viewport will eliminate the advantage people with bigger monitors got. Essentially it scales the view of the game so that everybody can see exactly the same amount of tiles.
 
-### HUD Inventory
-*Contributed by ike709*
+### HUD Inventory and Themes
+*Contributed by Swpept and ike709*
+
+<video src="/video/pr_26/hud.mp4" autoplay muted loop playsinline></video>
 
 The inventory popup window has been replaced with an on-HUD inventory inspired by Goonstation. The ID and storage slots are always visible, while the top row of the inventory is toggleable with `I`.
+
+With the addition of the HUD inventory (and much bikeshedding) comes the addition of HUD themes, which currently only changes the inventory icons. Current themes include:
+- Default: A color-shifted version of Goon's HUD icons
+- Classic: SS13's classic Midnight HUD, for those who fear change
+- Modern: A modernized take that more closely matches the rest of SS14
 
 ### Firey Stuff
 
@@ -53,28 +76,12 @@ You can now spray yourself with flammable chemicals and ignite yourself using a 
 
 {{< imgw "/images/post/pr_26/hotbar" >}}
 
-### HUD Themes
-*Contributed by Swept and ike709*
-
-With the addition of the HUD inventory (and much bikeshedding) comes the addition of HUD themes, which currently only changes the inventory icons. Current themes include:
-- Default: A color-shifted version of Goon's HUD icons
-- Classic: SS13's classic Midnight HUD, for those who fear change
-- Modern: A modernized take that more closely matches the rest of SS14
-
 ### In-game Changelog
 *Contributed by PJB3005*
 
 <video src="/video/pr_26/changelog.mp4" autoplay muted loop playsinline></video>
 
 Added an in-game changelog, so you can view new features in realtime! The changelog button will notify you whenever there are unread changes.
-
-### Physics Rework <!-- It should have a non-technical section too for the commoners -->
-*Contributed by metalgearsloth*
-
-### Patreon Linking
-*Contributed by PJB3005*
-
-Many SS13 servers allow donators to receive a fancy chat color in OOC, and now SS14 does too!
 
 ### Info Window - Rules/Tutorial
 *Contributed by Swept*
@@ -84,11 +91,6 @@ Many SS13 servers allow donators to receive a fancy chat color in OOC, and now S
 All fun has been removed from the game and replaced with rules, which are viewable in the information window, accessed with F1.
 
 These rules only apply to the official servers; community servers are welcome to moderate themselves however they see fit. Bans from official servers do not apply to community servers, nor vice-versa.
-
-### Robust Banning System
-*Contributed by PJB3005*
-
-The ban system for SS14 is being reinforced with hardware bans.
 
 ### Slimepeople & Vox
 *Contributed by Zumorica and PJB3005*
@@ -139,12 +141,9 @@ Our new mixtape just dropped, with the hottest license-compliant beats available
 ### Rollerbeds
 *Contributed by Topy*
 
-<video src="/video/pr_26/rollerbeds.mp4" autoplay loop playsinline></video>
+<video src="/video/pr_26/rollerbeds.mp4" muted autoplay loop playsinline></video>
 
 You can now grow weed and cannabis and roll it into joints/cigarettes! There's also a lot more cigarette types in vending machines.
-
-### Airlock Construction
-*Contributed by ShadowCommander*
 
 ### More Smokeables
 *Contributed by Swept*
@@ -163,7 +162,7 @@ The context menu has been improved, making large stacks of items easier to manag
 ### Votes
 *Contributed by PJB3005*
 
-<video src="/video/pr_26/vote.mp4" autoplay loop playsinline></video>
+<video src="/video/pr_26/vote.mp4" muted autoplay loop playsinline></video>
 
 Players can now vote to restart the round (i ded) or change the next round's gamemode.
 
@@ -177,15 +176,24 @@ You can now kick, ban and teleport to players from the admin panel.
 ### Health Overlay
 *Contributed by DrSmugleaf*
 
-<video src="/video/pr_26/health.mp4" playsinline></video>
+<video src="/video/pr_26/health.mp4" autoplay loop playsinline></video>
 
 A simple command which displays health-bars over players heads. Useful for testing and admins.
+
+### Vending Machine Advertisements
+*Contributed by Visne*
+
+<video src="/video/pr_26/ad.mp4" muted autoplay loop playsinline></video>
+
+Commercial vending machines will now advertise their products every once in a while.
 
 ## Tiny things
 - Holiday system added. The game can now run special events on certain dates and give messages like "Merry Christmas". *Contributed by Zumorica*
 - Gas leak event. *Contributed by metalgearsloth*
+- Patreon linking. Many SS13 servers allow donators to receive a fancy chat color in OOC, and now SS14 does too! *Contributed by PJB3005*
 - Inflatable walls. *Contributed by ShadowCommander*
 - Stacked sprites now can be visualized. *Contributed by Ygg01*
+- Additions to banning system like hardware ID bans. *Contributed by PJB3005*
 - Admin menu now can set temperature and add gases. *Contributed by metalgearsloth*
 - Airlock construction .*Contributed by ShadowCommander*
 - Extended gamemode. *Contributed by Zumorica in less than 2:30 minutes*
@@ -220,18 +228,23 @@ Check out our [localization guide](https://hackmd.io/@ss14/localization) and hav
 *Contributed by metalgearsloth*
 
 Our previous physics iterations were notoriously unstable so we went to the effort of integrating Box2D into the engine (specifically basing it off of the Farseer dotnet port).
+
+We've also taken pieces from Box2D itself and forks of Farseer (Velcro and Aether2D). The reason for this is to take the best pieces of each for the engine to suit SS14's needs.
+
+In the future we'll also look at multi-threading critical parts for further performance increases.
+
 It is by no means finished yet but the features currently include:
 * Circle colliders for players
 * Items now have collision without tanking server performance
+* Items can rotate when thrown and bounce
 * Weightlessness rubberbanding is fixed
 * Pushing is less jittery
-* Running along walls is slightly less jittery
-* Throwing is more realistic
-* Preliminary work for performantly driving the station
+* Running along walls is slightly less jittery (more work to be continued)
+* Preliminary work for driving the station performantly
 
 We'll be doing work to make the physics system more performant so it will continue to get faster over time.
 
-This also allows us to remove a lot of cruft with controllers as previously velocity was being reset every frame so if you wanted a body to continually move you'd have to manually push it; now you can just apply an impulse once and the system will take care of it.
+This also allows us to remove a lot of cruft with controllers as previously velocity was being reset every frame so if you wanted a body to continually move you'd have to manually push it; now you can just apply an impulse once and the system will take care of it without requiring bookkeeping every time.
 
 ### Serialization v3
 *Contributed by PaulRitter and DrSmugleaf*
@@ -260,8 +273,16 @@ This is super cool and will cut down on development time even more, since before
 
 In SS13 coding terms, this is like reloading an item dm file while the server is running and seeing the effects immediately.
 
-### RobustToolbox Singleplayer Support
+### RobustToolbox improvements for other games
 *Contributed by Zumorica*
+
+{{< imgw "/images/post/pr_26/pong" >}}
+
+RobustToolbox, the game engine that SS14 uses, has been improved in a variety of areas to better support other games that may want to make use of it. For example, it now supports singleplayer games!
+
+To aid development of new games, [singleplayer](https://github.com/space-wizards/RobustToolboxTemplateSingleplayer) and [multiplayer](https://github.com/space-wizards/RobustToolboxTemplate) templates have been created. Making use of these, we've created [Robust Pong](https://github.com/space-wizards/RobustToolbox-Examples-Pong), an example online game for anyone looking to learn how to use the engine. You can even try it out yourself by connecting to it on the hub!
+
+We want to make RobustToolbox a game engine that allows you to **B**uild **Y**our **O**wn singleplayer or **N**etworked **D**ream games, and as such we will continue improving it in order to bring it to higher standards.
 
 ## Patrons
 
@@ -269,6 +290,8 @@ Thanks to Acvisy, Altana, Anthony Fleck, arthropods, Await Future, Bobberunio, C
 
 ## Credits
 
-The contributors since the last progress report were: 20kdc, Acruid, AJCM-git, BananaFlambe, bhespiritu, brndd, chairbender, Clyybber, ColdAutumnRain, collinlunn, DamianX, daniel-cr, DmitriyRubetskoy, DmitriyZodiak, DrSmugleaf, DTanxxx, exp111, Git-Nivrak, GraniteSidewalk, ike709, JohnGinnane, juliangiebel, kira-er, komunre, LetterN, lzimann, Macoron, ManelNavola, Markek1, metalgearsloth, mirrorcult, moonheart08, namespace-Memory, Nukeuler123, PaulRitter, PJB3005, Radrark, RedlineTriad, Rember, RemieRichards, Rich-Dunne, rneuser, Rockdtben, SaphireLattice, ShadowCommander, Swept, Tarlan2, tmtmtl30, Tomeno, Ygg01, ZeWaka, zionnBE, Zumorica
+The contributors since the last progress report were: 4dplanner, Dezandor, FirinMaLazors, Markek1, Pill-U, ZDDM, micheel665, CC-4477, Acruid, AJCM-git, BananaFlambe, bhespiritu, brndd, chairbender, Clyybber, ColdAutumnRain, collinlunn, DamianX, daniel-cr, DmitriyRubetskoy, DmitriyZodiak, DrSmugleaf, DTanxxx, exp111, Git-Nivrak, GraniteSidewalk, ike709, JohnGinnane, juliangiebel, kira-er, komunre, LetterN, lzimann, Macoron, ManelNavola, Markek1, metalgearsloth, mirrorcult, moonheart08, namespace-Memory, Nukeuler123, PaulRitter, PJB3005, Radrark, RedlineTriad, Rember, RemieRichards, Rich-Dunne, rneuser, Rockdtben, SaphireLattice, ShadowCommander, Swept, Tarlan2, tmtmtl30, Tomeno, Ygg01, ZeWaka, zionnBE, Zumorica
 
 Many thanks to everybody who contributed. We couldn’t do this without you!
+
+Geoff
