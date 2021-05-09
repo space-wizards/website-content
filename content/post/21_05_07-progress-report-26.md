@@ -145,7 +145,7 @@ Our new mixtape just dropped, with the hottest license-compliant beats available
 
 <video src="/video/pr_26/rollerbeds.mp4" muted autoplay loop playsinline></video>
 
-You can now grow weed and cannabis and roll it into joints/cigarettes! There's also a lot more cigarette types in vending machines.
+Rollerbeds have been added allowing better transport of injured station personnel.
 
 ### More Smokeables
 *Contributed by Swept*
@@ -288,12 +288,12 @@ We want to make RobustToolbox a game engine that allows you to **B**uild **Y**ou
 
 ## Patrons
 
-Thanks to Acvisy, Altana, Anthony Fleck, arthropods, Await Future, Bobberunio, Christopher Marmentini, clyf, creadth, Crocs Enthusiast ., Curtis Pearson, Daniel Thompson, Darren Brady, dean, DramaBuns, Durp, Eric VW, Evan Armstrong, Jan Doodt, Joshington Awesomahee, Kerb 755, KrystalDisc, Kyle Hipke, Mathieu Déom, merklaw, MonkeePawl, Mono, NetGlitch, Nico Thate, queednyeb, Robert Reed, Robin Rottstock, Star Lord, ThatGuyGW, Third, Tomeno, vifs, Wolfiten, Zandario
+Thanks to Hunter James, Valinov, Nemmay, Jordan, Dan Griskardian, S.C., '-Y-, Jubal the Wizard, clyf, Kerb 755, Robin Rottstock, Altana, Wolfiten, Durp, Joshington Awesomahee, Eric VW, Evan Armstrong, Jan Doodt, Christopher Marmentini, Curtis Pearson, Mono, Star Lord, creadth, DramaBuns, KrystalDisc, Darren Brady, Zandario, vifs, Bobberunio, CPM311, ThatGuyGW, dean, Await Future, Daniel Thompson, Acvisy, Tomeno
 
 ## Credits
 
-The contributors since the last progress report were: 4dplanner, Dezandor, FirinMaLazors, Markek1, Pill-U, ZDDM, micheel665, CC-4477, Acruid, AJCM-git, BananaFlambe, bhespiritu, brndd, chairbender, Clyybber, ColdAutumnRain, collinlunn, DamianX, daniel-cr, DmitriyRubetskoy, DmitriyZodiak, DrSmugleaf, DTanxxx, exp111, Git-Nivrak, GraniteSidewalk, ike709, JohnGinnane, juliangiebel, kira-er, komunre, LetterN, lzimann, Macoron, ManelNavola, Markek1, metalgearsloth, mirrorcult, moonheart08, namespace-Memory, Nukeuler123, PaulRitter, PJB3005, Radrark, RedlineTriad, Rember, RemieRichards, Rich-Dunne, rneuser, Rockdtben, SaphireLattice, ShadowCommander, Swept, Tarlan2, tmtmtl30, Tomeno, Ygg01, ZeWaka, zionnBE, Zumorica
+The contributors since the last progress report were: 20kdc, Acruid, AJCM-git, BingoJohnson, bryce0110, BulletGrade, chairbender, Clyybber, collinlunn, daniel-cr, drongood12, DrSmugleaf, Elijahrane, Fortune117, GraniteSidewalk, ike709, Injazz, komunre, lzimann, Macoron, ManelNavola, MehimoNemo, metalgearsloth, mirrorcult, NIXC, Nukeuler123, PaulRitter, Peptide90, PJB3005, PJBot, Rember, RemieRichards, ShadowCommander, Silvertorch5, SweptWasTaken, TaralGit, tmtmtl30, UnderscoreX5, Visne, WlarusFromDaSpace, Ygg01, Zumorica
 
 Many thanks to everybody who contributed. We couldn’t do this without you!
 
-Geoff
+And Geoff
