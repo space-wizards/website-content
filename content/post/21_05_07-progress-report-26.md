@@ -71,6 +71,7 @@ With the addition of the HUD inventory (and much bikeshedding) comes the additio
 - Modern: A modernized take that more closely matches the rest of SS14
 
 ### Firey Stuff
+*Contributed by Zumorica*
 
 <video src="/video/pr_26/fire.mp4" autoplay muted loop playsinline></video>
 
