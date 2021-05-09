@@ -36,6 +36,9 @@ A huge thanks to metalgearsloth for slaving over a complete physics rework for S
 #### Pushing is less jittery.
 <video src="/video/pr_26/pushing.mp4" autoplay muted loop playsinline></video>
 
+#### Explosion in zero-gravity.
+<video src="/video/pr_26/gravity.mp4" autoplay muted loop playsinline></video>
+
 Again, this physics update is huge and most of it won't be noticed by players so send metalgearsloth and Acruid hugs and kisses.
 
 ### New Chatbox
@@ -76,7 +79,7 @@ You can now spray yourself with flammable chemicals and ignite yourself using a 
 ### Materials
 *Contributed by Swept*
 
-{{< imgw "/images/post/pr_26/hotbar" >}}
+{{< imgw "/images/post/pr_26/materials" >}}
 
 ### In-game Changelog
 *Contributed by PJB3005*
@@ -278,7 +281,7 @@ In SS13 coding terms, this is like reloading an item dm file while the server is
 ### RobustToolbox improvements for other games
 *Contributed by Zumorica*
 
-{{< imgw "/images/post/pr_26/pong" >}}
+<video src="/video/pr_26/pong.mp4" autoplay playsinline></video>
 
 RobustToolbox, the game engine that SS14 uses, has been improved in a variety of areas to better support other games that may want to make use of it. For example, it now supports singleplayer games!
 
