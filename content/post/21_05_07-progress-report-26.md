@@ -20,18 +20,20 @@ The forum will mainly be used for ban appeals and other administrative stuff so 
 
 Please read [the rules](https://forum.spacestation14.io/index.php?/topic/5-global-forum-rules/) before posting.
 
-## Progress!
+## Content
 
 ### Physics Rework <!-- It should have a non-technical section too for the commoners -->
 *Contributed by metalgearsloth and Acruid.*
 
-A huge thanks to metalgearsloth for slaving over a complete physics rework for SS14. If you want to see the technicalities of it he's done a detailed write-up in the technical section but here's a few bullet-points to demonstrate the advantages of the rework.
+A huge thanks to metalgearsloth for slaving over a complete physics rework for SS14. If you want to see the technicalities of it he's done a detailed write-up in the technical section but here's a few examples to demonstrate the advantages of the rework.
 
-* Circle colliders for players (This means you won't need to be pixel-perfect when going through airlocks and doorways).
+#### Circle colliders for players (This means you won't need to be pixel-perfect when going through airlocks and doorways).
 <video src="/video/pr_26/circle.mp4" autoplay muted loop playsinline></video>
-* Items can rotate when thrown and bounce.
+
+#### Items can rotate when thrown and bounce.
 <video src="/video/pr_26/throw.mp4" autoplay muted loop playsinline></video>
-* Pushing is less jittery.
+
+#### Pushing is less jittery.
 <video src="/video/pr_26/pushing.mp4" autoplay muted loop playsinline></video>
 
 Again, this physics update is huge and most of it won't be noticed by players so send metalgearsloth and Acruid hugs and kisses.
@@ -54,7 +56,7 @@ A myriad of improvements have been made to the chatbox:
 These improvements to the viewport will eliminate the advantage people with bigger monitors got. Essentially it scales the view of the game so that everybody can see exactly the same amount of tiles.
 
 ### HUD Inventory and Themes
-*Contributed by Swpept and ike709*
+*Contributed by Swept and ike709*
 
 <video src="/video/pr_26/hud.mp4" autoplay muted loop playsinline></video>
 
