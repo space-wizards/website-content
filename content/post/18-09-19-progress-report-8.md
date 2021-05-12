@@ -20,11 +20,11 @@ Actually going "I want to implement this, and do it well" is always a good chall
 
 Let's compare. Here's a screenshot from the last progress report a few months ago.
 
-![](/images/post/pr_7/stationstation.png)
+{{< imgw "/images/post/pr_7/stationstation" >}}
 
 And here's a screenshot from right now.
 
-![](/images/post/pr_8/current.png)
+{{< imgw "/images/post/pr_8/current" >}}
 
 Something that's probably gonna very quickly catch your eyes is the APC and SMES sprites. They (and a bunch of others) are taken from the codebase [**CEV-Eris**](https://github.com/discordia-space/CEV-Eris). You might not have heard of them yet, but god damn their Multi-Z ship looks amazing. The map layout is amazing and they just nailed the immersion. Check them out!
 
@@ -42,7 +42,7 @@ There's many practical UX problems with SS13's focus on separate UIs. A lot of t
 
 That said, they're still pretty necessary for many things. You can't get around it with many of the complex UIs SS13 has. Also they're definitely very easy to implement, and we gotta walk before we can run. As such I decided to implement the APC interface.
 
-![](/images/post/pr_8/APC.png)
+{{< imgw "/images/post/pr_8/APC" >}}
 
 Well, it's definitely not gonna win any design awards. Hell I even forgot to write out a window title and was too lazy to recompile the game to add one for the screenshot. Oh well.
 
@@ -52,7 +52,7 @@ It being ugly as all heck does bring me into the next point though...
 
 Prompted by the APC looking actually atrocious, I set out to make a basic UI theme that isn't just the stock Godot gradients.
 
-![](/images/post/pr_8/UI_theme.png)
+{{< imgw "/images/post/pr_8/UI_theme" >}}
 
 It's not yet finished and not even close to reaching usage in the repo, but I do think my existing work is pretty nice.
 
@@ -62,7 +62,7 @@ In the last progress report I mentioned that Cluster coded an inventory system. 
 
 Well look no further, because you can now actually *see* the clothing you put on and the items you pick up\*!
 
-![](/images/post/pr_8/equipment.png)
+{{< imgw "/images/post/pr_8/equipment" >}}
 
 Again, lots of sprites on there taken from CEV-Eris, seriously check them out.
 
@@ -85,9 +85,9 @@ It allows you to view & modify all the variables of an object and mess with them
 
 It took a lot of architecturing to get the code to not be terrible and be decently extensible, but I'm pretty damn happy with how it turned out:
 
-![](/images/post/pr_8/VV_1.png)
+{{< imgw "/images/post/pr_8/VV_1" >}}
 
-![](/images/post/pr_8/VV_2.png)
+{{< imgw "/images/post/pr_8/VV_2" >}}
 
 There are of course many rough edges to refine about it, but it has already proven to be a great tool for development.
 It works server & client side (you can edit remote objects). Also that preview of my mob updates live. Neat huh.
@@ -102,7 +102,7 @@ So we're building on TG's crafting menu and taking it to the next level. Sitting
 
 So we decided to combine both. All construction recipes are centralized in an organized window:
 
-![](/images/post/pr_8/construction.png)
+{{< imgw "/images/post/pr_8/construction" >}}
 
 But you still have to slapcraft your way to victory. We just make the steps extremely obvious. For things like walls which have to be placed, it actually lets you place client-side wall ghosts first, so you can plan out everything.
 

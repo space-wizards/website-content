@@ -30,7 +30,7 @@ This is a massive paper cut. I want to be able to use computers, open lockers, e
 
 ## Outlines!
 
-![](/images/post/pr_16/outline.png)
+{{< imgw "/images/post/pr_16/outline" >}}
 
 Yep, it actually cover the whole entity now!
 

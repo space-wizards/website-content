@@ -108,7 +108,7 @@ Took a bit of work but I modified the original's vector art to change the 13 int
 
 I also made a more "flat" form of the logo that is laid out slightly more horizontally, as to not waste too much vertical space in the launcher and website. You've already seen it twice because it's in the above launcher screenshot and at the top of this page now, but oh well:
 
-![](/images/newer.svg)
+![]("/images/newer.svg)
 
 There was still one issue remaining though, **what do we do with the icon**? With this I mean the small icon you have as window icon and in your task bar and such.
 
@@ -120,7 +120,7 @@ Honestly though, nobody was really warm on it but I also could't think of a bett
 
 Luckily, **unusualcrow** came up with the current icon, and it looks great:
 
-![](/images/icon.png)
+{{< imgw "/images/icon" >}}
 
 This is the icon we will be using from now on for stuff like window icons, the websites favicon (in your tab bar) and so on.
 

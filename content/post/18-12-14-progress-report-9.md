@@ -62,7 +62,7 @@ We can also provide audio feedback. While SS13 does this to some extent, it's no
 
 ## Parallax
 
-![Parallax is in](/images/post/pr_9/parallax.png)
+![Parallax is in](/images/post/pr_9/parallax" >}}
 
 ## The Lobby & Rounds
 
@@ -78,7 +78,7 @@ Designing the lobby UI though? Now that sure was something. SS13's lobby isn't e
 
 While a bare bones lobby is already implemented in code, it's mostly just the chat box and a ready button. So we'll show you the concept drawing instead.
 
-![Lobby Concept Art](/images/post/pr_9/lobby-concept.png)
+![Lobby Concept Art](/images/post/pr_9/lobby-concept" >}}
 
 Most things in that image should be self-explanatory. OOC at the bottom left, server name nicely visible at the top... I decided to reserve a small outer border for a parallax background image, to make things look pretty. There's no massive meme lobby image, but there is a server info panel that servers will have a lot of fun customizing. Ideally, people would be able to see news and such in there too, like new changelog entries, announcements, polls, etc... We haven't bothered to fill in character creation itself yet, but we did reserve room for it.
 

@@ -21,7 +21,7 @@ So we have new stuff.
 
 I implemented a significant amount of GUI code. Most of the previous GUI code also worked without hassle. Just check the screenshot.
 
-![](/images/post/pr_11/screenshot.png)
+{{< imgw "/images/post/pr_11/screenshot" >}}
 
 ## Animations!
 

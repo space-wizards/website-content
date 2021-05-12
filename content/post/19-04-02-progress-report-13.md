@@ -58,7 +58,7 @@ We've had a few people try out the game before I'm writing this progress report 
 
 ## The Map Keeps Looking Better
 
-![](/images/post/pr_13/newmap.png)
+{{< imgw "/images/post/pr_13/newmap" >}}
 
 Oh yeah, that's not even all of it anymore. It doesn't fit in a single screen now.
 

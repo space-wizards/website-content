@@ -32,7 +32,7 @@ Examining things is annoying. You click on something and the result is halfway a
 
 We can smack two birds with one stone here. I'll just show you the screenshot:
 
-![](/images/post/pr_14/examine_tooltip.png)
+{{< imgw "/images/post/pr_14/examine_tooltip" >}}
 
 So first of all, examining is now done with a tooltip instead of dumping it into your chat log. This keeps the info right where your eyes already are. Second of all, information such as fuel is now sanely formatted so it's easy to tell at a glance. For reference, the examine message on TG is "It contains 50 units of fuel out of 50." I'd say our brief and colored "Fuel: 49​/50" is *much* better.
 
@@ -57,7 +57,7 @@ One nice advantage of not being handicapped to a language that can't even do HTT
 
 The `#server` channel on Discord is now connected to OOC on the public server!
 
-![](/images/post/pr_14/ooc_link.png)
+{{< imgw "/images/post/pr_14/ooc_link" >}}
 
 I also plan to get round status messages in here (like "the round has started") but we're not quite there yet.
 
@@ -69,7 +69,7 @@ You can now actually take lights from light tubes and put them back in. A little
 
 We got Discord Rich presence now, so people can fancily see that you're playing SS14 now.
 
-![](/images/post/pr_14/rich_presence.png)
+{{< imgw "/images/post/pr_14/rich_presence" >}}
 
 Clearly part of our viral marketing strategy.
 

@@ -33,7 +33,7 @@ One really big feature (of many) in Godot 3 is support for C# through Mono. If y
 
 ## Waiting for Godot.
 
-So due to our decision to support 3D and 2D in SS13, we obviously would've needed to write our own OpenGL 3D renderer. This is of course very difficult and only Silver seemed to even have remotely the knowledge to do it. Hell Acruid wrote a textbook example 3D renderer and [it didn't work correctly on my iMac](/images/post/18_02_26-mike-macos.png) (I blame Apple for this).
+So due to our decision to support 3D and 2D in SS13, we obviously would've needed to write our own OpenGL 3D renderer. This is of course very difficult and only Silver seemed to even have remotely the knowledge to do it. Hell Acruid wrote a textbook example 3D renderer and [it didn't work correctly on my iMac](/images/post/18_02_26-mike-macos" >}} (I blame Apple for this).
 
 So then when that certain video caught my eye claiming Mono support, oh boy.
 
@@ -43,17 +43,17 @@ At the very end of October, Godot 3 Alpha 2 was released with experimental C# su
 
 But hey let's talk about the progress on the Godot branch!
 
-![](/images/post/18_02_26-godot_screenshot_1.png)
+{{< imgw "/images/post/pr_5/godot_screenshot_1" >}}
 
 As you can see: it works.
 
 We are currently using Godot's own GUI system. It's completely wrapped using tons of code, but it's one hell of a lot better than maintaining the old hacky GUI system. Screenshot!
 
-![](/images/post/18_02_26-godot_screenshot_2.png)
+{{< imgw "/images/post/pr_5/godot_screenshot_2" >}}
 
 I haven't made any efforts to theme the GUI system much yet, so it's mostly Godot's own default GUI theme. Still better than the old mess:
 
-![](/images/post/18_02_26-not-godot-screenshot.png)
+{{< imgw "/images/post/pr_5/not_godot_screenshot" >}}
 
 Performance is much better than the SFML branch too. Though uh... on macOS it's still _highly_ lacking when lights are involved. This seems to be completely the fault of Apple's ancient awful OpenGL drivers. Godot 3 uses GLES3.0 for rendering (although a GLES2.0 renderer is coming in Godot 3.1 to solve this, especially due to Android). Apple's best supported OpenGL version is 4.1 (and it's poor support at that), which is 8 years old now. It's even worse in 3D, where Godot pretty much seems to choke the GPU and make the entire system slow from just rendering a single cube. Thanks Apple.
 
@@ -61,7 +61,7 @@ Performance is much better than the SFML branch too. Though uh... on macOS it's 
 
 Also, I spent a few hours working with Godot's 3D system to try importing the models from SS3D into Godot, and once I had a clue what I was doing I managed to get it at least imported at a basic level. _this isn't SS14 it's just a test project, there's no code for 3D in SS14 yet_:
 
-![](/images/post/18_02_26-godot_screenshot_3.png)
+{{< imgw "/images/post/godot_screenshot_3" >}}
 
 So yes. Godot is promising!
 
@@ -81,8 +81,8 @@ Doesn't stop there! We have [mostly-fully fledged map saving](https://github.com
 
 So a while ago, we contacted Supernorn (the artist of the original Space Station 13 Remake project before it got open sourced) about the game's logo source, and he gave us the original vector source files for it. Thanks! We applied duct tape for hilarity's sake, and currently it looks like this in-game:
 
-![](/images/old_logo.png)
+{{< imgw "/images/post/pr_5/old_logo" >}}
 
 Injazz decided to bust out Inkscape and change the logo up. The colour is actually the blue from the Godot logo! (Remie's idea), Here's the new design:
 
-![](/images/logo.svg)
+![](/images/post/pr_5/logo.svg)

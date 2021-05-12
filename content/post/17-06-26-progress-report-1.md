@@ -58,7 +58,7 @@ So for more stuff to report:
 * Sood has been working on IPv6 networking and updating the years out of date version of Lidgren.Network in our code. Sadly Lidgren isn't being updated anymore, but it's still highly reliable. We are talking about moving to an alternative, LiteNetLib, as a very long term goal, because of obvious maintenance issues with Lidgren (IPv6 support is through an unmerged old PR on the Lidgren repo.)
 * Sood helped redo all the EOLs to be LF (UNIX). I now have the most line changes of any single person on the repo and I don't deserve it.
 * Silvertorch5 continues working on RobustEngine, the name we debubbed for the rendering engine that will be powering the client. As much as it is demotivating, SFML was a giant terrible mistake, a BYOND level mistake, but giving up isn't the solution, shit happens.
-* A fancy splash screen, a joint project between me, Silver and PsyKzz. [Check it out](/images/splash.png)
+* A fancy splash screen, a joint project between me, Silver and PsyKzz. [Check it out](/images/post/pr_1/splash" >}}
 * All around performance improvements.
 * Tons of general bug fixes for things that get in the way even when you're developing the engine.
 * Set up automatic code anlysis to catch bugs and yell at us.

@@ -22,7 +22,7 @@ Anyways, this brings some quite nice improvements, and makes future changes much
 
 ## Lathes (Contributed by Zumorica)
 
-![](/images/post/pr_15/lathe.png)
+{{< imgw "/images/post/pr_15/lathe" >}}
 
 We have an autolathe now, it can build stuff. Quite simple really. While the UI could use some improvement, it's definitely a start.
 
@@ -46,7 +46,7 @@ Even if that were fixed, it's still extremely painful to actually *translate* th
 
 So as you can guess, we're putting effort into making sure the game can be localized with relative ease. The first of this is already in.
 
-![](/images/post/pr_15/lasser.png)
+{{< imgw "/images/post/pr_15/lasser" >}}
 
 (I'm using Dutch because I know Dutch and needed something to test the code, I'm not gonna develop Ruimte Station 14)
 

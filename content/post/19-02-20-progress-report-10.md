@@ -67,5 +67,5 @@ I mean, it works really. Performance is also already significantly better than G
 
 Of course I still have to implement things like lighting, but hey, it's getting there.
 
-![Here's a screenshot of Clyde](/images/post/pr_10/clyde_screenshot.png)
+![Here's a screenshot of Clyde](/images/post/pr_10/clyde_screenshot" >}}
 

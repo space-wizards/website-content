@@ -47,7 +47,7 @@ Anyways, I had to merge the audio channels on all these files, which reduces fil
 
 ## Lighting!
 
-![](/images/post/pr_12/lighting.png)
+{{< imgw "/images/post/pr_12/lighting" >}}
 
 Clyde now draws lights, so it doesn't look as horrendously ugly. Shadow casting is not implemented however, which is the actually difficult part. But hey, looks better than the full bright we had before.
 

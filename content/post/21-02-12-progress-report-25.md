@@ -16,7 +16,7 @@ We're proud to announce that Space Station 14 is [now available](https://store.s
 
 To gain access, simply visit the SS14 store page and click Request Access. You'll be added to the pool of people who are waiting, which we randomly draw from when we feel we could use more players.
 
-[![](/images/post/pr_25/playtest.png)](https://store.steampowered.com/app/1255460/Space_Station_14/)
+[{{< imgw "/images/post/pr_25/playtest" >}}](https://store.steampowered.com/app/1255460/Space_Station_14/)
 
 If you don't receive access immediately, just be patient! More users will be added over time.
 

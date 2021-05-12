@@ -26,7 +26,7 @@ How do we pull this off? Glad you asked!
 
 Ever since we "inherited" the project, [this has been in the back of our heads](https://github.com/space-wizards/space-station-14/issues/74). The plan is to have the base SS14 repo ([`space-wizards/space-station-14`](https://github.com/space-wizards/space-station-14)) be the "engine". This is the common program that most players and server hosts will be installing. Event loop, rendering, collision, asset management, entity management, the basic things you want no matter what. Along with that goes a second repo, the "content" repo: [`space-wizards/space-station-14-content`](https://github.com/space-wizards/space-station-14-content). What is in this repo? Well... a couple `// TODO:` entry points, a test prototype and a few python scripts. Exciting!
 
-Everything inside the content repo is something a codebase can change. Most stuff will eventually go in here, even fundamental things like item code, power and atmospherics! The content repo is, just like the main engine, written in C#, but due to the nature of .NET, other languages from [Python](http://ironpython.net/) to [F#](http://i.imgur.com/HqH8ktx.png) and theoretically most things on [this list](https://en.wikipedia.org/wiki/List_of_CLI_languages) should be possible, provided the codebase in question is up for rewriting everything.
+Everything inside the content repo is something a codebase can change. Most stuff will eventually go in here, even fundamental things like item code, power and atmospherics! The content repo is, just like the main engine, written in C#, but due to the nature of .NET, other languages from [Python](http://ironpython.net/) to [F#](http://i.imgur.com/HqH8ktx" >}} and theoretically most things on [this list](https://en.wikipedia.org/wiki/List_of_CLI_languages) should be possible, provided the codebase in question is up for rewriting everything.
 
 The content repo is compiled into a .NET assembly (a block of code the game can load). This assembly gets loaded into the server on startup and client on connect, and as such you can swap server without having 20 clients installed.
 
@@ -121,7 +121,8 @@ Sadly this is SS13 and view size has to be consistent, but *can change mid game,
 Oh it's **impossible**.
 
 What can you do then? **full 3D**. We're not talking high quality model 3D like an AAA game though, just simple easy 3D models, like this:
-<center>![Simple, low poly models](/images/post/17_08_17-low-poly-3d-example.png)</center>
+
+{{< imgw "/images/post/pr_4/low_poly_3d_example" >}}
 
 **HOWEVER:** we will put great effort into keeping it possible to use 2D sprites at an engine level. So if you want to fork the *content repo* and make an all 2D codebase, go ahead!
 
@@ -131,7 +132,7 @@ We're still experimenting with the practicality of making 3D models, art style, 
 
 ## Robusting the SFML
 
-As you may know if you read the previous reports, SFML is... [yeah... about that...](/images/post/17_08_17-sfml-macos-segfault.png)
+As you may know if you read the previous reports, SFML is... [yeah... about that...](/images/post/pr_4/sfml_macos_segfault.webp)
 
 The good news is that SFML is *mostly* stable on MacOS. Silver allegedly develops on Arch Linux but otherwise I don't think any developers use Linux so I'm unsure how things are there.
 However, that's not the point of this (relatively too small) section of the progress report! Silver has been continuing work on making Robust Engine, our rendering backend. It's not yet ready for a move, but we just finished a refactor to get rid of a ton of SFML vector primitives so it should make transitions easier. SFML's crappy vectors didn't even allow you to get the *length* of them, and they even stack overflow on equality checks in certain unknown cases.

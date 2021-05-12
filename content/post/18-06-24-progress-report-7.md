@@ -41,7 +41,7 @@ So you might've heard the word "shader" used as a fancy way to say *dude fancy g
 
 The first example is allowing specific layers to be exempt from lighting. This is an amazing graphical detail, which makes things like computers look *incredible:*
 
-![](/images/post/pr_7/unlit_materials.png)
+{{< imgw "/images/post/pr_7/unlit_materials" >}}
 
 This effect is nigh-impossible to do correctly in BYOND. SS13 codebases like Paradise have attempted this, but due to layering you'll always get issues when somebody moves on *top* of the computer. There may be some hacky way to get it to work perfectly, but it'd be so much effort I'm not bothering to try it.
 
@@ -63,7 +63,7 @@ Sadly, BYOND can’t do better. Thanks BYOND.
 
 In SS14, we decided to not use this system. Objects have a click bounding box, and it works quite well, room for improvement of course, but still. To properly visualize what you’ll click on, the object you’d click on is now highlighted:
 
-![](/images/post/pr_7/outline.png)
+{{< imgw "/images/post/pr_7/outline" >}}
 
 ## An Actual Map (PJB)
 
@@ -73,7 +73,7 @@ Yes, the lights shut off automatically when the power grid dies.
 
 Welcome to `stationstation.yml`
 
-![](/images/post/pr_7/stationstation.png)
+{{< imgw "/images/post/pr_7/stationstation" >}}
 
 ## Linux & Mac Builds Up (PJB)
 
@@ -83,7 +83,7 @@ I finally went and got Linux and macOS builds to work again. The Linux builds ar
 
 Cluster reworked the inventory system and it now has some basic GUI and stuff like slots. Definitely not winning any awards but we gotta start somewhere.
 
-![](/images/post/pr_7/inventories.png)
+{{< imgw "/images/post/pr_7/inventories" >}}
 
 ## Power (Clusterfack + PJB)
 
@@ -121,9 +121,9 @@ But hey, I’m happy for now:
 
 And this was the server:
 
-![](/images/post/pr_7/6_client_server_cpu.png)
+{{< imgw "/images/post/pr_7/6_client_server_cpu" >}}
 
 
 ## A Thing (Clusterfack)
 
-![](/images/post/pr_7/3d.png)
+{{< imgw "/images/post/pr_7/3d" >}}
