@@ -98,7 +98,7 @@ There were a few problems with it:
 
 There was, of course, another logo we were using in a few places. Which you might've seen if you launched the game before:
 
-{{< imgw "/images/old_logo" >}}
+{{< imgw "/images/post/pr_5/old_logo" >}}
 
 This logo was based on the logo used by the original SS13 remake ([spacestation13.com](https://spacestation13.com)) and "duct taped up" by Silver. I really did love this one because it looked both hilarious and unironically good. It still had the issue of "only had it in an akwardly sized PNG form" though and that tape wouldn't vectorise well.
 
