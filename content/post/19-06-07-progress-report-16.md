@@ -14,7 +14,7 @@ As it turns out, *re-imagining* SS13 is a bit harder than simply *re-making* it.
 
 ## Kaboom (Contributed by Injazz)
 
-<video src="/video/19_07_07-boom.webm" controls></video>
+<video src="/video/pr_16/boom.webm" controls></video>
 
 Yeah it could use some polish. Baby steps though.
 

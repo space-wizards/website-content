@@ -16,11 +16,11 @@ This time on SS14: neat features and neat server features.
 
 Pushing things in SS13 sucks. That's why we're making it better.
 
-<video src="/video/19_04_22-locker-push.webm" autoplay loop></video>
+<video src="/video/pr_14/locker-push.webm" autoplay loop></video>
 
 Also you can now go into lockers.
 
-<video src="/video/19_04_22-locker-enter.webm" autoplay loop></video>
+<video src="/video/pr_14/locker-enter.webm" autoplay loop></video>
 
 We already did have lockers implemented, but they acted more like chests in other games like Minecraft than what you were used to in SS13. While the idea is neat, we did decide to go back to the old SS13 ways, since they're actually quite a neat bit of emergent behavior.
 
@@ -45,7 +45,7 @@ To address some concerns people might have:
 
 You can now hear the gentle sound of your fat feet on the floor.
 
-<video src="/video/19_04_22-footsteps.webm" controls loop></video>
+<video src="/video/pr_14/footsteps.webm" controls loop></video>
 
 They're definitely not very loud (not that they should be!) so you might have to turn your volume up a little to hear them.
 

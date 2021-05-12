@@ -30,7 +30,7 @@ First of all, Godot brougth all the changes mentioned in the previous progress r
 
 [Cluster has added weapons to the content repo.](https://github.com/space-wizards/space-station-14-content/pull/48) Right now the tools act like melee weapons, there's a projectile weapon and a laser weapon. It's basic stuff right now. Sadly, melee weapons don't have any visualization yet, but guns do:
 
-<center><video src="/video/18_04_13-godot-guns.webm" controls height=300></video></center>
+<center><video src="/video/pr_6/godot-guns.webm" controls height=300></video></center>
 
 (Yes we're aware the bullets aren't rotated)
 

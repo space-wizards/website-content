@@ -34,7 +34,7 @@ So the past few months, a lot of code that's more "game" level like gamemodes, j
 
 We've gone through a lot of effort to make this work, from asset loading to IoC refactors, and it's paying out, because it *works*:
 
-<center><video src="/video/17_08_17-disco-ball-prototype.webm" controls height=300></center>
+<center><video src="/video/pr_4/disco-ball-prototype.webm" controls height=300></center>
 
 What you are seeing here (other than my mouse cursor, apologies) is the first example of the content repo in use. It's a crude "disco ball", the color just changing with a hue shift over time. The code was terrible because I was in a hurry and there were various limitations in the engine that I've since fixed (couldn't even load sprites from content, joy!), but here's a more cleaned up version of the code. Note that the engine isn't there *yet*, there's still a bunch of refactors ahead, but this is generally what we want to have:
 

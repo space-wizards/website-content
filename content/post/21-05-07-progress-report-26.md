@@ -271,7 +271,7 @@ Essentially with prediction and airlocks you used to just teleport to the other 
 *Contributed by DrSmugleaf and InquisitivePenguin*
 <!-- https://github.com/space-wizards/RobustToolbox/pull/1571 -->
 
-https://youtu.be/5QrNRLp5miM
+<iframe width="854" height="480" src="https://youtu.be/5QrNRLp5miM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Entities (stuff like walls, objects, players etc.) are composed of a set of components (stuff that defines if it's a food, tool, etc.). Our entities/prototypes are defined in YAML while the components are coded in C#. With YAML hot-reloading, we can modify things in the files for anything that's defined in YAML (Pretty much everything) and have it auto-update in game. Kinda like Garry's Mod.
 

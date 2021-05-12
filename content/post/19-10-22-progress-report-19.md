@@ -20,7 +20,7 @@ Yeah it probably would've been better to actually release a progress report in s
 
 So the flashiest thing: we have semi functional melee combat now!
 
-<video src="/video/19_10_22-attack-animations.mp4" controls></video>
+<video src="/video/pr_19/attack-animations.mp4" controls></video>
 
 A core part of making a combat system fun is making sure the animations work well. Feedback to every party involved is incredibly important to make sense of what is going on in a fight, and to make the experience more enjoyable.
 
@@ -51,7 +51,7 @@ For now, toggling combat mode is bound to the "1" key on your number row. This w
 
 ## Hacking & Access (Contributed by DamianX)
 
-<video src="/video/19_10_21-hackerman.mp4" controls></video>
+<video src="/video/pr_19/hackerman.mp4" controls></video>
 
 Both hacking and access is in! Our plans are to keep the systems mostly the same as in SS13.
 
@@ -95,7 +95,7 @@ This does not rule out interfaces like the hacking interface mockup shown earlie
 
 You can mix reagents, and cause explosions! Not much else though.
 
-<video src="/video/19_10_21-chem-dispenser.mp4" controls></video>
+<video src="/video/pr_19/chem-dispenser.mp4" controls></video>
 
 Yeah, reagent metabolism isn't yet, or syringes, or drinking, you get the gist.
 
@@ -184,7 +184,7 @@ Being in a proper programming language, we can do a lot more fun stuff than some
 
 One feature this allows is directly accepting input from attached MIDI devices like musical keyboards, so you can perform live in front of your audience at the bar.
 
-<video src="/video/19_10_21-midi-input.mp4" controls></video>
+<video src="/video/pr_19/midi-input.mp4" controls></video>
 
 Because we can use system sound fonts, a lot of instruments can be supported out of the box, without significantly bloating the size of the game:
 
