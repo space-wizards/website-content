@@ -1,0 +1,126 @@
+/* Homepage CSS */
+
+
+#gallery-thumbs {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.gallery-thumb {
+	margin: 2px;
+	cursor: pointer;
+	max-width: 100px;
+	position: relative;
+}
+
+.gallery-thumb.active {
+	box-shadow: 0px 0px 8px 2px darkred;
+	transition: box-shadow 0.1s ease-out;
+}
+
+.gallery-img {
+	/* position: absolute; */
+	grid-column: a;
+	grid-row: a;
+	width: 100%;
+	height: auto;
+	transition: opacity 0.25s linear;
+	opacity: 0;
+	margin: auto auto;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-img.active {
+	opacity: 1;
+	/* position: initial; */
+}
+
+.gallery-img > img {
+	box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+	position: static;
+}
+
+#gallery-desc {
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#gallery-img-wrap {
+	display: grid;
+	width: 100%;
+	min-width: 200px;
+	position: relative;
+	margin-bottom: 10px;
+	grid-template-columns: [a] 1fr;
+	grid-template-rows: [a] 1fr;
+}
+
+#center-logo-container {
+	clip-path: inset(0px 0px); /* To contain the box shadow */
+}
+
+#center-logo-container > .container {
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 50px 50px rgba(0,0,0,.5);
+	z-index: -1;
+	position: relative;
+}
+
+
+#center-logo-background {
+	content: "";
+	background: url("/images/2020-9-18_18.27.25.png");
+	filter: blur(1px);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+}
+
+#center-logo-logo {
+	padding: 10px;
+	align-self: center;
+}
+
+#center-logo-desc {
+	display: flex;
+	flex-direction: column;
+	text-shadow: black 0px 0px 2px;
+	padding: 10px;
+}
+
+#center-download-link {
+	text-align: center;
+	font-size: 1.3rem;
+	align-self: center;
+	text-shadow: none;
+}
+
+#center-download-link > span {
+	padding: 0px 20px;
+}
+
+
+#center-download-subtext {
+	font-size: 0.85em;
+	color: dimgray;
+	text-align: center;
+	text-shadow: black 0px 0px 1px;
+	font-weight: 500;
+}
+
+#logos-container > * {
+	margin: 15px 0px;
+}
+
+#news-column {
+	flex: 70%;
+}
+
+#logos-column {
+	flex: 30%;
+}

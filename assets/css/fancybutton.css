@@ -1,0 +1,39 @@
+/* Thanks to 20kdc and actioninja for figuring this out. */
+
+.fancybutton {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	padding: 10px;
+
+	background-clip: padding-box;
+	user-select: none;
+	--button-color: #464966;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.fancybutton:hover {
+	--button-color: #575B7F;
+	text-decoration: none;
+	color: white;
+}
+
+.fancybutton:active {
+	--button-color: #3D6845;
+}
+
+.fancybutton::before {
+	background-color: var(--button-color);
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -10px;
+	right: -10px;
+	bottom: 0;
+	transform: skewX(45deg);
+	z-index: -1;
+}
