@@ -52,7 +52,9 @@ Note: If you're just looking to host a private server to mess around in solo pla
 Yes, we even have templates for both [singleplayer](https://github.com/space-wizards/RobustToolboxTemplateSingleplayer) and [multiplayer](https://github.com/space-wizards/RobustToolboxTemplate) to get you started.
 
 ### Q: Is There a Patreon? Can I donate?
-[Yes.](https://www.patreon.com/spacestation14) We started a Patreon in order to pay for productivity software, server hosting, work commissions, and more! In addition to providing rewards, we will also regularly post a financial statement that shows how our income is being used in the game's development. We want to give our patrons full trust and confidence, and we believe that being 100% transparent about how the money is being used is best.
+[Yes.](https://www.patreon.com/spacestation14) We started a Patreon in order to pay for productivity software, server hosting, art commissions, and more! In addition to providing rewards, we will also regularly post a financial statement that shows how our income is being used in the game's development. We want to give our patrons full trust and confidence, and we believe that being 100% transparent about how the money is being used is best.
+
+Our finances are public in this regularly updated [google sheet](https://docs.google.com/spreadsheets/d/1iP3qOeTxrwN0DyeJvPndE7i1_nXeKL25j96wFIgYcU8/edit?usp=sharing).
 
 ### Q: Where can I play SS14?
-Spacestation 14 is currently in a loosly defined "pre-alpha" stage. You can download the client right now and play on our servers, but it's mainly for testing at the moment. A fair estimate of when the game will be 'complete' isn't possible.
+Spacestation 14 is currently in a loosely defined "pre-alpha" stage. You can download the client right now and play on our servers, but it's mainly for testing at the moment. A fair estimate of when the game will be 'complete' isn't possible.
