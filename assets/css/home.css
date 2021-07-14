@@ -61,12 +61,6 @@
 	position: relative;
 }
 
-#center-logo-container > .container {
-	align-items: center;
-	z-index: -1;
-	position: relative;
-}
-
 #center-logo-background {
 	content: "";
 	background: url("/images/2020-9-18_18.27.25.png");
