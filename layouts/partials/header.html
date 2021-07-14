@@ -8,10 +8,9 @@
 		<base href="{{ .Site.BaseURL }}" />
 		{{ if .Title }}<title>{{ .Title }} - SS14</title>{{ else }}<title>Space Station 14</title>{{ end }}
 		<link rel="canonical" href="{{ .Permalink }}" />
-		{{ if .RSSLink }}
-			<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-			<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-		{{ end }}
+		{{ range .AlternativeOutputFormats -}}
+    	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}
 
 		{{ partial "head_includes.html" }}
 	</head>
