@@ -1,0 +1,11 @@
+.page-item .page-link {
+	border: none;
+}
+
+.page-item:first-child .page-link {
+	border-radius: 0;
+}
+
+.page-item:last-child .page-link {
+	border-radius: 0;
+}

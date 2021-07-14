@@ -6,8 +6,11 @@
 	margin-bottom: auto;
 } */
 
-.bottom-links {
+#footer-wrap {
 	margin-top: auto;
+}
+
+.bottom-links {
 	background-image: url("/images/stripeback.svg");
 	line-height: 200%;
 	display: flex;

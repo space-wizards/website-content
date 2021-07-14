@@ -1,21 +1,21 @@
 {{ partial "header.html" . }}
 {{ $paginator := .Paginator }}
 
-<section id="newposts" class="mt-3">
-	<div id="recentpostswrapper" class="container">
-		<h1>Recent posts</h1>{{ template "_internal/pagination.html" . }}
-	</div>
-	<hr />
+<section id="newposts">
+
+	<div class="section-shadow">
+		<div class="container mb-4 py-3 section-bg angle-rect optional">
+
+		<div id="recentpostswrapper">
+			<h1>Recent posts</h1>{{ template "_internal/pagination.html" . }}
+		</div>
 
 	{{ range first 10 $paginator.Pages }}
-		<div class="container">
 			{{ .Render "summary"}}
-		</div>
-		<hr />
 	{{ end }}
-	<footer class="container">
 		{{ template "_internal/pagination.html" . }}
-	</footer>
+</div>
+	</div>
 </section>
 
 {{ partial "footer.html" . }}

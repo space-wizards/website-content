@@ -1,27 +1,30 @@
 {{ partial "header.html" . }}
 
+<div class="section-shadow">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
+
 
 <article>
-	<div class="container mt-3">
 		<h1 class="articleheader first-header">{{ .Title }}</h2>
 		<span class="articlemeta">
 			<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
 				{{ .Date.Format "Monday January 2, 2006" }}
 			</time>
 		</span>
-	</div>
 
-	<div class="container">
-	{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }} <!--- The links from the Toc redirect by default to the siteURL, this is my workaround to that --->
-	{{  .Content }}
+	<div class="mb-3">
+		<!-- The links from the Toc redirect by default to the siteURL, this is my workaround to that -->
+		{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}
 	</div>
+	{{  .Content }}
 
 	{{ if .Params.reddit }}
-	<hr />
-	<footer class="container">
-		 <a href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
+	<hr>
+	<footer class="d-flex justify-items-center">
+		 <a class="center" href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
 	</footer>
 	{{ end }}
 </article>
 
+</div></div>
 {{ partial "footer.html" . }}
