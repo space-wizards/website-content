@@ -1,0 +1,27 @@
+.angle-rect
+{
+	--angle-rect-clip-size: 16px;
+	clip-path: polygon(0 0, calc(100% - var(--angle-rect-clip-size)) 0, 100% var(--angle-rect-clip-size), 100% 100%, var(--angle-rect-clip-size) 100%, 0 calc(100% - var(--angle-rect-clip-size)));
+}
+
+.angle-rect.open-tr
+{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, var(--angle-rect-clip-size) 100%, 0 calc(100% - var(--angle-rect-clip-size)));
+}
+
+.angle-rect.open-bl
+{
+	clip-path: polygon(0 0, calc(100% - var(--angle-rect-clip-size)) 0, 100% var(--angle-rect-clip-size), 100% 100%, 0 100%);
+}
+
+.angle-rect.open-tr.open-bl
+{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@media screen and (max-width: 577px) {
+	.angle-rect.optional {
+		clip-path: none;
+	}
+}
+

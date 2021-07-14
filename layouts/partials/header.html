@@ -16,8 +16,8 @@
 		{{ partial "head_includes.html" }}
 	</head>
 	<body lang="en">
-		<div id="header">
-			<div class="container-lg">
+		<div class="section-shadow mt-2">
+			<div id="header" class="container angle-rect optional">
 				<nav class="navbar navbar-expand-lg navbar-dark p-0">
 					<a href="/" id="name" class="navbar-brand">
 						<img id="logo" src="/images/icon-new.svg" height="50" />
@@ -29,13 +29,13 @@
 
 					{{ $nla := .Params.navlinkactive }}
 
-					<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
 								<a class="nav-link navlink {{if eq $nla "home" }} active {{ end }}" href="/">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link navlink {{if eq $nla "posts" }} active {{ end }}" href="/post/">Posts</a>
+								<a class="nav-link navlink {{if eq $nla "posts" }} active {{ end }}" href="/post/">News</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link navlink {{if eq $nla "play" }} active {{ end }}" href="/about/nightlies/">Play</a>

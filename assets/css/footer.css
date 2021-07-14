@@ -9,20 +9,16 @@
 .bottom-links {
 	margin-top: auto;
 	background-image: url("/images/stripeback.svg");
-	border-top: 2px solid #525252 !important;
 	line-height: 200%;
+	display: flex;
+	justify-content: center;
 }
 
 .bottom-links li {
 	margin: 0;
 }
 
-.bottom-links {
-	color: rgb(156, 156, 156);
-	float: right;
-}
-
-.bottom-links a {
+.bottom-links, .bottom-links a {
 	color: rgb(156, 156, 156);
 }
 

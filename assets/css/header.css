@@ -8,10 +8,12 @@
 
 #header
 {
-	overflow: hidden;
-	display: flex;
 	background-color: #212126;
-	border-bottom: 2px solid #525252;
+	overflow: hidden;
+	min-height: 60px;
+	margin-bottom: 20px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navbar

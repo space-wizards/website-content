@@ -1,91 +1,99 @@
 {{ partial "header.html" . }}
 {{ $paginator := .Paginator }}
 
-<div id="center-logo-container">
-	<div id="center-logo-background"></div>
-	<div class="container centercontent">
+<div class="section-shadow">
+	<div id="center-logo-container" class="container my-4 mt-0 angle-rect optional">
+		<div id="center-logo-background"></div>
+		<div class="container centercontent">
+			<div class="row">
+				<img src="/images/new_logo.svg" id="center-logo-logo" class="col-md-5" height="125" alt="Space Station 14" />
+				<div id="center-logo-desc" class="col-md-7 p-md-4 pb-1 p-0">
+					<p class="mb-3">
+						Disasters, enemies, and incompetence conspire to make each shift aboard the station a unique and hellish experience.<br>
+						Sign up today to explore intricate game mechanics and enjoy limitless player interaction!
+					</p>
+					<a id="center-download-link" class="fancybutton mb-3 mt-1" href="/about/nightlies/">Download now!</a>
+					<p id="center-download-subtext" class="mb-0">
+						Nanotrasen Inc. is not responsible for injury, death, or worse
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="section-shadow">
+	<div class="container my-4 py-3 section-bg angle-rect optional">
 		<div class="row">
-			<img src="/images/new_logo.svg" id="center-logo-logo" class="col-md-5" height="125" alt="Space Station 14" />
-			<div id="center-logo-desc" class="col-md-7 p-md-4 pb-1 p-0">
-				<p class="mb-0">
-					Disasters, enemies, and incompetence conspire to make each shift aboard the station a unique and hellish experience.<br>
-					Sign up today to explore intricate game mechanics and enjoy limitless player interaction!
-				</p>
-				<a id="center-download-link" class="fancybutton mb-3 mt-1" href="/about/nightlies/">Download now!</a>
-				<p id="center-download-subtext" class="mb-0">
-					Nanotrasen Inc. is not responsible for injury, death, or worse
-				</p>
-			</div>
-		</div>
+			<div class="col-lg-6 align-self-center">
+				<div id="gallery-img-wrap">
+					<div class="gallery-img active" data-gallery-id="1">
+						<img src="/images/main/bar.png"/>
+					</div>
+					<div class="gallery-img" data-gallery-id="2">
+						<img src="/images/main/engineering.png"/>
+					</div>
+					<div class="gallery-img" data-gallery-id="3">
+						<img src="/images/main/greytide.png"/>
+					</div>
+					<div class="gallery-img" data-gallery-id="4">
+						<img src="/images/main/medbay.png"/>
+					</div>
+					<div class="gallery-img" data-gallery-id="5">
+						<img src="/images/main/rnd.png"/>
+					</div>
+				</div>
 
-	</div>
-</div>
-<hr class="nomargin">
-<div class="container my-3">
-	<div class="row">
-		<div class="col-lg-6 align-self-center">
-			<div id="gallery-img-wrap">
-				<div class="gallery-img active" data-gallery-id="1">
-					<img src="/images/main/bar.png"/>
-				</div>
-				<div class="gallery-img" data-gallery-id="2">
-					<img src="/images/main/engineering.png"/>
-				</div>
-				<div class="gallery-img" data-gallery-id="3">
-					<img src="/images/main/greytide.png"/>
-				</div>
-				<div class="gallery-img" data-gallery-id="4">
-					<img src="/images/main/medbay.png"/>
-				</div>
-				<div class="gallery-img" data-gallery-id="5">
-					<img src="/images/main/rnd.png"/>
+				<div id="gallery-thumbs">
+					<img class="gallery-thumb" data-gallery-id="1" src="/images/main/bar.png" />
+					<img class="gallery-thumb" data-gallery-id="2" src="/images/main/engineering.png" />
+					<img class="gallery-thumb" data-gallery-id="3" src="/images/main/greytide.png" />
+					<img class="gallery-thumb" data-gallery-id="4" src="/images/main/medbay.png" />
+					<img class="gallery-thumb" data-gallery-id="5" src="/images/main/rnd.png" />
 				</div>
 			</div>
-
-			<div id="gallery-thumbs">
-				<img class="gallery-thumb" data-gallery-id="1" src="/images/main/bar.png" />
-				<img class="gallery-thumb" data-gallery-id="2" src="/images/main/engineering.png" />
-				<img class="gallery-thumb" data-gallery-id="3" src="/images/main/greytide.png" />
-				<img class="gallery-thumb" data-gallery-id="4" src="/images/main/medbay.png" />
-				<img class="gallery-thumb" data-gallery-id="5" src="/images/main/rnd.png" />
+			<div id="gallery-desc" class="col-lg-6">
+				<div class="m-3">
+					<p>
+						<strong>Space Station 14</strong> tells the story of an ordinary shift on a space station gone wrong. Immerse yourself into your role, tinker with detailed systems, and survive the chaos in this round-based multiplayer role playing game.
+					<p>
+						Your custom character can spawn as one of dozens of crew and enemy jobs, ranging from engineer to captain, or even a traitor, each with its own unique gear. Your duties guide you through rich interactions with complex mechanics, whether you're managing your inventory, setting up the reactor, or flushing yourself down the disposal tubes.
+					<p>
+						As disaster, incompetence, and sabotage strike the station, the tension rises - opening up emergent situations that force you to make hard choices. Will you patch up the medical bay after an asteroid punches a hole in it, or fight for control when the captain gets murdered by revolutionaries? Do you break out an unjustly imprisoned clown, or sit back at the bar and serve drinks without a care in the world?
+						<p>
+						The story of the station's collapse is in the hands of its players, and each round is an intense, immersive experience that will leave you wanting more.
+					<p>
+						SS14 is a remake of the cult classic <strong>Space Station 13</strong>. The game is under active development and completely <a href="https://github.com/space-wizards/space-station-14/">open source</a>. Anybody can contribute, even you!
+					</p>
+				</div>
 			</div>
-		</div>
-		<div id="gallery-desc" class="col-lg-6">
-			<p>
-				<strong>Space Station 14</strong> tells the story of an ordinary shift on a space station gone wrong. Immerse yourself into your role, tinker with detailed systems, and survive the chaos in this round-based multiplayer role playing game.
-			<p>
-				Your custom character can spawn as one of dozens of crew and enemy jobs, ranging from engineer to captain, or even a traitor, each with its own unique gear. Your duties guide you through rich interactions with complex mechanics, whether you're managing your inventory, setting up the reactor, or flushing yourself down the disposal tubes.
-			<p>
-				As disaster, incompetence, and sabotage strike the station, the tension rises - opening up emergent situations that force you to make hard choices. Will you patch up the medical bay after an asteroid punches a hole in it, or fight for control when the captain gets murdered by revolutionaries? Do you break out an unjustly imprisoned clown, or sit back at the bar and serve drinks without a care in the world?
-				<p>
-				The story of the station's collapse is in the hands of its players, and each round is an intense, immersive experience that will leave you wanting more.
-			<p>
-				SS14 is a remake of the cult classic <strong>Space Station 13</strong>. The game is under active development and completely <a href="https://github.com/space-wizards/space-station-14/">open source</a>. Anybody can contribute, even you!
-			</p>
 		</div>
 	</div>
 </div>
-<hr class="nomargin mb-4">
-<div class="container">
-	<div class="row">
-	<div class="col-md-9">
-		<h2>Updates</h2>
-		{{ range first 3 $paginator.Pages }}
-			{{ .Render "summary"}}
-		{{ end }}
 
-		<a href="/post">See all posts</a>
-	</div>
-	<div class="col-md-3">
-		<h2>Links</h2>
-		<div class="d-flex flex-column align-items-md-start align-items-center" id="logos-container">
-			<a href="https://discord.gg/t2jac3p"><img src="/images/discord.svg" width="200" /></a>
-			<a href="https://store.steampowered.com/app/1255460/Space_Station_14/"><img src="/images/steam.svg" width="200" /></a>
-			<a href="https://github.com/space-wizards/space-station-14/"><img src="/images/github.svg" width="155" /></a>
+<div class="section-shadow">
+	<div class="container section-bg my-4 py-3 angle-rect optional">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="m-3">
+					<h2>Updates</h2>
+					{{ range first 3 $paginator.Pages }}
+						{{ .Render "summary"}}
+					{{ end }}
+
+					<a href="/post">See all posts</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="d-flex flex-column align-items-center me-md-2 mt-3 mt-md-0" id="logos-container">
+					<a href="https://discord.gg/t2jac3p"><img src="/images/discord.svg" width="200" /></a>
+					<a href="https://store.steampowered.com/app/1255460/Space_Station_14/"><img src="/images/steam.svg" width="200" /></a>
+					<a href="https://github.com/space-wizards/space-station-14/"><img src="/images/github.svg" width="155" /></a>
+				</div>
+			</div>
 		</div>
 	</div>
-	</div>
 </div>
-
 
 {{ partial "footer.html" . }}
