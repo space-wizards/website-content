@@ -1,3 +1,38 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/utilities";
+
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/pagination";
+
+
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+
+@import "angleRect.scss";
+@import "code.scss";
+@import "download.scss";
+@import "fancybutton.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "home.scss";
+@import "layout.scss";
+@import "pagination.scss";
+@import "toc.scss";
+
 /* Literally everything I can't figure out a better place to put it. */
 
 .summary
@@ -45,20 +80,6 @@ a:link
 	text-decoration: none;
 }
 
-ul.pagination
-{
-	display: flex;
-	margin: 0;
-	padding: 0;
-}
-
-/* pages list horizontally */
-ul.pagination > li
-{
-	display: block;
-	margin: 0 4px;
-}
-
 div#recentpostswrapper > h1
 {
 	margin-bottom: 0;
@@ -88,51 +109,6 @@ img, video {
 	margin: 0 0 0 40px;
 }
 
-
-
-#TableOfContents:before {
-	content: "Contents";
-	text-align: center;
-	font-weight: 700;
-	font-size: 20px;
-	padding: 10px;
-    display: block;
-}
-#TableOfContents {
-	display: table-row;
-	font-size: 13px;
-	padding: 2em;
-	width: 30em;
-}
-#TableOfContents ul {
-	display: table;
-	list-style-type: none;
-	counter-reset: item;
-	padding-left: 1em;
-	margin: 0;
-	padding: 0;
-}
-#TableOfContents li {
-	display: table-row;
-	counter-increment: item;
-}
-#TableOfContents li:before {
-	content: counters(item, ".") ". ";
-	display: table-cell;
-	text-align: right;
-	padding-right: 0.6em;
-}
-#TableOfContents li:after {
-	content: '';
-	display: block;
-	padding-bottom: 0.2em;
-}
-#TableOfContents li li:after {
-	padding-bottom: 0;
-}
-#TableOfContents li li:before {
-	content: counters(item, ".") " ";
-}
 
 .video-container video, #media-img img {
 	width: 335px;
