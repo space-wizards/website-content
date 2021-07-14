@@ -1,17 +1,29 @@
+@mixin angle-rect($size) {
+	clip-path: polygon(0 0, calc(100% - #{$size}) 0, 100% $size, 100% 100%, $size 100%, 0 calc(100% - #{$size}));
+}
+
+@mixin angle-rect-open-tr($size) {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, $size 100%, 0 calc(100% - #{$size}));
+}
+
+@mixin angle-rect-open-bl($size) {
+	clip-path: polygon(0 0, calc(100% - #{$size}) 0, 100% $size, 100% 100%, 0 100%);
+}
+
 .angle-rect
 {
 	--angle-rect-clip-size: 16px;
-	clip-path: polygon(0 0, calc(100% - var(--angle-rect-clip-size)) 0, 100% var(--angle-rect-clip-size), 100% 100%, var(--angle-rect-clip-size) 100%, 0 calc(100% - var(--angle-rect-clip-size)));
+	@include angle-rect(var(--angle-rect-clip-size));
 }
 
 .angle-rect.open-tr
 {
-	clip-path: polygon(0 0, 100% 0, 100% 100%, var(--angle-rect-clip-size) 100%, 0 calc(100% - var(--angle-rect-clip-size)));
+	@include angle-rect-open-tr(var(--angle-rect-clip-size));
 }
 
 .angle-rect.open-bl
 {
-	clip-path: polygon(0 0, calc(100% - var(--angle-rect-clip-size)) 0, 100% var(--angle-rect-clip-size), 100% 100%, 0 100%);
+	@include angle-rect-open-bl(var(--angle-rect-clip-size));
 }
 
 .angle-rect.open-tr.open-bl
