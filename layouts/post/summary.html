@@ -16,11 +16,8 @@
 		{{ end }}
 	</div>
 	{{ if .Params.thumbnail }}
-	<div class="col-3 col-lg-2 section-shadow d-flex justify-content-end">
-		<picture class="angle-rect article-thumb">
-			<source type="image/webp" srcset="images/thumbnails/{{ .Params.thumbnail  }}.webp" />
-			<img src="images/thumbnails/{{ .Params.thumbnail  }}.png" />
-		</picture>
-	</div>
+		<div class="col-3 col-lg-2 section-shadow d-flex justify-content-end">
+			{{ partial "post_thumbnail.html" . }}
+		</div>
 	{{ end }}
 </article>

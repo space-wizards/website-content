@@ -6,6 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = "https://old.reddit.com/r/SS13/comments/jciipx/ss14_progress_report_24_atmos_sim_remake_now/"
+thumbnail = "pr_24"
 +++
 
 <!--more-->

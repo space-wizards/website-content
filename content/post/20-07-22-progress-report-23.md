@@ -6,6 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = "https://spacestation14.io/post/20_07_22-progress-report-23/"
+thumbnail = "pr_23"
 +++
 
 Sadly atmos is not done yet. A lot of other stuff is though!

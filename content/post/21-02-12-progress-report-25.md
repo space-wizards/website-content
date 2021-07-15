@@ -6,6 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = ""
+thumbnail = "pr_25"
 +++
 
 <!--more-->

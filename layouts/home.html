@@ -73,7 +73,7 @@
 			<div id="home-posts" class="col-md-9">
 				<div class="m-3">
 					<h2>Updates</h2>
-					{{ range first 3 $paginator.Pages }}
+					{{ range first 3 .Site.RegularPages }}
 						{{ .Render "summary"}}
 					{{ end }}
 

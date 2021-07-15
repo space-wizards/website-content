@@ -6,6 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = "https://www.reddit.com/r/SS13/comments/gybe61/ss14_progress_report_22_full_steam_ahead/"
+thumbnail = "pr_22"
 +++
 
 It has been 3 months since the last post, we have a lot to tell you!
