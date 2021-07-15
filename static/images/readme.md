@@ -1,1 +1,0 @@
-`Discord-Logo+Wordmark-White.svg` is copyrighted by Discord Inc. Permission to use it was granted via a support ticket.
