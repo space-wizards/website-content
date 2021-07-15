@@ -2,19 +2,35 @@
 {{ $paginator := .Paginator }}
 
 <section id="newposts">
-
 	<div class="section-shadow">
-		<div class="container mb-4 py-3 section-bg angle-rect optional">
+		<div id="recentpostswrapper" class="container mb-4 py-3 section-bg angle-rect optional">
+			<div class="row">
+				<div class="col-sm">
+					<h1>Recent posts</h1>
+				</div>
+				<div class="col-sm d-flex justify-content-start justify-content-sm-end py-2">
+					{{ template "_internal/pagination.html" . }}
+				</div>
+			</div>
+			<div >
 
-		<div id="recentpostswrapper">
-			<h1>Recent posts</h1>{{ template "_internal/pagination.html" . }}
+
+			</div>
 		</div>
+	</div>
 
 	{{ range first 10 $paginator.Pages }}
+	<div class="section-shadow">
+		<div class="container mb-4 py-3 section-bg angle-rect optional">
 			{{ .Render "summary"}}
+		</div>
+	</div>
 	{{ end }}
-		{{ template "_internal/pagination.html" . }}
-</div>
+
+	<div class="section-shadow">
+		<div class="container mb-4 py-3 section-bg angle-rect optional d-flex justify-content-start justify-content-sm-end">
+			{{ template "_internal/pagination.html" . }}
+		</div>
 	</div>
 </section>
 

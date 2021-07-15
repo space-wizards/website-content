@@ -7,37 +7,57 @@
 
 @import "../../node_modules/bootstrap/scss/utilities";
 
+@import "angleRect.scss";
+@import "pagination.scss";
+@import "fancybutton.scss";
+
 @import "../../node_modules/bootstrap/scss/root";
 @import "../../node_modules/bootstrap/scss/reboot";
 @import "../../node_modules/bootstrap/scss/type";
 @import "../../node_modules/bootstrap/scss/images";
 @import "../../node_modules/bootstrap/scss/containers";
 @import "../../node_modules/bootstrap/scss/grid";
+//@import "../../node_modules/bootstrap/scss/tables";
+//@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/transitions";
+//@import "../../node_modules/bootstrap/scss/dropdown";
+//@import "../../node_modules/bootstrap/scss/button-group";
 @import "../../node_modules/bootstrap/scss/nav";
 @import "../../node_modules/bootstrap/scss/navbar";
+//@import "../../node_modules/bootstrap/scss/card";
+//@import "../../node_modules/bootstrap/scss/accordion";
+//@import "../../node_modules/bootstrap/scss/breadcrumb";
 @import "../../node_modules/bootstrap/scss/pagination";
-
+//@import "../../node_modules/bootstrap/scss/badge";
+//@import "../../node_modules/bootstrap/scss/alert";
+//@import "../../node_modules/bootstrap/scss/progress";
+//@import "../../node_modules/bootstrap/scss/list-group";
+//@import "../../node_modules/bootstrap/scss/close";
+//@import "../../node_modules/bootstrap/scss/toasts";
+//@import "../../node_modules/bootstrap/scss/modal";
+//@import "../../node_modules/bootstrap/scss/tooltip";
+//@import "../../node_modules/bootstrap/scss/popover";
+//@import "../../node_modules/bootstrap/scss/carousel";
+//@import "../../node_modules/bootstrap/scss/spinners";
+//@import "../../node_modules/bootstrap/scss/offcanvas";
 
 @import "../../node_modules/bootstrap/scss/utilities";
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 
-@import "angleRect.scss";
 @import "code.scss";
 @import "download.scss";
-@import "fancybutton.scss";
 @import "footer.scss";
 @import "header.scss";
 @import "home.scss";
 @import "layout.scss";
-@import "pagination.scss";
 @import "toc.scss";
 
 /* Literally everything I can't figure out a better place to put it. */
 
-.summary
-{
-	margin-bottom: 30px;
+h1 {
+	font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -80,7 +100,7 @@ a:link
 	text-decoration: none;
 }
 
-div#recentpostswrapper > h1
+div#recentpostswrapper h1
 {
 	margin-bottom: 0;
 }
@@ -88,10 +108,6 @@ div#recentpostswrapper > h1
 li.disabled, li.disabled > a
 {
 	color: rgb(105, 105, 105);
-}
-
-.go-back-link a {
-	color: dimgrey;
 }
 
 img, video {
@@ -145,4 +161,18 @@ img, video {
 
 hr.nomargin {
 	margin: 0;
+}
+
+.article-thumb {
+	--angle-rect-clip-size: 8px;
+	max-height: 100px;
+	align-self: start;
+}
+
+article#main-article {
+	img, video {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
 }

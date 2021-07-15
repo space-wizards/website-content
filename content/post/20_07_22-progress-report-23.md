@@ -53,7 +53,7 @@ The framework for click-dragging has been implemented. Currently, it is only use
 One of the core problems with clickdragging in SS13 is that it's both finnicky (pixel hunting...) and unclear *what* you can drag *where*. Of course, we aim to solve both of these issues. As you can see from the video, all objects you can drag *onto* are highlit now. For "figuring out that it can be dragged at all" we do have some plans but they're not concrete yet (hint: it involves the right-click menu).
 
 
-### Buckling 
+### Buckling
 *Contributed by DrSmugleaf*
 
 You can now buckle yourself to a chair.
@@ -83,7 +83,7 @@ Our idea is that every room is filled with "LV" wires that define "the room". Th
 
 Obviously, we recognize that manually laying a cable to every individual powered device would be extremely tedious. In actuality the LV wires act similar to Rimworld's power cables: machines can still connect to them "remotely" from a couple tiles' range, and we'll draw a tiny sub-floor cable to indicate the connection.
 
-We also intend to make every aspect of laying cables as smooth and hassle free as possible to solve any minor nuisances that might result from this, though that's for the future. 
+We also intend to make every aspect of laying cables as smooth and hassle free as possible to solve any minor nuisances that might result from this, though that's for the future.
 
 Outside of the "earth shattering gameplay redesigns", we intend to give the power grid a slightly nicer hierarchial grid of HV -> MV -> LV aswell. Who doesn't love seeing 5 different cable/pipelines running through maintenance?
 
@@ -96,7 +96,7 @@ Construction and deconstruction have been overhauled, and are being continually 
 
 <video src="/video/pr_23/construction.mp4" autoplay muted loop playsinline></video>
 
-### Antag and Latejoin Preferences 
+### Antag and Latejoin Preferences
 *Contributed by ike709*
 
 Like in SS13, players can now set their preferences for all of the different antags. Players can also choose a job when they join a round that has already begun.

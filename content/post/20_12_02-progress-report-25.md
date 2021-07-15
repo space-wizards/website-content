@@ -16,7 +16,7 @@ We're proud to announce that Space Station 14 is [now available](https://store.s
 
 To gain access, simply visit the SS14 store page and click Request Access. You'll be added to the pool of people who are waiting, which we randomly draw from when we feel we could use more players.
 
-[![](/images/post/pr_25/playtest.png)](https://store.steampowered.com/app/1255460/Space_Station_14/)
+{{< imgw "/images/post/pr_25/playtest" >}}
 
 If you don't receive access immediately, just be patient! More users will be added over time.
 
@@ -84,14 +84,14 @@ Expanding upon the new traitor mode, this gamemode is essentially a free-for-all
 
 The admin menu was mentioned in the last progress report but it's gotten some new features added.
 
-<video src="/video/pr_25/admin.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/admin.mp4" >}}
 
 ### Magboots
 *Contributed by PJB*
 
 You now have magboots. They help you avoid getting thrown around the place by airflow.
 
-<video src="/video/pr_25/magboots.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/magboots.mp4" >}}
 
 ### Gas tanks and Internals
 *Contributed by Creadth and Zumorica*
@@ -105,21 +105,21 @@ You can now avoid dying in vacuums. At least from the oxygen loss.
 
 Gas canisters now exist, ripe for plasma flooding.
 
-<video src="/video/pr_25/canisters.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/canisters.mp4" >}}
 
 ### Mortician's Menagerie (All the crematorium stuff)
 *Contributed by RemieRichards
 
 The Traitor's ~~murderbone victims~~ targets won't be left littering the halls, because the morgue is now fully equipped with functioning morgue trays, body bags, and a crematorium.
 
-<video src="/video/pr_25/mortician.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/mortician.mp4" >}}
 
 ### Trash Bags & Pickup Animations
 *Contributed by RemieRichards*
 
 Now you can pick up trash and steal any other valuables on the ground, in style!
 
-<video src="/video/pr_25/trash.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/trash.mp4" >}}
 
 ### Eris Power Cells
 *Contributed by brndd*
@@ -147,35 +147,35 @@ Humans can now be gibbed into a pool of blood, organs, and other fleshy goop.
 
 Similar to SS13, there is now a general framework for upgradable parts in machines.
 
-<video src="/video/pr_25/upgrade.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/upgrade.mp4" >}}
 
 ### Disarming
 *Contributed by Zumorica*
 
 Tiders can now liberate harmbatons from Security Officers! Disarming has been added as an action to the new action hotbar.
 
-<video src="/video/pr_25/disarm.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/disarm.mp4" >}}
 
 ### Cigarettes and Matches
 *Contributed by Ygg01*
 
 You can now roleplay as a hardboiled, chainsmoking noir detective.
 
-<video src="/video/pr_25/cig.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/cig.mp4" >}}
 
 ### Cargo Telepad
 *Contributed by GraniteSidewalk*
 
 Although shuttles loom on the horizon after the upcoming physics rework is finished, we thought it'd be nice to add a placeholder to Cargonia. Incoming cargo crates will now be beamed to a tele-pad adjacent to the computer, rather than just appearing out of thin air.
 
-<video src="/video/pr_25/telepad.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/telepad.mp4" >}}
 
 ### Smoke and foam chemical reactions
 *Contributed by Radrark*
 
 Chemical reactions can now result in smoke or foam, just like in SS13.
 
-<video src="/video/pr_25/reaction.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_25/reaction.mp4" >}}
 
 ### Instrument Improvements
 

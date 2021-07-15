@@ -1,0 +1,25 @@
+$pagination-border-radius: 0;
+$pagination-bg: #464966;
+$pagination-disabled-bg: #30313c;
+$pagination-active-bg: #3e6c45;
+$pagination-hover-bg: #575b7f;
+$pagination-border-width: 0;
+$pagination-hover-color: white;
+$pagination-color: white;
+
+.page-item:first-child .page-link {
+	@include angle-rect-open-tr(8px);
+}
+
+.page-item:last-child .page-link {
+	@include angle-rect-open-bl(8px);
+}
+
+.page-item {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+ul.pagination {
+	margin-bottom: 0;
+}

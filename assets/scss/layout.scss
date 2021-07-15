@@ -71,6 +71,10 @@ body {
 	background-color: #212126;
 }
 
+.section-bg h1 {
+	margin-top: -6px;
+}
+
 @media screen and (max-width: 576px) {
 	.section-shadow {
 		/* Disable drop shadows on phone-size screens for perf */

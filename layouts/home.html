@@ -75,14 +75,14 @@
 <div class="section-shadow">
 	<div class="container section-bg my-4 py-3 angle-rect optional">
 		<div class="row">
-			<div class="col-md-9">
+			<div id="home-posts" class="col-md-9">
 				<div class="m-3">
 					<h2>Updates</h2>
 					{{ range first 3 $paginator.Pages }}
 						{{ .Render "summary"}}
 					{{ end }}
 
-					<a href="/post">See all posts</a>
+					<a href="/post" class="fs-5">See all posts</a>
 				</div>
 			</div>
 			<div class="col-md-3">

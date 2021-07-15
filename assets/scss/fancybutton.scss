@@ -3,15 +3,12 @@
 .fancybutton {
 	color: white;
 	text-decoration: none;
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
+	display: inline-block;
 	padding: 10px 20px;
 
 	user-select: none;
 	--button-color: #464966;
 	text-align: center;
-	position: relative;
 	overflow: hidden;
 	background-color: var(--button-color);
 

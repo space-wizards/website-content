@@ -113,3 +113,8 @@
 #logos-column {
 	flex: 30%;
 }
+
+#home-posts .summary {
+	margin-bottom: $spacer;
+	flex-direction: row-reverse;
+}
