@@ -26,31 +26,26 @@
 <div class="section-shadow">
 	<div class="container my-4 py-3 section-bg angle-rect optional">
 		<div class="row">
+
 			<div class="col-lg-6 align-self-center">
 				<div id="gallery-img-wrap">
-					<div class="gallery-img active" data-gallery-id="1">
-						<img src="/images/main/bar.png"/>
-					</div>
-					<div class="gallery-img" data-gallery-id="2">
-						<img src="/images/main/engineering.png"/>
-					</div>
-					<div class="gallery-img" data-gallery-id="3">
-						<img src="/images/main/greytide.png"/>
-					</div>
-					<div class="gallery-img" data-gallery-id="4">
-						<img src="/images/main/medbay.png"/>
-					</div>
-					<div class="gallery-img" data-gallery-id="5">
-						<img src="/images/main/rnd.png"/>
-					</div>
+					{{ range $idx, $entry := $.Site.Data.home.gallery }}
+						 <div class="gallery-img {{if eq $idx 0 }} active {{ end }}" data-gallery-id="{{ add 1 $idx }}">
+							 <picture>
+								<source type="image/webp" srcset="/images/home/gallery-{{ $entry }}.webp" />
+								<img src="/images/home/gallery-{{ $entry }}.jpg"/>
+							 </picture>
+						</div>
+					{{ end }}
 				</div>
 
 				<div id="gallery-thumbs">
-					<img class="gallery-thumb" data-gallery-id="1" src="/images/main/bar.png" />
-					<img class="gallery-thumb" data-gallery-id="2" src="/images/main/engineering.png" />
-					<img class="gallery-thumb" data-gallery-id="3" src="/images/main/greytide.png" />
-					<img class="gallery-thumb" data-gallery-id="4" src="/images/main/medbay.png" />
-					<img class="gallery-thumb" data-gallery-id="5" src="/images/main/rnd.png" />
+					{{ range $idx, $entry := $.Site.Data.home.gallery }}
+					<picture>
+						<source type="image/webp" srcset="/images/home/gallery-{{ $entry }}.webp" />
+						<img class="gallery-thumb {{if eq $idx 0 }} active {{ end }}" data-gallery-id="{{ add 1 $idx }}" src="/images/home/gallery-{{ $entry }}.jpg"/>
+					 </picture>
+					{{ end }}
 				</div>
 			</div>
 			<div id="gallery-desc" class="col-lg-6">
