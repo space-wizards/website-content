@@ -27,9 +27,9 @@ Anyway, let's see the new features we've added!
 ### Atmospherics
 *Contributed by Zumorica*
 
-<video src="/video/pr_24/fire.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_24/gasmixing.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_24/depressurization.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/fire.mp4" >}}
+{{< video-auto "/video/pr_24/gasmixing.mp4" >}}
+{{< video-auto "/video/pr_24/depressurization.mp4" >}}
 
 The atmospherics simulator remake finally has atmospherics! It's inspired by [monstermos](https://github.com/yogstation13/extools/tree/master/byond-extools/src/monstermos), and we're calling it *zumos*, in honor of its developer, Zumorica. It performs much better than SS13's LINDA and ZAS atmospherics systems - you can burn down the entire station without grinding gameplay to a halt.
 
@@ -49,7 +49,7 @@ Here's a **non-exhaustive** highlight reel of what SS14's atmos currently entail
 ### Antimatter engine
 *Contributed by ancientpower*
 
-<video src="/video/pr_24/ame.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/ame.mp4" >}}
 
 While it still needs some polish, the classic building block engine is now in the game as the second power source (after solars). Just like in SS13 it can be expanded indefinitely to produce more power. It even comes with fancy lighting effects!
 
@@ -58,14 +58,14 @@ While it still needs some polish, the classic building block engine is now in th
 
 You can now pull objects and players, just like in SS13.
 
-<video src="/video/pr_24/pulling.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/pulling.mp4" >}}
 
 ### Pointing
 *Contributed by DrSmugleaf*
 
 You can now direct other players' attention by pointing at things.
 
-<video src="/video/pr_24/pointing.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/pointing.mp4" >}}
 
 ### Mob improvements
 *Contributed by DrSmugleaf and GlassEclipse*
@@ -85,28 +85,28 @@ Mobs can have more than two hands.
 We completely reworked the backend system for construction. This makes it [much easier](https://hackmd.io/@ss14/docs/%2FGP3vTF_QSp-oLOJuhobsPg) for contributors to add construction steps to things, as well as making construction steps more versatile and providing more detailed feedback to players.
 
 {{< imgw "/images/post/pr_24/construction" >}}
-<video src="/video/pr_24/construction.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/construction.mp4" >}}
 
 ### Climbing
 *Contributed by nüke*
 
 You can now click and drag yourself (or others) onto a table or other climbable object. Tables will never be the same.
 
-<video src="/video/pr_24/tableclimbing.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/tableclimbing.mp4" >}}
 
 ### Stripping menu
 *Contributed by Zumorica*
 
 You can now strip items from other players. The current UI is a placeholder, but a new inventory-like UI is currently a work-in-progress. Combined with the newly added handcuffs, Security can now keep the greytide in check!
 
-<video src="/video/pr_24/stripmeup.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/stripmeup.mp4" >}}
 
 ### Handcuffs
 *Contributed by nüke*
 
 We added handcuffs and makeshift cable cuffs to the game. To handcuff someone, you and the target both need to stand still with no interruptions for a short while. It takes less time to cuff stunned players, and you're gonna need extra cuffs for people with more than two arms.
 
-<video src="/video/pr_24/handcuffing.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/handcuffing.mp4" >}}
 
 ### Station events
 *Contributed by metalgearsloth*
@@ -142,14 +142,14 @@ Machines can now be easily linked together. A practical example of this would be
 
 If you thought death was going to let you escape a round of SS14, you'll have to try harder, as our new cloning machines will drag you back to life against your wishes.
 
-<video src="/video/pr_24/cloning.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/cloning.mp4" >}}
 
 ### Handheld radio and headsets
 *Contributed by Bright0*
 
 A basic (and non-final) implementation of telecomms has been added, with both handheld radios and headsets. Currently, Common is the only channel.
 
-<video src="/video/pr_24/radios.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/radios.mp4" >}}
 
 ### Accent system
 *Contributed by exp111*
@@ -164,22 +164,22 @@ Speech can now be automatically modified for things like slurred speech while dr
 
 The ~~Clown~~ Janitor now has another tool in their arsenal, and can now spray things with chemicals.
 
-<video src="/video/pr_24/spacelube.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/spacelube.mp4" >}}
 
 ### Lantern, flashlight improvement, emergency lights
 *Contributed by SoulSloth and juliangiebel*
 
 The lantern has been added, featuring a soft yellow glow. Flashlights will now flicker when their battery is going out. Emergency lights will now be activated when the station loses power.
 
-<video src="/video/pr_24/elights.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_24/flashlights.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/elights.mp4" >}}
+{{< video-auto "/video/pr_24/flashlights.mp4" >}}
 
 ### Glowsticks and flares
 *Contributed by nüke*
 
 Glowsticks and flares have been added. Glowsticks last a long time with a weaker glow, while flares last a shorter duration but are much brighter. As a bonus, it's now easier for contributors to define lighting effects for items.
 
-<video src="/video/pr_24/flares.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/flares.mp4" >}}
 
 ### Signs and plaques
 *Contributed by Swept*
@@ -193,7 +193,7 @@ Signs have been added to the Saltern directing you to the various departments.
 
 The RCD now has feature parity with SS13, minus the radial menu. Walls, floors, and airlocks can now all be created or destroyed by the RCD. Try not to immediately vent the station.
 
-<video src="/video/pr_24/rcd.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/rcd.mp4" >}}
 
 ### Cream pies
 *Contributed by Zumorica*
@@ -225,7 +225,7 @@ A simple game to kill time in the bar.
 ### Nanotrasen Block Game™
 *Contributed by PaulRitter*
 
-<video src="/video/pr_24/blockgame.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/blockgame.mp4" >}}
 
 Nanotrasen Block Game™ is a wacky new game for employees to play during their break. There are separate leaderboards for the current round and all-time\*. Challenge your compatriots and become the best NBG player in the star system.
 
@@ -286,8 +286,8 @@ Yes, it can eat a hole through the station.
 
 ### Disposal mailing
 
-<video src="/video/pr_24/mailing.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_24/routing.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_24/mailing.mp4" >}}
+{{< video-auto "/video/pr_24/routing.mp4" >}}
 
 
 

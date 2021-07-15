@@ -5,7 +5,7 @@ body
 	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
 	/* Oh well */
 	background: #25252A;
-	background: url("/images/background.jpg") black;
+	background: url("/images/main/background.jpg") black;
 	background-size: cover;
    	background-attachment: fixed;
 
@@ -28,39 +28,18 @@ body {
 	flex-direction: column;
 }
 
-.background
-{
-	height: 100%;
-	width: 100%;
-	position: fixed;
-}
-
-#background-2
-{
-	z-index: -9;
-}
-
-@media screen and (max-width: 1020px)
-{
-	#background-2
-	{
-		background-color: rgba(0, 0, 0, 0.9);
-	}
-
-	#background
-	{
-		z-index: -10;
-		/*
-		On this smaller layout the background is entirely covered by the center column,
-		so we use a smaller, heavily compressed image.
-		Can't make out the loss in detail anyways.
-		*/
-		background: url("/images/background-small.jpg") black;
- 		background-size: cover;
+@include media-breakpoint-down(sm) {
+	/*
+	On this smaller layout the background is entirely covered by the center column,
+	so we use a smaller, heavily compressed image.
+	Can't make out the loss in detail anyways.
+	*/
+	body {
+		background: url("/images/main/background-small.jpg") black;
+		background-size: cover;
 		background-attachment: fixed;
 	}
 }
-
 
 
 .section-shadow {

@@ -28,23 +28,23 @@ Please read [the rules](https://forum.spacestation14.io/index.php?/topic/5-globa
 A huge thanks to metalgearsloth for slaving over a complete physics rework for SS14. If you want to see the technicalities of it he's done a detailed write-up in the technical section but here's a few examples to demonstrate the advantages of the rework.
 
 #### Circle colliders for players (This means you won't need to be pixel-perfect when going through airlocks and doorways).
-<video src="/video/pr_26/circle.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/circle.mp4" >}}
 
 #### Items can rotate when thrown and bounce.
-<video src="/video/pr_26/throw.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/throw.mp4" >}}
 
 #### Pushing is less jittery.
-<video src="/video/pr_26/pushing.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/pushing.mp4" >}}
 
 #### Explosion in zero-gravity.
-<video src="/video/pr_26/gravity.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/gravity.mp4" >}}
 
 Again, this physics update is huge and most of it won't be noticed by players so send metalgearsloth and Acruid hugs and kisses.
 
 ### New Chatbox
 *Contributed by chairbender and ike709*
 
-<video src="/video/pr_26/chat.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/chat.mp4" >}}
 
 A myriad of improvements have been made to the chatbox:
 - It's resizable now!
@@ -54,14 +54,14 @@ A myriad of improvements have been made to the chatbox:
 ### Viewport Improvements <!-- It should have a non-technical section too for the commoners -->
 *Contributed by 20kdc, Zumorica, and PJB3005*
 
-<video src="/video/pr_26/viewport.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/viewport.mp4" >}}
 
 These improvements to the viewport will eliminate the advantage people with bigger monitors got. Essentially it scales the view of the game so that everybody can see exactly the same amount of tiles.
 
 ### HUD Inventory and Themes
 *Contributed by Swept and ike709*
 
-<video src="/video/pr_26/hud.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/hud.mp4" >}}
 
 The inventory popup window has been replaced with an on-HUD inventory inspired by Goonstation. The ID and storage slots are always visible, while the top row of the inventory is toggleable with `I`.
 
@@ -73,7 +73,7 @@ With the addition of the HUD inventory (and much bikeshedding) comes the additio
 ### Firey Stuff
 *Contributed by Zumorica*
 
-<video src="/video/pr_26/fire.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/fire.mp4" >}}
 
 You can now spray yourself with flammable chemicals and ignite yourself using a welding tool or an igniter.
 
@@ -85,14 +85,14 @@ You can now spray yourself with flammable chemicals and ignite yourself using a 
 ### In-game Changelog
 *Contributed by PJB3005*
 
-<video src="/video/pr_26/changelog.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/changelog.mp4" >}}
 
 Added an in-game changelog, so you can view new features in realtime! The changelog button will notify you whenever there are unread changes.
 
 ### Info Window - Rules/Tutorial
 *Contributed by Swept*
 
-<video src="/video/pr_26/rules.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_26/rules.mp4" >}}
 
 All fun has been removed from the game and replaced with rules, which are viewable in the information window, accessed with F1.
 
@@ -124,7 +124,7 @@ Ghost roles have been added, allowing unrobust players to return as a mouse or a
 ### Station Ambience
 *Contributed by tmtmtl30*
 
-<video src="/video/pr_26/ambience.mp4" autoplay loop playsinline></video>
+{{< video-audio "/video/pr_26/ambience.mp4" >}}
 
 SS13's background hum has been added to SS14. It can be disabled in the settings.
 
@@ -147,7 +147,7 @@ Our new mixtape just dropped, with the hottest license-compliant beats available
 ### Rollerbeds
 *Contributed by Topy*
 
-<video src="/video/pr_26/rollerbeds.mp4" muted autoplay loop playsinline></video>
+{{< video-auto "/video/pr_26/rollerbeds.mp4" >}}
 
 Rollerbeds have been added allowing better transport of injured station personnel.
 
@@ -168,7 +168,7 @@ The context menu has been improved, making large stacks of items easier to manag
 ### Votes
 *Contributed by PJB3005*
 
-<video src="/video/pr_26/vote.mp4" muted autoplay loop playsinline></video>
+{{< video-auto "/video/pr_26/vote.mp4" >}}
 
 Players can now vote to restart the round (i ded) or change the next round's gamemode.
 
@@ -182,14 +182,14 @@ You can now kick, ban and teleport to players from the admin panel.
 ### Health Overlay
 *Contributed by DrSmugleaf*
 
-<video src="/video/pr_26/health.mp4" autoplay loop playsinline></video>
+{{< video-auto "/video/pr_26/health.mp4" >}}
 
 A simple command which displays health-bars over players heads. Useful for testing and admins.
 
 ### Vending Machine Advertisements
 *Contributed by Visne*
 
-<video src="/video/pr_26/ad.mp4" muted autoplay loop playsinline></video>
+{{< video-auto "/video/pr_26/ad.mp4" >}}
 
 Commercial vending machines will now advertise their products every once in a while.
 
@@ -282,7 +282,7 @@ In SS13 coding terms, this is like reloading an item dm file while the server is
 ### RobustToolbox improvements for other games
 *Contributed by Zumorica*
 
-<video src="/video/pr_26/pong.mp4" autoplay loop playsinline></video>
+{{< video-auto "/video/pr_26/pong.mp4" >}}
 
 RobustToolbox, the game engine that SS14 uses, has been improved in a variety of areas to better support other games that may want to make use of it. For example, it now supports singleplayer games!
 
