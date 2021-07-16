@@ -6,13 +6,11 @@
 {{- end -}}
 {{ $sass := resources.Get "scss/main.scss" | resources.ToCSS $sassOptions  }}
 
-{{/*}}
 {{- if eq hugo.Environment "production" -}}
 	{{ $postCssOptions := (dict "config" "./postcss.config.js")}}
 	{{ $sass = $sass | resources.PostCSS $postCssOptions | resources.Minify }}
 	{{ $js = $js | resources.Minify }}
 {{- end -}}
-{{*/}}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
