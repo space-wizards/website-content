@@ -1,0 +1,40 @@
+
+#media-img, #media-video {
+	margin: 40px 0 40px 0;
+}
+
+#media-img div, #media-video div {
+	flex-flow: row wrap;
+	display: flex;
+	margin: 0 0 0 40px;
+}
+
+
+.video-container video, #media-img img {
+	width: 335px;
+	margin: 10px;
+}
+.video-container  {
+	display: flex;
+	flex-wrap: wrap;
+}
+.video-title {
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	top: 10px;
+}
+#media-toc {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 210px 0 210px 0;
+}
+#media-toc div {
+	margin: 0 100px 0 100px;
+	padding: 50px 0 50px 0;
+}
+.media-toc-item a {
+	color: whitesmoke;
+	font-size: 50px;
+}
