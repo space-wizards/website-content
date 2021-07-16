@@ -17,7 +17,7 @@ Nah.
 No.
 
 ### Q: Are you the original creator of SS13?
-Yes/No. The original creator of SS13 was exadv1 in 2003. Since it's open-sourcing in 2006, the community has been the developers of SS13. Many of our devs are coders, contributors, admins and hosts of other SS13 communities, but none of us were there in 2003. Except for exadv1 who's in our discord server.
+Yes/No. The original creator of SS13 would be Exadv1 in 2003. Since its open-sourcing in 2006, the community has been the developers of SS13. Many of our devs are coders, contributors, admins and hosts of various SS13 communities, but none of us were there in 2003.
 
 ### Q: What Language/Engine is SS14 written in?
 It's written in C# using our own engine; [Robust Toolbox](https://github.com/space-wizards/RobustToolbox). C# is a good language and it's perfect for this project. It's easy to pick up, comfortable to write and pretty fast.
@@ -25,7 +25,7 @@ It's written in C# using our own engine; [Robust Toolbox](https://github.com/spa
 ### Q: Can I Help?
 Of course! Our [Discord](https://discord.gg/MwDDf6t) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://hackmd.io/@ss14/docs) on [getting setup](https://hackmd.io/@ss14/docs/getting-set-up) and [coding](https://hackmd.io/@ss14/docs/howdoicode).
 
-### Q: Will the main SS14 servers have round-start playable races other than humans?
+### Q: Will the main SS14 servers have round-start playable species other than humans?
 No, but the functionality will be there for other servers.
 
 <details>

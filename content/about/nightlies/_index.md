@@ -21,13 +21,13 @@ type = "nightlies"
 #### Minimum
 * 64-bit CPU & OS
 * Memory: 2GB Ram
-* Graphics: DirectX 9.0c
+* Graphics: DirectX 9.0c (Windows) or OpenGL 3.1/ES2.0
 * Storage: 512MB disk space
 
 #### Recommended
 * 64-bit CPU & OS
 * Memory: 4GB Ram
-* Graphics: OpenGL 3.3 or greater
+* Graphics: DirectX 11 (Windows) or OpenGL 3.3
 * Storage: 1GB disk space
 
 ### Windows:
