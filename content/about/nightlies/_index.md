@@ -11,7 +11,7 @@ type = "nightlies"
 </div>
 <div id="download-sublinks">
 	<small><a href="/about/nightlies/#system-requirements">System requirements</a></small>
-	<small><a href="/about/nightlies/#server-hosting">Server hosting</a></small>
+	<small><a href="https://hackmd.io/@ss14/for-hosting">Server hosting</a></small>
 </div>
 
 ## System Requirements
@@ -21,18 +21,19 @@ type = "nightlies"
 #### Minimum
 * 64-bit CPU & OS
 * Memory: 2GB Ram
-* Graphics: OpenGL 3.3 or greater
+* Graphics: DirectX 9.0c (Windows) or OpenGL 3.1/ES2.0
 * Storage: 512MB disk space
 
 #### Recommended
 * 64-bit CPU & OS
 * Memory: 4GB Ram
-* Graphics: OpenGL 3.3 or greater
+* Graphics: DirectX 11 (Windows) or OpenGL 3.3
 * Storage: 1GB disk space
 
 ### Windows:
 
 * [VC++ 2015 Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+* Windows 7, 8.1 or 10. Windows 8.0 is not supported.
 
 ### Linux:
 
@@ -43,10 +44,6 @@ type = "nightlies"
 
 * High Sierra or greater
 * M1 Macs probably do not work
-
-## Server Hosting
-
-If you would like to host your own server, see the [server hosting tutorial](https://hackmd.io/@ss14/for-hosting) page on HackMD.
 
 ## FAQ
 
