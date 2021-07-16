@@ -20,7 +20,7 @@ Mob code's general component design has now been solidified, and we are making r
 
 This newly implemented "species" component is meant to implement fundamental health states. In contrast to SS13's code, the species component is implemented in a modular way that can be used for any mob type and easily support adding new types of health states. At the basic level, it provides us with the conscious, critical, and dead health states that all SS13 forks have traditionally used.
 
-{{< video-audio "/video/pr_9/species" >}}
+{{< video-audio "/video/pr_9/species.mp4" >}}
 
 As you can see above, Clusterfack also provided us with the work to finally make a character window that combines information from multiple components for display to the user. Right now, it can be opened and closed with the "c" hotkey. This has made it trivial for us to later create additional components that have user interfaces shown to the character.
 
@@ -92,7 +92,7 @@ Guns were lame. Less-so now that they're fully automatic. Or, well, at least the
 
 The ability to throw items out of your hand has now been added to the game, thanks to Acruid. The items are treated as physical objects and will collide with players and walls. Thrown items will damage objects they come into contact with, based of of the force of their collision. This means that a fast, heavy moving object like an iron ingot will do more damage to a player than a small object like a headset.
 
-{{< video-audio "/video/pr_9/throwing" >}}
+{{< video-audio "/video/pr_9/throwing.mp4" >}}
 
 Currently there is no concept of gravity on the station, which means that thrown items will continue to drift forever as if they are in open space. This will be changed once grid physics are improved and a gravity generator is added to the game. Also, as demonstrated in the video, items can currently open and pass through automatic doors. We are still deciding if this is going to stay in the game or not, and are open to suggestions about what you think.
 
@@ -102,7 +102,7 @@ SS13 definitely has an unique approach to lockers. When you open them everything
 
 Our idea is to merge the code for backpacks and such with that for lockers. So you have to explicitly take items out with a menu. We believe it won't be clunky when eventually implemented well. All the open state sprites are still gonna stay though. Just like in Minecraft or whatever you'll be able to see when a locker is opened by somebody:
 
-{{< video-audio "/video/pr_9/storage" >}}
+{{< video-audio "/video/pr_9/storage.mp4" >}}
 
 ## IPv6 Networking Support
 

@@ -14,7 +14,7 @@ Writing these into sections is hard, did you know that?
 
 ## Speech Bubbles
 
-{{< video-audio "/video/pr_18/speech-bubbles" >}}
+{{< video-audio "/video/pr_18/speech-bubbles.mp4" >}}
 
 ## More Dakka (Contributed by metalgearsloth)
 

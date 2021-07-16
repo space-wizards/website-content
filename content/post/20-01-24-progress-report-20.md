@@ -222,6 +222,6 @@ These were always "separate" things in the engine from all other entities. This 
 
 This is now gone and they're full blown entities. This allowed us to do stuff like this practically overnight:
 
-{{< video-audio "/video/pr_20/moving-shuttle" >}}
+{{< video-audio "/video/pr_20/moving-shuttle.mp4" >}}
 
 As you can clearly tell I did not put too much effort into recording this. But hey, this is the "thanks for getting this far" reward for people who read the entire progress report. So  thank you!

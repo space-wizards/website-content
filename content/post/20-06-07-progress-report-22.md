@@ -139,14 +139,14 @@ And now we're planning to port [way better bartending (my personal opinion) - fr
 ### Kitchen Dept presents: Microwave
 *Contributed by Memory*
 
-{{< video-audio "/video/pr_22/wzhzhzh" >}}
+{{< video-audio "/video/pr_22/wzhzhzh.mp4" >}}
 
 There is now a microwave, and we are incredibly pleased with the sound it makes.
 
 ### Audio Occlusion
 *Contributed by Clyybber*
 
-{{< video-audio "/video/pr_22/occlusion" >}}
+{{< video-audio "/video/pr_22/occlusion.mp4" >}}
 
 ### Instruments and MIDI
 *Team project by Zumorica, PJB, Q, and probably others*
@@ -163,7 +163,7 @@ You may also recall that we teased this feature many months ago. It has now fina
 
 ### Enviromental suicides
 *Contributed by Izimann*
-{{< video-audio "/video/pr_22/microwave" >}}
+{{< video-audio "/video/pr_22/microwave.mp4" >}}
 
 ### Emote improvements
 *Contributed by Hugal31*
