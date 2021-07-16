@@ -36,10 +36,6 @@ layout = "nightlies"
 * High Sierra or greater
 * M1 Macs probably do not work
 
-## Server Hosting
-
-If you would like to host your own server, see the [server hosting tutorial](https://hackmd.io/@ss14/for-hosting) page on HackMD.
-
 ## FAQ
 
 #### Is this malware?
