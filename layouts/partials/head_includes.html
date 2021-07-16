@@ -17,4 +17,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap&family=Montserrat:wght@700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ $sass.RelPermalink }}" />
 <script async src="{{ $js.RelPermalink }}"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+{{- if eq hugo.Environment "production" -}}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+{{- else -}}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+{{- end -}}
