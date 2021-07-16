@@ -1,0 +1,186 @@
+$fa-font-path: "/fonts/fontawesome";
+
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/utilities";
+
+@import "angleRect.scss";
+@import "pagination.scss";
+@import "fancybutton.scss";
+
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+//@import "../../node_modules/bootstrap/scss/tables";
+//@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/transitions";
+//@import "../../node_modules/bootstrap/scss/dropdown";
+//@import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+//@import "../../node_modules/bootstrap/scss/card";
+//@import "../../node_modules/bootstrap/scss/accordion";
+//@import "../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../node_modules/bootstrap/scss/pagination";
+//@import "../../node_modules/bootstrap/scss/badge";
+//@import "../../node_modules/bootstrap/scss/alert";
+//@import "../../node_modules/bootstrap/scss/progress";
+//@import "../../node_modules/bootstrap/scss/list-group";
+//@import "../../node_modules/bootstrap/scss/close";
+//@import "../../node_modules/bootstrap/scss/toasts";
+//@import "../../node_modules/bootstrap/scss/modal";
+//@import "../../node_modules/bootstrap/scss/tooltip";
+//@import "../../node_modules/bootstrap/scss/popover";
+//@import "../../node_modules/bootstrap/scss/carousel";
+//@import "../../node_modules/bootstrap/scss/spinners";
+//@import "../../node_modules/bootstrap/scss/offcanvas";
+
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+
+@import "code.scss";
+@import "download.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "home.scss";
+@import "layout.scss";
+@import "toc.scss";
+
+@import "fonts/fira_code.scss";
+
+/* Literally everything I can't figure out a better place to put it. */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+small
+{
+	color: grey;
+}
+
+hr
+{
+	min-height: 2px;
+	margin: 25px 0;
+	height: 1px;
+	border: 0;
+	background: #525252;
+}
+
+.articleheader
+{
+	margin-bottom: 0px;
+}
+
+.articlemeta
+{
+	color: dimgrey;
+	font-size: 12pt;
+	display: inline-block;
+	padding-bottom: 7px;
+}
+
+a {
+	color: rgb(150, 170, 255);
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+div#recentpostswrapper h1
+{
+	margin-bottom: 0;
+}
+
+li.disabled, li.disabled > a
+{
+	color: rgb(105, 105, 105);
+}
+
+img, video {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#media-img, #media-video {
+	margin: 40px 0 40px 0;
+}
+
+#media-img div, #media-video div {
+	flex-flow: row wrap;
+	display: flex;
+	margin: 0 0 0 40px;
+}
+
+
+.video-container video, #media-img img {
+	width: 335px;
+	margin: 10px;
+}
+.video-container  {
+	display: flex;
+	flex-wrap: wrap;
+}
+.video-title {
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	top: 10px;
+}
+#media-toc {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 210px 0 210px 0;
+}
+#media-toc div {
+	margin: 0 100px 0 100px;
+	padding: 50px 0 50px 0;
+}
+.media-toc-item a {
+	color: whitesmoke;
+	font-size: 50px;
+}
+
+.contact {
+	text-align: center;
+}
+
+hr.nomargin {
+	margin: 0;
+}
+
+.article-thumb {
+	--angle-rect-clip-size: 8px;
+	max-height: 100px;
+	align-self: start;
+}
+
+article#main-article {
+	img, video {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+}

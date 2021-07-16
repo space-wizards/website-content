@@ -1,28 +1,40 @@
 {{ partial "header.html" . }}
 
-<nav class="go-back-link">
-	<a href="/">← Go Back</a>
-</nav>
+<div class="section-shadow">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
 
-<article>
-	<h1 class="articleheader first-header">{{ .Title }}</h2>
-	<span class="articlemeta">
-		<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
-			{{ .Date.Format "Monday January 2, 2006" }}
-		</time>
-		by
-		<span class="author">{{ .Params.author }}</span>
-	</span>
 
-	{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }} <!--- The links from the Toc redirect by default to the siteURL, this is my workaround to that --->
+<article id="main-article">
+	<div class="row">
+		<div class="col">
+			<h1 class="articleheader first-header">{{ .Title }}</h2>
+			<span class="articlemeta">
+				<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+					{{ .Date.Format "Monday January 2, 2006" }}
+				</time>
+			</span>
+		</div>
+		{{ if .Params.thumbnail }}
+			<div class="col-md-2 col-4">
+				{{ partial "post_thumbnail.html" . }}
+			</div>
+		{{ end }}
+	</div>
+
+
+	<div class="mb-3">
+		<!-- The links from the Toc redirect by default to the siteURL, this is my workaround to that -->
+		{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}
+	</div>
 	{{  .Content }}
-	
+
 	{{ if .Params.reddit }}
-	<hr />
-	<footer>
-		 <a href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
+	<hr>
+	<footer class="d-flex justify-items-center">
+		 <a class="center" href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
 	</footer>
 	{{ end }}
 </article>
 
+</div></div>
 {{ partial "footer.html" . }}

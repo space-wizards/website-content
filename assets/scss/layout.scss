@@ -1,0 +1,63 @@
+/* Contains main page layout CSS like background and centering and whatever. */
+
+body
+{
+	/* Only really seems to be visible due to rendering bugs in Firefox Preview on Android. */
+	/* Oh well */
+	background: #25252A;
+	background: url("/images/main/background.jpg") black;
+	background-size: cover;
+   	background-attachment: fixed;
+
+	color: rgb(200, 200, 200);
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	margin: 0;
+	font-variant-ligatures: normal;
+	/* Bootstrap overrides this */
+	line-height: normal;
+}
+
+html
+{
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+@include media-breakpoint-down(sm) {
+	/*
+	On this smaller layout the background is entirely covered by the center column,
+	so we use a smaller, heavily compressed image.
+	Can't make out the loss in detail anyways.
+	*/
+	body {
+		background: url("/images/main/background-small.jpg") black;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+
+.section-shadow {
+	filter: drop-shadow(-1px 6px 3px rgba(20, 0, 0, 0.5));
+}
+
+.section-bg {
+	background-color: #212126;
+}
+
+.section-bg h1 {
+	margin-top: -6px;
+}
+
+@media screen and (max-width: 576px) {
+	.section-shadow {
+		/* Disable drop shadows on phone-size screens for perf */
+		filter: none;
+	}
+}
+

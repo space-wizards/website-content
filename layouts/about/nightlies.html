@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+<div class="section-shadow d-flex flex-column align-self-center">
+	<div class="mb-4 py-3 section-bg angle-rect optional d-flex flex-column justify-content-center">
+		<div class="download-image-container">
+			<div><div class="download-image"><a href="https://store.steampowered.com/app/1255460/Space_Station_14/"><img class="download-img" src="/images/logo/steam_logo.svg"></a><small><figcaption class="download-name">Steam</figcaption></small><figcaption><a  class="download-link" href="https://store.steampowered.com/app/1255460/Space_Station_14/">Join playtest</a></figcaption></div></div>
+			<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/latest/download/SS14.Launcher_Windows.zip"><img class="download-img" src="/images/logo/Windows_logo_2012.svg"></a><small><figcaption class="download-name">Windows 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/latest/download/SS14.Launcher_Windows.zip">Download launcher</a></figcaption><figcaption><small><strong>Needs <a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">VC++ 2015 Redist</a></strong></small></figcaption></div></div>
+			<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/latest/download/SS14.Launcher_Linux.zip"><img class="download-img" src="/images/logo/tux.svg"></a><small><figcaption class="download-name">Linux 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/latest/download/SS14.Launcher_Linux.zip">Download launcher</a></div></div>
+			<div><div class="download-image"><a href="https://github.com/space-wizards/SS14.Launcher/releases/latest/download/SS14.Launcher_macOS.zip"><img class="download-img" src="/images/logo/Apple_logo.svg"></a><small><figcaption class="download-name">macOS 64-bit</figcaption></small><figcaption><a class="download-link" href="https://github.com/space-wizards/SS14.Launcher/releases/latest/download/SS14.Launcher_macOS.zip">Download launcher</a></figcaption><figcaption><small><strong>macOS High Sierra or greater</strong></small></figcaption></div></div>
+		</div>
+		<div id="download-sublinks">
+			<small><a href="/about/nightlies/#system-requirements">System requirements</a></small>
+			<small><a href="https://hackmd.io/@ss14/for-hosting">Server hosting</a></small>
+		</div>
+
+	</div>
+</div>
+
+<div class="section-shadow">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
+		<article>
+			{{ .Content }}
+		</article>
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

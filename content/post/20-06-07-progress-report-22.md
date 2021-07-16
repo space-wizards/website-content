@@ -6,6 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = "https://www.reddit.com/r/SS13/comments/gybe61/ss14_progress_report_22_full_steam_ahead/"
+thumbnail = "pr_22"
 +++
 
 It has been 3 months since the last post, we have a lot to tell you!
@@ -48,7 +49,7 @@ Some ground rules:
 
 ## In And Out
 
-<video src="/video/pr_22/hacking-v2.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/hacking-v2.mp4" >}}
 
 Showing off some of the new content in this progress report, in a nice clip.
 
@@ -81,7 +82,7 @@ We've rewritten a large part of our physics engine! Expect more realism and smoo
 
 There is now also proper gravity, with fully breakable gravity generator and pushing off walls in zero-g.
 
-<video src="/video/pr_22/gravity.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/gravity.mp4" >}}
 
 ### Stuns
 *Contributed by Zumorica*
@@ -99,7 +100,7 @@ The current state of the station uses magical generators. They're definitely nic
 There isn't much fancy to say about these, but the UI for the controller uses textfields rather than the relative +/- used by SS13.
 Additionally, to the right there's a view of the position of the panel and sun.
 
-<video src="/video/pr_22/solars.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/solars.mp4" >}}
 
 There are still some improvements to be made, like proper solar trackers, but those are waiting on a rewrite of the power system to allow better connectivity of this stuff.
 
@@ -108,7 +109,7 @@ There are still some improvements to be made, like proper solar trackers, but th
 
 The new wire hacking interface has been completed. We previewed a mockup of this interface many months ago in PR #19, but it's finally done and in-game. It looks amazing and I'm very proud of it.
 
-<video src="/video/pr_22/hacking_interface.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/hacking_interface.mp4" >}}
 
 ### Fancy Right-Click Menus
 *Contributed by PJB3005, Zumorica*
@@ -138,14 +139,14 @@ And now we're planning to port [way better bartending (my personal opinion) - fr
 ### Kitchen Dept presents: Microwave
 *Contributed by Memory*
 
-<video src="/video/pr_22/wzhzhzh.mp4" controls></video>
+{{< video-audio "/video/pr_22/wzhzhzh" >}}
 
 There is now a microwave, and we are incredibly pleased with the sound it makes.
 
 ### Audio Occlusion
 *Contributed by Clyybber*
 
-<video src="/video/pr_22/occlusion.mp4" controls></video>
+{{< video-audio "/video/pr_22/occlusion" >}}
 
 ### Instruments and MIDI
 *Team project by Zumorica, PJB, Q, and probably others*
@@ -162,7 +163,7 @@ You may also recall that we teased this feature many months ago. It has now fina
 
 ### Enviromental suicides
 *Contributed by Izimann*
-<video src="/video/pr_22/microwave.mp4" controls></video>
+{{< video-audio "/video/pr_22/microwave" >}}
 
 ### Emote improvements
 *Contributed by Hugal31*
@@ -176,14 +177,14 @@ A small quality-of-life improvement: emotes now show with the rest of the speech
 
 The cooldown animation on items has been improved. It's silky smooth now and has a much cooler donut shape.
 
-<video src="/video/pr_22/cooldown.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/cooldown.mp4" >}}
 
 ### Smart Equip Shortcuts
 *Contributed by Hugal31*
 
 You can now press *Shift+E* and *Shift+B* to snart equip stuff to and from your belt/backpack respectively. When your hand is full it'll put the item in, if it's empty it'll pull out the last item you put in. This makes it was easier to "drop" tools into your belt, and it makes backpacks very useful as a quick place to stash something to free your hands temporarily.
 
-<video src="/video/pr_22/smart_equip.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/smart_equip.mp4" >}}
 
 ### Equip Error Messages
 *Contributed by Hugal31*
@@ -197,7 +198,7 @@ In our neverending quest to make the game more approachable for new players, it 
 
 Tools have been refactored to make them much more modular. Thanks to this, you'll be able to have tools that can act as a screwdriver and wrench at the same time, or have multi-tools that can switch between different tool "behaviors". The Jaws of Life and Powered Hand Drill have also been added to the game, with fancy tooltips!
 
-<video src="/video/pr_22/jawsofmemes.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/jawsofmemes.mp4" >}}
 
 ### Combat Mode Controls, Now Way Simpler
 
@@ -236,7 +237,7 @@ The basic system has been implemented, but not yet merged. A lot of work is stil
 ### Skub
 skub
 
-<video src="/video/pr_22/skub.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/skub.mp4" >}}
 
 ## Technical details for developers
 
@@ -249,7 +250,7 @@ That's why we made the [RSI Editor](https://github.com/space-wizards/rsi-editor)
 ### Scripting
 *Contributed by PJB3005*
 
-<video src="/video/pr_22/scripting.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_22/scripting.mp4" >}}
 
 We've integrated a C# Interactive prompt into the client and server, allowing you to run arbitrary C# code. This is an **amazing** debugging/development tool. It is, however, only limited to being a development tool for security reasons.
 

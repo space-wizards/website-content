@@ -1,0 +1,28 @@
+baseURL: "https://spacestation14.io/"
+languageCode: "en-us"
+title: "Space Station 14"
+ignoreFiles: ["\\.ts$", "tsconfig.json$"]
+disableKinds: ["taxonomy", "taxonomyTerm"]
+mainSections: ["post"]
+
+# PYGMENTS (Syntax Highlighting) settings!
+# I couldn't get Chroma to parse C# at all.
+PygmentsUseClassic: true
+PygmentsCodeFences: true
+PygmentsUseClasses: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+module:
+  mounts:
+  - source: "static"
+    target: "static"
+  - source: "assets"
+    target: "assets"
+  - source: "node_modules/@fortawesome/fontawesome-free/webfonts"
+    target: "static/fonts/fontawesome"
+  - source: "node_modules/@fortawesome/fontawesome-free/scss"
+    target: "assets/scss/fontawesome"

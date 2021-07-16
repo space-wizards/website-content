@@ -6,6 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = "https://spacestation14.io/post/20_07_22-progress-report-23/"
+thumbnail = "pr_23"
 +++
 
 Sadly atmos is not done yet. A lot of other stuff is though!
@@ -26,7 +27,7 @@ Movement prediction is now in. That means you will experience 0 lag when moving 
 
 **While I will post a video here, the impact of this feature doesn't communicate that well over one. Join one of our servers and experience it yourself. It’s glorious.**
 
-<video src="/video/pr_23/prediction.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/prediction.mp4" >}}
 
 It still needs a lot of work, of course. If you try to move through doors you will notice some jumping due to how the system works. These issues will be ironed out over time but some effort is needed to move the code to shared and have it fully supporting reconciliation (the doors use timer callbacks right now which are completely incompatible with netcode...)
 
@@ -41,24 +42,24 @@ The architecture we're using for the prediction system is the same one as [descr
 
 You can now punch people. What more is there to say?
 
-<video src="/video/pr_23/unarmed.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/unarmed.mp4" >}}
 
 ### Click-dragging
 *Contributed by chairbender*
 
 The framework for click-dragging has been implemented. Currently, it is only used for dumping a container and buckling. More behaviors will of course be added over time.
 
-<video src="/video/pr_23/clickdrag.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/clickdrag.mp4" >}}
 
 One of the core problems with clickdragging in SS13 is that it's both finnicky (pixel hunting...) and unclear *what* you can drag *where*. Of course, we aim to solve both of these issues. As you can see from the video, all objects you can drag *onto* are highlit now. For "figuring out that it can be dragged at all" we do have some plans but they're not concrete yet (hint: it involves the right-click menu).
 
 
-### Buckling 
+### Buckling
 *Contributed by DrSmugleaf*
 
 You can now buckle yourself to a chair.
 
-<video src="/video/pr_23/buckle.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/buckle.mp4" >}}
 
 Please refrain from noclipping out of reality with them, thanks.
 
@@ -69,8 +70,8 @@ A large amount of weapon types, weapons, ammo types, and ammo have been added.
 
 {{< imgw "/images/post/pr_23/weapons" >}}
 
-<video src="/video/pr_23/weapons-1.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_23/weapons-2.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/weapons-1.mp4" >}}
+{{< video-auto "/video/pr_23/weapons-2.mp4" >}}
 
 ### Power Rework
 *Contributed by collinlunn*
@@ -83,7 +84,7 @@ Our idea is that every room is filled with "LV" wires that define "the room". Th
 
 Obviously, we recognize that manually laying a cable to every individual powered device would be extremely tedious. In actuality the LV wires act similar to Rimworld's power cables: machines can still connect to them "remotely" from a couple tiles' range, and we'll draw a tiny sub-floor cable to indicate the connection.
 
-We also intend to make every aspect of laying cables as smooth and hassle free as possible to solve any minor nuisances that might result from this, though that's for the future. 
+We also intend to make every aspect of laying cables as smooth and hassle free as possible to solve any minor nuisances that might result from this, though that's for the future.
 
 Outside of the "earth shattering gameplay redesigns", we intend to give the power grid a slightly nicer hierarchial grid of HV -> MV -> LV aswell. Who doesn't love seeing 5 different cable/pipelines running through maintenance?
 
@@ -94,9 +95,9 @@ The power rework has a well-grounded framework so future stuff like separate dat
 
 Construction and deconstruction have been overhauled, and are being continually improved. Most things don't have unique deconstruction steps yet, but that'll be easy to change.
 
-<video src="/video/pr_23/construction.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/construction.mp4" >}}
 
-### Antag and Latejoin Preferences 
+### Antag and Latejoin Preferences
 *Contributed by ike709*
 
 Like in SS13, players can now set their preferences for all of the different antags. Players can also choose a job when they join a round that has already begun.
@@ -108,14 +109,14 @@ Like in SS13, players can now set their preferences for all of the different ant
 
 The Clown now has everything they need to ~~annoy~~ entertain the crew with ~~lame~~ hilarious pranks.
 
-<video src="/video/pr_23/slip.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/slip.mp4" >}}
 
 ### Janitor Gameplay
 *Contributed by metalgearsloth, DrSmugleaf, ike709*
 
 Puddles, trash, the mop. The janitor will feel right at home!
 
-<video src="/video/pr_23/janitor.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/janitor.mp4" >}}
 
 ### ChemMaster 4000 and pills
 *Contributed by ike709*
@@ -129,22 +130,22 @@ Added the ChemMaster 4000. Chemists will now be able to separate a beaker's cont
 
 Last time we talked about the WIP utility AIs, now the system is done and we implemented some as examples, like xenomorphs and mimics.
 
-<video src="/video/pr_23/utility-ais-1.mp4" autoplay muted loop playsinline></video>
-<video src="/video/pr_23/utility-ais-2.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/utility-ais-1.mp4" >}}
+{{< video-auto "/video/pr_23/utility-ais-2.mp4" >}}
 
 ### Flash
 *Contributed by TheDracheX*
 
 Security has a new method of subduing criminal scum: Flashes.
 
-<video src="/video/pr_23/flash.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/flash.mp4" >}}
 
 ### RCD
 *Contributed by Kmc2000*
 
 Added the RCD. It can only build walls at the moment because it was added before deconstruction, but that'll be fixed soon.
 
-<video src="/video/pr_23/rcd.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/rcd.mp4" >}}
 
 ### Neck slot, cloaks and bedsheets
 *Contributed by Swept*
@@ -165,11 +166,11 @@ Airlock bolts and a few other wires like safety and AutoClose have been implemen
 
 The item cooldowns are now even fancier than before, changing color during their progress and flashing white when they're done.
 
-<video src="/video/pr_23/cooldown.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/cooldown.mp4" >}}
 
 They also apply to status effects at the right of the screen now, so you get a nice visual indicator of how long your stun lasts.
 
-<video src="/video/pr_23/stun_cooldown.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/stun_cooldown.mp4" >}}
 
 ### Improved Click Detection
 *Contributed by PJB3005*
@@ -203,7 +204,7 @@ Right now we have many important features in the works like atmospherics, dispos
 
 Here's a teaser:
 
-<video src="/video/pr_23/atmos.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/atmos.mp4" >}}
 
 ## Technical details.
 
@@ -221,7 +222,7 @@ P.S.: I hate Docker.
 
 Work is undergoing to make it possible for the renderer to display multiple viewports at the same time. What does this allow us to do? See for yourself:
 
-<video src="/video/pr_23/viewport.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_23/viewport.mp4" >}}
 
 ## Credits
 The contributors since the last progress report were: *Acruid, aeosynth, AJCM-git, bhespiritu, Bright0, chairbender, Clyybber, collinlunn, ComicIronic, DamianX, DeanHU, DrSmugleaf, exp111, F77F, GlassEclipse, Hugal31, ike709, InquisitivePenguin, Izimann, Jackw2As, Kmc2000, MemeProof, metalgearsloth, meuser, PJB3005, RemieRichards, remove32, ScumbagDog, ShadowCommander, SoulSloth, SweptWasTaken, Tomeno, Tyler-IN, Visne, zamp, Zumorica.*

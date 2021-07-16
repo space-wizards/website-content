@@ -1,0 +1,28 @@
+/* Thanks to 20kdc and actioninja for figuring this out. */
+
+.fancybutton {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+
+	user-select: none;
+	--button-color: #464966;
+	text-align: center;
+	overflow: hidden;
+	background-color: var(--button-color);
+
+	transition: background-color 0.05s;
+	@include angle-rect(12px);
+}
+
+.fancybutton:hover {
+	--button-color: #575B7F;
+	text-decoration: none;
+	color: white;
+}
+
+.fancybutton:active {
+	--button-color: #3D6845;
+}
+

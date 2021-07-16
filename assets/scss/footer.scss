@@ -1,0 +1,65 @@
+/* CSS stuff related to the footer. */
+
+/*
+.bottom-links > ul {
+	margin-top: auto;
+	margin-bottom: auto;
+} */
+
+#footer-wrap {
+	margin-top: auto;
+}
+
+.bottom-links {
+	background-image: url("/images/main/stripeback.svg");
+	line-height: 200%;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-links li {
+	margin: 0;
+}
+
+.bottom-links, .bottom-links a {
+	color: rgb(156, 156, 156);
+	transition: color 0.1s ease-in-out;
+}
+
+.bottom-links a:hover {
+	color: #ddd;
+}
+
+.bottom-links a:active {
+	color: white;
+}
+
+.bottom-links ul > li {
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.bottom-links .github, .bottom-links .steam, .bottom-links .email {
+	margin-bottom: 6px;
+}
+.bottom-links .discord, .bottom-links .rss, .bottom-links .patreon {
+	margin-bottom: 4px ;
+}
+.bottom-links .IRC {
+	margin-bottom: 9px;
+}
+.bottom-links .reddit {
+	padding-right: 1px;
+	margin-bottom: 3px;
+}
+.bottom-links .email {
+	position: relative;
+	left: 5px;
+}
+
+
+#upper-links-container, #media-img, #media-video {
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: space-evenly;
+}

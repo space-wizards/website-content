@@ -29,7 +29,7 @@ So just yesterday I decided to get rid of those ugly as hell doors on the map. P
 
 Really it was just a case of "there was no code for this, one day later there is". It was relatively easy to implement animations, and the animation system should be decently flexible.
 
-<video src="/video/pr_11/door-animations.mp4" controls></video>
+{{< video-audio "/video/pr_11/door-animations" >}}
 
 ## Twitch Streams
 

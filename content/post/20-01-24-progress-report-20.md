@@ -34,7 +34,7 @@ Tooltips so you can instantly tell important status information about what you'r
 
 So simple textual tooltips were the initial idea. Then I got a bit *creative*...
 
-<video src="/video/pr_20/flashlight-item-status.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_20/flashlight-item-status.mp4" >}}
 
 Then I just went all out.
 
@@ -56,7 +56,7 @@ Ideally, most items in the game that aren't as simple as a crowbar would have th
 
 Similar to the above, you can now see the cooldown on melee weapons (and the bike horn)!
 
-<video src="/video/pr_20/item-cooldown.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_20/item-cooldown.mp4" >}}
 
 ## Player preferences, slots, jobs (contributed by DamianX & ZelteHonor)
 
@@ -128,7 +128,7 @@ This is the icon we will be using from now on for stuff like window icons, the w
 
 This is a pretty minor change. You can now see based on the outline whether you're in interaction range!
 
-<video src="/video/pr_20/interaction-range-outline.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_20/interaction-range-outline.mp4" >}}
 
 Because SS14 is no longer tile based, it may not always be perfectly clear whether you can pick something up at a certain range. This should help solve any doubts you have.
 
@@ -222,6 +222,6 @@ These were always "separate" things in the engine from all other entities. This 
 
 This is now gone and they're full blown entities. This allowed us to do stuff like this practically overnight:
 
-<video src="/video/pr_20/moving-shuttle.mp4" controls></video>
+{{< video-audio "/video/pr_20/moving-shuttle" >}}
 
 As you can clearly tell I did not put too much effort into recording this. But hey, this is the "thanks for getting this far" reward for people who read the entire progress report. So  thank you!

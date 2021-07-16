@@ -1,0 +1,43 @@
+#TableOfContents:before {
+	content: "Contents";
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 10px;
+    display: block;
+}
+#TableOfContents {
+	display: table-row;
+	font-size: 13px;
+	padding: 2em;
+	width: 30em;
+}
+#TableOfContents ul {
+	display: table;
+	list-style-type: none;
+	counter-reset: item;
+	padding-left: 1em;
+	margin: 0;
+	padding: 0;
+}
+#TableOfContents li {
+	display: table-row;
+	counter-increment: item;
+}
+#TableOfContents li:before {
+	content: counters(item, ".") ". ";
+	display: table-cell;
+	text-align: right;
+	padding-right: 0.6em;
+}
+#TableOfContents li:after {
+	content: '';
+	display: block;
+	padding-bottom: 0.2em;
+}
+#TableOfContents li li:after {
+	padding-bottom: 0;
+}
+#TableOfContents li li:before {
+	content: counters(item, ".") " ";
+}

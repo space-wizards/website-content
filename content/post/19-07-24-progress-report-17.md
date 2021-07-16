@@ -6,7 +6,6 @@ categories = [
 	"Progress Report"
 ]
 reddit = "https://www.reddit.com/r/ss14/comments/ch7f5a/progress_report_17_main_ui_plans/"
-thumbnail = "pr_17"
 +++
 
 One of the biggest things that scare people away from SS13 is, of course, the terrible user interface.

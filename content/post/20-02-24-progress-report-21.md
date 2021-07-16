@@ -44,7 +44,7 @@ Read further for the "technical" end of the CM stress test.
 
 ## Shadows & FOV
 
-<video src="/video/pr_21/fancy_lights.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_21/fancy_lights.mp4" >}}
 
 We have shadow casting and field of vision now! While I do think there is a lot that could be improved, like soft shadow edges, I'm still quite pleased with the results.
 
@@ -101,7 +101,7 @@ Just to be clear, this isn't some sort of "you have to charge up your attack" ba
 
 ## Click to rotate (contributed by SpaceManiac)
 
-<video src="/video/pr_21/click_rotate.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_21/click_rotate.mp4" >}}
 
 A simple but nice feature of SS13, now back in SS14.
 
@@ -109,7 +109,7 @@ Bonus points: you can actually use this while holding guns. Just make sure you'r
 
 ## Pen & Paper (contributed by Zth--)
 
-<video src="/video/pr_21/writing.mp4" autoplay muted loop playsinline></video>
+{{< video-auto "/video/pr_21/writing.mp4" >}}
 
 It's basic, but it works. Rendering rich text is hard, ok?
 

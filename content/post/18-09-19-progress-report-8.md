@@ -106,7 +106,7 @@ So we decided to combine both. All construction recipes are centralized in an or
 
 But you still have to slapcraft your way to victory. We just make the steps extremely obvious. For things like walls which have to be placed, it actually lets you place client-side wall ghosts first, so you can plan out everything.
 
-<video src="/video/pr_8/construction.mp4" controls></video>
+{{< video-audio "/video/pr_8/construction" >}}
 
 In the future we'll probably experiment with live tooltips showing you just what step you need, so it's not just limited to the interface. Of course, baby steps.
 
@@ -120,7 +120,7 @@ Well nobody’s gonna bother hosting such an authentication server yet, and it�
 
 What we decided on is to, right now, just have the client be able to submit any username to the server. The server can still re-assign it to allow you to login multiple times with the same username (very useful for development!). It works quite well and paves the road quite nicely to a centralized authentication system, which would still be username based.
 
-So yes, you actually can log in and out and keep the same body. We even track data like a simplistic form of minds now. If you’re not familiar, minds in SS13 are a representation of your IC “knowledge”. Used primarily to track whether you’re still an antag, because you stay antag through being cloned, borged, unborged, and turned into a cat beast.
+So yes, you actually can log in and out and keep the same body. We even track data like a simplistic form of minds now. If you’re not familiar, minds in SS13 are a representation of your IC “knowledge”. Used primarily to track whether you’re still an antag, because you stay antag through being cloned, borged, unborged, and turned into a cat beast.
 
 ## Quick Note About Nightly Builds
 

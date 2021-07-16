@@ -1,18 +1,23 @@
-<article class="summary">
-<h3 class="articleheader"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-<span class="articlemeta">
-	<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
-		{{ .Date.Format "Monday January 2, 2006" }}
-	</time>
-	by
-	<span class="author">{{ .Params.author }}</span>
-</span>
-<br />
-{{ .Summary }}
+<article class="summary row">
+	<div class="col">
+		<h3 class="articleheader"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+		<span class="articlemeta">
+			<time datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+				{{ .Date.Format "Monday January 2, 2006" }}
+			</time>
+		</span>
+		<br />
+		{{ .Summary }}
 
-{{ if .Truncated }}
-<div class="read-more-link">
-	<a href="{{ .RelPermalink }}">Read More…</a>
-</div>
-{{ end }}
+		{{ if .Truncated }}
+		<div class="read-more-link">
+			<a href="{{ .RelPermalink }}">Read More…</a>
+		</div>
+		{{ end }}
+	</div>
+	{{ if .Params.thumbnail }}
+		<div class="col-3 col-lg-2 section-shadow d-flex justify-content-end">
+			{{ partial "post_thumbnail.html" . }}
+		</div>
+	{{ end }}
 </article>

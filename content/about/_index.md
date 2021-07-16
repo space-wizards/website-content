@@ -2,7 +2,9 @@
 title = "About Space Station 14"
 description = "Hey look an about page!"
 date = "2017-06-25"
-type = "faq"
+navlinkactive = "about"
+# This is a section page so have to force-override the layout to be single page.
+layout = "single"
 +++
 
 # What is Space Station 14?

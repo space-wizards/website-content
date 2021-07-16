@@ -10,7 +10,7 @@ $ git submodule init
 
 ## Building
 
-**Build the TypeScript code** before anything else! The compiled version isn't in the repo.
+You will need to have `npm` installed to build the website (CSS stuff, mostly). Once you have that run `npm install` in the project directory to let npm fetch the dependencies like bootstrap.
 
 To build the site, run `$ hugo` inside the project. That's it. This dumps the output files into the `/public/` folder. This isn't really practical for making sure your site's up to scratch though. If you want that, run `$ hugo serve` instead. It'll create a local (automatically updating) web server that you can connect to to make sure everything checks out.
 

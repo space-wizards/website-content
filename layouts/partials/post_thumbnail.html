@@ -1,0 +1,8 @@
+{{ $thumb := resources.Get (printf "images/thumbnails/%s.png" .Params.thumbnail) }}
+{{ $webp := $thumb.Fit "200x200 webp q85" }}
+{{ $jpeg := $thumb.Fit "200x200 jpeg q85" }}
+
+<picture class="angle-rect article-thumb">
+	<source type="image/webp" srcset="{{ $webp.RelPermalink  }}" />
+	<img src="{{ $jpeg.RelPermalink  }}" />
+</picture>
