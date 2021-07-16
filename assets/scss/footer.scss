@@ -23,6 +23,15 @@
 
 .bottom-links, .bottom-links a {
 	color: rgb(156, 156, 156);
+	transition: color 0.1s ease-in-out;
+}
+
+.bottom-links a:hover {
+	color: #ddd;
+}
+
+.bottom-links a:active {
+	color: white;
 }
 
 .bottom-links ul > li {

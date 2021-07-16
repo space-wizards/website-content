@@ -1,3 +1,9 @@
+$fa-font-path: "/fonts/fontawesome";
+
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
+
 // Required
 @import "../../node_modules/bootstrap/scss/functions";
 
@@ -53,6 +59,8 @@
 @import "home.scss";
 @import "layout.scss";
 @import "toc.scss";
+
+@import "fonts/fira_code.scss";
 
 /* Literally everything I can't figure out a better place to put it. */
 
