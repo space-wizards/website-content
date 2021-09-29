@@ -194,7 +194,7 @@ with *Contributed by* -->
 - Gas tanks can be inserted into canisters. *Contributed by Vera*
 - Vox plushie. *Contributed by T-Stalker*
 - Simple spells for pie and item spawning. *Contributed by CrudeWax*
-- Dual-Port air vent. *Contributed by CrudeWax*
+- Dual-Port air vent. *Contributed by Vera*
 - Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by Visne*
 - Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by Ygg01*
 - Crematorium makes a sound during cremation and burns quicker. *Contributed by Swept*
