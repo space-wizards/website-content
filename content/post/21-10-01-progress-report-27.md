@@ -167,43 +167,64 @@ Video here or something here plz swept idk
 
 <!-- TODO: Fill this out. -->
 
-*Contributed by Timrod, 20kdc, Seth, Swept etc.*
+*Contributed by Timrod, 20kdc, Seth, Swept, mirrorcult etc.*
+
+In addition to fixes and maintaining of Saltern, contributors made some significant changes.
+
+Timrod took advantage of the windoors mirrorcult added and implemented them around Saltern. He also remapped Chemistry and Security.
+
+{{< imgw "/images/post/pr_27/chemistry" >}}
+{{< imgw "/images/post/pr_27/security" >}}
+
+Mirrorcult did some tweaking to the station's lighting to make them fit more in line with the color temperature of fluorescents vs incandescents
+
+{{< imgw "/images/post/pr_27/lighting-tweak-1" >}}
+{{< imgw "/images/post/pr_27/lighting-tweak-2" >}}
+
+Seth made maintenance a little more interesting by adding two new closets to explore.
+
+{{< imgw "/images/post/pr_27/maint" >}}
 
 <!-- Put significant map changes to Saltern here so that "Tiny Things" isn't spammed too much with it. -->
 
 ## Tiny Things
 
-<!-- Possibly want to group many contributions by the same person so every line isn't ended
-with *Contributed by* -->
-
 - Significant network bubbling performance improvements which should greatly increase the number of players we can have on a server. *Contributed by Acruid*
-- Updated Botany tool sprites. *Contributed by Swept*
-- Fixed y-sorting so it uses the bottom of the sprite and not the centre. *Contributed by metalgearsloth*
-- Physics multi-threading. *Contributed by ?*
-- Throwing now feels more realistic as it comes to a sudden stop at the end of the throw. *Contributed by metalgearsloth*
-- Thrown bags of flours and tomatoes will now splat and spill their contents. *Contributed by Swept*
-- You can now cycle channels while typing. *Contributed by Clyybber*
-- Lerping has been fixed and pulling lerping has been implemented. In English: Movement feels *much* better. *Contributed by metalgearsloth*
-- New technologies and balanced/added recipes for the lathes. *Contributed by Seth*
+
+{{< video-auto "/video/pr_27/mvm.mp4" >}}
+
+- More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by ElectroSR*
 - Global ghost hearing. *Contributed by ShadowCommander*
 - Battery charge indicator for substations and APCs. *Contributed by 20kdc*
-- Jumpskirt for Captain. *Contributed by Swept*
-- Several simple medicines. *Contributed by scaly-chimp*
+- You can now cycle channels while typing. *Contributed by Clyybber*
 - Claymore. *Contributed by TaralGit*
-- Examine now shows what people have in their hands. *Contributed by T-Stalker*
-- Gas tanks can be inserted into canisters. *Contributed by Vera*
-- Vox plushie. *Contributed by T-Stalker*
-- Simple spells for pie and item spawning. *Contributed by CrudeWax*
-- Dual-Port air vent. *Contributed by Vera*
+- Several simple medicines. *Contributed by scaly-chimp*
+- New technologies and balanced/added recipes for the lathes. *Contributed by Seth*
 - Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by Visne*
 - Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by Ygg01*
+- Simple spells for pie and item spawning. *Contributed by CrudeWax*
+
+- Fixed y-sorting so it uses the bottom of the sprite and not the centre. *Contributed by metalgearsloth*
+- Physics multi-threading.
+- Some engineering items now play sounds when landing.
+- Throwing now feels more realistic as it comes to a sudden stop at the end of the throw.
+- Lerping has been fixed and pulling lerping has been implemented. In English: Movement feels *much* better.
+
+- Examine now shows what people have in their hands. *Contributed by T-Stalker*
+- Vox plushie.
+
+- Gas tanks can be inserted into canisters. *Contributed by Vera*
+- Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out.
+- Dual-Port air vent.
+
 - Crematorium makes a sound during cremation and burns quicker. *Contributed by Swept*
-- Adds and updates a ton of inhands for items across the codebase. *Contributed by Swept*
-- Announcements now play the announcement sound. *Contributed by Swept*
-- Admin ghosts can interact with stuff. *Contributed by Swept*
-- Some engineering items now play sounds when landing. *Contributed by metalgearsloth*
-- Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out. *Contributed by Vera*
-- More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by ElectroSR*
+- Adds and updates a ton of inhands for items across the codebase.
+- Updated Botany tool sprites.
+- Announcements now play the announcement sound.
+- Admin ghosts can interact with stuff.
+- Centcom Official ghost role.
+- Jumpskirt for Captain.
+- Thrown bags of flours and tomatoes will now splat and spill their contents.
 
 ## Technical
 
