@@ -224,10 +224,10 @@ Power is passed through batteries immediately. This means that APCs are basicall
 
 ## Patrons
 
-Thanks to [Insert]
+Thanks to Blaise M., Jack Rose, The Hateful Flesh, Prof. Omii, mksky, Alex Tempest, Rat Fungus, Will M., spinnermaster, Valinov, Dan Griskardian, S.C., "'-Y-", Jubal the Wizard, clyf, Kerb 755, Robin Rottstock, Altana, Durp, Joshington Awesomahee, Eric VW, Evan Armstrong, Enzoman12, Mono, Ethan Keller, DramaBuns, KrystalDisc, Darren Brady, Zandario, Anthony Fleck, vifs_vestige, Bobberunio, CPM311, ThatGuyGW, Farewell Fire, Await Future, Daniel Thompson, and Tomeno.
 
 ## Credits
 
-The contributors since the last progress report were: [Insert]
+The contributors since the last progress report were: 20kdc, Acruid, AJCM-git, boiled-water-tsar, clyfordv, ColdAutumnRain, DrSmugleaf, ElectroJr, Fiftyllama, Fogapod, GalacticChimp, ike709, Jaskanbe, Macoron, metalgearsloth, michaelcooke, mirrorcult, PaulRitter, PJB3005, plinyvic, scaly-chimp, scrato, SethLafuente, ShadowCommander, Silvertorch5, Swept, TimrodDX, Visne, Ygg01 and Vera.
 
 Many thanks to everybody who contributed. We couldn’t do this without you!
