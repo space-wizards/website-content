@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #27: Transported to the Chess Dimension"
 author = "Space Wizards"
-date = 2021-10-01
+date = 2021-09-29
 categories = [
     "Progress Report"
 ]
@@ -84,11 +84,10 @@ Ambient sounds can now play from objects around the station for improved immersi
 
 Certain items when placed in belts show a sprite on the belt icon itself.
 
+<!-- TODO: Align Left -->
 {{< video-auto "/video/pr_27/belts.mp4" >}}
 
 A lot of belts have gotten sprites for this feature, as well as the botany belt being added to give botanists a helping hand.
-
-TODO: Write this part better I am so tired and also add in a bit about certain items being restricted in belts.
 
 {{< imgw "/images/post/pr_27/belts" >}}
 
@@ -111,6 +110,7 @@ Entities likes beakers and bottles now have a verb that opens a UI which allows 
 
 When examining batteries you can see their specific charge value.
 
+<!-- TODO: Align Left -->
 {{< video-auto "/video/pr_27/cellexamine.mp4" >}}
 
 ### Multiple Viewports
@@ -161,6 +161,7 @@ Video here or something here plz swept idk
 ### Ducky Slippers
 *Contributed by Swept*
 
+<!-- TODO: Align Left -->
 {{< video-auto "/video/pr_27/duckyslippers.mp4" >}}
 
 ## Map Changes
@@ -178,8 +179,9 @@ Timrod took advantage of the windoors mirrorcult added and implemented them arou
 
 Mirrorcult did some tweaking to the station's lighting to make them fit more in line with the color temperature of fluorescents vs incandescents
 
-{{< imgw "/images/post/pr_27/lighting-tweak-1" >}}
-{{< imgw "/images/post/pr_27/lighting-tweak-2" >}}
+{{< imgw "/images/post/pr_27/lighting-1" >}}
+{{< imgw "/images/post/pr_27/lighting-2" >}}
+{{< imgw "/images/post/pr_27/lighting-3" >}}
 
 Seth made maintenance a little more interesting by adding two new closets to explore.
 
@@ -191,6 +193,8 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 
 - Significant network bubbling performance improvements which should greatly increase the number of players we can have on a server. *Contributed by Acruid*
 
+<!-- TODO: Align Left -->
+<!-- TODO: Don't auto-play -->
 {{< video-auto "/video/pr_27/mvm.mp4" >}}
 
 - More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by ElectroSR*
@@ -203,6 +207,8 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 - Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by Visne*
 - Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by Ygg01*
 - Simple spells for pie and item spawning. *Contributed by CrudeWax*
+
+<!-- TODO: Make this stuff look good. -->
 
 - Fixed y-sorting so it uses the bottom of the sprite and not the centre. *Contributed by metalgearsloth*
 - Physics multi-threading.
