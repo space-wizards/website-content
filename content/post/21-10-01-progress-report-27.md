@@ -30,20 +30,20 @@ Also mention how we'll likely have a content wiki in the future. -->
 ## Content
 
 ### Pneumatic Cannons
-*Contributed by mirrocult*
+*Contributed by mirrorcult*
 
 Load [INSERT ITEM]. Shoot [INSERT ITEM] at people. Profit?
 
 {{< video-auto "/video/pr_27/pneumatic.mp4" >}}
 
 ### Board Games
-*Contributed by Visne and Vera*
+*Contributed by Visne and Zumorica*
 
 Bored by the lack of content? Why not sit down and play a nice relaxing game of Chess! This feature is highly extensible and should be thought of like a 2D Tabletop Simulator inside of Space Station 14.
 
 {{< video-auto "/video/pr_27/chess.mp4" >}}
 
-Vera further improved upon Visne's code making it easy to add different tabletop games, adding the game of parchís in the process!
+Zumorica further improved upon Visne's code making it easy to add different tabletop games, adding the game of parchís in the process!
 
 {{< imgw "/images/post/pr_27/sorry" >}}
 
@@ -55,12 +55,12 @@ Alt+E, Alt+Z and Alt+Left-Mouse keybindings can trigger alternative interactions
 {{< imgw "/images/post/pr_27/alt" >}}
 
 ### Upgraded Canister UI
-*Contributed by Vera*
+*Contributed by Zumorica*
 
 {{< imgw "/images/post/pr_27/canisterui" >}}
 
 ### Wielding
-*Contributed by mirrocult*
+*Contributed by mirrorcult*
 
 You can now wield (two-hand) some weapons like the fire-axe which will increase the damage per swing. The fire-axe has also received a buff against windows and wooden objects.
 
@@ -74,7 +74,7 @@ Ambient sounds can now play from objects around the station for improved immersi
 <!-- Insert video of multiple different ambient sounds quick flash  -->
 
 ### Vending Machine Ads
-*Contributed by Moses and Visne*
+*Contributed by Moses, Visne and Zumorica.
 
 {{< imgw "/images/post/pr_27/ads" >}}
 
@@ -154,7 +154,7 @@ Their design is still subject to change over time we nail down how we want them 
 Video here or something here plz swept idk
 
 ### Upgraded Canister UI
-*Contributed by Vera*
+*Contributed by Zumorica*
 
 {{< imgw "/images/post/pr_27/canisterui" >}}
 
@@ -202,7 +202,7 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 - Battery charge indicator for substations and APCs. *Contributed by 20kdc*
 - You can now cycle channels while typing. *Contributed by Clyybber*
 - Claymore. *Contributed by TaralGit*
-- Several simple medicines. *Contributed by scaly-chimp*
+- several simple medicines. *Contributed by scaly-chimp*
 - New technologies and balanced/added recipes for the lathes. *Contributed by Seth*
 - Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by Visne*
 - Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by Ygg01*
@@ -219,7 +219,7 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 - Examine now shows what people have in their hands. *Contributed by T-Stalker*
 - Vox plushie.
 
-- Gas tanks can be inserted into canisters. *Contributed by Vera*
+- Gas tanks can be inserted into canisters. *Contributed by Zumorica*
 - Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out.
 - Dual-Port air vent.
 
@@ -234,10 +234,32 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 
 ## Technical
 
-### Section about OpenDream and extrapolate on Space Wizards involvement in the project.
-
 ### Shuttles again
-metalgearsloth: How long do we want this to be? I would mainly just rant about having to deal with cross-broadphase shenanigans was CBT which was the only reason I didn't do it sooner (that and box2d made it way easier)
+Before we explain why shuttles were hard we need to explain some terminology up front:
+* Entities - These are objects in-game such as a crowbar, a wall, a mob, etc.
+* Maps - These are what other engines would call "Worlds" or similarly "Z-Levels". These are just discrete planes that stretch to infinity and the only way to go from one to another is via teleportation. For SS14 you'd typically only have 1 active at a time.
+
+To implement shuttles into SS14 there were 3 main challenges that needed to be overcome:
+1. When moving the shuttle we need to make sure that every entity on the shuttle doesn't need its positions updated.
+2. We need to make sure that anything that collides with a shuttle correctly does collision
+3. When the shuttle moves it needs to apply collision correctly with anything it drives over.
+
+2 + 3 won't make sense until we explain the challenge in implementing 1 and how the solution gives rise to problems 2 + 3.
+We have several internal data structures that store entity positions for fast queries, such as:
+* What sprites intersect the viewport?
+* What physics bodies am I colliding with?
+* What lights intersect this point?
+
+Previously, these were all stored relative to the *map*, which meant that whenever a shuttle moved every single entity on it also needed to be updated in our data structures. On our small station called Saltern we have over 5,000 entities on it so this was prohibitively expensive and would severely limit any server that wanted to have multiple moving ships.
+
+The solution to this is store all of these entities relative to the *shuttle*, and then store the *shuttle* relative to the *map*.
+This means that whenever the shuttle moves we only have to update the shuttle on the map. However, this gives rise to problems 2 + 3.
+
+To explain further:
+Say we have an entity on the map travelling towards a shuttle. As it is on the map it is only checking collisions on the map. Even if it intersects with the shuttle it's still not checking collision for any entities on the shuttle's data structure, because it's still on the map.
+The solution to this is that whenever the entity moves we check all data structures it may potentially be intersecting, and then check collisions individually on each one. This is slower than if every entity were on the same data map but makes shuttle updates very easy.
+This solves problem 2.
+Problem 3 applies in reverse: Whenever a shuttle moves, we look for any entities we may be intersecting and then check these for collisions.
 
 ### Section about PJB's power system.
 
@@ -255,6 +277,6 @@ Thanks to Blaise M., Jack Rose, The Hateful Flesh, Prof. Omii, mksky, Alex Tempe
 
 ## Credits
 
-The contributors since the last progress report were: 20kdc, Acruid, AJCM-git, boiled-water-tsar, clyfordv, ColdAutumnRain, DrSmugleaf, ElectroJr, Fiftyllama, Fogapod, GalacticChimp, ike709, Jaskanbe, Macoron, metalgearsloth, michaelcooke, mirrorcult, PaulRitter, PJB3005, plinyvic, scaly-chimp, scrato, SethLafuente, ShadowCommander, Silvertorch5, Swept, TimrodDX, Visne, Ygg01 and Vera.
+The contributors since the last progress report were: 20kdc, Acruid, AJCM-git, boiled-water-tsar, clyfordv, ColdAutumnRain, DrSmugleaf, ElectroJr, Fiftyllama, Fogapod, GalacticChimp, ike709, Jaskanbe, Macoron, metalgearsloth, michaelcooke, mirrorcult, PaulRitter, PJB3005, plinyvic, scaly-chimp, scrato, SethLafuente, ShadowCommander, Silvertorch5, Swept, TimrodDX, Visne, Ygg01 and Zumorica.
 
 Many thanks to everybody who contributed. We couldn’t do this without you!
