@@ -71,7 +71,8 @@ You can now wield (two-hand) some weapons like the fire-axe which will increase 
 
 Ambient sounds can now play from objects around the station for improved immersion. APCs hum, vending machines whirr, and so on.
 
-<!-- Insert video of multiple different ambient sounds quick flash  -->
+<!-- TODO: Align Left -->
+{{< video-audio "/video/pr_27/ambience.mp4" >}}
 
 ### Vending Machine Ads
 *Contributed by Moses, Visne and Zumorica.
@@ -125,33 +126,14 @@ NanoTrasen has finally found space in the budget to install windoors around the 
 
 {{< imgw "/images/post/pr_27/windoors" >}}
 
-<!--### Surgery
-
-NanoTrasen skimped on the surgery budget.-->
-
-### Security barriers
-* Contributed by Macoron*
-PR is https://github.com/space-wizards/space-station-14/pull/4458
-
-<!-- Insert image -->
-
-### Meteor events
-Meteors can now crash into the station.
-
-<!-- Insert video -->
-
 ### Shuttles
 *Contributed by metalgearsloth, Acruid, and more*
 
-<!-- Insert sick ass shuttle video to make people cum -->
-
-AT THIS RATE ROTATING SHUTTLES WILL BE IN BEFORE THE PR IS DONE
-
 The first iteration of shuttle driving has made it into the game. Currently it allows you to drive them around in a strafing manner, with rotation planned once the technical blockers have been overcome in the coming months.
 
-Their design is still subject to change over time we nail down how we want them to work in Space Station 14.
+Their design is still subject to change over time as we nail down how we want them to work in Space Station 14.
 
-Video here or something here plz swept idk
+Shuttles have been a major source of development focus and have contributed to lots of updates to our physics system. They'll be a feature in our next progress report.
 
 ### Upgraded Canister UI
 *Contributed by Zumorica*
@@ -165,8 +147,6 @@ Video here or something here plz swept idk
 {{< video-auto "/video/pr_27/duckyslippers.mp4" >}}
 
 ## Map Changes
-
-<!-- TODO: Fill this out. -->
 
 *Contributed by Timrod, 20kdc, Seth, Swept, mirrorcult etc.*
 
@@ -194,36 +174,39 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 - Significant network bubbling performance improvements which should greatly increase the number of players we can have on a server. *Contributed by Acruid*
 
 <!-- TODO: Align Left -->
-<!-- TODO: Don't auto-play -->
-{{< video-auto "/video/pr_27/mvm.mp4" >}}
+{{< video-audio "/video/pr_27/mvm.mp4" >}}
 
-- More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by ElectroSR*
-- Global ghost hearing. *Contributed by ShadowCommander*
-- Battery charge indicator for substations and APCs. *Contributed by 20kdc*
-- You can now cycle channels while typing. *Contributed by Clyybber*
-- Claymore. *Contributed by TaralGit*
-- several simple medicines. *Contributed by scaly-chimp*
-- New technologies and balanced/added recipes for the lathes. *Contributed by Seth*
-- Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by Visne*
-- Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by Ygg01*
-- Simple spells for pie and item spawning. *Contributed by CrudeWax*
+- More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by **ElectroSR***
+- Global ghost hearing. *Contributed by **ShadowCommander***
+- Battery charge indicator for substations and APCs. *Contributed by **20kdc***
+- You can now cycle channels while typing. *Contributed by **Clyybber***
+- Claymore. *Contributed by **TaralGit***
+- Several simple medicines. *Contributed by **scaly-chimp***
+- Security Barriers *Contributed by **Macoron***
+- New technologies and balanced/added recipes for the lathes. *Contributed by **Seth***
+- Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by **Visne***
+- Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by **Ygg01***
+- Simple spells for pie and item spawning. *Contributed by **CrudeWax***
 
-<!-- TODO: Make this stuff look good. -->
-
-- Fixed y-sorting so it uses the bottom of the sprite and not the centre. *Contributed by metalgearsloth*
-- Physics multi-threading.
-- Some engineering items now play sounds when landing.
+###### Contributed by metalgearsloth
+- Fixed y-sorting so it uses the bottom of the sprite and not the centre.  
+- Physics multi-threading.  
+- Some engineering items now play sounds when landing.  
+- Meteor event.
 - Throwing now feels more realistic as it comes to a sudden stop at the end of the throw.
 - Lerping has been fixed and pulling lerping has been implemented. In English: Movement feels *much* better.
 
-- Examine now shows what people have in their hands. *Contributed by T-Stalker*
+###### Contributed by T-Stalker
+- Examine now shows what people have in their hands.
 - Vox plushie.
 
-- Gas tanks can be inserted into canisters. *Contributed by Zumorica*
+###### Contributed by Zumorica
+- Gas tanks can be inserted into canisters.
 - Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out.
 - Dual-Port air vent.
 
-- Crematorium makes a sound during cremation and burns quicker. *Contributed by Swept*
+###### Contributed by Swept
+- Crematorium makes a sound during cremation and burns quicker.
 - Adds and updates a ton of inhands for items across the codebase.
 - Updated Botany tool sprites.
 - Announcements now play the announcement sound.
@@ -261,11 +244,16 @@ The solution to this is that whenever the entity moves we check all data structu
 This solves problem 2.
 Problem 3 applies in reverse: Whenever a shuttle moves, we look for any entities we may be intersecting and then check these for collisions.
 
+Since that was a bit of a word salad here's some videos of shuttles in various stages of development.
+
+{{< video-auto "/video/pr_27/yeet.mp4" >}}
+{{< video-auto "/video/pr_27/collisions.mp4" >}}
+{{< video-auto "/video/pr_27/accurate.mp4" >}}
+{{< video-auto "/video/pr_27/wee.mp4" >}}
+
 ### Section about PJB's power system.
 
-<!-- You could probably just cut some interesting parts from https://hackmd.io/@ss14/lowpower to write this part better. It could also go in content with a nice video. -->
-
-Rewrote most of the power system.
+Most of the power system has been rewritten.
 
 All power supplying objects now have a built-in ramping system. If a large amount of extra power is suddenly needed, engines and batteries on the grid need a bit of time to "ramp up" to match.
 
