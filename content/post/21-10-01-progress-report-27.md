@@ -38,11 +38,11 @@ If you'd like to be notified when we playtest join our [Discord](https://discord
 
 Previously, we used to host all development-related documentation (technical documents, tutorials, vague and questional design dumps) on HackMD.
 
-HackMD had some nice attributes like live editing and being simple to use, however  it lacked in other areas like access management and navigation. Because of this, we have decided to start moving away from HackMD.
+HackMD had some nice attributes like live editing and being simple to use, however it lacked in other areas like access management and navigation. Because of this, we have decided to start moving away from HackMD.
 
 We evaluated a few options but eventually decided on self-hosted [Wiki.js](https://js.wiki/) as a platform for our docs. It's not the best but it's the best option we could find.
 
-The new documentation site is up at https://docs.spacestation14.io. We are still in the process of moving articles over and making everything look nice, but so far we're quite pleased.
+The new documentation site is up at [https://docs.spacestation14.io](https://docs.spacestation14.io). We are still in the process of moving articles over and making everything look nice, but so far we're quite pleased.
 
 To be clear: these are *developer* docs. We're not planning to have a wiki for actual game content *yet*. We'd like to try an in-game help system of some form first, but nothing is set in stone yet on that regard.
 
@@ -128,11 +128,6 @@ When examining batteries you can see their specific charge value.
 <!-- TODO: Align Left -->
 {{< video-auto "/video/pr_27/cellexamine.mp4" >}}
 
-### Multiple Viewports
-*Contributed by PJB*
-
-Moving this to here so we can prepare stuff like camera demos or chat window demos to really sell this feature.
-
 ### Windoors
 *Contributed by mirrorcult*
 
@@ -172,7 +167,7 @@ Mirrorcult did some tweaking to the station's lighting to make them fit more in 
 {{< imgw "/images/post/pr_27/lighting-2" >}}
 {{< imgw "/images/post/pr_27/lighting-3" >}}
 
-Seth made maintenance a little more interesting by adding two new closets to explore.
+Seth made maintenance a little more interesting by adding two new sections to explore.
 
 {{< imgw "/images/post/pr_27/maint" >}}
 
@@ -198,7 +193,7 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 - Simple spells for pie and item spawning. *Contributed by **CrudeWax***
 
 ###### Contributed by metalgearsloth
-- Fixed y-sorting so it uses the bottom of the sprite and not the centre.  
+- Fixed y-sorting so it uses the bottom of the sprite and not the center.  
 - Physics multi-threading.  
 - Some engineering items now play sounds when landing.  
 - Meteor event.
