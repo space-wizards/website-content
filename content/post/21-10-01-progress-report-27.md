@@ -196,6 +196,7 @@ Seth made maintenance a little more interesting by adding two new closets to exp
 
 ###### Contributed by Zumorica
 - Gas tanks can be inserted into canisters.
+- Unique station announcement when Captain comes on deck.
 - Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out.
 - Dual-Port air vent.
 
