@@ -13,7 +13,7 @@ thumbnail = "pr_27"
 
 ## Website Upgrade
 
-As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as our old one was a random photo from NASA, and a little crusty. You can download a full resolution of it [here](https://cdn.discordapp.com/attachments/800430554662436944/873764090676379688/Commission_Swept_3.png).
+As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as our old one was a random photo from NASA, and a little crusty. You can download a full resolution of it [here](https://github.com/space-wizards/website-content/raw/master/static/images/main/new-background-original.png).
 
 {{< imgw "/images/post/pr_27/website" >}}
 
