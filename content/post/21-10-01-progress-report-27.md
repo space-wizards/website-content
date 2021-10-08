@@ -5,7 +5,7 @@ date = 2021-09-29
 categories = [
     "Progress Report"
 ]
-reddit = ""
+reddit = "https://www.reddit.com/r/SS13/comments/q44pwe/space_station_14_progress_report_27_transported/"
 thumbnail = "pr_27"
 +++
 
@@ -15,9 +15,7 @@ thumbnail = "pr_27"
 
 As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as our old one was a random photo from NASA, and a little crusty. You can download a full resolution of it [here](https://cdn.discordapp.com/attachments/800430554662436944/873764090676379688/Commission_Swept_3.png).
 
-<!--
-TODO: Update this link with one from the website - update the website background - add comparison of the new website.
--->
+{{< imgw "/images/post/pr_27/website" >}}
 
 ## Updated Playtest Schedule
 
