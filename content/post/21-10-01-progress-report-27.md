@@ -106,13 +106,6 @@ A lot of belts have gotten sprites for this feature, as well as the botany belt 
 
 {{< imgw "/images/post/pr_27/belts" >}}
 
-### Meth
-*Contributed by scaly-chimp*
-
-Scaly-chimp broke bad and added meth so aspiring chemists can recreate scenes from the hit TV show Big Bang Theory.
-
-<!-- Insert video of someone high on meth -->
-
 ### UI for setting solution transfer amount
 *Contributed by mirrorcult*
 
@@ -210,13 +203,25 @@ Since that was a bit of a word salad here's some videos of shuttles in various s
 {{< video-auto "/video/pr_27/wee.mp4" >}}
 {{< video-auto "/video/pr_27/rotation.mp4" >}}
 
-### Section about PJB's power system.
+### Power System Rewrite (Pow3r)
 
 Most of the power system has been rewritten.
 
 All power supplying objects now have a built-in ramping system. If a large amount of extra power is suddenly needed, engines and batteries on the grid need a bit of time to "ramp up" to match.
 
 Power is passed through batteries immediately. This means that APCs are basically on standby until engine power or such cuts out. When the engine cuts out, heavy electrical grids will be underpowered for a second or two until backup batteries can spin up to fill the gap.
+
+<!--
+
+Since PJB didn't finish this in time it's here for him to finish and add post-publish.
+
+### Power System Rewrite (Pow3r)
+
+Power has been rewritten to use a new, unique method of distributing power across the station.
+
+Let's first lay out the problem with power systems most common in SS13. First, power is considered "binary". You either have enough of it, or you don't (and the lights go out). This is kind of underwhelming in a game with as much depth as SS13. Second, the station power grid is far too perfect. You generally
+
+-->
 
 ## Other Contributions
 
