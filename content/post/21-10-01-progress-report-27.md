@@ -74,7 +74,7 @@ Ambient sounds can now play from objects around the station for improved immersi
 {{< video-audio "/video/pr_27/ambience.mp4" >}}
 
 ### Vending Machine Ads
-*Contributed by Moses, Visne and Zumorica.
+*Contributed by Moses, Visne and Zumorica*
 
 {{< imgw "/images/post/pr_27/ads" >}}
 
@@ -133,11 +133,6 @@ The first iteration of shuttle driving has made it into the game. Currently it a
 Their design is still subject to change over time as we nail down how we want them to work in Space Station 14.
 
 Shuttles have been a major source of development focus and have contributed to lots of updates to our physics system. They'll be a feature in our next progress report.
-
-### Upgraded Canister UI
-*Contributed by Zumorica*
-
-{{< imgw "/images/post/pr_27/canisterui" >}}
 
 ### Ducky Slippers
 *Contributed by Swept*
