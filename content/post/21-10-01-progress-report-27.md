@@ -173,53 +173,6 @@ Seth made maintenance a little more interesting by adding two new sections to ex
 
 <!-- Put significant map changes to Saltern here so that "Tiny Things" isn't spammed too much with it. -->
 
-## Tiny Things
-
-- Significant network bubbling performance improvements which should greatly increase the number of players we can have on a server. *Contributed by Acruid*
-
-<!-- TODO: Align Left -->
-{{< video-audio "/video/pr_27/mvm.mp4" >}}
-
-- More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by **ElectroSR***
-- Global ghost hearing. *Contributed by **ShadowCommander***
-- Battery charge indicator for substations and APCs. *Contributed by **20kdc***
-- You can now cycle channels while typing. *Contributed by **Clyybber***
-- Claymore. *Contributed by **TaralGit***
-- Several simple medicines. *Contributed by **scaly-chimp***
-- Security Barriers *Contributed by **Macoron***
-- New technologies and balanced/added recipes for the lathes. *Contributed by **Seth***
-- Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by **Visne***
-- Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by **Ygg01***
-- Simple spells for pie and item spawning. *Contributed by **CrudeWax***
-
-###### Contributed by metalgearsloth
-- Fixed y-sorting so it uses the bottom of the sprite and not the center.  
-- Physics multi-threading.  
-- Some engineering items now play sounds when landing.  
-- Meteor event.
-- Throwing now feels more realistic as it comes to a sudden stop at the end of the throw.
-- Lerping has been fixed and pulling lerping has been implemented. In English: Movement feels *much* better.
-
-###### Contributed by T-Stalker
-- Examine now shows what people have in their hands.
-- Vox plushie.
-
-###### Contributed by Zumorica
-- Gas tanks can be inserted into canisters.
-- Unique station announcement when Captain comes on deck.
-- Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out.
-- Dual-Port air vent.
-
-###### Contributed by Swept
-- Crematorium makes a sound during cremation and burns quicker.
-- Adds and updates a ton of inhands for items across the codebase.
-- Updated Botany tool sprites.
-- Announcements now play the announcement sound.
-- Admin ghosts can interact with stuff.
-- Centcom Official ghost role.
-- Jumpskirt for Captain.
-- Thrown bags of flours and tomatoes will now splat and spill their contents.
-
 ## Technical
 
 ### Shuttles again
@@ -264,6 +217,57 @@ Most of the power system has been rewritten.
 All power supplying objects now have a built-in ramping system. If a large amount of extra power is suddenly needed, engines and batteries on the grid need a bit of time to "ramp up" to match.
 
 Power is passed through batteries immediately. This means that APCs are basically on standby until engine power or such cuts out. When the engine cuts out, heavy electrical grids will be underpowered for a second or two until backup batteries can spin up to fill the gap.
+
+## Other Contributions
+
+- Significant network bubbling performance improvements which should greatly increase the number of players we can have on a server. *Contributed by Acruid*
+
+<!-- TODO: Align Left -->
+{{< video-audio "/video/pr_27/mvm.mp4" >}}
+
+- More context menu icons and two new actions (open inventory & eject items from disposal unit). *Contributed by **ElectroSR***
+- Global ghost hearing. *Contributed by **ShadowCommander***
+- Battery charge indicator for substations and APCs. *Contributed by **20kdc***
+- You can now cycle channels while typing. *Contributed by **Clyybber***
+- Claymore. *Contributed by **TaralGit***
+- Security Barriers *Contributed by **Macoron***
+- New technologies and balanced/added recipes for the lathes. *Contributed by **Seth***
+- Integer scaling option. Turn it off to get rid of black bars at the cost of less crisp scaling *Contributed by **Visne***
+- Crayon and Toolbelt sprites now dynamically show their contents. *Contributed by **Ygg01***
+- Simple spells for pie and item spawning. *Contributed by **CrudeWax***
+
+###### Contributed by scaly-chimp
+
+- Scaly-chimp broke bad and added meth so aspiring chemists can recreate scenes from the hit TV show Big Bang Theory.
+- Several simple medicines and chemistry improvements.
+
+###### Contributed by metalgearsloth
+- Fixed y-sorting so it uses the bottom of the sprite and not the center.  
+- Physics multi-threading.  
+- Some engineering items now play sounds when landing.  
+- Meteor event.
+- Throwing now feels more realistic as it comes to a sudden stop at the end of the throw.
+- Lerping has been fixed and pulling lerping has been implemented. In English: Movement feels *much* better.
+
+###### Contributed by T-Stalker
+- Examine now shows what people have in their hands.
+- Vox plushie.
+
+###### Contributed by Zumorica
+- Gas tanks can be inserted into canisters.
+- Unique station announcement when Captain comes on deck.
+- Smoking actually makes you inhale nicotine/THC reagents and you can snuff them out.
+- Dual-Port air vent.
+
+###### Contributed by Swept
+- Crematorium makes a sound during cremation and burns quicker.
+- Adds and updates a ton of inhands for items across the codebase.
+- Updated Botany tool sprites.
+- Announcements now play the announcement sound.
+- Admin ghosts can interact with stuff.
+- Centcom Official ghost role.
+- Jumpskirt for Captain.
+- Thrown bags of flours and tomatoes will now splat and spill their contents.
 
 ## Patrons
 
