@@ -139,7 +139,7 @@ Shuttles have been a major source of development focus and have contributed to l
 *Contributed by Swept*
 
 <!-- TODO: Align Left -->
-{{< video-auto "/video/pr_27/duckyslippers.mp4" >}}
+{{< video-audio "/video/pr_27/duckyslippers.mp4" >}}
 
 ## Map Changes
 
