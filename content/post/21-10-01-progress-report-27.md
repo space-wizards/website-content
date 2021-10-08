@@ -13,7 +13,7 @@ thumbnail = "pr_27"
 
 ## Website Upgrade
 
-As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as our old one was a little crusty. You can download a full resolution of it [here](https://cdn.discordapp.com/attachments/800430554662436944/873764090676379688/Commission_Swept_3.png).
+As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as our old one was a random photo from NASA, and a little crusty. You can download a full resolution of it [here](https://cdn.discordapp.com/attachments/800430554662436944/873764090676379688/Commission_Swept_3.png).
 
 <!--
 TODO: Update this link with one from the website - update the website background - add comparison of the new website.
@@ -21,9 +21,15 @@ TODO: Update this link with one from the website - update the website background
 
 ## New Developer Docs
 
-<!-- Talk about why we switched, how the Wiki.js Docs are gonna be more refined, etc.
+Previously, we used to host all development-related documentation (technical documents, tutorials, vague and questional design dumps) on HackMD.
 
-Also mention how we'll likely have a content wiki in the future. -->
+HackMD had some nice attributes like live editing and being simple to use, however  it lacked in other areas like access management and navigation. Because of this, we have decided to start moving away from HackMD.
+
+We evaluated a few options but eventually decided on self-hosted [Wiki.js](https://js.wiki/) as a platform for our docs. It's not the best but it's the best option we could find.
+
+The new documentation site is up at https://docs.spacestation14.io. We are still in the process of moving articles over and making everything look nice, but so far we're quite pleased.
+
+To be clear: these are *developer* docs. We're not planning to have a wiki for actual game content *yet*. We'd like to try an in-game help system of some form first, but nothing is set in stone yet on that regard.
 
 ## Content
 
@@ -51,11 +57,6 @@ Zumorica further improved upon Visne's code making it easy to add different tabl
 Alt+E, Alt+Z and Alt+Left-Mouse keybindings can trigger alternative interactions on entities. Some existing context-menu actions are now considered "alternative interactions", for example ejecting IDs/beakers/magazines or locking & unlocking lockers can be done via these new keybindings.
 
 {{< imgw "/images/post/pr_27/alt" >}}
-
-### Upgraded Canister UI
-*Contributed by Zumorica*
-
-{{< imgw "/images/post/pr_27/canisterui" >}}
 
 ### Wielding
 *Contributed by mirrorcult*
@@ -125,7 +126,7 @@ NanoTrasen has finally found space in the budget to install windoors around the 
 {{< imgw "/images/post/pr_27/windoors" >}}
 
 ### Shuttles
-*Contributed by metalgearsloth, Acruid, and more*
+*Contributed by metalgearsloth, Acruid, and 20kdc*
 
 The first iteration of shuttle driving has made it into the game. Currently it allows you to drive them around in a strafing manner, with rotation planned once the technical blockers have been overcome in the coming months.
 
@@ -248,6 +249,7 @@ Since that was a bit of a word salad here's some videos of shuttles in various s
 {{< video-auto "/video/pr_27/collisions.mp4" >}}
 {{< video-auto "/video/pr_27/accurate.mp4" >}}
 {{< video-auto "/video/pr_27/wee.mp4" >}}
+{{< video-auto "/video/pr_27/rotation.mp4" >}}
 
 ### Section about PJB's power system.
 
