@@ -19,6 +19,21 @@ As you may have noticed, our official website has gotten a major facelift thanks
 TODO: Update this link with one from the website - update the website background - add comparison of the new website.
 -->
 
+## Updated Playtest Schedule
+
+We're moving playtests to a consistent schedule due to their popularity and developers wanting more feedback from the community on the state of the game. If you currently have access to Space Station 14 on Steam and aren't in our Discord server we HIGHLY RECOMMEND you join as it's the best place to stay informed about updates on the project.
+
+Two times a month on Fridays, with separate tests for US and EU timezones on those days.
+
+For EU it will be at [2PM UTC](https://dateful.com/convert/utc?t=2pm&tz2=CEST-Central-European-Summer-Time)
+For US it will be at [10PM UTC](https://dateful.com/convert/utc?t=10pm&tz2=CDT-CST-Central-Time)
+
+(That means since we had a playtest on October 1st the next playtest will be on October 15th).
+
+If you'd like to be notified when we playtest join our [Discord](https://discord.gg/MwDDf6t) and click the message in #rules-info to be pinged when we run tests.
+
+{{< imgw "/images/post/pr_27/tester" >}}
+
 ## New Developer Docs
 
 Previously, we used to host all development-related documentation (technical documents, tutorials, vague and questional design dumps) on HackMD.
