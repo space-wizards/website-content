@@ -13,7 +13,7 @@ thumbnail = "pr_27"
 
 ## Website Upgrade
 
-As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as our old one was a random photo from NASA, and a little crusty. You can download a full resolution of it [here](https://github.com/space-wizards/website-content/raw/master/static/images/main/new-background-original.png).
+As you may have noticed, our official website has gotten a major facelift thanks to PJB. We also commissioned some nice new background art from AsPev as a replacement for our old one which was a little crusty. You can download a full resolution of it [here](https://github.com/space-wizards/website-content/raw/master/static/images/main/new-background-original.png).
 
 {{< imgw "/images/post/pr_27/website" >}}
 
@@ -245,9 +245,9 @@ Let's first lay out the problem with power systems most common in SS13. First, p
 - Several simple medicines and chemistry improvements.
 
 ###### Contributed by metalgearsloth
-- Fixed y-sorting so it uses the bottom of the sprite and not the center.  
-- Physics multi-threading.  
-- Some engineering items now play sounds when landing.  
+- Fixed y-sorting so it uses the bottom of the sprite and not the center.
+- Physics multi-threading.
+- Some engineering items now play sounds when landing.
 - Meteor event.
 - Throwing now feels more realistic as it comes to a sudden stop at the end of the throw.
 - Lerping has been fixed and pulling lerping has been implemented. In English: Movement feels *much* better.
