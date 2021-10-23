@@ -23,7 +23,7 @@ Yes/No. The original creator of SS13 would be Exadv1 in 2003. Since its open-sou
 It's written in C# using our own engine; [Robust Toolbox](https://github.com/space-wizards/RobustToolbox). C# is a good language and it's perfect for this project. It's easy to pick up, comfortable to write and pretty fast.
 
 ### Q: Can I Help?
-Of course! Our [Discord](https://discord.gg/MwDDf6t) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://hackmd.io/@ss14/docs) on [getting setup](https://hackmd.io/@ss14/docs/getting-set-up) and [coding](https://hackmd.io/@ss14/docs/howdoicode).
+Of course! Our [Discord](https://discord.gg/MwDDf6t) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://docs.ss14.io) on [getting setup](https://docs.spacestation14.io/getting-started/dev-setup) and [coding](https://docs.spacestation14.io/getting-started/how-do-i-code).
 
 ### Q: Will the main SS14 servers have round-start playable species other than humans?
 No, but the functionality will be there for other servers.
