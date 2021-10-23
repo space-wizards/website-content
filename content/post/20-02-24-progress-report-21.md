@@ -19,7 +19,7 @@ CM has the largest playerbase in SS13, with an average server population of 200 
 
 We've also had great progress in many fields like: Realistic shadows and FOV, chemical reactions, explosions shockwaves, jobs and more.
 
-Finally, we've also been accepted by Steam (we'll still keep the game free and accessible outside of Steam) and now have [a new, publicly viewable wiki on HackMD](https://hackmd.io/@ss14/docs).
+Finally, we've also been accepted by Steam (we'll still keep the game free and accessible outside of Steam) and now have ~~[a new, publicly viewable wiki on HackMD](https://hackmd.io/@ss14/docs)~~ (Note: documentation has since moved to [our own site.](https://docs.ss14.io)).
 
 ## Colonial Marines stress-test
 
@@ -114,6 +114,8 @@ Bonus points: you can actually use this while holding guns. Just make sure you'r
 It's basic, but it works. Rendering rich text is hard, ok?
 
 ## Introducing HackMD as a public dev wiki
+
+**Note**: Documentation has since moved to [our own site.](https://docs.ss14.io)
 
 You can now view the [Space Station 14 Dev Wiki](https://hackmd.io/@ss14/docs/)! You will find various bikeshedding gameplay discussions, technical design and documentation, contribution guides, incomplete/nonsense pages, and much more!
 
