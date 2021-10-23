@@ -44,9 +44,9 @@ No, but the functionality will be there for other servers.
 </details>
 
 ### Q: Will SS14 support multiple codebases/servers like SS13?
-It already does! You can checkout our [hosting guide](https://hackmd.io/@ss14/for-hosting) to get started.
+It already does! You can checkout our [hosting guide](https://docs.spacestation14.io/en/getting-started/hosting) to get started.
 
-Note: If you're just looking to host a private server to mess around in solo play or test stuff, it's much less hassle to just [build the game yourself](https://hackmd.io/@ss14/docs/getting-set-up) which will compile a local client/server for you.
+Note: If you're just looking to host a private server to mess around in solo play or test stuff, it's much less hassle to just [build the game yourself](https://docs.spacestation14.io/en/getting-started/dev-setup) which will compile a local client/server for you.
 
 ### Q: Can I use SS14's engine to make other games?
 Yes, we even have templates for both [singleplayer](https://github.com/space-wizards/RobustToolboxTemplateSingleplayer) and [multiplayer](https://github.com/space-wizards/RobustToolboxTemplate) to get you started.
