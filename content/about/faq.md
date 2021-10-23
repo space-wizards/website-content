@@ -23,7 +23,7 @@ Yes/No. The original creator of SS13 would be Exadv1 in 2003. Since its open-sou
 It's written in C# using our own engine; [Robust Toolbox](https://github.com/space-wizards/RobustToolbox). C# is a good language and it's perfect for this project. It's easy to pick up, comfortable to write and pretty fast.
 
 ### Q: Can I Help?
-Of course! Our [Discord](https://discord.gg/MwDDf6t) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://hackmd.io/@ss14/docs) on [getting setup](https://hackmd.io/@ss14/docs/getting-set-up) and [coding](https://hackmd.io/@ss14/docs/howdoicode).
+Of course! Our [Discord](https://discord.gg/MwDDf6t) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://docs.ss14.io) on [getting setup](https://docs.spacestation14.io/getting-started/dev-setup) and [coding](https://docs.spacestation14.io/getting-started/how-do-i-code).
 
 ### Q: Will the main SS14 servers have round-start playable species other than humans?
 No, but the functionality will be there for other servers.
@@ -44,9 +44,9 @@ No, but the functionality will be there for other servers.
 </details>
 
 ### Q: Will SS14 support multiple codebases/servers like SS13?
-It already does! You can checkout our [hosting guide](https://hackmd.io/@ss14/for-hosting) to get started.
+It already does! You can checkout our [hosting guide](https://docs.spacestation14.io/en/getting-started/hosting) to get started.
 
-Note: If you're just looking to host a private server to mess around in solo play or test stuff, it's much less hassle to just [build the game yourself](https://hackmd.io/@ss14/docs/getting-set-up) which will compile a local client/server for you.
+Note: If you're just looking to host a private server to mess around in solo play or test stuff, it's much less hassle to just [build the game yourself](https://docs.spacestation14.io/en/getting-started/dev-setup) which will compile a local client/server for you.
 
 ### Q: Can I use SS14's engine to make other games?
 Yes, we even have templates for both [singleplayer](https://github.com/space-wizards/RobustToolboxTemplateSingleplayer) and [multiplayer](https://github.com/space-wizards/RobustToolboxTemplate) to get you started.

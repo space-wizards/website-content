@@ -40,7 +40,7 @@ We primarily communicate through Discord, although there is an IRC channel that'
 We also have some other project services set up:
 
 * [Automatic Content Builds](/about/nightlies)
-* [HackMD Documentation](https://hackmd.io/@ss14/docs/%2FvJp0-PyuSNeWMb5GA00B4Q)
+* [Wikijs Documentation](https://docs.ss14.io)
 
 ## History
 
