@@ -8,7 +8,7 @@ navlinkactive = "faq"
 
 <p style="color:red;">DISCLAIMER</p>
 
-This information could be slightly out of date as we update it less frequently. Check this [forum thread](https://forum.spacestation14.io/index.php?/topic/6-information/) for the most up-to-date information.
+This information could be slightly out of date as we update it less frequently. Check this [forum thread](https://forum.spacestation14.io/index.php?/topic/48-information-faq/) for the most up-to-date information.
 
 ### Q: Is It Cursed?
 Nah.
@@ -23,7 +23,7 @@ Yes/No. The original creator of SS13 would be Exadv1 in 2003. Since its open-sou
 It's written in C# using our own engine; [Robust Toolbox](https://github.com/space-wizards/RobustToolbox). C# is a good language and it's perfect for this project. It's easy to pick up, comfortable to write and pretty fast.
 
 ### Q: Can I Help?
-Of course! Our [Discord](https://discord.gg/MwDDf6t) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://docs.ss14.io) on [getting setup](https://docs.spacestation14.io/getting-started/dev-setup) and [coding](https://docs.spacestation14.io/getting-started/how-do-i-code).
+Of course! Our [Discord](http://discord.ss14.io/) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://docs.ss14.io) on [getting setup](https://docs.spacestation14.io/getting-started/dev-setup) and [coding](https://docs.spacestation14.io/getting-started/how-do-i-code).
 
 ### Q: Will the main SS14 servers have round-start playable species other than humans?
 No, but the functionality will be there for other servers.
