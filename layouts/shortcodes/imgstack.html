@@ -1,0 +1,9 @@
+<div class="section-shadow d-flex justify-content-center">
+    {{- range (seq 0 (sub (len .Params) 1) ) }}
+    <picture class="p-2">
+        {{- $path := $.Get . }}
+        <source type="image/webp" srcset="{{ $path }}.webp" />
+        <img src="{{ $path }}.png" class="angle-rect optional" />
+    </picture>
+    {{- end}}
+</div>
