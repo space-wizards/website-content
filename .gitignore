@@ -5,3 +5,4 @@ static/js/*
 resources/_gen/
 public/
 *~
+.hugo_build.lock
