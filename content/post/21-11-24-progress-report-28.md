@@ -37,7 +37,7 @@ Returning with the changeover to the /tg/ spritebase are grilles, everyone's fav
 
 ---
 
-### Atmos
+### Atmos pipes
 
 *Contributed by Zumorica and moony*
 
