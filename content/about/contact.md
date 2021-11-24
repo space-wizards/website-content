@@ -4,7 +4,7 @@ date = "2020-05-17"
 navlinkactive = "contact"
 +++
 
-Both the IRC , matrix and OOC chat (in-game) have a relay to the discord, so if you prefer either of those platforms, use them whitout fear of being ignored. (The matrix relay has a huge delay, so take that into account)
+Both the IRC , matrix and OOC chat (in-game) have a relay to the discord, so if you prefer either of those platforms, use them without fear of being ignored. (The matrix relay has a huge delay, so take that into account)
 ## You can contact us via:
 <hr></hr>
 <div class="contact"><a href="https://discord.gg/t2jac3p">Discord</a></div>
