@@ -10,7 +10,7 @@ thumbnail = "pr_28"
 +++
 The last couple of months have been a huge step forward for Space Station 14, with a total of 315 contributions made to the SS14 codebase between September 29th and November 3rd, and nearly 700 commits to SS14 and the RobustToolbox engine.
 <!--more-->
-During the last bi-weekly playtest, the servers were stretched to capacity by an average of over 50 players, enough that we had to put in a player cap to stop the servers from becoming overloaded.
+During the last bi-weekly playtests, the servers were filled by an average of over 30 players, reaching peak counts of 60! To better distribute players across our servers, we put in a player cap.
 
 This month, we've got everything from gun/trumpet hybrids and pneumatic cannons to small things.. like a complete overhaul of the game's sprite base and massive engine changes to allow for better shuttle movement. This report's contributions include:
 
@@ -29,9 +29,7 @@ No, it's not just the mystery juice Chemistry's been force-feeding you: Space St
 
 Returning with the changeover to the /tg/ spritebase are grilles, everyone's favorite easily-destroyed lattice of metal rods. Grilles can be found under windows all over Saltern, or in the hallways if the assistants get their hands on metal rods.
 
-{{< imgw "/images/post/pr_28/grilles" >}}
-
-{{< imgw "/images/post/pr_28/maze" >}}
+{{< imgstack "/images/post/pr_28/grilles" "/images/post/pr_28/maze" >}}
 
 ### Atmos
 
@@ -42,8 +40,6 @@ moony undertook the Herculean task of mapping in Atmos on Saltern, using the pip
 {{< imgw "/images/post/pr_28/atmos_fire" >}}
 
 {{< imgw "/images/post/pr_28/gas_miners" >}}
-
-{{< imgw "/images/post/pr_28/pipes" >}}
 
 ### Solars
 
@@ -66,7 +62,7 @@ vulppine added damage visualizers, so that Security can tell for sure when someo
 
 *Contributed by mirrorcult*
 
-{{< video-auto "/video/pr_28/pneumatic-cannons.mp4" >}}
+{{< video-auto "/video/pr_28/pneumatic_cannons.mp4" >}}
 
 Built from a gas tank, some pipes, a wire, and a pneumatic cannon, everyone's favorite school science project is now available to craft after finally being added to the codebase since the last progress report. Just keep them away from the Clown.
 
@@ -112,7 +108,7 @@ Deciding that the station did not yet have enough ways to get drunk, Daemon adde
 
 Centcom's Bluespace Artillery has been re-armed.
 
-{{< imgstack "/images/post/pr_28/flood_1" "/images/post/pr_28/flood_2" >}}
+{{< video-auto "/video/pr_28/explode.mp4" >}}
 
 ### Pinpointers
 
@@ -120,7 +116,7 @@ Centcom's Bluespace Artillery has been re-armed.
 
 Macoron added in the Pinpointer, giving the Captain an exciting new way to ignore the location of the nuclear disk.
 
-{{< imgstack "/images/post/pr_28/pinpointer_1" "/images/post/pr_28/pinpointer_1" >}}
+{{< imgstack "/images/post/pr_28/pinpointer_1" "/images/post/pr_28/pinpointer_2" >}}
 
 ### Power-Reading Multitools
 
@@ -257,7 +253,9 @@ Zumorica fixed a bug that allowed players to capture an admin ghost inside a loc
 ## [OpenDream](https://github.com/wixoaGit/OpenDream/tree/RobustToolbox)
 
 As if powering a remake of Space Station 13 wasn’t enough, the RobustToolbox engine is also being used to power OpenDream, a new project that aims to be a free and open-source alternative to BYOND itself. BYOND is very dated as an engine, and OpenDream aims to improve many aspects of it such as performance, new features, and so on. Even if SS14 exists, being able to run and maintain existing SS13 codebases off-BYOND is always important for reasons such as preservation and nostalgia.
-OpenDream uses the RobustToolbox engine as a starting point, including its existing networking, UI and rendering code and will integrate the SS14 launcher and account system - allowing players to launch OpenDream-hosted SS13 servers using the same launcher they already use for SS14. RobustToolbox is particularly well-suited for the task because it has already integrated features inspired from Space Station 13 and other BYOND games. OpenDream aims to eventually improve and extend BYOND itself, meaning that games making use of OpenDream's new features won't be able to run on BYOND. Also not included is the ability to connect to OpenDream-hosted servers with the official BYOND client or vice-versa.
+
+OpenDream uses the RobustToolbox engine as a starting point, including its existing networking, UI and rendering code and will integrate the SS14 launcher and account system - allowing players to connect to OpenDream-hosted SS13 servers using the same launcher they already use for SS14. RobustToolbox is particularly well-suited for the task because it has already integrated features inspired from Space Station 13 and other BYOND games.
+
 OpenDream aims to eventually improve and extend BYOND itself. This means that eventually, games making use of OpenDream’s new features will not be able to run on BYOND itself. It also does not aim to allow you to connect to OpenDream server with the official BYOND client or vice versa. In the future, SS13 servers will be able to make the switch to OpenDream.
 
 You can find the [Discord server for OpenDream here](https://discord.gg/wBKPVXXKty).
