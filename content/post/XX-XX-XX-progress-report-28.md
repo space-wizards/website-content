@@ -171,8 +171,7 @@ metalgearsloth added a full rotation system for shuttles, allowing anyone with a
 
 Julian added a method for linking devices through the APC power cables connected to them, and then implemented the first linked device in the form of light switches that toggle all lights connected to an APC. No longer will the Mime have to smash all the lights on the station to achieve total darkness and construct a mime nest.
 
-{{< imgw "/images/post/pr_28/mime_on" >}}
-{{< imgw "/images/post/pr_28/mime_off" >}}
+{{< imgstack "/images/post/pr_28/mime_on" "/images/post/pr_28/mime_off" >}}
 
 ### Reinforced Plasma Windows
 
