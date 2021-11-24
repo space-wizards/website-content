@@ -5,7 +5,7 @@ date = 2021-11-24
 categories = [
     "Progress Report"
 ]
-reddit = ""
+reddit = "https://www.reddit.com/r/ss14/comments/r1dcs7/progress_report_28_atmosia_rising/"
 thumbnail = "pr_28"
 +++
 The last couple of months have been a huge step forward for Space Station 14, with a total of 315 contributions made to the SS14 codebase between September 29th and November 3rd, and nearly 700 commits to SS14 and the RobustToolbox engine.
