@@ -1,7 +1,7 @@
 +++
 title = "Progress Report 28: Atmosia Rising"
 author = "Timrod"
-date = 2021-11-22
+date = 2021-11-24
 categories = [
     "Progress Report"
 ]
