@@ -182,7 +182,7 @@ DrSmugleaf added a logging system for admin use, which moony later modified to i
 
 ## Technical
 ### Update to .NET 6 and C# 10
-*Contributed by DrSmugleaf*
+*Contributed by DrSmugleaf and PJB*
 
 RobustToolbox and Space Station 14 were updated this month to use .NET 6 and C# 10, the latest release of both standards. While this change mostly affects contributors (who will have to update to a development environment that supports these standards if they haven't already) it also comes with some small performance boosts out of the box.
 
