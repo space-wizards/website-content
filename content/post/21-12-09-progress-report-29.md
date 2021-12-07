@@ -198,7 +198,7 @@ DrSmugleaf pooled a bunch of tests Github uses when testing code contributions, 
 
 "It looks like ass" - DrSmugleaf
 
-RSIEdit is a development tool for creating Robust Station Image (RSI) files, which contain all of the sprites used in SS14 - as wi as their animation states, rotations, and relevant license information. While it doesn't support sprite editing, it does allow contributors to directly import sprites from the DMI files used by BYOND to store sprite data.
+RSIEdit is a development tool for creating Robust Station Image (RSI) files, which contain all of the sprites used in SS14 - as well as their animation states, rotations, and relevant license information. While it doesn't support sprite editing, it does allow contributors to directly import sprites from the DMI files used by BYOND to store sprite data.
 
 RSIEdit is an important tool on the path of getting Space Station 14 to reach parity with existing Space Station 13 codebases, as well as for any developers who may want to import their codebases into OpenDream.
 
