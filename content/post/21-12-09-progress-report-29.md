@@ -29,12 +29,16 @@ Packed Station supports up to 50 players, and can be voted for once the server i
 
 20kdc invoked the 25th-century minimalist movement in creating Knightship, a tiny, efficient ship-style station designed for up to 8 players where most jobs are done by the Heads of Staff - but are they really the head of anything when they're the only person in their department?
 
+{{< imgw "/images/post/pr_29/knightship" >}}
+
 ---
 
-### Syndicate Puddle Jumper
+### Syndicate Puddle-Jumper
 *Contributed by 20kdc*
 
 Having determined that Nanotrasen's station captains have been lulled into a false sense of security, the Syndicate has launched their first shuttle for carrying heavily-armed nuclear ops teams to the station. Now might not be a bad time to get the Nuclear Authentication Disk back from the Clown...
+
+{{< imgw "images/post/pr_29/syndie_jumper" >}}
 
 ---
 
@@ -44,7 +48,7 @@ Having determined that Nanotrasen's station captains have been lulled into a fal
 
 Mirrorcult proves once again that common sense has no place in a chemistry lab, adding in the ability to grind jumpsuits in a blender in order to create liquid carpet that can be sprayed or dumped onto floors to instantly carpet them. Interior design will never be the same.
 
-https://cdn.discordapp.com/attachments/310560938438819861/912498813657284638/2021-11-22_17-23-58.mp4
+{{< video-auto "/video/pr_29/chem_carpets.mp4" >}}
 
 ---
 
@@ -52,6 +56,9 @@ https://cdn.discordapp.com/attachments/310560938438819861/912498813657284638/202
 *Contributed by mirrorcult*
 
 Directional Windows (also known as "thindows") are a core element of most SS13 maps, used to divide rooms without the need for full walls. They're also the number one source of anxiety among mappers, who live in constant fear that they forgot one somewhere. Thanks to mirrorcult, maps ported from SS13 can feel a little more like SS13.
+
+<!-- todo crop -->
+{{< imgstack "/images/post/pr_29/dir_windows_1" "/images/post/pr_29/dir_windows_2" >}}
 
 ---
 
@@ -74,12 +81,17 @@ The space magic that allowed entire stations to fly without any apparent source 
 
 FoLoKe reworked animals in SS14, allowing for a lot of basic interactions that didn't previously exist - such as feeding them or putting them on tables. As a result, you'll no longer need to ask "Does that monkey have a gun?" because yes, it does. This also allows the vicious and highly lethal space carp to survive their natural habitat.
 
+<!-- todo crop -->
+{{< imgw "images/post/pr_29/monkey_murder" >}}
+
 ---
 
 ### Cow milking
 *Contributed by FoLoKe*
 
 For ages, the Chef has asked a single question: "How do I get milk?" FoLoKe answered that by allowing the Chef (or anyone with a bucket) to milk cows that have been properly fed. The Chef has responded thus far by ignoring the milk entirely and butchering every cow Nanotrasen has sent them.
+
+{{< imgw "images/post/pr_29/milk" >}}
 
 ---
 
@@ -99,12 +111,17 @@ In an unrelated note, Centcom is reporting that the highly annoying and extremel
 
 Centcom would also like to remind you that "the station is being eaten by a horrible plant" is not on the list of valid reasons for handing out the nuclear codes.
 
+<!-- todo crop -->
+{{< imgstack "images/post/pr_29/kudzu_1" "images/post/pr_29/kudzu_2" >}}
+
 ---
 
 ### Blockgame ghosts
 *Contributed by Tomeno*
 
 Hardcore Nanotrasen Block Game players cheered this month as drop ghosts were added to Nanotrasen Block Game, thanks to Tomeno. Finally, Space Station 14 can be what it was always meant to be: a competitive block dropping puzzle game. What, you thought the atmospheric simulation was the game?
+
+{{< imgstack "images/post/pr_29/bg_ghosts" >}}
 
 ---
 
@@ -142,6 +159,9 @@ The starting equipment for everyone on the station has gotten a bit heavier than
 *Contributed by moony*
 
 You really can liquefy just about anything - as moony proved by adding in liquid bees and liquid electricity. These shocking new developments can be made in Chemistry with the right equipment and the right ingredients.. but should you?
+
+<!-- todo crop -->
+{{< imgw "images/post/pr_29/bees" >}}
 
 ---
 
