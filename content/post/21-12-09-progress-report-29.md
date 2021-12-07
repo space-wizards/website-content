@@ -103,7 +103,7 @@ metalgearsloth added a system for shuttle docking using docking airlocks, a vast
 ---
 
 ### Station Events and Space Kudzu
-*Contributed by Moony*
+*Contributed by moony*
 
 Moony re-enabled automatic station events, which have a chance of occurring each round. These range from deadly radiation pulses to the station being hit by meteors.
 
@@ -126,9 +126,9 @@ Hardcore Nanotrasen Block Game players cheered this month as drop ghosts were ad
 ---
 
 ### Chemist job
-*Contributed by Elijahrane*
+*Contributed by Rane*
 
-Elijahrane added the Chemist job, with doors and access to match. Now you can be sure that the person running around force-feeding everyone poison is board-certified.
+Rane added the Chemist job, with doors and access to match. Now you can be sure that the person running around force-feeding everyone poison is board-certified.
 
 ---
 
@@ -198,7 +198,7 @@ DrSmugleaf pooled a bunch of tests Github uses when testing code contributions, 
 
 "It looks like ass" - DrSmugleaf
 
-RSIEdit is a development tool for creating Robust Station Image (RSI) files, which contain all of the sprites used in SS14 - as well as their animation states, rotations, and relevant license information. While it doesn't support sprite editing, it does allow contributors to directly import sprites from the DMI files used by BYOND to store sprite data.
+RSIEdit is a development tool for creating Robust Station Image (RSI) files, which contain all of the sprites used in SS14 - as wi as their animation states, rotations, and relevant license information. While it doesn't support sprite editing, it does allow contributors to directly import sprites from the DMI files used by BYOND to store sprite data.
 
 RSIEdit is an important tool on the path of getting Space Station 14 to reach parity with existing Space Station 13 codebases, as well as for any developers who may want to import their codebases into OpenDream.
 
