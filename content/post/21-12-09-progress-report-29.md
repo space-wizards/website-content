@@ -8,8 +8,7 @@ categories = [
 reddit = ""
 thumbnail = "pr_28"
 +++
-Space Station 14 underwent a lot of changes in November - so many that we had to split them off into a separate progress report. The servers have been populated at even higher levels than during the last progress report, with active rounds running on every available server at once.
-<!--more-->
+Space Station 14 underwent a lot of changes in November - so many that we had to split them off into a separate progress report. The servers have been populated at even higher levels than during the last progress report, with active rounds running on every available server at once.<!--more-->
 
 
 ---
@@ -116,6 +115,20 @@ Centcom would also like to remind you that "the station is being eaten by a horr
 
 ---
 
+### Radiationstorm shader & sfx
+*Contributed by Efruit*
+
+It's a known fact that radiation storms in space do not look like flat green circles, something that Efruit fixed by implementing a new (and much more visually impressive) shader for bursts of radiation. <!-- note: as well as some nice sound effects -->
+
+---
+
+### Nettles
+*Contributed by Rane*
+
+Since their introduction to Space Station 14, the Botanists have had a difficult time finding ways to cause chaos. Enter the humble nettle plant, which can be used as a weapon to deal toxin damage or ground up into a liquid poison and slipped into a drink for a more subtle approach.
+
+---
+
 ### Blockgame ghosts
 *Contributed by Tomeno*
 
@@ -125,10 +138,25 @@ Hardcore Nanotrasen Block Game players cheered this month as drop ghosts were ad
 
 ---
 
+### pAis play music
+*Contributed by Hubismal*
+
+Hubismal enabled the music player on Personal AI devices, allowing them to voice their general discontent with humanity through a chiptune synthesizer, as opposed to merely vocalizing it to everyone within earshot.
+
+---
+
 ### Chemist job
 *Contributed by Rane*
 
 Rane added the Chemist job, with doors and access to match. Now you can be sure that the person running around force-feeding everyone poison is board-certified.
+
+---
+
+### Cargo crates & bureaucracy
+*Contributed by ElectroSr*
+
+Deciding that Cargo didn't have enough crates to waste the station's budget on, ElectroSr gave them the ability to order pizza and handcrafted cigarette parts, while also locking down the cargo console to ensure that no one can stop the cargo techs from flooding disposals with their empty pizza boxes. Productivity has never been lower.
+<!-- note: also labels -->
 
 ---
 
@@ -141,9 +169,16 @@ moony later made map choices dependent on server population, ensuring that a 50-
 
 ---
 
+### Metabolism rework
+*Contributed by mirrorcult*
+
+Mirrorcult overhauled the way metabolism works by splitting up chemicals into categories and having each organ process certain groups of chemicals - this also allows for different species to react to the same chemical in different ways. Regrettably, this means the Head of Personnel can no longer feed Ian entirely with chocolate bars from the vending machines.
+
+---
+
 ### Job refactor
 *Contributed by moony*
-<!-- more like: it also added support to have more than one station... -->
+
 moony changed the way Centcom hands out jobs, retiring the dartboard in HR that was used previously. Each station map now has its own job list based on what the station supports - as an example, Packed Station has a Chaplain slot while Saltern and Knightship do not. This also allows Centcom to have more than one station in space at the same time, with each having its own crew.
 
 ---
@@ -180,6 +215,14 @@ DrSmugleaf added a logging system for admin use, which moony later modified to i
 
 ---
 
+### Decals
+*Contributed by PaulRitter*
+
+Paul also added a system for decals, which are used to make the station's walls and floors look more visually distinct and are a map designer's best friend. While the decals themselves aren't in yet, they're supported in-game and will (hopefully) make the giant custom stations of the future less confusing to navigate.
+<!-- note: decals are being used for crayons already -->
+
+---
+
 ## Technical
 ### Update to .NET 6 and C# 10
 *Contributed by DrSmugleaf and PJB*
@@ -193,6 +236,8 @@ RobustToolbox and Space Station 14 were updated this month to use .NET 6 and C# 
 
 DrSmugleaf pooled a bunch of tests Github uses when testing code contributions, reducing the time they take by 57% to an average of just 90 seconds. For contributors, this means less time taken between each code commit. For players, this instead means that coders can speedrun a patch that fills every inventory slot with banana peels even faster.
 
+---
+
 ### RSIEdit
 *Contributed by DrSmugleaf*
 
@@ -202,7 +247,24 @@ RSIEdit is a development tool for creating Robust Station Image (RSI) files, whi
 
 RSIEdit is an important tool on the path of getting Space Station 14 to reach parity with existing Space Station 13 codebases, as well as for any developers who may want to import their codebases into OpenDream.
 
+---
+
 ### Automatic client zipping
 *Contributed by 20kdc*
 
 20kdc added automatic compression for parts of SS14's source code, making it easier than ever to host an SS14 fork.
+
+---
+
+### PVS Refactor
+*Contributed by PaulRitter*
+
+Paul optimized and cleaned up the code governing the Potentially Visible Set (PVS, for short) system, which dictates what you can see in-game. This ensures that you'll only see what's around you, and not the horrible atrocities being committed by the chef behind closed doors.
+
+---
+
+## Credits
+### Contributors Since Last Progress Report
+20kdc, AJCM-git, Acruid, Alex Evgrashin, AndresE55, Antoine Chavasse, Azzy, Clyybber, DrSmugleaf, EFR, Rane, Ephememory, Flipp Syder, FoLoKe, Hoolny, ElectroSr, Matt, Mith-randalf, Moony, Nikita Brancatisano, Pancake, Paul Ritter, Peptide90, Pieter-Jan Briers, ShadowCommander, Spartak, Swept, T-Stalker, TaralGit, TemporalOroboros, TimrodDX, Tomeno, Vera Aguilera Puerto, Visne, ZeroDayDaemon, ZorenZal, cheesePizza2, hubismal, iczero, ike709, metalgearsloth, mirrorcult, moonheart08, pointer-to-null, shaeone, wrexbe, xRiriq
+### Patrons
+Alex Tempest, Altana, Anthony Fleck, Await Future, Blaise M., Bobberunio, Chase Trotter, Citizen Battle, clyf, CPM311, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, Kerb 755, KrystalDisc, Mono, Nicholas Hillblom, Robin Rottstock, S.C., spinnermaster, ThatGuyGW, The Hateful Flesh, Tomeno, Valinov, vifs_vestige, Viridian, Will M., Zandario
