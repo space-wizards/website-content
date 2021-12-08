@@ -127,6 +127,9 @@ It's a known fact that radiation storms in space do not look like flat green cir
 
 Since their introduction to Space Station 14, the Botanists have had a difficult time finding ways to cause chaos. Enter the humble nettle plant, which can be used as a weapon to deal toxin damage or ground up into a liquid poison and slipped into a drink for a more subtle approach.
 
+<!-- todo crop -->
+{{< imgw "images/post/pr_29/nettles" >}}
+
 ---
 
 ### Blockgame ghosts
