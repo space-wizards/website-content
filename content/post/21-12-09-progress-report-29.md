@@ -106,7 +106,7 @@ For ages, the Chef has asked a single question: "How do I get milk?" FoLoKe answ
 ### Shuttle docking
 *Contributed by metalgearsloth*
 
-metalgearsloth added a system for shuttle docking using docking airlocks, a vast improvement on the previous docking method of blowing a hole in the station big enough to drive a shuttle into. Any shuttle equipped with one or more docking airlocks will now lock on to the station when it gets close enough.
+metalgearsloth added a system for shuttle docking using docking airlocks, a vast improvement on the previous docking method of blowing a hole in the station big enough to drive a shuttle into. Any shuttle equipped with one or more docking airlocks will now be able to lock on to the station.
 
 ---
 
@@ -128,6 +128,8 @@ Centcom would also like to remind you that "the station is being eaten by a horr
 *Contributed by Efruit*
 
 It's a known fact that radiation storms in space do not look like flat green circles, something that Efruit fixed by implementing a new (and much more visually impressive) shader for bursts of radiation, as well as a new set of sound effects to match.
+
+{{< video-auto "/video/pr_29/radiation.mp4" >}}
 
 ---
 
