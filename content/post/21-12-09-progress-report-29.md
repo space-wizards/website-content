@@ -1,5 +1,5 @@
 +++
-title = "Progress Report #29: A lot to unpack"
+title = "Progress Report #29: A Lot To Unpack"
 author = "Timrod"
 date = 2021-12-09
 categories = [
