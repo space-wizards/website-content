@@ -1,15 +1,18 @@
 +++
 title = "Progress Report #29: A lot to unpack"
 author = "Timrod"
-date = 2021-12-01
+date = 2021-12-09
 categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_28"
+thumbnail = "pr_29"
 +++
-Space Station 14 underwent a lot of changes in November - so many that we had to split them off into a separate progress report. The servers have been populated at even higher levels than during the last progress report, with active rounds running on every available server at once.<!--more-->
+Space Station 14 underwent so many changes in November that we had to split them off into a separate progress report. From November 4th to December 4th, the Space Station 14 code base had 357 contributions made - easily beating the two month period covered by Progress Report 28.
+<!--more-->
+This progress report features two new playable maps: Packed Station and Knightship, along with the return of the Chaplain, Chemist, and Warden. Also featured are liquid carpets, liquid bees, milkable cows, and new ways to make shuttles move.
 
+The past month has also been huge for the player base, with thousands of new players being accepted into the Steam playtest each week. The game reached a new peak of over 100 players on at once, and continues to be populated every day.
 
 ---
 
@@ -20,6 +23,9 @@ Space Station 14 underwent a lot of changes in November - so many that we had to
 The station that the /vg/ wiki describes as "Like eating poison ivy" is back! Designed to support SS14's growing player base, Packed Station is a nearly completely accurate port of the map as seen on /vg/'s SS13 codebase with some new features - like a full Atmos department (codenamed "The Hand of Atmosia") designed by Solbusaur and an SS14-compliant wiring system by Efruit. 20kdc added support for the Traitor Deathmatch gamemode and filled the hallways with trash. There may be another surprise somewhere - but you'll have to explore it to find out.
 
 Packed Station supports up to 50 players, and can be voted for once the server is over 15 players. It also supports three returning jobs not seen on Saltern - the Quartermaster, Chaplain, and Warden.
+
+{{< imgw "images/post/pr_29/packed_1" >}}
+{{< imgw "images/post/pr_29/packed_2" >}}
 
 ---
 
@@ -56,7 +62,6 @@ Mirrorcult proves once again that common sense has no place in a chemistry lab, 
 
 Directional Windows (also known as "thindows") are a core element of most SS13 maps, used to divide rooms without the need for full walls. They're also the number one source of anxiety among mappers, who live in constant fear that they forgot one somewhere. Thanks to mirrorcult, maps ported from SS13 can feel a little more like SS13.
 
-<!-- todo crop -->
 {{< imgstack "/images/post/pr_29/dir_windows_1" "/images/post/pr_29/dir_windows_2" >}}
 
 ---
@@ -66,12 +71,17 @@ Directional Windows (also known as "thindows") are a core element of most SS13 m
 
 Macoron added a core element for the Nuclear Emergency game mode: the nuclear bomb. Located in the vault on Packed Station (and in most SS13-derived stations) and in the Nuke Op shuttle, these are capable of destroying the entire station.. provided you didn't forget the code.
 
+{{< video-auto "video/pr_29/nuke.mp4" >}}
+
 ---
 
 ### Shuttle thrusters
 *Contributed by metalgearsloth*
 
 The space magic that allowed entire stations to fly without any apparent source of propulsion has waned, and metalgearsloth instead added thrusters that can be attached to a station or shuttle to, well... thrust. They can be ordered from cargo and are extremely deadly if you stand on the wrong end.
+
+{{< imgw "images/post/pr_29/thrusters" >}}
+{{< video-auto "video/pr_29/thrusters.mp4" >}}
 
 ---
 
@@ -80,7 +90,6 @@ The space magic that allowed entire stations to fly without any apparent source 
 
 FoLoKe reworked animals in SS14, allowing for a lot of basic interactions that didn't previously exist - such as feeding them or putting them on tables. As a result, you'll no longer need to ask "Does that monkey have a gun?" because yes, it does. This also allows the vicious and highly lethal space carp to survive their natural habitat.
 
-<!-- todo crop -->
 {{< imgw "images/post/pr_29/monkey_murder" >}}
 
 ---
@@ -110,15 +119,15 @@ In an unrelated note, Centcom is reporting that the highly annoying and extremel
 
 Centcom would also like to remind you that "the station is being eaten by a horrible plant" is not on the list of valid reasons for handing out the nuclear codes.
 
-<!-- todo crop -->
-{{< imgstack "images/post/pr_29/kudzu_1" "images/post/pr_29/kudzu_2" >}}
+{{< imgw "images/post/pr_29/kudzu_1" >}}
+{{< imgw "images/post/pr_29/kudzu_2" >}}
 
 ---
 
 ### Radiationstorm shader & sfx
 *Contributed by Efruit*
 
-It's a known fact that radiation storms in space do not look like flat green circles, something that Efruit fixed by implementing a new (and much more visually impressive) shader for bursts of radiation. <!-- note: as well as some nice sound effects -->
+It's a known fact that radiation storms in space do not look like flat green circles, something that Efruit fixed by implementing a new (and much more visually impressive) shader for bursts of radiation, as well as a new set of sound effects to match.
 
 ---
 
@@ -127,7 +136,6 @@ It's a known fact that radiation storms in space do not look like flat green cir
 
 Since their introduction to Space Station 14, the Botanists have had a difficult time finding ways to cause chaos. Enter the humble nettle plant, which can be used as a weapon to deal toxin damage or ground up into a liquid poison and slipped into a drink for a more subtle approach.
 
-<!-- todo crop -->
 {{< imgw "images/post/pr_29/nettles" >}}
 
 ---
@@ -153,13 +161,14 @@ Hubismal enabled the music player on Personal AI devices, allowing them to voice
 
 Rane added the Chemist job, with doors and access to match. Now you can be sure that the person running around force-feeding everyone poison is board-certified.
 
+{{< imgstack "images/post/pr_29/chemist_1" "images/post/pr_29/chemist_2" >}}
+
 ---
 
 ### Cargo crates & bureaucracy
-*Contributed by ElectroSr*
+*Contributed by ElectroJr*
 
-Deciding that Cargo didn't have enough crates to waste the station's budget on, ElectroSr gave them the ability to order pizza and handcrafted cigarette parts, while also locking down the cargo console to ensure that no one can stop the cargo techs from flooding disposals with their empty pizza boxes. Productivity has never been lower.
-<!-- note: also labels -->
+Deciding that Cargo didn't have enough crates to waste the station's budget on, ElectroJr gave them the ability to order pizza and handcrafted cigarette parts, while also locking down the cargo console to ensure that no one can stop the cargo techs from flooding disposals with their empty pizza boxes. Cargo also now has access to manifests with each crate, so there's even a paper trail of how much pizza cargo has ordered.
 
 ---
 
@@ -211,18 +220,18 @@ Mirrorcult mplemented a bunch of new ways for Chemistry to blow itself up and se
 ---
 
 ### Admin logs
-*Contributed by DrSmugleaf and moony*
-<!-- note: moony wasnt the only person to add logs to this system. it might blow the lid of the topic to mention everyone who did. maybe just only mention smug? adding logs is kinda onpar with bugfixes, and we omit them here too -->
+*Contributed by DrSmugleaf*
 
-DrSmugleaf added a logging system for admin use, which moony later modified to include 17 new logs. Centcom now knows when you've stolen the Head of Security's shoes, eaten all of the Chef's pizza, or when you've slipped on an improbable amount of banana peels all at once.
+DrSmugleaf added a logging system for admin use, which can track everything from damage to interacting with items. Centcom now knows when that Assistant steals the Head of Security's shoes, when someone eats all of the Chef's pizza, and when Security "forgets" to turn their stun baton off combat mode.
+
+{{< imgw "images/post/pr_29/adminlogs" >}}
 
 ---
 
 ### Decals
 *Contributed by PaulRitter*
 
-Paul also added a system for decals, which are used to make the station's walls and floors look more visually distinct and are a map designer's best friend. While the decals themselves aren't in yet, they're supported in-game and will (hopefully) make the giant custom stations of the future less confusing to navigate.
-<!-- note: decals are being used for crayons already -->
+Paul also added a system for decals, which are used to make the station's walls and floors look more visually distinct and are a map designer's best friend. The first decals to be implemented are crayon drawings, which are now part of the floor rather than an object that sits on top of it.
 
 ---
 
@@ -248,7 +257,7 @@ DrSmugleaf pooled a bunch of tests Github uses when testing code contributions, 
 
 RSIEdit is a development tool for creating Robust Station Image (RSI) files, which contain all of the sprites used in SS14 - as well as their animation states, rotations, and relevant license information. While it doesn't support sprite editing, it does allow contributors to directly import sprites from the DMI files used by BYOND to store sprite data.
 
-RSIEdit is an important tool on the path of getting Space Station 14 to reach parity with existing Space Station 13 codebases, as well as for any developers who may want to import their codebases into OpenDream.
+{{< imgw "images/post/pr_29/rsiedit" >}}
 
 ---
 
@@ -268,6 +277,8 @@ Paul optimized and cleaned up the code governing the Potentially Visible Set (PV
 
 ## Credits
 ### Contributors Since Last Progress Report
+*713 commits, authored by:*
+
 20kdc, AJCM-git, Acruid, Alex Evgrashin, AndresE55, Antoine Chavasse, Azzy, Clyybber, DrSmugleaf, EFR, Rane, Ephememory, Flipp Syder, FoLoKe, Hoolny, ElectroSr, Matt, Mith-randalf, Moony, Nikita Brancatisano, Pancake, Paul Ritter, Peptide90, Pieter-Jan Briers, ShadowCommander, Spartak, Swept, T-Stalker, TaralGit, TemporalOroboros, TimrodDX, Tomeno, Vera Aguilera Puerto, Visne, ZeroDayDaemon, ZorenZal, cheesePizza2, hubismal, iczero, ike709, metalgearsloth, mirrorcult, moonheart08, pointer-to-null, shaeone, wrexbe, xRiriq
 ### Patrons
 Alex Tempest, Altana, Anthony Fleck, Await Future, Blaise M., Bobberunio, Chase Trotter, Citizen Battle, clyf, CPM311, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, Kerb 755, KrystalDisc, Mono, Nicholas Hillblom, Robin Rottstock, S.C., spinnermaster, ThatGuyGW, The Hateful Flesh, Tomeno, Valinov, vifs_vestige, Viridian, Will M., Zandario
