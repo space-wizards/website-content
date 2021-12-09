@@ -217,7 +217,7 @@ You really can liquefy just about anything - as moony proved by adding in liquid
 ### Acids and Napalm
 *Contributed by mirrorcult*
 
-Mirrorcult mplemented a bunch of new ways for Chemistry to blow itself up and set everything on fire, including polytrinic acid, napalm, phlogiston and CLF3. Medical will probably want to keep that cloner close by - just not so close that it gets blown up or melted.
+Mirrorcult implemented a bunch of new ways for Chemistry to blow itself up and set everything on fire, including polytrinic acid, napalm, phlogiston and CLF3. Medical will probably want to keep that cloner close by - just not so close that it gets blown up or melted.
 
 ---
 
