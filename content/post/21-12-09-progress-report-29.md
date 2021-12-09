@@ -108,6 +108,8 @@ For ages, the Chef has asked a single question: "How do I get milk?" FoLoKe answ
 
 metalgearsloth added a system for shuttle docking using docking airlocks, a vast improvement on the previous docking method of blowing a hole in the station big enough to drive a shuttle into. Any shuttle equipped with one or more docking airlocks will now be able to lock on to the station.
 
+{{< video-auto "video/pr_29/docking.mp4" >}}
+
 ---
 
 ### Station Events and Space Kudzu
