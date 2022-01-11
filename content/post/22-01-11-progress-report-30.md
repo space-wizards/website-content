@@ -14,7 +14,7 @@ Even with the winter holidays and a week-long feature freeze, December capped of
 {{< newsection >}}
 ## Content
 {{< newsection >}}
-### Feature-freeze
+### Featurefreeze
 December was marked by a week-long feature freeze in order to implement a massive engine change with the goal of increasing long-term performance and cleaning up the engine code.
 
 {{< newsection >}}
@@ -48,7 +48,7 @@ Topy added three new types of roller beds, which can fold into a carry-able stat
 In another big win for mappers, AJCM added a large variety of posters to cover walls and make the station look slightly less grey. Posters have already been placed on Packed Station and will no doubt be used in maps to come.
 {{< newsection >}}
 
-### Suit sensor and crew monitoring
+### Suit Sensor and Crew Monitoring
 *Contributed by Macoron*
 
 The crew of Space Station 14 are now able to ignore the CMO complaining about suit sensors at the start of every round, thanks to Macoron adding both the sensors and the crew monitoring console they report to.
@@ -70,13 +70,13 @@ After repeated outbreaks of talking killer monkeys aboard the station, Pancake c
 {{< imgw "images/post/pr_30/accents" >}}
 {{< newsection >}}
 
-### Singuloose lobby song
+### Singuloose Lobby Song
 *Contributed by Schiene*
 
 Schiene added a new song to the SS14 lobby music pool, titled "Singuloose". You can listen to it here: https://soundcloud.com/js_m/singuloose
 {{< newsection >}}
 
-### Ultravasculine, a new advanced antitoxin
+### Ultravasculine, a New Advanced Antitoxin
 *Contributed by Rane*
 
 Rane added Ultravasculine, a chemical made from histamine and plasma that rapidly removes toxin damage at the cost of a small amount of brute damage. Watch out, though: overdoses may prove fatal.
@@ -113,7 +113,7 @@ Pancake added an orb for pondering. It can also be used as a puzzle solution in 
 Fishfish458 added SS14's third board game in the form of Backgammon, which joins Chess and Parchis in a new board games crate in Cargo. SS14 can now add "Competitive Backgammon Simulator" to its list of achievements.
 {{< newsection >}}
 
-### T-ray scanners
+### T-Ray Scanners
 *Contributed by vulppine*
 
 The days of Engineering running up and down the halls prying up floor tiles to figure out why half the station is suddenly unpowered are over, thanks to the handheld T-Ray scanners added by vulppine.
@@ -136,7 +136,7 @@ https://docs.spacestation14.io/en/getting-started/hosting
 
 {{< newsection >}}
 
-### Mid-game prototype loading
+### Mid-Game Prototype Loading
 *Contributed by moony*
 
 moony added a way for admins to load new items into the game on the fly, allowing for horrible things like banana peels that create new banana peels any time anyone slips on them or kudzu that spawns monkeys instead of kudzu.
