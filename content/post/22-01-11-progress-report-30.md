@@ -8,8 +8,7 @@ categories = [
 reddit = ""
 thumbnail = "pr_29"
 +++
-Even with the winter holidays and a week-long feature freeze, December capped off a busy year for Space Station 14. In 2021, Space Station 14 had X contributions, nearly double? the 2020 contribution count.
-<!-- todo X year contributions, as well as this pr contributions, doubling? -->
+Even with the winter holidays and a week-long feature freeze, December capped off a busy year for Space Station 14. In 2021, Space Station 14 had 2184 contributions, easily beating the 2020 contribution count of 1498.
 <!--more-->
 
 {{< newsection >}}
