@@ -64,9 +64,9 @@ metalgearsloth and CrudeWax added Guardians to the list of items available in tr
 {{< newsection >}}
 
 ### Accents
-*Contributed by Pangogie*
+*Contributed by Pancake*
 
-After repeated outbreaks of talking killer monkeys aboard the station, Pangogie cracked down by implementing accents that filter chat for anyone playing as an animal. Hopefully, this will also cut down on reports by Atmos technicians of Ian telling them to light Atmos on fire.
+After repeated outbreaks of talking killer monkeys aboard the station, Pancake cracked down by implementing accents that filter chat for anyone playing as an animal. Hopefully, this will also cut down on reports by Atmos technicians of Ian telling them to light Atmos on fire.
 {{< imgw "images/post/pr_30/accents" >}}
 {{< newsection >}}
 
@@ -102,9 +102,9 @@ Mithrandalf added yet another way for hapless Engineers to "accidentally" light 
 {{< newsection >}}
 
 ### Orb
-*Contributed by Pangogie*
+*Contributed by Pancake*
 
-Pangogie added an orb for pondering. It can also be used as a puzzle solution in a pinch.
+Pancake added an orb for pondering. It can also be used as a puzzle solution in a pinch.
 {{< newsection >}}
 
 ### Backgammon
