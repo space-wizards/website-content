@@ -14,7 +14,8 @@ This progress report features two new playable maps: Packed Station and Knightsh
 
 The past month has also been huge for the player base, with thousands of new players being accepted into the Steam playtest each week. The game reached a new peak of over 100 players on at once, and continues to be populated every day.
 
----
+
+{{< newsection >}}
 
 ## Maps
 ### Packed Station
@@ -27,7 +28,7 @@ Packed Station supports up to 50 players, and can be voted for once the server i
 {{< imgw "images/post/pr_29/packed_1" >}}
 {{< imgw "images/post/pr_29/packed_2" >}}
 
----
+{{< newsection >}}
 
 ### Knightship
 *Contributed by 20kdc*
@@ -36,7 +37,7 @@ Packed Station supports up to 50 players, and can be voted for once the server i
 
 {{< imgw "/images/post/pr_29/knightship" >}}
 
----
+{{< newsection >}}
 
 ### Syndicate Puddle-Jumper
 *Contributed by 20kdc*
@@ -45,7 +46,7 @@ Having determined that Nanotrasen's station captains have been lulled into a fal
 
 {{< imgw "images/post/pr_29/syndie_jumper" >}}
 
----
+{{< newsection >}}
 
 ## Content
 ### Chemical carpets
@@ -55,7 +56,7 @@ Mirrorcult proves once again that common sense has no place in a chemistry lab, 
 
 {{< video-auto "/video/pr_29/chem_carpets.mp4" >}}
 
----
+{{< newsection >}}
 
 ### Directional Windows
 *Contributed by mirrorcult*
@@ -64,7 +65,7 @@ Directional Windows (also known as "thindows") are a core element of most SS13 m
 
 {{< imgstack "/images/post/pr_29/dir_windows_1" "/images/post/pr_29/dir_windows_2" >}}
 
----
+{{< newsection >}}
 
 ### Nuke
 *Contributed by Macoron*
@@ -73,7 +74,7 @@ Macoron added a core element for the Nuclear Emergency game mode: the nuclear bo
 
 {{< video-auto "video/pr_29/nuke.mp4" >}}
 
----
+{{< newsection >}}
 
 ### Shuttle thrusters
 *Contributed by metalgearsloth*
@@ -83,7 +84,7 @@ The space magic that allowed entire stations to fly without any apparent source 
 {{< imgw "images/post/pr_29/thrusters" >}}
 {{< video-auto "video/pr_29/thrusters.mp4" >}}
 
----
+{{< newsection >}}
 
 ### Animal mechanics
 *Contributed by FoLoKe*
@@ -92,7 +93,7 @@ FoLoKe reworked animals in SS14, allowing for a lot of basic interactions that d
 
 {{< imgw "images/post/pr_29/monkey_murder" >}}
 
----
+{{< newsection >}}
 
 ### Cow milking
 *Contributed by FoLoKe*
@@ -101,7 +102,7 @@ For ages, the Chef has asked a single question: "How do I get milk?" FoLoKe answ
 
 {{< imgw "images/post/pr_29/milk" >}}
 
----
+{{< newsection >}}
 
 ### Shuttle docking
 *Contributed by metalgearsloth*
@@ -110,7 +111,7 @@ metalgearsloth added a system for shuttle docking using docking airlocks, a vast
 
 {{< video-auto "video/pr_29/docking.mp4" >}}
 
----
+{{< newsection >}}
 
 ### Station Events and Space Kudzu
 *Contributed by moony*
@@ -124,7 +125,7 @@ Centcom would also like to remind you that "the station is being eaten by a horr
 {{< imgw "images/post/pr_29/kudzu_1" >}}
 {{< imgw "images/post/pr_29/kudzu_2" >}}
 
----
+{{< newsection >}}
 
 ### Radiationstorm shader & sfx
 *Contributed by Efruit*
@@ -133,7 +134,7 @@ It's a known fact that radiation storms in space do not look like flat green cir
 
 {{< video-auto "/video/pr_29/radiation.mp4" >}}
 
----
+{{< newsection >}}
 
 ### Nettles
 *Contributed by Rane*
@@ -142,7 +143,7 @@ Since their introduction to Space Station 14, the Botanists have had a difficult
 
 {{< imgw "images/post/pr_29/nettles" >}}
 
----
+{{< newsection >}}
 
 ### Blockgame ghosts
 *Contributed by Tomeno*
@@ -151,14 +152,14 @@ Hardcore Nanotrasen Block Game players cheered this month as drop ghosts were ad
 
 {{< imgstack "images/post/pr_29/bg_ghosts" >}}
 
----
+{{< newsection >}}
 
 ### pAis play music
 *Contributed by Hubismal*
 
 Hubismal enabled the music player on Personal AI devices, allowing them to voice their general discontent with humanity through a chiptune synthesizer, as opposed to merely vocalizing it to everyone within earshot.
 
----
+{{< newsection >}}
 
 ### Chemist job
 *Contributed by Rane*
@@ -167,14 +168,14 @@ Rane added the Chemist job, with doors and access to match. Now you can be sure 
 
 {{< imgstack "images/post/pr_29/chemist_1" "images/post/pr_29/chemist_2" >}}
 
----
+{{< newsection >}}
 
 ### Cargo crates & bureaucracy
 *Contributed by ElectroJr*
 
 Deciding that Cargo didn't have enough crates to waste the station's budget on, ElectroJr gave them the ability to order pizza and handcrafted cigarette parts, while also locking down the cargo console to ensure that no one can stop the cargo techs from flooding disposals with their empty pizza boxes. Cargo also now has access to manifests with each crate, so there's even a paper trail of how much pizza cargo has ordered.
 
----
+{{< newsection >}}
 
 ### Map voting
 *Contributed by mirrorcult and moony*
@@ -183,28 +184,28 @@ With the advent of Packed Station came a need for a way to select a map. Enter t
 
 moony later made map choices dependent on server population, ensuring that a 50-player server cannot vote for Knightship.
 
----
+{{< newsection >}}
 
 ### Metabolism rework
 *Contributed by mirrorcult*
 
 Mirrorcult overhauled the way metabolism works by splitting up chemicals into categories and having each organ process certain groups of chemicals - this also allows for different species to react to the same chemical in different ways. Regrettably, this means the Head of Personnel can no longer feed Ian entirely with chocolate bars from the vending machines.
 
----
+{{< newsection >}}
 
 ### Job refactor
 *Contributed by moony*
 
 moony changed the way Centcom hands out jobs, retiring the dartboard in HR that was used previously. Each station map now has its own job list based on what the station supports - as an example, Packed Station has a Chaplain slot while Saltern and Knightship do not. This also allows Centcom to have more than one station in space at the same time, with each having its own crew.
 
----
+{{< newsection >}}
 
 ### Epinephrine and Autoinjectors
 *Contributed by mirrorcult*
 
 The starting equipment for everyone on the station has gotten a bit heavier thanks to Mirrorcult, who added epinephrine autoinjectors to the survival box all players start with. These can be used to revive people who have gone into critical health... or to poison people with a highly lethal overdose. Epinephrine has also been added to the list of chemicals Chemistry can make, giving the chemists something new to leave lying around on the floor in pill form.
 
----
+{{< newsection >}}
 
 ### Bee chemical & Electrocution chemical
 *Contributed by moony*
@@ -214,14 +215,14 @@ You really can liquefy just about anything - as moony proved by adding in liquid
 <!-- todo crop -->
 {{< imgw "images/post/pr_29/bees" >}}
 
----
+{{< newsection >}}
 
 ### Acids and Napalm
 *Contributed by mirrorcult*
 
 Mirrorcult implemented a bunch of new ways for Chemistry to blow itself up and set everything on fire, including polytrinic acid, napalm, phlogiston and CLF3. Medical will probably want to keep that cloner close by - just not so close that it gets blown up or melted.
 
----
+{{< newsection >}}
 
 ### Admin logs
 *Contributed by DrSmugleaf*
@@ -230,14 +231,14 @@ DrSmugleaf added a logging system for admin use, which can track everything from
 
 {{< imgw "images/post/pr_29/adminlogs" >}}
 
----
+{{< newsection >}}
 
 ### Decals
 *Contributed by PaulRitter*
 
 Paul also added a system for decals, which are used to make the station's walls and floors look more visually distinct and are a map designer's best friend. The first decals to be implemented are crayon drawings, which are now part of the floor rather than an object that sits on top of it.
 
----
+{{< newsection >}}
 
 ## Technical
 ### Update to .NET 6 and C# 10
@@ -245,14 +246,14 @@ Paul also added a system for decals, which are used to make the station's walls 
 
 RobustToolbox and Space Station 14 were updated this month to use .NET 6 and C# 10, the latest release of both standards. While this change mostly affects contributors (who will have to update to a development environment that supports these standards if they haven't already) it also comes with some small performance boosts out of the box.
 
----
+{{< newsection >}}
 
 ### Test pooling
 *Contributed by DrSmugleaf*
 
 DrSmugleaf pooled a bunch of tests Github uses when testing code contributions, reducing the time they take by 57% to an average of just 90 seconds. For contributors, this means less time taken between each code commit. For players, this instead means that coders can speedrun a patch that fills every inventory slot with banana peels even faster.
 
----
+{{< newsection >}}
 
 ### RSIEdit
 *Contributed by DrSmugleaf*
@@ -263,21 +264,21 @@ RSIEdit is a development tool for creating Robust Station Image (RSI) files, whi
 
 {{< imgw "images/post/pr_29/rsiedit" >}}
 
----
+{{< newsection >}}
 
 ### Automatic client zipping
 *Contributed by 20kdc*
 
 20kdc added automatic compression for parts of SS14's source code, making it easier than ever to host an SS14 fork.
 
----
+{{< newsection >}}
 
 ### PVS Refactor
 *Contributed by PaulRitter*
 
 Paul optimized and cleaned up the code governing the Potentially Visible Set (PVS, for short) system, which dictates what you can see in-game. This ensures that you'll only see what's around you, and not the horrible atrocities being committed by the chef behind closed doors.
 
----
+{{< newsection >}}
 
 ## Credits
 ### Contributors Since Last Progress Report

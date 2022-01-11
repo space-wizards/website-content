@@ -1,10 +1,11 @@
 {{ partial "header.html" . }}
 
 <div class="section-shadow">
-	<div class="container mb-4 py-3 section-bg angle-rect optional">
 
 
 <article id="main-article">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
+
 	<div class="row">
 		<div class="col">
 			<h1 class="articleheader first-header">{{ .Title }}</h1>
@@ -35,7 +36,8 @@
 		 <a class="center" href="{{ .Params.reddit }}">Join the discussion on Reddit!</a>
 	</footer>
 	{{ end }}
+</div>
 </article>
 
-</div></div>
+</div>
 {{ partial "footer.html" . }}
