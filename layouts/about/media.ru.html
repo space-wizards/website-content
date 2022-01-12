@@ -1,0 +1,35 @@
+{{ partial "header.ru.html" . }}
+
+<div class="section-shadow">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
+
+<article>
+	<p style="color:red;">ДИСКЛЕЙМЕР</p>
+
+	Это архив изображений/видео, использованных в отчетах о проделанной работе. Он может обновляться нечасто, и не все здесь отражает то, как выглядит игра в настоящее время.
+
+	<div id="media-toc">
+    <div class="media-toc-item"><a href="/about/media/#media-video">Видео</a></div>
+    <div class="media-toc-item"><a href="/about/media/#media-img">Изображения</a></div>
+</div>
+<hr></hr>
+<div class="video-container">
+	{{ range $entry := $.Site.Data.media.videos }}
+		<div>
+			<figcaption class="video-title">{{ $entry.title }}</figcaption>
+			<video src="/video/{{ $entry.file }}" controls playsinline preload=metadata>
+		</div>
+	{{ end }}
+</div>
+<hr></hr>
+<div id="media-img">
+	{{ range $entry := $.Site.Data.media.images }}
+		<a target="_blank" href="/images/{{ $entry.file }}"><img src="/images/{{ $entry.file }}"></a>
+	{{ end }}
+</div>
+
+</article>
+</div>
+</div>
+
+{{ partial "footer.ru.html" . }}

@@ -1,0 +1,23 @@
+<article class="summary row">
+	<div class="col">
+		<h3 class="articleheader"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+		<span class="articlemeta">
+			<time datetime="{{ .Date.Format "2006-01-02" }}">
+				{{ .Date.Format "02.01.2006" }}
+			</time>
+		</span>
+		<br />
+		{{ .Summary }}
+
+		{{ if .Truncated }}
+		<div class="read-more-link">
+			<a href="{{ .RelPermalink }}">Подробнее…</a>
+		</div>
+		{{ end }}
+	</div>
+	{{ if .Params.thumbnail }}
+		<div class="col-3 col-lg-2 section-shadow d-flex justify-content-end">
+			{{ partial "post_thumbnail.ru.html" . }}
+		</div>
+	{{ end }}
+</article>

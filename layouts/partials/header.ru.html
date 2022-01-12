@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+		<meta charset="utf-8" />
+
+		{{ partial "meta.ru.html" . }}
+
+		<base href="{{ .Site.BaseURL }}" />
+		{{ if .Title }}<title>{{ .Title }} - SS14</title>{{ else }}<title>Space Station 14</title>{{ end }}
+		<link rel="canonical" href="{{ .Permalink }}" />
+		{{ range .AlternativeOutputFormats -}}
+    	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}
+
+		{{ partial "head_includes.ru.html" }}
+	</head>
+	<body lang="ru">
+		<div class="section-shadow mt-2">
+			<div id="header" class="container angle-rect optional">
+			<nav class="navbar navbar-expand-lg navbar-dark p-0">
+						<a href="/" id="name" class="navbar-brand">
+							<img id="logo" src="/images/main/icon.svg" alt="" height="50" />
+						</a>
+
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						{{ $nla := .Params.navlinkactive }}
+
+						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "home" }} active {{ end }}" href="/">Главная</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "posts" }} active {{ end }}" href="/post/">Новости</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "play" }} active {{ end }}" href="/about/nightlies/">Скачать</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "about" }} active {{ end }}" href="/about/">О нас</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "media" }} active {{ end }}" href="/about/media/">Медиа</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "contact" }} active {{ end }}" href="/about/contact/">Контакты</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "faq" }} active {{ end }}" href="/about/faq/">ЧАВО</a>
+								</li>
+							</ul>
+						</div>
+				</nav>
+			</div>
+		</div>
+			<main class="d-flex flex-column">

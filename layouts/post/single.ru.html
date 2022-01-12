@@ -1,0 +1,43 @@
+{{ partial "header.ru.html" . }}
+
+<div class="section-shadow">
+
+
+<article id="main-article">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
+
+	<div class="row">
+		<div class="col">
+			<h1 class="articleheader first-header">{{ .Title }}</h1>
+			<em>Автор: {{ .Params.author }}</em><br/>
+			<span class="articlemeta">
+				<time datetime="{{ .Date.Format "2006-01-02" }}">
+					{{ .Date.Format "02.01.2006" }}
+				</time>
+			</span>
+		</div>
+		{{ if .Params.thumbnail }}
+			<div class="col-md-2 col-4">
+				{{ partial "post_thumbnail.ru.html" . }}
+			</div>
+		{{ end }}
+	</div>
+
+
+	<div class="mb-3">
+		<!-- The links from the Toc redirect by default to the siteURL, this is my workaround to that -->
+		{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}
+	</div>
+	{{  .Content }}
+
+	{{ if .Params.reddit }}
+	<hr>
+	<footer class="d-flex justify-items-center">
+		 <a class="center" href="{{ .Params.reddit }}">Присоединяйтесь к обсуждению на Reddit!</a>
+	</footer>
+	{{ end }}
+</div>
+</article>
+
+</div>
+{{ partial "footer.ru.html" . }}
