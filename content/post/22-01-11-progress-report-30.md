@@ -1,5 +1,5 @@
 +++
-title = "Progress Report #30: A Freeze for Winter"
+title = "Progress Report #30: A Short Freeze for Winter"
 author = "Timrod"
 date = 2022-01-11
 categories = [
