@@ -36,9 +36,9 @@ moony and Phantom-Lily contributed wrecks for players to explore, including a bo
 {{< newsection >}}
 
 ### Rollerbeds
-*Contributed by Topy*
+*Contributed by Topy and metalgearsloth*
 
-Topy added three new types of roller beds, which can fold into a carry-able state for easy storage and extend their wheels when a patient is put on them. Medbay personnel now have a much easier time moving all those corpses that keep piling up in their lobby to somewhere that they won't be as noticeable.
+Topy and metalgearsloth added three new types of roller beds, which can fold into a carry-able state for easy storage and extend their wheels when a patient is put on them. Medbay personnel now have a much easier time moving all those corpses that keep piling up in their lobby to somewhere that they won't be as noticeable.
 {{< imgw "images/post/pr_30/rollerbed" >}}
 {{< newsection >}}
 
@@ -168,7 +168,7 @@ Paul created a relay that automatically sends admin help requests to Discord, al
 
 ## Credits
 ### Contributors Since Last Progress Report
-*552 commits, authored by: AJCM-git, Acruid, Alex Evgrashin, Bingo Johnson, Caj Jones, Charlese2, CrudeWax, DrSmugleaf, EFR, Fishfish458, Flipp Syder, FoLoKe, Insineer, JustinTime, Júlio César Ueti, Leon Friedrich, Mariner102, Matz05, MeltedPixel, Mith-randalf, Moony, Morbo, Neith, Pancake, Paul Ritter, Peptide90, Pieter-Jan Briers, Rane, ShadowCommander, Stanbery Trask, T-Stalker, TaralGit, TemporalOroboros, TimrodDX, Venomii, Vera Aguilera Puerto, Wrexbe, ZorenZal, buletsponge, localcc, metalgearsloth, mirrorcult, pointer-to-null, shaeone, wrexbe, zlodo*
+*552 commits, authored by: AJCM-git, Acruid, Alex Evgrashin, Bingo Johnson, Caj Jones, Charlese2, CrudeWax, DrSmugleaf, EFR, Fishfish458, Flipp Syder, FoLoKe, Insineer, JustinTime, Júlio César Ueti, Leon Friedrich, Mariner102, Matz05, MeltedPixel, Mith-randalf, Moony, Morbo, Neith, Pancake, Paul Ritter, Peptide90, Pieter-Jan Briers, Rane, ShadowCommander, Schiene, Stanbery Trask, T-Stalker, TaralGit, TemporalOroboros, TimrodDX, Venomii, Vera Aguilera Puerto, Wrexbe, ZorenZal, buletsponge, localcc, metalgearsloth, mirrorcult, pointer-to-null, shaeone, wrexbe, zlodo*
 
 ### Patrons
 A Yaj, Alex Tempest, Altana, Anthony Fleck, AquaDraco, Austin Nelson, Await Future, Blaise M., Bobberunio, Callum Tubrett, Christoph, Citizen Battle, clyf, Collin R Terrell, Cormos Lemming, CPM311, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, Frege Beach, grhmhome, Hydration, Jack Rose, John Edward Hamilton Barchard, Joshington Awesomahee, Kerb 755, KrystalDisc, Miniwoffer, Mono, Nicholas Hillblom, NorthwoodTodd, Robin Rottstock, Ross Hawkins, S.C., Spiffyfishface, spinnermaster, ThatGuyGW, The Hateful Flesh, Tomeno, Valinov, vifs_vestige, Viridian, Voltinho, Will M., Wrexbe, Zandario
