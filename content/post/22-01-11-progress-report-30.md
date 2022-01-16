@@ -6,7 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_29"
+thumbnail = "pr_30"
 +++
 Even with the winter holidays and a week-long feature freeze, December capped off a busy year for Space Station 14. In 2021, Space Station 14 had 2184 contributions, easily beating the 2020 contribution count of 1498.
 <!--more-->
