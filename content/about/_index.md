@@ -32,10 +32,9 @@ Rome was not built in a day, and neither was SS14. We can always use extra hands
 * Main Repo: [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14).
 * Engine: [space-wizards/RobustToolbox](https://github.com/space-wizards/RobustToolbox).
 
-We primarily communicate through Discord, although there is an IRC channel that's connected to Discord with a bot.
+We primarily communicate through Discord:
 
 * [Discord Invite](https://discord.gg/T5EejNS)
-* IRC: `irc.rizon.net#spacebus`
 
 We also have some other project services set up:
 
