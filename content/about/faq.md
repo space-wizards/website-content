@@ -6,6 +6,8 @@ navlinkactive = "faq"
 
 # Frequently Asked Questions
 
+## [Check out our Player Wiki Here!](https://wiki.spacestation14.io/wiki/Main_Page)
+
 <p style="color:red;">DISCLAIMER</p>
 
 This information could be slightly out of date as we update it less frequently. Check this [forum thread](https://forum.spacestation14.io/index.php?/topic/48-information-faq/) for the most up-to-date information.
