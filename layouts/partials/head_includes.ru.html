@@ -1,0 +1,24 @@
+{{ $js := resources.Get "js/main.js" }}
+
+{{ $sassOptions := (dict "targetPath" "css/all.css" )}}
+{{- if ne hugo.Environment "production" -}}
+	{{ $sassOptions = merge $sassOptions (dict "enableSourceMap" true)}}
+{{- end -}}
+{{ $sass := resources.Get "scss/main.scss" | resources.ToCSS $sassOptions  }}
+
+{{- if eq hugo.Environment "production" -}}
+	{{ $postCssOptions := (dict "config" "./postcss.config.js")}}
+	{{ $sass = $sass | resources.PostCSS $postCssOptions | resources.Minify }}
+	{{ $js = $js | resources.Minify }}
+{{- end -}}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap&family=Montserrat:wght@700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ $sass.RelPermalink }}" />
+<script async src="{{ $js.RelPermalink }}"></script>
+{{- if eq hugo.Environment "production" -}}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+{{- else -}}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+{{- end -}}

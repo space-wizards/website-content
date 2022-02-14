@@ -1,0 +1,94 @@
+{{ partial "header.ru.html" . }}
+{{ $paginator := .Paginator }}
+
+<div class="section-shadow">
+	<div id="center-logo-container" class="container my-4 mt-0 angle-rect optional">
+		<div id="center-logo-background"></div>
+		<div class="container centercontent">
+			<div class="row">
+				<img src="/images/main/logo.svg" id="center-logo-logo" class="col-md-5" height="140" alt=Space Station 14 />
+				<div id="center-logo-desc" class="col-md-7 p-md-4 pb-1 p-0">
+					<p class="mb-3">
+						Катастрофы, враги и некомпетентность сговариваются, чтобы сделать каждую смену на борту станции уникальным и адским опытом.<br>
+						Зарегистрируйтесь сегодня, чтобы изучить сложную игровую механику и насладиться безграничным взаимодействием игроков!
+					</p>
+					<a id="center-download-link" class="fancybutton mb-3 mt-1" href="/about/nightlies/">Скачайте сейчас!</a>
+					<p id="center-download-subtext" class="mb-0">
+						Корпорация Nanotrasen не несет ответственности за травмы, смерть или более худшие последствия.
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="section-shadow">
+	<div class="container mb-4 py-3 section-bg angle-rect optional">
+		<div class="row">
+
+			<div class="col-lg-6 align-self-center">
+				<div id="gallery-img-wrap">
+					{{ range $idx, $entry := $.Site.Data.home.gallery }}
+						 <div class="gallery-img {{if eq $idx 0 }} active {{ end }}" data-gallery-id="{{ add 1 $idx }}">
+							 <picture>
+								<source type="image/webp" srcset="/images/home/gallery-{{ $entry }}.webp" />
+								<img src="/images/home/gallery-{{ $entry }}.jpg"/>
+							 </picture>
+						</div>
+					{{ end }}
+				</div>
+
+				<div id="gallery-thumbs">
+					{{ range $idx, $entry := $.Site.Data.home.gallery }}
+					<picture>
+						<source type="image/webp" srcset="/images/home/gallery-{{ $entry }}.webp" />
+						<img class="gallery-thumb {{if eq $idx 0 }} active {{ end }}" data-gallery-id="{{ add 1 $idx }}" src="/images/home/gallery-{{ $entry }}.jpg"/>
+					 </picture>
+					{{ end }}
+				</div>
+			</div>
+			<div id="gallery-desc" class="col-lg-6">
+				<div class="m-3">
+					<p>
+						<strong>Space Station 14</strong> рассказывает историю обычной смены на космической станции, которая пошла не по плану. Погрузитесь в свою роль, возитесь с детально проработанными системами и выживайте в хаосе в этой многопользовательской ролевой игре.
+					<p>
+						Ваш персонаж может стать одним из десятков членов экипажа и врагов, от инженера до капитана или даже предателя, каждый со своим уникальным снаряжением. Ваши обязанности помогают вам взаимодействовать со сложной механикой, будь то управление инвентарем, настройка реактора или спуск в утилизационные трубы.
+					<p>
+						Когда на станцию обрушиваются катастрофы, некомпетентность и саботаж, напряжение нарастает, открывая новые ситуации, которые заставляют вас делать трудный выбор. Будете ли вы латать медицинский отдел после того, как астероид пробил в нем дыру, или бороться за управление, когда капитана убивают революционеры? Выпустите ли вы несправедливо посаженного в тюрьму клоуна или будете сидеть в баре и разносить напитки, не заботясь ни о чем на свете?
+						<p>
+						История крушения станции находится в руках игроков, и каждый раунд - это интенсивный, захватывающий опыт, который заставит вас желать большего.
+					<p>
+						SS14 - это ремейк культовой классической игры <strong>Space Station 13</strong>. Игра находится в стадии активной разработки и имеет полностью <a href="https://github.com/space-wizards/space-station-14/">открытый исходный код</a>. Любой может внести свой вклад, даже вы!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-shadow">
+	<div class="container section-bg mb-4 py-3 angle-rect optional">
+		<div class="row">
+			<div id="home-posts" class="col-md-9">
+				<div class="mx-3">
+					<h2>Обновления</h2>
+					{{ range first 3 .Site.RegularPages }}
+						{{ .Render "summary"}}
+					{{ end }}
+
+					<a href="/post" class="fs-5">Посмотреть все посты</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="d-flex flex-column align-items-center me-md-2 mt-3 mt-md-0" id="logos-container">
+					<a href="https://discord.gg/t2jac3p"><img src="/images/logo/discord.svg" width="200" /></a>
+					<a href="https://store.steampowered.com/app/1255460/Space_Station_14/"><img src="/images/logo/steam.svg" width="200" /></a>
+					<a href="https://github.com/space-wizards/space-station-14/"><img src="/images/logo/github.svg" width="155" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.ru.html" . }}
