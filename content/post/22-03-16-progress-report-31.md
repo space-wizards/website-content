@@ -100,7 +100,7 @@ Swish, swish, stab. It's a sword, dude, not a fighter jet.
 
 {{< newsection >}}
 ### Duck!
-*Contributed by Daemon*
+*Contributed by Daemon and Mithrandalf*
 
 The animal, not the act of ducking. Cargo can now order a whole crate full of ducks, just make sure you keep them away from the chef.
 
