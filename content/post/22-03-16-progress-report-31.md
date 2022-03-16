@@ -20,7 +20,7 @@ There's been a long list of contributions since the last progress report, so thi
 {{< newsection >}}
 ### Game Wiki
 
-Space Station 14 now has a [wiki](https://wiki.spacestation14.io/wiki/Main_Page)! It's a one-stop shop for everything you need to know in order to get that greentext.
+Space Station 14 now has a [wiki](https://wiki.spacestation14.io/wiki/Main_Page)! It's a one-stop shop for everything you need to know in order to get that greentext, and anyone with a Space Station 14 account is able to contribute.
 
 {{< newsection >}}
 ### Automated Wiki Pages
@@ -100,7 +100,7 @@ Swish, swish, stab. It's a sword, dude, not a fighter jet.
 
 {{< newsection >}}
 ### Duck!
-*Contributed by Daemon*
+*Contributed by Daemon and Mithrandalf*
 
 The animal, not the act of ducking. Cargo can now order a whole crate full of ducks, just make sure you keep them away from the chef.
 
@@ -159,7 +159,7 @@ If you want to enable it mid-round, you can use the `kicknonwhitelisted` command
 {{< newsection >}}
 ## Credits
 ### Contributors Since Last Progress Report
-*354 commits, authored by: metalgearsloth, Leon Friedrich, Peptide90, Rane, Pancake, Kara D, ShadowCommander, Moony, Lamrr, mirrorcult, wrexbe, Pieter-Jan Briers, Vera Aguilera Puerto, LittleBuilderJane, Alex Evgrashin, Michael Phillips, Morbo, Sam Weaver, Paul Ritter, ZeroDayDaemon, Delete69, ElectroJr, Jack Fox, Júlio César Ueti, Paul, ScalyChimp, moonheart08, BubblegumBlue, Charlese2, DrSmugleaf, E F R, Fishfish458, T-Stalker, Zymem, Aaron Mell, Acruid, Clyybber, Demetre Beroshvili, Flipp Syder, Javier Guardia Fernández, Julian Giebel, JustinTime, Matz05, Neith, Plasmaguy, TaralGit, Willhelm53, WlarusFromDaSpace, Ygg01, bloodrizer, keronshb, pointer-to-null, router, sewerpig*
+*354 commits, authored by: metalgearsloth, Peptide90, Rane, Pancake, Kara D, ShadowCommander, Moony, Lamrr, mirrorcult, wrexbe, Pieter-Jan Briers, Vera Aguilera Puerto, LittleBuilderJane, Alex Evgrashin, Michael Phillips, Morbo, Sam Weaver, Paul Ritter, Daemon, Delete69, ElectroJr, DubiousDoggo, Júlio César Ueti, Paul, ScalyChimp, moonheart08, BubblegumBlue, Charlese2, DrSmugleaf, E F R, Fishfish458, T-Stalker, Zymem, Aaron Mell, Acruid, Clyybber, Demetre Beroshvili, Flipp Syder, Javier Guardia Fernández, Julian Giebel, JustinTime, Matz05, Neith, Plasmaguy, TaralGit, Willhelm53, WlarusFromDaSpace, Ygg01, bloodrizer, keronshb, pointer-to-null, router, sewerpig*
 
 ### Patrons
-TODO
+*Aaron Mell, Acruid, Alex Evgrashin, BubblegumBlue, Charlese2, Clyybber, Daemon, Delete69, Demetre Beroshvili, DrSmugleaf, E F R, ElectroJr, Fishfish458, Flipp Syder, DubiousDoggo, Julian Giebel, JustinTime, Júlio César Ueti, Kara D, Lamrr, LittleBuilderJane, Matz05, Michael Phillips, Moony, Morbo, Neith, Pancake, Paul, Peptide90, Pieter-Jan Briers, Plasmaguy, Rane, Sam Weaver, ScalyChimp, ShadowCommander, T-Stalker, TaralGit, Vera Aguilera Puerto, Willhelm53, WlarusFromDaSpace, Ygg01, Zymem, bloodrizer, keronshb, metalgearsloth, mirrorcult, pointer-to-null, router, sewerpig, wrexbe*
