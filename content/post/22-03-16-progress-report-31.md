@@ -20,7 +20,7 @@ There's been a long list of contributions since the last progress report, so thi
 {{< newsection >}}
 ### Game Wiki
 
-Space Station 14 now has a [wiki](https://wiki.spacestation14.io/wiki/Main_Page)! It's a one-stop shop for everything you need to know in order to get that greentext.
+Space Station 14 now has a [wiki](https://wiki.spacestation14.io/wiki/Main_Page)! It's a one-stop shop for everything you need to know in order to get that greentext, and anyone with a Space Station 14 account is able to contribute.
 
 {{< newsection >}}
 ### Automated Wiki Pages
