@@ -152,7 +152,7 @@ If you want to enable it mid-round, you can use the `kicknonwhitelisted` command
 ### Map Renderer
 *Contributed by DrSmugleaf and mirrorcult*
 
-`Content.MapRenderer` has been added as a new project that can turn a map file and render it as an image. It's extremely useful for development, updating the wiki, and more.
+`Content.MapRenderer` has been added as a new project that can take a map file and render it as an image. It's extremely useful for development, updating the wiki, and more.
 
 {{< imgw "images/post/pr_31/bagelrender" >}}
 
