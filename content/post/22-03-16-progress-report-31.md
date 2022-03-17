@@ -150,7 +150,7 @@ If you want to enable it mid-round, you can use the `kicknonwhitelisted` command
 
 {{< newsection >}}
 ### Map Renderer
-*Contributed by DrSmugleaf and mirrorcult*
+*Contributed by DrSmugleaf, moony, and mirrorcult*
 
 `Content.MapRenderer` has been added as a new project that can take a map file and render it as an image. It's extremely useful for development, updating the wiki, and more.
 
