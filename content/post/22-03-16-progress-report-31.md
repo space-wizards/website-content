@@ -13,7 +13,7 @@ It's been a minute since the last Progress Report, and there's been so many chan
 
 {{< newsection >}}
 ## Content
-{{< newsection >}}
+
 ### Two-Parter
 There's been a long list of contributions since the last progress report, so this edition just covers January 2022. The February 2022 edition will follow in a week or so.
 
@@ -88,7 +88,7 @@ You can now also find the librarian hiding amongst the station's repository of k
 
 Weh!
 
-{{< video-auto "/video/pr_31/weh.mp4" >}}
+{{< video-audio "/video/pr_31/weh.mp4" >}}
 
 {{< newsection >}}
 ### Energy Swords
@@ -134,7 +134,6 @@ Watch out for homemade flamethrowers!
 {{< newsection >}}
 ## Technical
 
-{{< newsection >}}
 ### Multi-grid Stations & Multi-station Maps
 *Contributed by mirrorcult*
 
