@@ -132,6 +132,9 @@ Watch out for homemade flamethrowers!
 * Uplinks can now buy Syndicate Smokes. *Contributed by Rane*
 
 {{< newsection >}}
+## Technical
+
+{{< newsection >}}
 ### Multi-grid Stations & Multi-station Maps
 *Contributed by mirrorcult*
 
