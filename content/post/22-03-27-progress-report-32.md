@@ -14,6 +14,34 @@ As promised in the last progress report, here's the second half of our two-part 
 TODO Thumbnail
 
 {{< newsection >}}
+## New Maps
+This progress report sees the addition of not one, not two, but *three* entirely new maps:
+* Bagel Station by Emisse
+* Moose Station by Emisse
+* NSS Pillar by Peptide90
+
+### Bagel Station
+*Contributed by Emisse*
+
+Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station.
+
+TODO maprender
+
+### Moose Station
+*Contributed by Emisse*
+
+Moose Station is a low population station smaller than Packed but a bit larger than Saltern. Set on an asteroid base, this station is dingy and dirty.
+
+TODO maprender
+
+### NSS Pillar
+*Contributed by Peptide90*
+
+NSS Pillar goes for a wide and thin station rather than something sprawling with arms. It supports a mid/large population.
+
+TODO maprender
+
+{{< newsection >}}
 ## Content
 ### Two-Parter
 In case you missed the [previous progress report](https://spacestation14.io/post/22-03-16-progress-report-31/), this is the second part of a two-part special to bring the progress reports up-to-date with the laundry list of changes recently. This progress report covers February 2022.
@@ -186,34 +214,6 @@ TODO pics if it's not ugly. Maybe just a maprender?
 * Animals and holoparasites are now pettable. *Contributed by Willhelm53*
 * Circuit boards are now made in the new Circuit Imprinter. *Contributed by Rane*
 * Admins can now freeze players. *Contributed by mirrorcult*
-
-{{< newsection >}}
-## New Maps
-This progress report sees the addition of not one, not two, but *three* entirely new maps:
-* Bagel Station by Emisse
-* Moose Station by Emisse
-* NSS Pillar by Peptide90
-
-### Bagel Station
-*Contributed by Emisse*
-
-Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station.
-
-TODO maprender
-
-### Moose Station
-*Contributed by Emisse*
-
-Moose Station is a low population station smaller than Packed but a bit larger than Saltern. Set on an asteroid base, this station is dingy and dirty.
-
-TODO maprender
-
-### NSS Pillar
-*Contributed by Peptide90*
-
-NSS Pillar goes for a wide and thin station rather than something sprawling with arms. It supports a mid/large population.
-
-TODO maprender
 
 {{< newsection >}}
 ## Technical
