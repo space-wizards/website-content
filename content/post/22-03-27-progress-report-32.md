@@ -54,7 +54,7 @@ Rane added yet another workplace hazard in the form of drones, a new ghost role 
 
 mirrorcult later added the ability for drones to wear hats, paving the way for Space Station 14 to become the premier space-themed hat simulator.
 
-TODO pic w/ hats
+{{< imgw "images/post/pr_32/drones" >}}
 
 {{< newsection >}}
 ### Beautiful Botany Buffs
@@ -64,7 +64,7 @@ Rane has added several new plants for aspiring Botanists: poppies, aloe, lingzhi
 
 Additionally, most healthy foods now contain some vitamins and/or protein, which can heal you slightly.
 
-TODO plant pic
+{{< imgw "images/post/pr_32/botany" >}}
 
 {{< newsection >}}
 ### Blood & Bleeding
@@ -74,7 +74,7 @@ During recent medical examinations, Central Command determined an alarming fact:
 
 mirrorcult has rectified this problem by restoring the crew's blood, which will now flow copiously when taking brute damage and can lead to further damage from blood loss. Rane also applied this to xenos and drones, who will bleed acid and oil respectively.
 
-TODO Pic
+{{< imgw "images/post/pr_32/blood" >}}
 
 {{< newsection >}}
 ### Butchering Improvements
@@ -82,7 +82,7 @@ TODO Pic
 
 The Chef and other psychopaths can now butcher small animals using only a knife or other sharp object, and to make matters worse whenever a mob is gibbed it will now spill all of its blood and other reagents all over the floor.
 
-TODO vid of Ian ~~exploding~~ being butchered
+{{< video-auto "/video/pr_32/butcher.mp4" >}}
 
 {{< newsection >}}
 ### Role Bans
@@ -111,7 +111,7 @@ Fun fact, that onomatopoeia is the name of the bit of code in both SS13 and SS14
 * DON'T PUT BATTERIES IN THE MICROWAVE.
 * Another fun thing for you to discover on your own.
 
-TODO vid
+{{< video-audio "/video/pr_32/microwave.mp4" >}}
 
 {{< newsection >}}
 ### Emags
@@ -147,7 +147,7 @@ Two new station events have been added by moony: SS13's classic vent clog event,
 
 Security can now ~~troll the crew~~ lock down an area by deploying a portable flasher. Powergamers had better find some sunglasses!
 
-TODO gif of someone getting flashed
+{{< video-audio "/video/pr_32/flasher.mp4" >}}
 
 {{< newsection >}}
 ### Syndicate Mothership
@@ -155,7 +155,7 @@ TODO gif of someone getting flashed
 
 The first version of a Syndicate ship has been added by LittleBuilderJane. The Syndicate Mothership will be a staging point for fluke ops elite Nuclear Operatives sometime soon™.
 
-TODO maprender
+{{< imgw "images/post/pr_32/mothership" >}}
 
 {{< newsection >}}
 ### More Xenoarchaeology Effects
@@ -163,7 +163,7 @@ TODO maprender
 
 The last progress report introduced us to the new xenoarchaeology artifacts, and now Macoron has gone and added even more potential effects. The new artifact effects include changing the area's temperature, emitting radiation pulses, and creating a random gas. Be careful!
 
-TODO gif/vid/pic?
+{{< imgw "images/post/pr_32/artifact" >}}
 
 {{< newsection >}}
 ### Musician
@@ -185,7 +185,7 @@ Deep breaths everyone, respiration has been completely refactored. Harmful gasse
 
 Have you ever wanted to open the Armory when all you meant to do was change the TV channel? Well with the new door remotes, now you can! Door remotes come in several flavors, and Heads of Staff can find the one for their department in their locker. Don't leave that thing lying around.
 
-TODO pic (from PR?)
+{{< video-auto "/video/pr_32/remote.mp4" >}}
 
 {{< newsection >}}
 ### Slimeperson Tweaks
@@ -202,7 +202,7 @@ Slimepeople have had some changes to further differentiate them from humans. Her
 
 Stationstation, which the oldest community members may recall, was the original map for testing Space Station 14. It now makes a glorious return as a salvage map, enabling you to smash some SS14 history into pieces and harvest it for valuable resources. I'm sure there's a metaphor for capitalism somewhere in that statement, now get back to work!
 
-TODO pics if it's not ugly. Maybe just a maprender?
+{{< imgw "images/post/pr_32/salvage" >}}
 
 {{< newsection >}}
 ### Misc. Changes
@@ -222,7 +222,7 @@ TODO pics if it's not ugly. Maybe just a maprender?
 
 ElectroJR really did a number on how actions work internally. It's hard to really show that to you, dear reader, but he followed it up with the ability to add mapping shortcuts to the actions hotbar, which is certainly going to make life a lot easier for mappers. There's even a preset of useful actions, available via the `/loadmapacts` command.
 
-TODO steal part of the pull request's vid
+{{< video-audio "/video/pr_32/mapping.mp4" >}}
 
 {{< newsection >}}
 ### Decal Placer
