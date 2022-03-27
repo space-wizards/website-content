@@ -23,23 +23,23 @@ This progress report sees the addition of not one, not two, but *three* entirely
 ### Bagel Station
 *Contributed by Emisse*
 
-Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station.
+Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station. 
 
-TODO maprender
+{{< imgw "images/post/pr_32/bagel" >}}
 
 ### Moose Station
 *Contributed by Emisse*
 
 Moose Station is a low population station smaller than Packed but a bit larger than Saltern. Set on an asteroid base, this station is dingy and dirty.
 
-TODO maprender
+{{< imgw "images/post/pr_32/moose" >}}
 
 ### NSS Pillar
 *Contributed by Peptide90*
 
 NSS Pillar goes for a wide and thin station rather than something sprawling with arms. It supports a mid/large population.
 
-TODO maprender
+{{< imgw "images/post/pr_32/pillar" >}}
 
 {{< newsection >}}
 ## Content
