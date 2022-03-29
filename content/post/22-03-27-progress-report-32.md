@@ -236,8 +236,10 @@ Mappers now have another new tool in their arsenal, the Decal Placer. It's a han
 ### PVS Refactor
 *Contributed by Paul*
 
-We have managed to hit 115 players in a live round without any server slowdown, thanks in large part to recent performance improvements in how we send game states to the client. Our goal is to be able to reach 300 players on a large station without any lag!
+We have managed to hit 110 players in a live round without any server slowdown, thanks in large part to recent performance improvements in how we send game states to the client. Our goal is to be able to reach 300 players on a large station without any lag!
 This system is also in charge of only sending nearby entities to each player in order to avoid cheating, known as their Potentially Visible Set.
+
+{{< imgw "images/post/pr_32/pvs" >}}
 
 {{< newsection >}}
 ## Credits
