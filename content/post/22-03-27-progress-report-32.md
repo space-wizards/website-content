@@ -23,7 +23,7 @@ This progress report sees the addition of not one, not two, but *three* entirely
 ### Bagel Station
 *Contributed by Emisse*
 
-Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station. 
+Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station.
 
 {{< imgw "images/post/pr_32/bagel" >}}
 
@@ -234,7 +234,10 @@ Mappers now have another new tool in their arsenal, the Decal Placer. It's a han
 
 {{< newsection >}}
 ### PVS Refactor
-TODO - Edit the bit on the trello into something sensible
+*Contributed by Paul*
+
+We have managed to hit 115 players in a live round without any server slowdown, thanks in large part to recent performance improvements in how we send game states to the client. Our goal is to be able to reach 300 players on a large station without any lag!
+This system is also in charge of only sending nearby entities to each player in order to avoid cheating, known as their Potentially Visible Set.
 
 {{< newsection >}}
 ## Credits
