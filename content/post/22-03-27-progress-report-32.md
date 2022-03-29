@@ -11,7 +11,6 @@ thumbnail = "pr_32"
 As promised in the last progress report, here's the second half of our two-part special! This part covers February 2022.
 <!--more-->
 
-TODO Thumbnail
 
 {{< newsection >}}
 ## New Maps
