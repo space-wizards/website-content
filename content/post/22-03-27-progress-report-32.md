@@ -217,9 +217,9 @@ Stationstation, which the oldest community members may recall, was the original 
 {{< newsection >}}
 ## Technical
 ### Actions Rework & Mapping Actions
-*Contributed by ElectroJR*
+*Contributed by ElectroSR*
 
-ElectroJR really did a number on how actions work internally. It's hard to really show that to you, dear reader, but he followed it up with the ability to add mapping shortcuts to the actions hotbar, which is certainly going to make life a lot easier for mappers. There's even a preset of useful actions, available via the `/loadmapacts` command.
+ElectroSR really did a number on how actions work internally. It's hard to really show that to you, dear reader, but he followed it up with the ability to add mapping shortcuts to the actions hotbar, which is certainly going to make life a lot easier for mappers. There's even a preset of useful actions, available via the `/loadmapacts` command.
 
 {{< video-audio "/video/pr_32/mapping.mp4" >}}
 
@@ -243,7 +243,7 @@ This system is also in charge of only sending nearby entities to each player in 
 {{< newsection >}}
 ## Credits
 ### Contributors Since Last Progress Report
-*667 commits, authored by: Acruid, AJCM-git, BasedUser, Delete69, DogZeroX, DubiousDoggo, ElectroJr, Rane, elthundercloud, Emisse, Ephememory, Fishfish458, HoofedEar, hubismal, ike709, lajolico, Lamrr, LittleBuilderJane, Macoron, MaxNox7, metalgearsloth, mirrorcult, Mith-randalf, moony, Morb0, Pangogie, PaulRitter, Peptide90, PJB3005, scaly-chimp, SethLafuente, ShadowCommander, SplinterGP, SweptWasTaken, TheDarkElites, TimrodDX, UristMcContributor, Veritius, weaversam8, Willhelm53, WlarusFromDaSpace, wrexbe, Ygg01, Zumorica, Zymem*
+*667 commits, authored by: Acruid, AJCM-git, BasedUser, Delete69, DogZeroX, DubiousDoggo, ElectroSR, Rane, elthundercloud, Emisse, Ephememory, Fishfish458, HoofedEar, hubismal, ike709, lajolico, Lamrr, LittleBuilderJane, Macoron, MaxNox7, metalgearsloth, mirrorcult, Mith-randalf, moony, Morb0, Pangogie, PaulRitter, Peptide90, PJB3005, scaly-chimp, SethLafuente, ShadowCommander, SplinterGP, SweptWasTaken, TheDarkElites, TimrodDX, UristMcContributor, Veritius, weaversam8, Willhelm53, WlarusFromDaSpace, wrexbe, Ygg01, Zumorica, Zymem*
 
 ### Patrons
 *Phillip Inman, Zakanater 19, Jex N, Peter "Azmond" Newhouse, Seija, Tom Cruize, Corpus Inc., Hamcha, Oxyclean114, JustanAnus, NorthwoodTodd, Collin R Terrell, Cormos Lemming, grhmhome, Spiffyfishface, Callum Tubrett, Hydration, John Edward Hamilton Barchard, Wrexbe, Frege Beach, Austin Nelson, AquaDraco, Miniwoffer, hh, Nicholas Hillblom, Florian, Viridian, Daskata, Blaise M., Jack Rose, The Hateful Flesh, Will M., spinnermaster, Koyki, Valinov, Dan Griskardian, Robin Rottstock, Altana, Durp, Joshington Awesomahee, Eric VW, Evan Armstrong, Mono, Ethan Keller, DramaBuns, KrystalDisc, Darren Brady, Zandario, Anthony Fleck, vifs_vestige, Bobberunio, CPM311, ThatGuyGW, Farewell Fire, Daniel Thompson, Tomeno*
