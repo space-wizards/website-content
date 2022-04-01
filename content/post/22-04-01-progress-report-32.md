@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #32: Geoff"
 author = "DrSmugleaf, ike709, & Timrod"
-date = 2022-03-27
+date = 2022-04-01
 categories = [
     "Progress Report"
 ]
@@ -59,7 +59,7 @@ mirrorcult later added the ability for drones to wear hats, paving the way for S
 ### Beautiful Botany Buffs
 *Contributed by Rane*
 
-Rane has added several new plants for aspiring Botanists: poppies, aloe, lingzhi, ambrosia vulgaris, galaxythistle, and fly amanita. All of them have various medicinal of chemical effects.
+Rane has added several new plants for aspiring Botanists: poppies, aloe, lingzhi, ambrosia vulgaris, galaxythistle, and fly amanita. All of them have various medicinal or chemical effects.
 
 Additionally, most healthy foods now contain some vitamins and/or protein, which can heal you slightly.
 
@@ -69,7 +69,7 @@ Additionally, most healthy foods now contain some vitamins and/or protein, which
 ### Blood & Bleeding
 *Contributed by mirrorcult and Rane*
 
-During recent medical examinations, Central Command determined an alarming fact: the average spaceman did not, in fact, have blood and were instead running on a combination of grain alcohol and Space-Up (TM).
+During recent medical examinations, Central Command determined an alarming fact: the average spaceman did not, in fact, have blood and were instead running on a combination of grain alcohol and Space-Up™.
 
 mirrorcult has rectified this problem by restoring the crew's blood, which will now flow copiously when taking brute damage and can lead to further damage from blood loss. Rane also applied this to xenos and drones, who will bleed acid and oil respectively.
 
@@ -152,7 +152,7 @@ Security can now ~~troll the crew~~ lock down an area by deploying a portable fl
 ### Syndicate Mothership
 *Contributed by LittleBuilderJane*
 
-The first version of a Syndicate ship has been added by LittleBuilderJane. The Syndicate Mothership will be a staging point for fluke ops elite Nuclear Operatives sometime soon™.
+The first version of a Syndicate ship has been added by LittleBuilderJane. The Syndicate Mothership will be a staging point for ~~fluke ops~~ elite Nuclear Operatives sometime soon™.
 
 {{< imgw "images/post/pr_32/mothership" >}}
 
@@ -236,7 +236,8 @@ Mappers now have another new tool in their arsenal, the Decal Placer. It's a han
 *Contributed by Paul*
 
 We have managed to hit 110 players in a live round without any server slowdown, thanks in large part to recent performance improvements in how we send game states to the client. Our goal is to be able to reach 300 players on a large station without any lag!
-This system is also in charge of only sending nearby entities to each player in order to avoid cheating, known as their Potentially Visible Set.
+
+This system is also in charge of only sending nearby entities to each player in order to avoid cheating; said entities are collectively known as the player's Potentially Visible Set or PVS for short.
 
 {{< imgw "images/post/pr_32/pvs" >}}
 
