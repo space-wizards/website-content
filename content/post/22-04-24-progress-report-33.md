@@ -47,7 +47,7 @@ tl;dr SS14 can definitely handle over 250 players and can probably handle over 3
 
 Explosions have been completely refactored to be more visually and technically impressive. There's also a new UI for admins to create explosions and it comes with a very fancy preview of what will be annihilated.
 
-TODO: Video from PR
+{{< video-audio "/video/pr_33/explosions.mp4" >}}
 
 {{< newsection >}}
 ### Modular Grenades
@@ -97,7 +97,7 @@ TODO: Make a pic of a plague doctor diagnosing a sneezing person with cancer
 
 During the last progress report cycle, ElectroSR added the ability for clothing sprites to have several layers, which enables more robust customization and visual effects. Flashlights and hardsuits now utilize this feature, and you can see it in action below:
 
-TODO Video from PR
+{{< video-auto "/video/pr_33/layers.mp4" >}}
 
 {{< newsection >}}
 ### Ghost Role Changes
@@ -108,7 +108,7 @@ Some ghost roles have been added and tweaked:
 - HoofedEar made some tweaks to drones: One of their hands has been switched for a new Omnitool, in addition to other changes to their toolkit. 
 - mirrorcult made it possible for mice to squeak, run under doors, and go under tables. Have fun leading the janitor on a wild chase through maintenance.
 
-TODO: Vid from mech PR
+{{< video-audio "/video/pr_33/mecha_anime.mp4" >}}
 
 {{< newsection >}}
 ### More Mapping Objects
@@ -149,7 +149,7 @@ These machines have new sound effects:
 - Atmospherics pipes
 - Electrical wires
 
-TODO: Video from PR
+{{< video-audio "/video/pr_33/ambience.mp4" >}}
 
 {{< newsection >}}
 ### Traitor Additions
@@ -187,7 +187,7 @@ Admins now have a variety of new tools to ~~abuse players~~ enhance the round, a
 - Admins can now play sounds to every player or specific players.
 - Admins can now upload custom resources to the server, like new sprites.
 
-TODO: Video from Network Resource Upload PR
+{{< video-audio "/video/pr_33/admin_abuse.mp4" >}}
 
 {{< newsection >}}
 ## Mapping
@@ -198,7 +198,7 @@ This progress report sees the addition of 3 new maps. There's also a pile of upd
 
 Delta Station, one of the largest maps in SS13, has been ported to SS14. It's so large that it's bigger than any other two SS14 maps combined. This incarnation is a mixture of /tg/'s map, Citadel's map, and a few unique changes to better fit SS14 mechanics like a remapped security department and removal of the AI satellite.
 
-TODO: Maprender
+{{< imgw "images/post/pr_33/delta" >}}
 
 {{< newsection >}}
 ### Marathon Station
@@ -206,7 +206,7 @@ TODO: Maprender
 
 Marathon Station has been added as a heavily-modified and rechristened port of SS13's Pubby Station. Hopefully the handful of Pubby fans will feel right at home, once they figure out where some of the departments went.
 
-TODO: Maprender
+{{< imgw "images/post/pr_33/marathon" >}}
 
 {{< newsection >}}
 ### Split Station
@@ -216,7 +216,7 @@ To show you the power of SS14, Peptide sawed this ~~boat~~ station in half!
 
 Split Station is, as the name implies, split into two separate asteroids with a couple hallways connecting them. I sure hope nobody disconnects them and flies off with half of the station!
 
-TODO: Maprender
+{{< imgw "images/post/pr_33/split" >}}
 
 {{< newsection >}}
 ### New Salvage Maps
@@ -226,7 +226,7 @@ Several new salvage maps have been added for all of your lootin' and shootin' ne
 
 Here's a look at one of the new salvage maps:
 
-TODO: Pic from PR
+{{< imgw "images/post/pr_33/salvage" >}}
 
 {{< newsection >}}
 ## Minor Changes
