@@ -67,6 +67,9 @@ Of course! You can checkout our [hosting guide](https://docs.spacestation14.io/e
 
 Note: If you're just looking to host a private server to mess around in solo play or test stuff, it's much less hassle to just [build the game yourself](https://docs.spacestation14.io/en/getting-started/dev-setup) which will compile a local client/server for you.
 
+### Q: Where can I read the rules for servers using the public hub?
+You can read them [here](https://docs.spacestation14.io/hosts/hub-rules).
+
 ### Q: Can I use SS14's engine to make other games?
 Yes, we even have templates for both [singleplayer](https://github.com/space-wizards/RobustToolboxTemplateSingleplayer) and [multiplayer](https://github.com/space-wizards/RobustToolboxTemplate) games to help get you started.
 
@@ -76,7 +79,13 @@ Yes, we even have templates for both [singleplayer](https://github.com/space-wiz
 Our finances are public in this regularly updated [google sheet](https://docs.google.com/spreadsheets/d/1iP3qOeTxrwN0DyeJvPndE7i1_nXeKL25j96wFIgYcU8/edit?usp=sharing).
 
 ### Q: How can I appeal an in-game ban?
-If you have been banned from the official "Wizard's Den" servers, you can appeal your ban in our [forums](https://forum.spacestation14.io/index.php?/forum/4-ban-appeals/). Make sure your post follows the [ban template](https://forum.spacestation14.io/index.php?/topic/50-ban-appeal-template-read-before-posting)
+If you have been banned from the official "Wizard's Den" servers, you can appeal your ban in our [forums](https://forum.spacestation14.io/index.php?/forum/4-ban-appeals/).
+
+Make sure your post follows the [ban template](https://forum.spacestation14.io/index.php?/topic/50-ban-appeal-template-read-before-posting)
+
+### Q: Where can I read the rules for the official game servers?
+You can read them [here](https://wiki.spacestation14.io/wiki/Server_Rules).
+
 
 ### Q: Help! My game is crashing, where do I get help?
 You can ask for help in our [Discord server](https://discord.ss14.io) in the [#bugs-feedback-help](https://discord.com/channels/310555209753690112/790656972801572905) channel, or on our [forums](https://forum.spacestation14.io/index.php?/forum/10-space-station-14/).
