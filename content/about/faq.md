@@ -52,6 +52,9 @@ No. Steam does get automatic updates to the launcher but otherwise they are func
 
 In the future we intend to add some better integration such as the ability to log into the game via Steam or Steam Cloud synchronization of settings, but these are not currently present.
 
+### Q: How do I learn to play the game?
+Check out our [beginner's guide](https://wiki.spacestation14.io/wiki/Getting_Started) and the rest of our [player wiki](https://wiki.ss14.io).
+
 ### Q: Are you the original creator of SS13?
 Yes/No. The original creator of SS13 would be Exadv1 in 2003. Since its open-sourcing in 2006, the community has been the developers of SS13.
 Many of our devs are coders, contributors, admins and hosts of various SS13 communities, but none of us were there in 2003.
