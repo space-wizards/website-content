@@ -24,7 +24,7 @@ navlinkactive = "faq"
 - [Game Repository](https://github.com/space-wizards/space-station-14)
 - [Engine Repository](https://github.com/space-wizards/RobustToolbox)
 - [Documentation](https://docs.ss14.io)
-- [RSI Editor](https://github.com/space-wizards/RSI-editor)
+- [RSIEdit](https://github.com/space-wizards/RSIEdit)
 
 ### Official Servers
 
