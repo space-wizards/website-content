@@ -55,7 +55,7 @@ Explosions have been completely refactored to be more visually and technically i
 
 Fortune117 and ElectroSR added every Chemist's favorite tool - the modular grenade, which allows anyone with a screwdriver and some basic parts to create a grenade filled with anything from deadly acid smoke to healing chemicals.
 
-TODO: Video?
+{{< video-audio "/video/pr_33/grenade.mp4" >}}
 
 {{< newsection >}}
 ### Map Rotation
@@ -214,7 +214,7 @@ Marathon Station has been added as a heavily-modified and rechristened port of S
 
 To show you the power of SS14, Peptide sawed this ~~boat~~ station in half!
 
-Split Station is, as the name implies, split into two separate asteroids with a couple hallways connecting them. I sure hope nobody disconnects them and flies off with half of the station!
+Split Station is, as the name implies, split into two separate asteroids with a couple hallways connecting them. I sure hope nobody disconnects them and flies off with half of the station (which you can actually do)!
 
 {{< imgw "images/post/pr_33/split" >}}
 
