@@ -134,7 +134,7 @@ Jezithyr has completely rewritten the lobby UI and it now looks entirely differe
 
 Further improving the lobby experience, WTCWR68 has added four new lobby songs including two classics from SS13.
 
-TODO: Video of lobby w/ art & new song.
+{{< imgw "images/post/pr_33/lobby" >}}
 
 {{< newsection >}}
 ### Ambience Enhancements
