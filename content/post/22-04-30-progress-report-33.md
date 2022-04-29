@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #33: Delta Variant"
 author = "DrSmugleaf, ike709, and Timrod"
-date = 2022-04-24
+date = 2022-04-30
 categories = [
     "Progress Report"
 ]
