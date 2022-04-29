@@ -79,7 +79,7 @@ There's so many that we're just going to list them:
 - Nuke Ops jumpsuits and Changeling armor
 - Winter coats, available in applicable clothing vendors and the uniform printer
 
-TODO: Pic with a bunch of the new clothing.
+{{< imgw "images/post/pr_33/disease" >}}
 
 {{< newsection >}}
 ### Diseases
@@ -89,7 +89,7 @@ Rane has done a ton of work to add all of the core systems, mechanics, and conte
 
 There's also a new plague doctor outfit courtesy of KaiShibaa.
 
-TODO: Make a pic of a plague doctor diagnosing a sneezing person with cancer
+{{< imgw "images/post/pr_33/disease" >}}
 
 {{< newsection >}}
 ### Multi-layer Clothing
@@ -116,15 +116,17 @@ Some ghost roles have been added and tweaked:
 
 This month saw a significant increase in the number of objects available to mappers, including shuttle walls for the arrivals and escape shuttle as well as a number of trees and other flora ported over from /tg/. Also included are new signs and new decorations, including dressers and television sets. 
 
-TODO: Pic with all of the new things
+Here's a *very* non-exhaustive look:
+
+{{< imgw "images/post/pr_33/mapping" >}}
 
 {{< newsection >}}
 ### More Animals & Grenade Penguins
 *Contributed by Emisse, Snowni, mirrorcult, EmoGarbage404, Carou02*
 
-The station now has a number of new and returning pets, thanks to a team of contributors who ported most of the existing animals from the /tg/ codebase - including foxes, ferrets, raccoons, opossums, dogs, and the Syndicate Grenade Penguin. I hope no one has allergies.
+The station now has a number of new and returning pets, thanks to a team of contributors who ported most of the existing animals from the /tg/ codebase - including foxes, ferrets, raccoons, opossums, dogs, and the new Syndicate Grenade Penguin. I hope no one has allergies.
 
-TODO: Pic of animals and/or vid of grenade penguin doing its thing
+{{< video-audio "/video/pr_33/penguin.mp4" >}}
 
 {{< newsection >}}
 ### Lobby Refactor & More Songs
@@ -161,23 +163,21 @@ The Syndicate have given their covert agents a new tool in the form of the Hypop
 
 Holoparasites have been significantly improved, and are now immune to most firearms and tasers.
 
-TODO: Pic?
-
 {{< newsection >}}
 ### Lizards
 *Contributed by  metalgearsloth, Daemon, Macoron, DogZeroX, moony*
 
 We've shown them off before, but the classic SS13 lizards are now officially playable in SS14 thanks to a bunch of work & fixes by several contributors. Lizard visuals and their unique accent are taken primarily from /tg/station 13.
 
-TODO: Pic of janitor lizard showing off accent.
+{{< imgw "images/post/pr_33/janitor" >}}
 
 {{< newsection >}}
 ### New Plushies
 *Contributed by DogZeroX and ZeroDayDaemon*
 
-Four adorable new plushies have been added: Ratvar, Rouny, RGBee. and a space lizard.
+Four adorable new plushies have been added: RGBee, Ratvar, Rouny, and a space lizard.
 
-TODO: Pic
+{{< video-auto "/video/pr_33/plushies.mp4" >}}
 
 {{< newsection >}}
 ### New Admin Features & Custom Resource Uploads
