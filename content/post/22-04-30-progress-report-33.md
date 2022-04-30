@@ -190,6 +190,14 @@ Admins now have a variety of new tools to ~~abuse players~~ enhance the round, a
 {{< video-audio "/video/pr_33/admin_abuse.mp4" >}}
 
 {{< newsection >}}
+### Auto UI Scaling
+*Contributed by Jezithyr*
+
+Resizing the game window will now automatically scale the UIs. It can go as small as 520x520 pixels!
+
+{{< video-auto "/video/pr_33/scaling.mp4" >}}
+
+{{< newsection >}}
 ## Mapping
 This progress report sees the addition of 3 new maps. There's also a pile of updates to all the other maps, but we don't have the time or space to cover them all here. As always, the most up-to-date images for maps can be found on our [wiki](https://wiki.spacestation14.io/wiki/Maps).
 
@@ -271,12 +279,6 @@ The old explosion code has been completely replaced. Previously, explosions work
 The new explosion code uses a grid-based algorithm that iteratively looks for neighboring tiles to add to the explosion. Airtight entities (i.e., walls) effectively delay the flood-fill in some directions, with a delay proportional to their health. The end result is that explosion can now properly penetrate multiple layers of walls, with each layer appropriately reducing the damage dealt to the next one. Additionally, the area that gets affected by an explosion is shaped by airtight obstacles. Explosions can now go around corners, and will deal more damage and travel further in confined areas.
 
 The most convoluted part of the new explosion code is the need to support multiple rotated & translated shuttles and stations. It is challenging to have grid-based explosions that properly propagate onto and off of these grids, while also being blocked by airtight entities on those grids, and there are still some edge cases were explosions can skip past walls. Another challenge was ensuring that all the code is fast enough to allow for real-time nuking of the station. The biggest bottleneck is currently due to entity spawning and deletion, but there is also some physics slowdown due to having thousands of entities launched into space. Currently a station-destroying explosion still causes very noticeable stuttering, but there is still plenty of room for improvement.
-
-{{< newsection >}}
-### UI Scaling
-*Contributed by Jezithyr*
-
-TODO: Write this section
 
 {{< newsection >}}
 ## Credits
