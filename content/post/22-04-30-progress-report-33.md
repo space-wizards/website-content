@@ -181,7 +181,7 @@ Four adorable new plushies have been added: RGBee, Ratvar, Rouny, and a space li
 
 {{< newsection >}}
 ### New Admin Features & Custom Resource Uploads
-*Contributed by Vera*
+*Contributed by Zumorica*
 
 Admins now have a variety of new tools to ~~abuse players~~ enhance the round, and a few minor changes have been made to the server rules. Here's the highlights:
 - Admins can now play sounds to every player or specific players.
@@ -283,7 +283,7 @@ The most convoluted part of the new explosion code is the need to support multip
 {{< newsection >}}
 ## Credits
 ### Contributors Since Last Progress Report
-*439 commits, authored by: Alex Evgrashin, Carou02, Chris V, CrudeWax, Daemon, Delete69, DrSmugleaf, ElectroSr, Emisse, EmoGarbage404, Fishfish458, Flipp Syder, Jack Fox, Jane Lewis, Jezithyr, Julian Giebel, Kai Shiba, Kevin Zheng, Leeroy, Mith-randalf, Moony, Morbo, Pancake, Paul, Peptide90, Pieter-Jan Briers, Radrark, Rane, ScalyChimp, ShadowCommander, Silver, Snowni, T-Stalker, TaralGit, TimrodDX, Vera, Veritius, WTCWR68, Willhelm53, Zoldorf, actually-reb, areit, ike709, lapatison, metalgearsloth, mirrorcult, ninruB, retequizzle, router, wrexbe*
+*439 commits, authored by: Alex Evgrashin, Carou02, Chris V, CrudeWax, Daemon, Delete69, DrSmugleaf, ElectroSr, Emisse, EmoGarbage404, Fishfish458, Flipp Syder, Jack Fox, Jane Lewis, Jezithyr, Julian Giebel, Kai Shiba, Kevin Zheng, Leeroy, Mith-randalf, Moony, Morbo, Pancake, Paul, Peptide90, Pieter-Jan Briers, Radrark, Rane, ScalyChimp, ShadowCommander, Silver, Snowni, T-Stalker, TaralGit, TimrodDX, Veritius, WTCWR68, Willhelm53, Zoldorf, actually-reb, areit, ike709, lapatison, metalgearsloth, mirrorcult, ninruB, retequizzle, router, wrexbe, Zumorica*
 
 ### Patrons
 *Altana, Anthony Chicko, Anthony Fleck, AquaDraco, Austin Nelson, Blaise M., Callum Tubrett, Collin R Terrell, Cormos Lemming, CPM311, Dan Griskardian, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, Frege Beach, grhmhome, Hamcha, hh, Jack Rose, James Andrew Peoples Jr, Jex N, Joel, John Edward Hamilton Barchard, Joshington Awesomahee, JustanAnus, Koyki, Kris Piper, KrystalDisc, Miniwoffer, Mono, Nicholas Hillblom, Oxyclean114, Peter "Azmond" Newhouse, Phillip Inman, Rafał Kowalewski, Robin Rottstock, Seija, Serathis, Shayne Haugen, Spiffyfishface, spinnermaster, Taylor, ThatGuyGW, The Hateful Flesh, Tom Cruize, Tomeno, Valinov, vifs_vestige, Viridian, Will M., Wrexbe, Zakanater 19, Zandario*
