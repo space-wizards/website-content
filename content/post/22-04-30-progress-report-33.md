@@ -79,7 +79,7 @@ There's so many that we're just going to list them:
 - Nuke Ops jumpsuits and Changeling armor
 - Winter coats, available in applicable clothing vendors and the uniform printer
 
-{{< imgw "images/post/pr_33/disease" >}}
+{{< imgw "images/post/pr_33/clothing" >}}
 
 {{< newsection >}}
 ### Diseases
