@@ -7,6 +7,14 @@ navlinkactive = "faq"
 # Frequently Asked Questions
 
 ### Links
+
+These are the official Space Wizards domains:
+
+		robusttoolbox.io, spacestation14.io, spacestation14.com, ss14.io
+
+Any other domain is not affiliated with us.
+
+
 #### Space Station 14
 - [Downloads](/about/nightlies/)
 - [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
