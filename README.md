@@ -14,7 +14,7 @@ You will need to have `npm` installed to build the website (CSS stuff, mostly). 
 
 To build the site, run `$ hugo` inside the project. That's it. This dumps the output files into the `/public/` folder. This isn't really practical for making sure your site's up to scratch though. If you want that, run `$ hugo serve` instead. It'll create a local (automatically updating) web server that you can connect to to make sure everything checks out.
 
-When you're SURE you did everything right, run `publish.py`. Note that this pushes directly to the submodule (and as such website) so only do this when you're sure! Also push your stuff.
+The website automatically updates when master is pushed.
 
 ## Writing Posts 101
 
