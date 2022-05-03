@@ -173,7 +173,7 @@ We've shown them off before, but the classic SS13 lizards are now officially pla
 
 {{< newsection >}}
 ### New Plushies
-*Contributed by DogZeroX and ZeroDayDaemon*
+*Contributed by DogZeroX and Daemon*
 
 Four adorable new plushies have been added: RGBee, Ratvar, Rouny, and a space lizard.
 
