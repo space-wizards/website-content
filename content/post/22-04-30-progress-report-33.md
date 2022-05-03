@@ -132,7 +132,7 @@ The station now has a number of new and returning pets, thanks to a team of cont
 ### Lobby Refactor & More Songs
 *Contributed by Jezithyr, WTCWR68*
 
-Jezithyr has completely rewritten the lobby UI and it now looks entirely different. As a bonus, it now supports lobby art so be on the lookout for that 👀.
+Jezithyr has completely rewritten the lobby UI and it now looks entirely different. As a bonus, it now supports lobby art! Two pieces of lobby art were made by Veritius.
 
 Further improving the lobby experience, WTCWR68 has added four new lobby songs including two classics from SS13.
 
