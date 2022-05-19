@@ -196,7 +196,7 @@ TODO: Pic of zombocalypse
 ### Admin Notes
 *Contributed by DrSmugleaf*
 
-Admin notes are the latest tool from SS13 in our anti-greytide arsenal, allowing admins to record players' heinous deeds on their permanent record. Be careful,  just because you don't get banned doesn't mean your actions aren't being noted!
+Admin notes are the latest tool from SS13 in our anti-greytide arsenal, allowing admins to record players' heinous deeds on their permanent record. Be careful, just because you don't get banned doesn't mean your actions aren't being noted!
 
 {{< video-audio "/video/pr_34/notes.mp4" >}}
 
