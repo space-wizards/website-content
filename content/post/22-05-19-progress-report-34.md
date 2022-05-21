@@ -8,8 +8,7 @@ categories = [
 reddit = ""
 thumbnail = "pr_34" TODO Thumbnail
 +++
-TODO replace old tag line:
-There's so many changes we couldn't figure out how to cover them all!
+Tons of improvements to the SS14 experience, and more!
 <!--more-->
 
 <!-- Useful tags: 
@@ -59,7 +58,7 @@ The new Artifact Container will safely contain any artifacts the salvage crew co
 
 Every station, shuttle, asteroid, et cetera can now be broken up into multiple unique grids. For example, if an asteroid smashed all the way through a shuttle mid-transit, you'd see the two halves fly off in different directions as the portion with the engines strapped to it continues accelerating. More technical details can be found in the Technical section, but here's a more direct visual aid:
 
-Using the power of multiple explosions, I sawed this station in half!
+Using the power of admin tools, I sawed this station in half!
 
 TODO: Splitstation splitting video.
 
@@ -192,7 +191,7 @@ A new study shows that a bit of bedrest can do wonders for a crewmember's health
 
 BRAAAAAAAAAAAAAAINS...
 
-TODO: Pic of zombocalypse
+{{< imgw "images/post/pr_34/zombies" >}}
 
 {{< newsection >}}
 ### Admin Notes
@@ -224,7 +223,7 @@ The Materials Science Division™ have tweaked the armor of most armored clothin
 
 Finally, they have some new hardware for Paramedics and the salvage crew:
 
-TODO Pics
+{{< imgw "images/post/pr_34/suits" >}}
 
 {{< newsection >}}
 ## Mapping
