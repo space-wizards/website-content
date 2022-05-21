@@ -60,7 +60,7 @@ Every station, shuttle, asteroid, et cetera can now be broken up into multiple u
 
 Using the power of admin tools, I sawed this station in half!
 
-TODO: Splitstation splitting video.
+{{< video-audio "/video/pr_34/split.mp4" >}}
 
 {{< newsection >}}
 ### Salvage Mining & Ore Processing
