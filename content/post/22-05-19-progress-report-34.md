@@ -233,7 +233,7 @@ TODO Pics
 
 The NT Barratry has been added as a medium-sized station with a grungy and destroyed aesthetic. Engineers and Janitors should have plenty of things to keep themselves occupied fixing up this old rust bucket.
 
-TODO Maprender
+{{< imgw "images/post/pr_34/barratry" >}}
 
 {{< newsection >}}
 ### Atlas Ship
@@ -241,7 +241,7 @@ TODO Maprender
 
 Atlas is a new low-pop map inspired by the Goonstation map of the same name, but with some changes to make it more viable in SS14.
 
-TODO Maprender
+{{< imgw "images/post/pr_34/atlas" >}}
 
 {{< newsection >}}
 ### Admin Pirate Ship
@@ -249,7 +249,7 @@ TODO Maprender
 
 Yarr, a pirate ship for admins to ~~abuse~~ use for ~~their~~ your amusement. Now we just need to figure out how to make people walk the plank in space.
 
-TODO Pic from PR
+{{< imgw "images/post/pr_34/pirates" >}}
 
 {{< newsection >}}
 ## Minor Changes
