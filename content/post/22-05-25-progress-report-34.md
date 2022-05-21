@@ -1,12 +1,12 @@
 +++
 title = "Progress Report #34: TODO"
 author = "DrSmugleaf, ike709, and Timrod"
-date = 2022-05-31
+date = 2022-05-25
 categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_34" TODO Thumbnail
+thumbnail = "pr_34"
 +++
 Tons of improvements to the SS14 experience, and more!
 <!--more-->
@@ -227,6 +227,7 @@ Finally, they have some new hardware for Paramedics and the salvage crew:
 
 {{< newsection >}}
 ## Mapping
+
 ### NT Barratry
 *Contributed by EmoGarbage404*
 
