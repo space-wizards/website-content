@@ -41,6 +41,8 @@ PJB also added Zstd compression to game states, which is a complicated way of sa
 
 Linking machines on the station has never been easier, thanks to a new change that allows anyone with a multitool to apply a default link to blast doors, shutters, and anything else capable of linking. This will no doubt save the greyshirts trying to pop open the blast doors to EVA storage several clicks.
 
+{{< imgw "images/post/pr_34/linking" >}}
+
 {{< newsection >}}
 ### Artifact Container
 *Contributed by Macoron*
@@ -67,7 +69,7 @@ TODO: Splitstation splitting video.
 
 The salvage crews have made a shocking discovery: All of those asteroid rocks are full of valuable minerals! We're providing the station with a new Ore Processor to smelt all of it into usable materials.
 
-TODO Pic from PR
+{{< video-audio "/video/pr_34/salvage.mp4" >}}
 
 {{< newsection >}}
 ### Syndicate Operative Outfit
@@ -109,7 +111,7 @@ Additionally, it is now possible to pull objects around corners:
 
 Nullrods are *so* SS13. Here at Space Station 14, the Chaplain has better ~~gimmicks~~ tools to save the eternal souls of the crew. The Chaplain can now summon a ghost-controlled Familiar, which is a bit like a pet but more ephemeral. Don't worry though, they can return a few minutes after dying.
 
-TODO Vid?
+{{< imgw "images/post/pr_34/familiar" >}}
 
 {{< newsection >}}
 ### Improved Singularity Shader
@@ -145,7 +147,7 @@ Most existing stations now have map posters, which give a tiny overview of the s
 
 Space Station 14 has a new job from SS13 this month in the form of the Atmospheric Technician, an engineer dedicated to working with the maze of pipes and gas pumps that make up the station's atmospheric system. 
 
-TODO Pic?
+{{< imgw "images/post/pr_34/atmos" >}}
 
 {{< newsection >}}
 ### Merge ID Accesses
@@ -176,7 +178,7 @@ The Mime now sports the uncanny and somewhat disturbing ability to create a temp
 
 However, like all superheroes, the Mime must have a weakness. The Mime now starts with a vow of silence and loses their wall ability if the vow is broken. 
 
-TODO Vid?
+{{< video-audio "/video/pr_34/mime.mp4" >}}
 
 {{< newsection >}}
 ### Beds, Stasis Beds, and Beyond
@@ -248,22 +250,6 @@ TODO Maprender
 Yarr, a pirate ship for admins to ~~abuse~~ use for ~~their~~ your amusement. Now we just need to figure out how to make people walk the plank in space.
 
 TODO Pic from PR
-
-{{< newsection >}}
-### Bear Hospital Salvage
-*Contributed by mirrorcult*
-
-An un-bear-ably dangerous salvage map has been added: the bear hospital, featuring several high-value resources if you can get past the various Ursus Caelus specimens in the area.
-
-TODO Pic from PR
-
-{{< newsection >}}
-### Five More Salvage Maps
-*Contributed by EmoGarbage404*
-
-EmoGarbage404 has added not one, not two, but five (5) new salvage maps! We don't want to spoil them all, but here's a look at two:
-
-TODO Pics from PR
 
 {{< newsection >}}
 ## Minor Changes
@@ -417,7 +403,9 @@ So switching from Deflate to Zstd did not only provide the advantage of using an
 
 Previously when you tried to saw a station in half there was no code detecting that a split had occurred which has now been added. Rather than checking every tile individually we group areas of tiles together as nodes and check those connections. This means that instead of potentially thousands of tiles we only check a handful of nodes to see if a split has occurred. The larger group of tiles is left as the original grid and the smaller group forms a new grid. Splitting off a solar array should be unnoticeable and sawing split station in half took ~250ms which we expect to get faster over time.
 
-TODO `showgridnodes` pic
+Here's what the `showgridnodes` debug command looks like:
+
+{{< imgw "images/post/pr_34/nodes" >}}
 
 {{< newsection >}}
 ### Custom MIDI Soundfont Support
