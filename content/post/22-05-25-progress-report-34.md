@@ -382,7 +382,7 @@ A few days before rolling out the manifest downloading system, Veloren posted a 
 
 **Improving ACZ load performance**: ACZ takes a long time to initialize on the server now. It's not too bad, but I would prefer if it were faster (<1 second). This is purely down to lackluster design on `System.IO.Compression.ZipArchive` making it impossible to efficiently handle zip files, nothing more. I couldn't be arsed to make my own non-terrible zip file library, at least not yet.
 
-[^commit]: We do write stuff to SQLite as it comes in over the wire, but we only commit the transaction when it the download fully finishes.
+[^commit]: We do write stuff to SQLite as it comes in over the wire, but we only commit the transaction when the download fully finishes.
 [^bsdiff]: Let's just say we are... [familiar](/post/18-06-24-progress-report-7/#entity-netcode-optimizations-pjb).
 
 {{< newsection >}}
