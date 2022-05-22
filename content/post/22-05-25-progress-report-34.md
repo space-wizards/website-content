@@ -431,6 +431,7 @@ It should be noted we've basically been maintaining Lidgren on our own for a whi
 
 {{< newsection >}}
 ### SpaceWizards.HttpListener
+*Contributed by PJB*
 
 Continuing the trend of forking and doing things ourself, a problem that came up while developing deltas above is that `System.Net.HttpListener` was kinda bloody broken.
 
