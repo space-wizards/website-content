@@ -39,7 +39,7 @@ moony and Phantom-Lily contributed wrecks for players to explore, including a bo
 *Contributed by Topy and metalgearsloth*
 
 Topy and metalgearsloth added three new types of roller beds, which can fold into a carry-able state for easy storage and extend their wheels when a patient is put on them. Medbay personnel now have a much easier time moving all those corpses that keep piling up in their lobby to somewhere that they won't be as noticeable.
-{{< imgw "images/post/pr_30/rollerbed" >}}
+{{< imgw "/images/post/pr_30/rollerbed" >}}
 {{< newsection >}}
 
 ### Posters
@@ -67,7 +67,7 @@ metalgearsloth and CrudeWax added Guardians to the list of items available in tr
 *Contributed by Pancake*
 
 After repeated outbreaks of talking killer monkeys aboard the station, Pancake cracked down by implementing accents that filter chat for anyone playing as an animal. Hopefully, this will also cut down on reports by Atmos technicians of Ian telling them to light Atmos on fire.
-{{< imgw "images/post/pr_30/accents" >}}
+{{< imgw "/images/post/pr_30/accents" >}}
 {{< newsection >}}
 
 ### Singuloose Lobby Song
@@ -92,7 +92,7 @@ Deciding that Security doesn't already go through enough handcuffs, Mithrandalf 
 *Contributed by metalgearsloth*
 
 metalgearsloth determined that the station didn't fill its yearly marsupial quota, and added kangaroos to the game - giving the admins yet another animal to fill the station with.
-{{< imgw "images/post/pr_30/kangaroo" >}}
+{{< imgw "/images/post/pr_30/kangaroo" >}}
 {{< newsection >}}
 
 ### Lighters
@@ -162,7 +162,7 @@ It's a well-known fact that all games are legally required to have holiday event
 
 Paul created a relay that automatically sends admin help requests to Discord, allowing the admin team to read them even when they're not in game themselves and reducing the amount of times people had to ping the admins on Discord for help.
 
-{{< imgw "images/post/pr_30/ahelp_relay" >}}
+{{< imgw "/images/post/pr_30/ahelp_relay" >}}
 
 {{< newsection >}}
 

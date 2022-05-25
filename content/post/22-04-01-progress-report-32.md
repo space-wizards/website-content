@@ -24,21 +24,21 @@ This progress report sees the addition of not one, not two, but *three* entirely
 
 Eagle-eyed readers might notice that we teased this map in the last Progress Report. Bagel is a comfy midpop station.
 
-{{< imgw "images/post/pr_32/bagel" >}}
+{{< imgw "/images/post/pr_32/bagel" >}}
 
 ### Moose Station
 *Contributed by Emisse*
 
 Moose Station is a low population station smaller than Packed but a bit larger than Saltern. Set on an asteroid base, this station is dingy and dirty.
 
-{{< imgw "images/post/pr_32/moose" >}}
+{{< imgw "/images/post/pr_32/moose" >}}
 
 ### NSS Pillar
 *Contributed by Peptide90*
 
 NSS Pillar goes for a wide and thin station rather than something sprawling with arms. It supports a mid/large population.
 
-{{< imgw "images/post/pr_32/pillar" >}}
+{{< imgw "/images/post/pr_32/pillar" >}}
 
 {{< newsection >}}
 ## Content
@@ -53,7 +53,7 @@ Rane added yet another workplace hazard in the form of drones, a new ghost role 
 
 mirrorcult later added the ability for drones to wear hats, paving the way for Space Station 14 to become the premier space-themed hat simulator.
 
-{{< imgw "images/post/pr_32/drones" >}}
+{{< imgw "/images/post/pr_32/drones" >}}
 
 {{< newsection >}}
 ### Beautiful Botany Buffs
@@ -63,7 +63,7 @@ Rane has added several new plants for aspiring Botanists: poppies, aloe, lingzhi
 
 Additionally, most healthy foods now contain some vitamins and/or protein, which can heal you slightly.
 
-{{< imgw "images/post/pr_32/botany" >}}
+{{< imgw "/images/post/pr_32/botany" >}}
 
 {{< newsection >}}
 ### Blood & Bleeding
@@ -73,7 +73,7 @@ During recent medical examinations, Central Command determined an alarming fact:
 
 mirrorcult has rectified this problem by restoring the crew's blood, which will now flow copiously when taking brute damage and can lead to further damage from blood loss. Rane also applied this to xenos and drones, who will bleed acid and oil respectively.
 
-{{< imgw "images/post/pr_32/blood" >}}
+{{< imgw "/images/post/pr_32/blood" >}}
 
 {{< newsection >}}
 ### Butchering Improvements
@@ -95,7 +95,7 @@ Naughty clowns and grossly incompetent heads of staff can now face the consequen
 
 Possums, ferrets, and trash pandas have been smuggled to SS14 from Goonstation. The Janitor's new best friends are even pettable, though some of them may enjoy it more than others...
 
-{{< imgw "images/post/pr_32/trashpanda" >}}
+{{< imgw "/images/post/pr_32/trashpanda" >}}
 
 {{< newsection >}}
 ### Microwave Rework
@@ -154,7 +154,7 @@ Security can now ~~troll the crew~~ lock down an area by deploying a portable fl
 
 The first version of a Syndicate ship has been added by LittleBuilderJane. The Syndicate Mothership will be a staging point for ~~fluke ops~~ elite Nuclear Operatives sometime soon™.
 
-{{< imgw "images/post/pr_32/mothership" >}}
+{{< imgw "/images/post/pr_32/mothership" >}}
 
 {{< newsection >}}
 ### More Xenoarchaeology Effects
@@ -162,7 +162,7 @@ The first version of a Syndicate ship has been added by LittleBuilderJane. The S
 
 The last progress report introduced us to the new xenoarchaeology artifacts, and now Macoron has gone and added even more potential effects. The new artifact effects include changing the area's temperature, emitting radiation pulses, and creating a random gas. Be careful!
 
-{{< imgw "images/post/pr_32/artifact" >}}
+{{< imgw "/images/post/pr_32/artifact" >}}
 
 {{< newsection >}}
 ### Musician
@@ -170,7 +170,7 @@ The last progress report introduced us to the new xenoarchaeology artifacts, and
 
 A new job has been added which isn't typically found on Space Station 13: The Musician. The Musician is a new civilian job that spawns with a few instruments to bring entertainment to the crew and showcase SS14's superior musical capabilities.
 
-{{< imgw "images/post/pr_32/music" >}}
+{{< imgw "/images/post/pr_32/music" >}}
 
 {{< newsection >}}
 ### Respiration Rework
@@ -201,7 +201,7 @@ Slimepeople have had some changes to further differentiate them from humans. Her
 
 Stationstation, which the oldest community members may recall, was the original map for testing Space Station 14. It now makes a glorious return as a salvage map, enabling you to smash some SS14 history into pieces and harvest it for valuable resources. I'm sure there's a metaphor for capitalism somewhere in that statement, now get back to work!
 
-{{< imgw "images/post/pr_32/salvage" >}}
+{{< imgw "/images/post/pr_32/salvage" >}}
 
 {{< newsection >}}
 ### Misc. Changes
@@ -229,7 +229,7 @@ ElectroSR really did a number on how actions work internally. It's hard to reall
 
 Mappers now have another new tool in their arsenal, the Decal Placer. It's a handy little menu for adding tile decals with the ability to easily change the color, rotation, and whether or not the decal can be cleaned up.
 
-{{< imgw "images/post/pr_32/decal" >}}
+{{< imgw "/images/post/pr_32/decal" >}}
 
 {{< newsection >}}
 ### PVS Refactor
@@ -239,7 +239,7 @@ We have managed to hit 110 players in a live round without any server slowdown, 
 
 This system is also in charge of only sending nearby entities to each player in order to avoid cheating; said entities are collectively known as the player's Potentially Visible Set or PVS for short.
 
-{{< imgw "images/post/pr_32/pvs" >}}
+{{< imgw "/images/post/pr_32/pvs" >}}
 
 {{< newsection >}}
 ## Credits

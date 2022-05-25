@@ -30,7 +30,7 @@ What good is a wiki if everything is outdated? Thanks to the hard work of these 
 
 The [Guide to Chemistry](https://wiki.spacestation14.io/wiki/Chemistry) already implements this new system and will auto-update whenever reagents or recipes are changed/added/removed.
 
-{{< imgw "images/post/pr_31/chemwiki" >}}
+{{< imgw "/images/post/pr_31/chemwiki" >}}
 
 {{< newsection >}}
 ### Species
@@ -46,7 +46,7 @@ SS14 currently includes the following non-human races:
 
 The options, mechanics, and roundstart availability are all subject to change.
 
-{{< imgw "images/post/pr_31/species" >}}
+{{< imgw "/images/post/pr_31/species" >}}
 
 {{< newsection >}}
 ### Checkers
@@ -54,7 +54,7 @@ The options, mechanics, and roundstart availability are all subject to change.
 
 Capnsockless has added checkers to SS14's ever-expanding list of board games, so be sure to swing by Cargo and ask nicely for a board game crate!
 
-{{< imgw "images/post/pr_31/checkers" >}}
+{{< imgw "/images/post/pr_31/checkers" >}}
 
 {{< newsection >}}
 ### Xenoarchaeology Artifacts
@@ -62,7 +62,7 @@ Capnsockless has added checkers to SS14's ever-expanding list of board games, so
 
 To spice things up on salvage maps, Macoron has added xenoarchaeology artifacts inspired by Baystation. These artifacts have random effects that you need to figure out how to activate. Seek fortune and glory, or blow yourself up trying.
 
-{{< imgw "images/post/pr_31/xenoarch" >}}
+{{< imgw "/images/post/pr_31/xenoarch" >}}
 
 {{< newsection >}}
 ### Rootbeer, Ice Cream, & Rootbeer Floats
@@ -70,7 +70,7 @@ To spice things up on salvage maps, Macoron has added xenoarchaeology artifacts 
 
 Nanotrasen has decided to reward its hardworking employees with a special treat! Swing by the bar for some newly stocked 100% Real Icecream* or a rootbeer float made with the highest quality rootbeer available (on the station)!
 
-{{< imgw "images/post/pr_31/rootbeer" >}}
+{{< imgw "/images/post/pr_31/rootbeer" >}}
 
 **Real Icecream™ is a registered trademark of Nanotrasen Inc. Individuals who have suffered a heart attack or have heart disease should not consume Real Icecream™*
 
@@ -96,7 +96,7 @@ Weh!
 
 Swish, swish, stab. It's a sword, dude, not a fighter jet.
 
-{{< imgw "images/post/pr_31/esword" >}}
+{{< imgw "/images/post/pr_31/esword" >}}
 
 {{< newsection >}}
 ### Duck!
@@ -104,7 +104,7 @@ Swish, swish, stab. It's a sword, dude, not a fighter jet.
 
 The animal, not the act of ducking. Cargo can now order a whole crate full of ducks, just make sure you keep them away from the chef.
 
-{{< imgw "images/post/pr_31/ducks" >}}
+{{< imgw "/images/post/pr_31/ducks" >}}
 
 {{< newsection >}}
 ### Mass Scanner
@@ -112,7 +112,7 @@ The animal, not the act of ducking. Cargo can now order a whole crate full of du
 
 Space Station 14 supports multiple maps/stations/ships floating around through space, so the mass scanner has been added to detect anything in nearby space. This will mainly be useful for future gamemodes (ship vs. ship, anyone?).
 
-{{< imgw "images/post/pr_31/scanner" >}}
+{{< imgw "/images/post/pr_31/scanner" >}}
 
 {{< newsection >}}
 ### Fire Extinguisher Refactor
@@ -153,7 +153,7 @@ If you want to enable it mid-round, you can use the `kicknonwhitelisted` command
 
 `Content.MapRenderer` has been added as a new project that can take a map file and render it as an image. It's extremely useful for development, updating the wiki, and more.
 
-{{< imgw "images/post/pr_31/bagelrender" >}}
+{{< imgw "/images/post/pr_31/bagelrender" >}}
 
 {{< newsection >}}
 ## Credits
