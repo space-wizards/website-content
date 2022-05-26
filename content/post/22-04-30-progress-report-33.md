@@ -11,9 +11,9 @@ thumbnail = "pr_33"
 There's so many changes we couldn't figure out how to cover them all!
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
-Picture: {{< imgw "images/post/pr_33/picture_name" >}}
+Picture: {{< imgw "/images/post/pr_33/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_33/file_name.mp4" >}}
 Paused vid (can do audio): {{< video-audio "/video/pr_33/file_name.mp4" >}}
 -->
@@ -33,9 +33,9 @@ For a highlight reel of the chaos caused by 250 players, you can watch the YouTu
 
 <details>
     <summary>See here for a more technical breakdown of performance</summary>
-    
+
 There are two parts to how the game processes things: A unit of time called a "tick" during which the game simulates everything, and the "ticks per second (TPS)" which is the rate at which ticks occur. For example, 30 TPS means that one second is divided into 30 ticks of equal length and the game will attempt to update 30 times per second. More ticks per second means less time for each tick, and if the game isn't finished running the code by the time the tick ends then the game will lag. On the flip side, a higher TPS means the game will feel more responsive. Choosing the right TPS is a balancing act, and the upper limit mainly depends on how performant the game is.
-    
+
 Space Station 14 was able to run at our usual 30 TPS with over 200 players largely without issue. After lowering it to 20 TPS, which is what most SS13 servers use, the stress test peaked at ~250 players and continued to perform fine (aka everything was able to run during the allotted ticks).
 </details>
 
@@ -79,7 +79,7 @@ There's so many that we're just going to list them:
 - Nuke Ops jumpsuits and Changeling armor
 - Winter coats, available in applicable clothing vendors and the uniform printer
 
-{{< imgw "images/post/pr_33/clothing" >}}
+{{< imgw "/images/post/pr_33/clothing" >}}
 
 {{< newsection >}}
 ### Diseases
@@ -89,7 +89,7 @@ Rane has done a ton of work to add all of the core systems, mechanics, and conte
 
 There's also a new plague doctor outfit courtesy of KaiShibaa.
 
-{{< imgw "images/post/pr_33/disease" >}}
+{{< imgw "/images/post/pr_33/disease" >}}
 
 {{< newsection >}}
 ### Multi-layer Clothing
@@ -103,9 +103,9 @@ During the last progress report cycle, ElectroSR added the ability for clothing 
 ### Ghost Role Changes
 *Contributed by DogZero, mirrorcult, HoofedEar*
 
-Some ghost roles have been added and tweaked: 
-- DogZeroX added the Onestar mech, an admin-spawned mech that can annihilate most things in its path. 
-- HoofedEar made some tweaks to drones: One of their hands has been switched for a new Omnitool, in addition to other changes to their toolkit. 
+Some ghost roles have been added and tweaked:
+- DogZeroX added the Onestar mech, an admin-spawned mech that can annihilate most things in its path.
+- HoofedEar made some tweaks to drones: One of their hands has been switched for a new Omnitool, in addition to other changes to their toolkit.
 - mirrorcult made it possible for mice to squeak, run under doors, and go under tables. Have fun leading the janitor on a wild chase through maintenance.
 
 {{< video-audio "/video/pr_33/mecha_anime.mp4" >}}
@@ -114,11 +114,11 @@ Some ghost roles have been added and tweaked:
 ### More Mapping Objects
 *Contributed by metalgearsloth, Delete69, DogZeroX, moony, Peptide90, mirrorcult*
 
-This month saw a significant increase in the number of objects available to mappers, including shuttle walls for the arrivals and escape shuttle as well as a number of trees and other flora ported over from /tg/. Also included are new signs and new decorations, including dressers and television sets. 
+This month saw a significant increase in the number of objects available to mappers, including shuttle walls for the arrivals and escape shuttle as well as a number of trees and other flora ported over from /tg/. Also included are new signs and new decorations, including dressers and television sets.
 
 Here's a *very* non-exhaustive look:
 
-{{< imgw "images/post/pr_33/mapping" >}}
+{{< imgw "/images/post/pr_33/mapping" >}}
 
 {{< newsection >}}
 ### More Animals & Grenade Penguins
@@ -136,7 +136,7 @@ Jezithyr has completely rewritten the lobby UI and it now looks entirely differe
 
 Further improving the lobby experience, WTCWR68 has added four new lobby songs including two classics from SS13.
 
-{{< imgw "images/post/pr_33/lobby" >}}
+{{< imgw "/images/post/pr_33/lobby" >}}
 
 {{< newsection >}}
 ### Ambience Enhancements
@@ -169,7 +169,7 @@ Holoparasites have been significantly improved, and are now immune to most firea
 
 We've shown them off before, but the classic SS13 lizards are now officially playable in SS14 thanks to a bunch of work & fixes by several contributors. Lizard visuals and their unique accent are taken primarily from /tg/station 13.
 
-{{< imgw "images/post/pr_33/janitor" >}}
+{{< imgw "/images/post/pr_33/janitor" >}}
 
 {{< newsection >}}
 ### New Plushies
@@ -206,7 +206,7 @@ This progress report sees the addition of 3 new maps. There's also a pile of upd
 
 Delta Station, one of the largest maps in SS13, has been ported to SS14. It's so large that it's bigger than any other two SS14 maps combined. This incarnation is a mixture of /tg/'s map, Citadel's map, and a few unique changes to better fit SS14 mechanics like a remapped security department and removal of the AI satellite.
 
-{{< imgw "images/post/pr_33/delta" >}}
+{{< imgw "/images/post/pr_33/delta" >}}
 
 {{< newsection >}}
 ### Marathon Station
@@ -214,7 +214,7 @@ Delta Station, one of the largest maps in SS13, has been ported to SS14. It's so
 
 Marathon Station has been added as a heavily-modified and rechristened port of SS13's Pubby Station. Hopefully the handful of Pubby fans will feel right at home, once they figure out where some of the departments went.
 
-{{< imgw "images/post/pr_33/marathon" >}}
+{{< imgw "/images/post/pr_33/marathon" >}}
 
 {{< newsection >}}
 ### Split Station
@@ -224,7 +224,7 @@ To show you the power of SS14, Peptide sawed this ~~boat~~ station in half!
 
 Split Station is, as the name implies, split into two separate asteroids with a couple hallways connecting them. I sure hope nobody disconnects them and flies off with half of the station (which you can actually do)!
 
-{{< imgw "images/post/pr_33/split" >}}
+{{< imgw "/images/post/pr_33/split" >}}
 
 {{< newsection >}}
 ### New Salvage Maps
@@ -234,7 +234,7 @@ Several new salvage maps have been added for all of your lootin' and shootin' ne
 
 Here's a look at one of the new salvage maps:
 
-{{< imgw "images/post/pr_33/salvage" >}}
+{{< imgw "/images/post/pr_33/salvage" >}}
 
 {{< newsection >}}
 ## Minor Changes

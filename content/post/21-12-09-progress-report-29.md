@@ -25,8 +25,8 @@ The station that the /vg/ wiki describes as "Like eating poison ivy" is back! De
 
 Packed Station supports up to 50 players, and can be voted for once the server is over 15 players. It also supports three returning jobs not seen on Saltern - the Quartermaster, Chaplain, and Warden.
 
-{{< imgw "images/post/pr_29/packed_1" >}}
-{{< imgw "images/post/pr_29/packed_2" >}}
+{{< imgw "/images/post/pr_29/packed_1" >}}
+{{< imgw "/images/post/pr_29/packed_2" >}}
 
 {{< newsection >}}
 
@@ -44,7 +44,7 @@ Packed Station supports up to 50 players, and can be voted for once the server i
 
 Having determined that Nanotrasen's station captains have been lulled into a false sense of security, the Syndicate has launched their first shuttle for carrying heavily-armed nuclear ops teams to the station. Now might not be a bad time to get the Nuclear Authentication Disk back from the Clown...
 
-{{< imgw "images/post/pr_29/syndie_jumper" >}}
+{{< imgw "/images/post/pr_29/syndie_jumper" >}}
 
 {{< newsection >}}
 
@@ -81,7 +81,7 @@ Macoron added a core element for the Nuclear Emergency game mode: the nuclear bo
 
 The space magic that allowed entire stations to fly without any apparent source of propulsion has waned, and metalgearsloth instead added thrusters that can be attached to a station or shuttle to, well... thrust. They can be ordered from cargo and are extremely deadly if you stand on the wrong end.
 
-{{< imgw "images/post/pr_29/thrusters" >}}
+{{< imgw "/images/post/pr_29/thrusters" >}}
 {{< video-auto "video/pr_29/thrusters.mp4" >}}
 
 {{< newsection >}}
@@ -91,7 +91,7 @@ The space magic that allowed entire stations to fly without any apparent source 
 
 FoLoKe reworked animals in SS14, allowing for a lot of basic interactions that didn't previously exist - such as feeding them or putting them on tables. As a result, you'll no longer need to ask "Does that monkey have a gun?" because yes, it does. This also allows the vicious and highly lethal space carp to survive their natural habitat.
 
-{{< imgw "images/post/pr_29/monkey_murder" >}}
+{{< imgw "/images/post/pr_29/monkey_murder" >}}
 
 {{< newsection >}}
 
@@ -100,7 +100,7 @@ FoLoKe reworked animals in SS14, allowing for a lot of basic interactions that d
 
 For ages, the Chef has asked a single question: "How do I get milk?" FoLoKe answered that by allowing the Chef (or anyone with a bucket) to milk cows that have been properly fed. The Chef has responded thus far by ignoring the milk entirely and butchering every cow Nanotrasen has sent them.
 
-{{< imgw "images/post/pr_29/milk" >}}
+{{< imgw "/images/post/pr_29/milk" >}}
 
 {{< newsection >}}
 
@@ -122,8 +122,8 @@ In an unrelated note, Centcom is reporting that the highly annoying and extremel
 
 Centcom would also like to remind you that "the station is being eaten by a horrible plant" is not on the list of valid reasons for handing out the nuclear codes.
 
-{{< imgw "images/post/pr_29/kudzu_1" >}}
-{{< imgw "images/post/pr_29/kudzu_2" >}}
+{{< imgw "/images/post/pr_29/kudzu_1" >}}
+{{< imgw "/images/post/pr_29/kudzu_2" >}}
 
 {{< newsection >}}
 
@@ -141,7 +141,7 @@ It's a known fact that radiation storms in space do not look like flat green cir
 
 Since their introduction to Space Station 14, the Botanists have had a difficult time finding ways to cause chaos. Enter the humble nettle plant, which can be used as a weapon to deal toxin damage or ground up into a liquid poison and slipped into a drink for a more subtle approach.
 
-{{< imgw "images/post/pr_29/nettles" >}}
+{{< imgw "/images/post/pr_29/nettles" >}}
 
 {{< newsection >}}
 
@@ -213,7 +213,7 @@ The starting equipment for everyone on the station has gotten a bit heavier than
 You really can liquefy just about anything - as moony proved by adding in liquid bees and liquid electricity. These shocking new developments can be made in Chemistry with the right equipment and the right ingredients.. but should you?
 
 <!-- todo crop -->
-{{< imgw "images/post/pr_29/bees" >}}
+{{< imgw "/images/post/pr_29/bees" >}}
 
 {{< newsection >}}
 
@@ -229,7 +229,7 @@ Mirrorcult implemented a bunch of new ways for Chemistry to blow itself up and s
 
 DrSmugleaf added a logging system for admin use, which can track everything from damage to interacting with items. Centcom now knows when that Assistant steals the Head of Security's shoes, when someone eats all of the Chef's pizza, and when Security "forgets" to turn their stun baton off combat mode.
 
-{{< imgw "images/post/pr_29/adminlogs" >}}
+{{< imgw "/images/post/pr_29/adminlogs" >}}
 
 {{< newsection >}}
 
@@ -262,7 +262,7 @@ DrSmugleaf pooled a bunch of tests Github uses when testing code contributions, 
 
 RSIEdit is a development tool for creating Robust Station Image (RSI) files, which contain all of the sprites used in SS14 - as well as their animation states, rotations, and relevant license information. While it doesn't support sprite editing, it does allow contributors to directly import sprites from the DMI files used by BYOND to store sprite data.
 
-{{< imgw "images/post/pr_29/rsiedit" >}}
+{{< imgw "/images/post/pr_29/rsiedit" >}}
 
 {{< newsection >}}
 

@@ -11,9 +11,9 @@ thumbnail = "pr_34"
 Tons of improvements to the SS14 experience, and more!
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
-Picture: {{< imgw "images/post/pr_34/picture_name" >}}
+Picture: {{< imgw "/images/post/pr_34/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_34/file_name.mp4" >}}
 Paused vid (can do audio): {{< video-audio "/video/pr_34/file_name.mp4" >}}
 -->
@@ -40,17 +40,17 @@ PJB also added Zstd compression to game states, which is a complicated way of sa
 
 Linking machines on the station has never been easier, thanks to a new change that allows anyone with a multitool to apply a default link to blast doors, shutters, and anything else capable of linking. This will no doubt save the greyshirts trying to pop open the blast doors to EVA storage several clicks.
 
-{{< imgw "images/post/pr_34/linking" >}}
+{{< imgw "/images/post/pr_34/linking" >}}
 
 {{< newsection >}}
 ### Artifact Container
 *Contributed by Macoron*
 
-The eggheads over in R&D have come up with a cure for premature activation... of xenoarcheology artifacts, that is. 
+The eggheads over in R&D have come up with a cure for premature activation... of xenoarcheology artifacts, that is.
 
 The new Artifact Container will safely contain any artifacts the salvage crew come across, thus enabling safe transportation to a more suitable testing environment.
 
-{{< imgw "images/post/pr_34/artifact_container" >}}
+{{< imgw "/images/post/pr_34/artifact_container" >}}
 
 {{< newsection >}}
 ### Grid Splitting
@@ -74,9 +74,9 @@ The salvage crews have made a shocking discovery: All of those asteroid rocks ar
 ### Syndicate Operative Outfit
 *Contributed by Daemon*
 
-Syndicate agents have a few new wardrobe choices, including the traditional black turtleneck worn by nuclear operatives and a pair of red magboots to really nail that operator look. 
+Syndicate agents have a few new wardrobe choices, including the traditional black turtleneck worn by nuclear operatives and a pair of red magboots to really nail that operator look.
 
-{{< imgw "images/post/pr_34/operative" >}}
+{{< imgw "/images/post/pr_34/operative" >}}
 
 {{< newsection >}}
 ### C4 & Remote Explosives
@@ -90,7 +90,7 @@ Syndicate agents now have access to compound C4, a highly damaging plastic explo
 ### Agent ID Cards
 *Contributed by Rane*
 
-The second new tool from the Syndicate this month is the Agent ID Card, which can have its name and job set by the user - in addition to its ability to steal access from any ID card it touches. 
+The second new tool from the Syndicate this month is the Agent ID Card, which can have its name and job set by the user - in addition to its ability to steal access from any ID card it touches.
 
 {{< video-audio "/video/pr_34/agent.mp4" >}}
 
@@ -110,7 +110,7 @@ Additionally, it is now possible to pull objects around corners:
 
 Nullrods are *so* SS13. Here at Space Station 14, the Chaplain has better ~~gimmicks~~ tools to save the eternal souls of the crew. The Chaplain can now summon a ghost-controlled Familiar, which is a bit like a pet but more ephemeral. Don't worry though, they can return a few minutes after dying.
 
-{{< imgw "images/post/pr_34/familiar" >}}
+{{< imgw "/images/post/pr_34/familiar" >}}
 
 {{< newsection >}}
 ### Improved Singularity Shader
@@ -128,7 +128,7 @@ Lord Singuloth has gotten another facelift with several improvements to the shad
 ### Emaggable Vending Machines
 *Contributed by Rane*
 
-The Syndicate have released an update to the cryptographic sequencer: It can now emag Nanotrasen vending machines to unlock new, restricted contents. 
+The Syndicate have released an update to the cryptographic sequencer: It can now emag Nanotrasen vending machines to unlock new, restricted contents.
 
 Currently only the PietyVend takes advantage of this; it offers occult items to any Chaplains that have... fallen from grace.
 
@@ -138,15 +138,15 @@ Currently only the PietyVend takes advantage of this; it offers occult items to 
 
 Most existing stations now have map posters, which give a tiny overview of the station's general layout. They can be found in various places on supported stations. The colors represent departments, such as red for security and blue for medical.
 
-{{< imgw "images/post/pr_34/posters" >}}
+{{< imgw "/images/post/pr_34/posters" >}}
 
 {{< newsection >}}
 ### Atmospheric Technician
 *Contributed by Emisse*
 
-Space Station 14 has a new job from SS13 this month in the form of the Atmospheric Technician, an engineer dedicated to working with the maze of pipes and gas pumps that make up the station's atmospheric system. 
+Space Station 14 has a new job from SS13 this month in the form of the Atmospheric Technician, an engineer dedicated to working with the maze of pipes and gas pumps that make up the station's atmospheric system.
 
-{{< imgw "images/post/pr_34/atmos" >}}
+{{< imgw "/images/post/pr_34/atmos" >}}
 
 {{< newsection >}}
 ### Merge ID Accesses
@@ -175,7 +175,7 @@ Here's a list of every vehicle you can find or order so far:
 
 The Mime now sports the uncanny and somewhat disturbing ability to create a temporary invisible wall, blocking the passage of objects and station personnel as well as a regular wall.
 
-However, like all superheroes, the Mime must have a weakness. The Mime now starts with a vow of silence and loses their wall ability if the vow is broken. 
+However, like all superheroes, the Mime must have a weakness. The Mime now starts with a vow of silence and loses their wall ability if the vow is broken.
 
 {{< video-audio "/video/pr_34/mime.mp4" >}}
 
@@ -191,7 +191,7 @@ A new study shows that a bit of bedrest can do wonders for a crewmember's health
 
 BRAAAAAAAAAAAAAAINS...
 
-{{< imgw "images/post/pr_34/zombies" >}}
+{{< imgw "/images/post/pr_34/zombies" >}}
 
 {{< newsection >}}
 ### Admin Notes
@@ -223,7 +223,7 @@ The Materials Science Division™ have tweaked the armor of most armored clothin
 
 Finally, they have some new hardware for Paramedics and the salvage crew:
 
-{{< imgw "images/post/pr_34/suits" >}}
+{{< imgw "/images/post/pr_34/suits" >}}
 
 {{< newsection >}}
 ## Mapping
@@ -233,7 +233,7 @@ Finally, they have some new hardware for Paramedics and the salvage crew:
 
 The NT Barratry has been added as a medium-sized station with a grungy and destroyed aesthetic. Engineers and Janitors should have plenty of things to keep themselves occupied fixing up this old rust bucket.
 
-{{< imgw "images/post/pr_34/barratry" >}}
+{{< imgw "/images/post/pr_34/barratry" >}}
 
 {{< newsection >}}
 ### Atlas Ship
@@ -241,7 +241,7 @@ The NT Barratry has been added as a medium-sized station with a grungy and destr
 
 Atlas is a new low-pop map inspired by the Goonstation map of the same name, but with some changes to make it more viable in SS14.
 
-{{< imgw "images/post/pr_34/atlas" >}}
+{{< imgw "/images/post/pr_34/atlas" >}}
 
 {{< newsection >}}
 ### Admin Pirate Ship
@@ -249,7 +249,7 @@ Atlas is a new low-pop map inspired by the Goonstation map of the same name, but
 
 Yarr, a pirate ship for admins to ~~abuse~~ use for ~~their~~ your amusement. Now we just need to figure out how to make people walk the plank in space.
 
-{{< imgw "images/post/pr_34/pirates" >}}
+{{< imgw "/images/post/pr_34/pirates" >}}
 
 {{< newsection >}}
 ## Minor Changes
@@ -328,7 +328,7 @@ Due to length constraints, not everything can get a dedicated section in the pro
 
 Delta updates has taken quite a lot of on-and-off pondering and work to reach the current state. To begin, an overview of how the previous updating system worked:
 
-All the client contents are combined into a simple zip file when the game is built. This zip is hashed (SHA-256) and this hash, together with data such as download URL, "Fork ID" and "Fork Version" is included with the server build. The server reports this information to the launcher via its HTTP API when you try to connect to it. The launcher downloads the zip to disk (if it doesn't have it yet), verifies the hash, and then runs the engine with this zip file mounted to run the actual game. The game server can optionally serve the zip itself to ease hosting in some cases, which is known as "Automated Client Zipping" (ACZ). 
+All the client contents are combined into a simple zip file when the game is built. This zip is hashed (SHA-256) and this hash, together with data such as download URL, "Fork ID" and "Fork Version" is included with the server build. The server reports this information to the launcher via its HTTP API when you try to connect to it. The launcher downloads the zip to disk (if it doesn't have it yet), verifies the hash, and then runs the engine with this zip file mounted to run the actual game. The game server can optionally serve the zip itself to ease hosting in some cases, which is known as "Automated Client Zipping" (ACZ).
 
 The upside is that this system is quite simple. The engine can mount zip files natively, it's "just a single file to download", zip files are common and easy to work with, etc...
 The downside is that the tiniest file change requires redownloading the whole 55 MB zip file again. Not everybody has a great internet connection. Oof.
@@ -374,9 +374,9 @@ There are a few areas of improvement to the system:
 
 A few days before rolling out the manifest downloading system, Veloren posted a [dev blog announcing their new incremental downloading system](https://veloren.net/devblog-165/#incremental-airshipper-updates-by-aweinstock). Veloren's model simply uses HTTP range requests over their pre-existing zip file downloads, allowing them to use a regular CDN. I can't say that if I was making the delta system from scratch now I wouldn't use this method instead, but it is what it is.
 
-**Dictionaries**: ZStd has support for dictionaries, allowing you to pre-share some data for compression between multiple frames (files, basically). This could allow us to reduce download & disk size even more in many cases. Some questions we need to ponder about before implementing this though: Do we permanently pack a preset of dictionaries with the launcher, or do we allow servers to dynamically generate a set of dictionaries for their content? 
+**Dictionaries**: ZStd has support for dictionaries, allowing you to pre-share some data for compression between multiple frames (files, basically). This could allow us to reduce download & disk size even more in many cases. Some questions we need to ponder about before implementing this though: Do we permanently pack a preset of dictionaries with the launcher, or do we allow servers to dynamically generate a set of dictionaries for their content?
 
-**Binary deltas**: We still can only send whole files when a file needs to be downloaded. The game's compiled assemblies easily weigh more than half a megabyte. Ideally we would be able to supply binary patches[^bsdiff] instead, to only transmit the changes from the previous file versions. A challenge here is that the `.dll` files don't diff well, but I believe that with a specialized tool to re-organize them internally we could get huge savings. 
+**Binary deltas**: We still can only send whole files when a file needs to be downloaded. The game's compiled assemblies easily weigh more than half a megabyte. Ideally we would be able to supply binary patches[^bsdiff] instead, to only transmit the changes from the previous file versions. A challenge here is that the `.dll` files don't diff well, but I believe that with a specialized tool to re-organize them internally we could get huge savings.
 
 **Interrupting and resuming downloads**: Right now the launcher needs to do a whole download in one go to actually store it to disk[^commit]. If you already have files and are just downloading an update this isn't a problem, but the hurdle of large initial downloads (fresh launcher, first ever connection) might prove problematic with people with poorer internet connections. Ideally the launcher could resume interrupted downloads with the files it already has.
 
@@ -405,7 +405,7 @@ Previously when you tried to saw a station in half there was no code detecting t
 
 Here's what the `showgridnodes` debug command looks like:
 
-{{< imgw "images/post/pr_34/nodes" >}}
+{{< imgw "/images/post/pr_34/nodes" >}}
 
 {{< newsection >}}
 ### Custom MIDI Soundfont Support
@@ -421,7 +421,7 @@ Since we added account authentication, communication with the game server has mo
 
 Because I am not a cryptographic expert I decided that the best way to fix this was to simply replace this with Libsodium's [AEAD XChaCha20-Poly1305 API](https://doc.libsodium.org/secret-key_cryptography/aead/chacha20-poly1305/xchacha20-poly1305_construction). I trust that the crypto is not completely broken now. I also completely tore out Lidgren's encryption support in our fork (it was evidently broken and didn't integrate with the internals anyways).
 
-There are some gotchas here though. The first thing is that .NET didn't have an existing non-terrible Libsodium binding, so I had to make a partial binding for the APIs I care about myself: [SpaceWizards.Sodium](https://github.com/space-wizards/SpaceWizards.Sodium). 
+There are some gotchas here though. The first thing is that .NET didn't have an existing non-terrible Libsodium binding, so I had to make a partial binding for the APIs I care about myself: [SpaceWizards.Sodium](https://github.com/space-wizards/SpaceWizards.Sodium).
 
 The second problem is that this change does have a noticeable increase on bandwidth usage. This is because proper encryption™ has more overhead in the form of AEAD and IV that has to be sent. Lidgren has a feature where it combines many net messages we send into fewer larger UDP packets. This is good, but the missed optimization here is that encryption runs *before* this combining. Ideally we would run encryption afterwards and only needing to encrypt single UDP packets, saving us some bandwidth. This would require deeper integration with Lidgren's internals however, so this is something for the future.
 
@@ -435,10 +435,10 @@ It should be noted we've basically been maintaining Lidgren on our own for a whi
 
 Continuing the trend of forking and doing things ourself, a problem that came up while developing deltas above is that `System.Net.HttpListener` was kinda bloody broken.
 
-Let me back up for a second here. The .NET BCL has a type `System.Net.HttpListener` which is basically a lightweight HTTP server you can embed in your app. This is great! The problem is that it's basically completely abandoned by .NET in favor of "just use ASP.NET Core lol"[^kestrel] and is no longer being maintained. 
+Let me back up for a second here. The .NET BCL has a type `System.Net.HttpListener` which is basically a lightweight HTTP server you can embed in your app. This is great! The problem is that it's basically completely abandoned by .NET in favor of "just use ASP.NET Core lol"[^kestrel] and is no longer being maintained.
 
 The type was originally designed to wrap the `http.sys` Windows API. Outside Windows, an implementation that originates from Mono is now used. This has some funny consequences:
-1. The implementations are not consistent between Windows and Mac/Linux. 
+1. The implementations are not consistent between Windows and Mac/Linux.
 2. On Windows, listening to this HTTP listener requires admin access.
 3. On Mac/Linux, the implementation is extremely buggy.
 
