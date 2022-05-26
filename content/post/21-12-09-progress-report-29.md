@@ -72,7 +72,7 @@ Directional Windows (also known as "thindows") are a core element of most SS13 m
 
 Macoron added a core element for the Nuclear Emergency game mode: the nuclear bomb. Located in the vault on Packed Station (and in most SS13-derived stations) and in the Nuke Op shuttle, these are capable of destroying the entire station.. provided you didn't forget the code.
 
-{{< video-auto "video/pr_29/nuke.mp4" >}}
+{{< video-auto "/video/pr_29/nuke.mp4" >}}
 
 {{< newsection >}}
 
@@ -82,7 +82,7 @@ Macoron added a core element for the Nuclear Emergency game mode: the nuclear bo
 The space magic that allowed entire stations to fly without any apparent source of propulsion has waned, and metalgearsloth instead added thrusters that can be attached to a station or shuttle to, well... thrust. They can be ordered from cargo and are extremely deadly if you stand on the wrong end.
 
 {{< imgw "/images/post/pr_29/thrusters" >}}
-{{< video-auto "video/pr_29/thrusters.mp4" >}}
+{{< video-auto "/video/pr_29/thrusters.mp4" >}}
 
 {{< newsection >}}
 
@@ -109,7 +109,7 @@ For ages, the Chef has asked a single question: "How do I get milk?" FoLoKe answ
 
 metalgearsloth added a system for shuttle docking using docking airlocks, a vast improvement on the previous docking method of blowing a hole in the station big enough to drive a shuttle into. Any shuttle equipped with one or more docking airlocks will now be able to lock on to the station.
 
-{{< video-auto "video/pr_29/docking.mp4" >}}
+{{< video-auto "/video/pr_29/docking.mp4" >}}
 
 {{< newsection >}}
 
