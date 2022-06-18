@@ -51,9 +51,9 @@ TODO: Pic of alert level in chat.
 ### Console Command Completion
 *Contributed by PJB*
 
-Most console commands are now capable of auto-completion, including the various arguments that can be passed. Implementation details are available in the accompanying technical section.
+There is now a system for console command completions. Completions are easy enough to write, and a decent chunk of commands already have them.
 
-TODO: Pic
+{{< imgw "/images/post/pr_35/console" >}}
 
 {{< newsection >}}
 ### Redial
@@ -426,13 +426,9 @@ TODO: Maprender
 ### Client Profiling System
 *Contributed by PJB*
 
-TODO
+I wrote a simple log-based profiling system, with the intent of making it easier to help weed out stutters and other performance issues. The internal data stored is extremely simple, so performance overhead at runtime is absolutely minimal. Profiles are viewed in the pop-out developer window, to avoid cluttering the main game. It’s not the most advanced tool, but it was certainly fun to write.
 
-{{< newsection >}}
-### Console Command Completion (Technical)
-*Contributed by PJB*
-
-TODO
+{{< imgw "/images/post/pr_35/profiler" >}}
 
 {{< newsection >}}
 ## Credits
@@ -440,6 +436,4 @@ TODO
 *555 commits, authored by: 20kdc, abregado, Absolute-Potato, Acruid, Clyybber, DogZeroX, DrSmugleaf, efzapa, ElectroJr, Elijahrane, Emisse, EmoGarbage404, Fishfish458, freeman2651, HoofedEar, hubismal, ike709, juliangiebel, JustinTrotter, keronshb, lapatison, Macoron, magmodius, metalgearsloth, Mirino97, mirrorcult, MLGTASTICa, moonheart08, Morb0, PaulRitter, Peptide90, PJB3005, PJBot, Putnam3145, Rinzii, rok-povsic, ShadowCommander, TheIntoxicatedCat, themias, TimrodDX, Tomeno, UKNOWH, Veritius, vulppine, wrexbe, WTCWR68, youarereadingthis, ZeroDayDaemon, Zumorica*
 
 ### Patrons
-<!-- Just bully PJB for these -->
-TODO
 *Alex Fry, Altana, Anthony Fleck, AquaDraco, Austin Nelson, Blaise M., Bobberunio, Callum Tubrett, Cormos Lemming, CPM311, Dan Griskardian, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, grhmhome, Hamcha, hh, Jack Rose, James Andrew Peoples Jr, Jex N, Joel, John Edward Hamilton Barchard, Joshington Awesomahee, Koyki, Kris Piper, KrystalDisc, liltenhead, LPGaming, Matthew C Miklaucic, Mikhail, Miniwoffer, Mono, Nicholas Hillblom, osborn, Oxyclean114, Peter “Azmond” Newhouse, Phillip Inman, Ramiro Agis, Robin Rottstock, Seija, Serathis, Serianas, Simon Lapatin, Spiffyfishface, spinnermaster, Taylor, ThatGuyGW, The Hateful Flesh, Tomeno, Uinseann, Valinov, vifs_vestige, Viridian, Will M., Wrexbe, Zandario*
