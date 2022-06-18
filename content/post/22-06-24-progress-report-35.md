@@ -354,7 +354,7 @@ Due to length constraints, not everything can get a dedicated section in the pro
 - Mice and drones now render at the correct layer. *Contributed by themias*
 - Buffed Dexalin Plus and Stellibinin. *Contributed by UKNOWH*
 - All mobs now slow when damaged. *Contributed by Peptide90*
-- Some mobs can now longer pull things. *Contributed by Peptide90*
+- Some mobs can no longer pull things. *Contributed by Peptide90*
 - Potted plants no longer block mobs. *Contributed by DogZeroX*
 - Buffed space medipens. *Contributed by UKNOWH*
 - Nerfed tasers. *Contributed by Emisse*
