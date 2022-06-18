@@ -442,4 +442,4 @@ TODO
 ### Patrons
 <!-- Just bully PJB for these -->
 TODO
-*RichGuy1, RichGuy2, etc.*
+*Alex Fry, Altana, Anthony Fleck, AquaDraco, Austin Nelson, Blaise M., Bobberunio, Callum Tubrett, Cormos Lemming, CPM311, Dan Griskardian, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, grhmhome, Hamcha, hh, Jack Rose, James Andrew Peoples Jr, Jex N, Joel, John Edward Hamilton Barchard, Joshington Awesomahee, Koyki, Kris Piper, KrystalDisc, liltenhead, LPGaming, Matthew C Miklaucic, Mikhail, Miniwoffer, Mono, Nicholas Hillblom, osborn, Oxyclean114, Peter “Azmond” Newhouse, Phillip Inman, Ramiro Agis, Robin Rottstock, Seija, Serathis, Serianas, Simon Lapatin, Spiffyfishface, spinnermaster, Taylor, ThatGuyGW, The Hateful Flesh, Tomeno, Uinseann, Valinov, vifs_vestige, Viridian, Will M., Wrexbe, Zandario*
