@@ -61,7 +61,7 @@ TODO: Pic
 
 Players are now informed of why they disconnected from the server, and now have a button to immediately reconnect. No more going through the server list to rejoin after every server update.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/redial" >}}
 
 {{< newsection >}}
 ### New Parallax
@@ -77,7 +77,7 @@ TODO: Get vid of latest parallax from server directly.
 
 One of the most common engines has finally arrived... in the form of a delicious and energy-rich meal! ...What?
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/suppermatter" >}}
 
 {{< newsection >}}
 ### Magic Spellbook
@@ -95,7 +95,7 @@ TODO: Pic/vid
 
 Crewmembers can now provide a short description of any not-readily-apparent physical characteristics or any other aspects they wish to describe about themselves.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/flavortext" >}}
 
 If you intend to abuse this opportunity, refer to the section immediately below this one.
 
@@ -136,7 +136,7 @@ The four new jobs include:
 - Service Worker (Service)
 - Security Cadet (Security)
 
-TODO: Pic from PR maybe? Or no pic
+{{< imgw "/images/post/pr_35/interns" >}}
 
 Additionally, Assistants have been demoted to Passengers. We both know they weren't actually assisting anyone.
 
@@ -146,7 +146,7 @@ Additionally, Assistants have been demoted to Passengers. We both know they were
 
 It's a bird... It's a mouse... It's... a crewmember? Entities are now capable of transforming into different entities and back to their original form, unless of course an admin smites you.
 
-TODO: Vid from PR
+{{< video-audio "/video/pr_35/polymorph.mp4" >}}
 
 {{< newsection >}}
 ### Immovable Rod
@@ -156,7 +156,7 @@ All stations have a new hazard to be on the lookout for, the Immovable Rod. It'l
 
 And remember—the rod is immovable, the rest of the universe is what's moving. Pray that it never encounters an unstoppable force.
 
-TODO: Vid from PR
+{{< video-auto "/video/pr_35/file_name.mp4" >}}
 
 {{< newsection >}}
 ### Random Metadata
@@ -164,7 +164,7 @@ TODO: Vid from PR
 
 Variety is the spice of life, and as such it's now possible for things to have random names or descriptions. You won't believe all the things ATV can stand for.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/atv" >}}
 
 {{< newsection >}}
 ### Industrial & Advanced Welders
@@ -174,7 +174,7 @@ Engineers have some new welders that they can occasionally find in their lockers
 
 The total range of welders is shown below and goes from top to bottom: Experimental, Advanced Industrial, Industrial, Standard, Mini (Emergency)
 
-TODO: Pic from PR
+TODO: Pic from PR but remake it as a horizontal PNG instead of vertical JPG
 
 {{< newsection >}}
 ### Skeletons
@@ -190,7 +190,7 @@ TODO: Pic
 
 OwO what's this? (Author's Note: Never writing that again...) Traitors can now waste their telecrystals on a set of cat ears. Alternatively, it can be rarely found as loot. Side effects of wearing cat ears include being forced to talk like an idiot.
 
-TODO: Vid from PR
+TODO: Convert PR gif to mp4
 
 {{< newsection >}}
 ### Extended Access
@@ -222,7 +222,7 @@ TODO: Pic of all of the crates (opened)
 
 In an effort to improve morale, Central Command has relaxed the dress code policy to allow various tattoos, extrusions, and other markings on ~~company property~~ employees' bodies.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/markings" >}}
 
 {{< newsection >}}
 ### Wires Refactor
@@ -238,9 +238,9 @@ TODO: Gif of a guy shocking himself?
 
 Explosive decompression, also known as space wind, flows a bit differently now and should generally yeet people in the direction of pressure differentials, as shown in the video below. It's a lot more realistic and makes more sense than the existing algorithm.
 
-However... Space wind has also been entirely disabled for the time being pending further changes. This is a config option, so other servers can reenable it if they wish and take advantage of the improved yeeting.
+However... Space wind has also been entirely disabled for the time being pending further changes. This is a config option, so other servers can reenable it if they wish and take advantage of the improved yeeting showcased in this video.
 
-TODO: Vid from PR
+{{< video-audio "/video/pr_35/wind.mp4" >}}
 
 {{< newsection >}}
 ### Round Start & End Audio
@@ -259,7 +259,7 @@ TODO: Clip of APC destroyed roundend?
 
 The new Employee Defensive Combat Training Initiative™ has rolled out some new policies for its hand-to-hand combat training. Crewmembers will now perform a direct attack when directly hitting something, and will wide-attack in other circumstances.
 
-TODO: Vid from PR.
+{{< video-auto "/video/pr_35/combat.mp4" >}}
 
 {{< newsection >}}
 ### Power Monitoring Console
@@ -267,7 +267,7 @@ TODO: Vid from PR.
 
 The Engineering Department has received a new console to monitor both power sources and loads. No more excuses for generating insufficient power or accidentally disconnecting all of the SMES units!
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/monitor" >}}
 
 {{< newsection >}}
 ### Power Sink
@@ -275,7 +275,7 @@ TODO: Pic from PR
 
 The Syndicate have provided traitors with another tool from SS14, the power sink. This bad boy can drain up to 300 kW and then goes out with a bang.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_35/sink" >}}
 
 {{< newsection >}}
 ### Speech Noises
@@ -283,7 +283,7 @@ TODO: Pic from PR
 
 Central Command noticed that crewmembers and vending machines didn't actually make any audible sounds when speaking, and this... deficiency... has now been rectified.
 
-TODO: Vid from PR
+TODO: Vid
 
 {{< newsection >}}
 ### Typing Indicator
@@ -291,7 +291,7 @@ TODO: Vid from PR
 
 Central Command has noted a 30% decrease in awkward conversations after the addition of chat bubbles, which now pop up when someone is typing. 
 
-TODO: Gif from PR
+{{< video-auto "/video/pr_35/typing.mp4" >}}
 
 {{< newsection >}}
 ## Minor Changes
@@ -437,9 +437,7 @@ TODO
 {{< newsection >}}
 ## Credits
 ### Contributors Since Last Progress Report
-<!-- Use the script in SS14's tools dir. Make sure any subsection authors have their names replaced if they have an override in the script. -->
-TODO
-*001 commits, authored by: Person1, Person 2*
+*555 commits, authored by: 20kdc, abregado, Absolute-Potato, Acruid, Clyybber, DogZeroX, DrSmugleaf, efzapa, ElectroJr, Elijahrane, Emisse, EmoGarbage404, Fishfish458, freeman2651, HoofedEar, hubismal, ike709, juliangiebel, JustinTrotter, keronshb, lapatison, Macoron, magmodius, metalgearsloth, Mirino97, mirrorcult, MLGTASTICa, moonheart08, Morb0, PaulRitter, Peptide90, PJB3005, PJBot, Putnam3145, Rinzii, rok-povsic, ShadowCommander, TheIntoxicatedCat, themias, TimrodDX, Tomeno, UKNOWH, Veritius, vulppine, wrexbe, WTCWR68, youarereadingthis, ZeroDayDaemon, Zumorica*
 
 ### Patrons
 <!-- Just bully PJB for these -->
