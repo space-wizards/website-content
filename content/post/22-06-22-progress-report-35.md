@@ -411,15 +411,6 @@ Due to length constraints, not everything can get a dedicated section in the pro
 - Various collision fixes. *Contributed by many people*
 
 {{< newsection >}}
-## Mapping
-### Waystation
-*Contributed by Timrod*
-
-Waystation, a map originally from /vg/station, has been recreated in SS14 to replace Packed Station as a low/mid pop map.
-
-TODO: Maprender
-
-{{< newsection >}}
 ## Technical
 ### Client Profiling System
 *Contributed by PJB*
