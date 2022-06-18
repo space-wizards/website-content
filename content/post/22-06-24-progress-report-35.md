@@ -73,7 +73,7 @@ TODO: Get vid of latest parallax from server directly.
 
 {{< newsection >}}
 ### Suppermatter
-*Contributed by PJB3005*
+*Contributed by PJB*
 
 One of the most common engines has finally arrived... in the form of a delicious and energy-rich meal! ...What?
 
@@ -194,7 +194,7 @@ TODO: Convert PR gif to mp4
 
 {{< newsection >}}
 ### Extended Access
-*Contributed by PJB3005*
+*Contributed by PJB*
 
 Central Command acknowledges that doing your job can be a bit harder on undercrewed stations, and in such cases your ID cards will have additional access enabled to make your job easier.
 
@@ -407,7 +407,7 @@ Due to length constraints, not everything can get a dedicated section in the pro
 - Fixed gas heater/freezer upgrading. *Contributed by ElectroSR*
 - Fixed audio being occluded by non-hard things. *Contributed by metalgearsloth*
 - Fixed Lord Singuloth bouncing off the station. *Contributed by moony*
-- Fixed emergency lights clipping through walls. *Contributed by PJB3005*
+- Fixed emergency lights clipping through walls. *Contributed by PJB*
 - Fixed action icons sometimes being blank. *Contributed by ElectroSR*
 - Various crash fixes and performance optimizations. *Contributed by many people*
 - Various collision fixes. *Contributed by many people*
@@ -433,7 +433,7 @@ I wrote a simple log-based profiling system, with the intent of making it easier
 {{< newsection >}}
 ## Credits
 ### Contributors Since Last Progress Report
-*555 commits, authored by: 20kdc, abregado, Absolute-Potato, Acruid, Clyybber, DogZeroX, DrSmugleaf, efzapa, ElectroJr, Elijahrane, Emisse, EmoGarbage404, Fishfish458, freeman2651, HoofedEar, hubismal, ike709, juliangiebel, JustinTrotter, keronshb, lapatison, Macoron, magmodius, metalgearsloth, Mirino97, mirrorcult, MLGTASTICa, moonheart08, Morb0, PaulRitter, Peptide90, PJB3005, PJBot, Putnam3145, Rinzii, rok-povsic, ShadowCommander, TheIntoxicatedCat, themias, TimrodDX, Tomeno, UKNOWH, Veritius, vulppine, wrexbe, WTCWR68, youarereadingthis, ZeroDayDaemon, Zumorica*
+*555 commits, authored by: 20kdc, abregado, Absolute-Potato, Acruid, Clyybber, Daemon, DogZeroX, DrSmugleaf, efzapa, ElectroSR, Emisse, EmoGarbage404, Fishfish458, freeman2651, HoofedEar, hubismal, ike709, juliangiebel, JustinTrotter, keronshb, lapatison, Macoron, magmodius, metalgearsloth, Mirino97, mirrorcult, MLGTASTICa, moony, Morb0, PaulRitter, Peptide90, PJB, Putnam3145, Rane, Rinzii, rok-povsic, ShadowCommander, TheIntoxicatedCat, themias, TimrodDX, Tomeno, UKNOWH, Veritius, vulppine, wrexbe, WTCWR68, youarereadingthis, Zumorica*
 
 ### Patrons
 *Alex Fry, Altana, Anthony Fleck, AquaDraco, Austin Nelson, Blaise M., Bobberunio, Callum Tubrett, Cormos Lemming, CPM311, Dan Griskardian, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, grhmhome, Hamcha, hh, Jack Rose, James Andrew Peoples Jr, Jex N, Joel, John Edward Hamilton Barchard, Joshington Awesomahee, Koyki, Kris Piper, KrystalDisc, liltenhead, LPGaming, Matthew C Miklaucic, Mikhail, Miniwoffer, Mono, Nicholas Hillblom, osborn, Oxyclean114, Peter “Azmond” Newhouse, Phillip Inman, Ramiro Agis, Robin Rottstock, Seija, Serathis, Serianas, Simon Lapatin, Spiffyfishface, spinnermaster, Taylor, ThatGuyGW, The Hateful Flesh, Tomeno, Uinseann, Valinov, vifs_vestige, Viridian, Will M., Wrexbe, Zandario*
