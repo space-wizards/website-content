@@ -335,7 +335,6 @@ Due to length constraints, not everything can get a dedicated section in the pro
 - Added gas tank dispensers. *Contributed by Peptide90*
 - Airlocks now trap air in their tile. *Contributed by Zumorica*
 - Crayons are now edible. *Contributed by mirrorcult*
-- Added a new medipen to survival boxes. *Contributed by juliangiebel*
 - Vending machines now throw items when the "Eject" wire is cut. *Contributed by vulppine*
 - Added various powercells to the lathe menu. *Contributed by UKNOWH*
 - Trash bags and botany bags can now directly empty into disposals or onto tables. *Contributed by Rane*
