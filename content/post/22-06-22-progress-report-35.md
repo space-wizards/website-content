@@ -271,7 +271,7 @@ The Engineering Department has received a new console to monitor both power sour
 ### Power Sink
 *Contributed by Veritius*
 
-The Syndicate have provided traitors with another tool from SS14, the power sink. This bad boy can drain up to 300 kW and then goes out with a bang.
+The Syndicate have provided traitors with another tool from SS13, the power sink. This bad boy can drain up to 300 kW and then goes out with a bang.
 
 {{< imgw "/images/post/pr_35/sink" >}}
 
