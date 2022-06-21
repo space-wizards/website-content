@@ -117,7 +117,7 @@ It turns out sound *does* travel in the vacuum of space, and it's full of beats 
 
 {{< newsection >}}
 ### Rebalanced Space Damage
-*Contributed by EmoGarbage404*
+*Contributed by EmoGarbage404 & juliangiebel*
 
 Due to the high fatality rate of unprotected EVAs and hull breaches—and more importantly the cost of cloning replacement crew—Central Command has retooled the genetic makeup of crewmembers to ensure a minimum of one (1) minute of unprotected survivability in the harsh vacuum of space.
 
