@@ -121,6 +121,8 @@ It turns out sound *does* travel in the vacuum of space, and it's full of beats 
 
 Due to the high fatality rate of unprotected EVAs and hull breaches—and more importantly the cost of cloning replacement crew—Central Command has retooled the genetic makeup of crewmembers to ensure a minimum of one (1) minute of unprotected survivability in the harsh vacuum of space.
 
+Additionally, there's a new medipen in survival boxes to help with space exposure and some emergency lockers now contain emergency suits.
+
 {{< imgw "/images/post/pr_35/eva" >}}
 
 {{< newsection >}}
