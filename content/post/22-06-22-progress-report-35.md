@@ -230,7 +230,7 @@ In an effort to improve morale, Central Command has relaxed the dress code polic
 ### Wires Refactor
 *Contributed by vulppine*
 
-All engineers are advised that a new, ~~cheaper~~ more efficient circuit board supplier has resulted in doors becoming much more dangerous. The wires inside will shock anyone who touches them without insulated gloves. In addition, cutting a door's power wire now causes it to become electrified and extremely dangerous until a multitool is used to reset the door's power.
+All engineers are advised that a new, ~~cheaper~~ more efficient circuit board supplier has resulted in doors and potentially other machines becoming much more dangerous and more varied in wire functionality. Wires can also shock anyone who touches them without insulated gloves. Additionally, cutting a door's power wire now causes it to become electrified and extremely dangerous until a multitool is used to reset the door's power.
 
 {{< video-audio "/video/pr_35/wires.mp4" >}}
 
