@@ -117,9 +117,11 @@ It turns out sound *does* travel in the vacuum of space, and it's full of beats 
 
 {{< newsection >}}
 ### Rebalanced Space Damage
-*Contributed by EmoGarbage404*
+*Contributed by EmoGarbage404 & juliangiebel*
 
 Due to the high fatality rate of unprotected EVAs and hull breaches—and more importantly the cost of cloning replacement crew—Central Command has retooled the genetic makeup of crewmembers to ensure a minimum of one (1) minute of unprotected survivability in the harsh vacuum of space.
+
+Additionally, there's a new medipen in survival boxes to help with space exposure and some emergency lockers now contain emergency suits.
 
 {{< imgw "/images/post/pr_35/eva" >}}
 
@@ -228,7 +230,7 @@ In an effort to improve morale, Central Command has relaxed the dress code polic
 ### Wires Refactor
 *Contributed by vulppine*
 
-All engineers are advised that a new, ~~cheaper~~ more efficient circuit board supplier has resulted in doors becoming much more dangerous. The wires inside will shock anyone who touches them without insulated gloves. In addition, cutting a door's power wire now causes it to become electrified and extremely dangerous until a multitool is used to reset the door's power.
+All engineers are advised that a new, ~~cheaper~~ more efficient circuit board supplier has resulted in doors and potentially other machines becoming much more dangerous and more varied in wire functionality. Wires can also shock anyone who touches them without insulated gloves. Additionally, cutting a door's power wire now causes it to become electrified and extremely dangerous until a multitool is used to reset the door's power.
 
 {{< video-audio "/video/pr_35/wires.mp4" >}}
 
@@ -271,7 +273,7 @@ The Engineering Department has received a new console to monitor both power sour
 ### Power Sink
 *Contributed by Veritius*
 
-The Syndicate have provided traitors with another tool from SS14, the power sink. This bad boy can drain up to 300 kW and then goes out with a bang.
+The Syndicate have provided traitors with another tool from SS13, the power sink. This bad boy can drain up to 300 kW and then goes out with a bang.
 
 {{< imgw "/images/post/pr_35/sink" >}}
 
@@ -333,7 +335,6 @@ Due to length constraints, not everything can get a dedicated section in the pro
 - Added gas tank dispensers. *Contributed by Peptide90*
 - Airlocks now trap air in their tile. *Contributed by Zumorica*
 - Crayons are now edible. *Contributed by mirrorcult*
-- Added a new medipen to survival boxes. *Contributed by juliangiebel*
 - Vending machines now throw items when the "Eject" wire is cut. *Contributed by vulppine*
 - Added various powercells to the lathe menu. *Contributed by UKNOWH*
 - Trash bags and botany bags can now directly empty into disposals or onto tables. *Contributed by Rane*
