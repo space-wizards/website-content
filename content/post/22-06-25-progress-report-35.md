@@ -69,7 +69,7 @@ Players are now informed of why they disconnected from the server, and now have 
 
 Astronomers are baffled after noticing that space looks completely different from how it did yesterday, but many agree that the new look is much prettier.
 
-{{< video-audio "/video/pr_35/parallax.mp4" >}}
+{{< video-auto "/video/pr_35/parallax.mp4" >}}
 
 {{< newsection >}}
 ### Suppermatter
@@ -158,7 +158,7 @@ All stations have a new hazard to be on the lookout for, the Immovable Rod. It'l
 
 And remember—the rod is immovable, the rest of the universe is what's moving. Pray that it never encounters an unstoppable force.
 
-{{< video-auto "/video/pr_35/file_name.mp4" >}}
+{{< video-auto "/video/pr_35/rod.mp4" >}}
 
 {{< newsection >}}
 ### Random Metadata
