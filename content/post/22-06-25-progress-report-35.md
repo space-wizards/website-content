@@ -1,7 +1,7 @@
 +++
 title = "Progress Report 35: Going Nuclear"
 author = "DrSmugleaf, ike709, & Timrod"
-date = 2022-06-22
+date = 2022-06-25
 categories = [
     "Progress Report"
 ]
