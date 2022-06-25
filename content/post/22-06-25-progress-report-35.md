@@ -59,7 +59,7 @@ There is now a system for console command completions. Completions are easy enou
 ### Redial
 *Contributed by 20kdc*
 
-Players are now informed of why they disconnected from the server, and now have a button to immediately reconnect. No more going through the server list to rejoin after every server update.
+Previously, when the server updated or restarted, players would have to close the game and reconnect from the launcher. While the restart of the game still needs to happen (due to needing to update the client as well), it has now been automated - the restart occurs simply by the press of a button.
 
 {{< imgw "/images/post/pr_35/redial" >}}
 
