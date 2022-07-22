@@ -45,7 +45,7 @@ Here's the highlights:
 - Cleaned up gun code a lot to enable sillier and more unique guns
 - Added a development tool for visualizing bullet spread
 
-TODO: Fire selector video?
+{{< video-auto "/video/pr_36/guns.mp4" >}}
 
 {{< newsection >}}
 ### Item Pricing & Piracy
@@ -407,7 +407,7 @@ This system provides very good savings, but there is still a lot of things that 
 ## Credits
 ### Contributors Since Last Progress Report
 <!-- Use the script in SS14's tools dir. Make sure any subsection authors have their names replaced if they have an override in the script. -->
-*448 content pull requests, authored by: 20kdc, Ablankmann, Acruid, Andre19926, asperger-sind, CrudeWax, Daemon, Delete69, DogZeroX, DrSmugleaf, ElectroSR, Emisse, EmoGarbage404, greenrock64, HoofedEar, hubismal, ike709, jessicamaybe, juliangiebel, Just-a-Unity-Dev, KaiShibaa, keronshb, KIBORG04, lapatison, LittleBuilderJane, LudwigVonChesterfield, Macoron, metalgearsloth, Mirino97, mirrorcult, moonheart08, Morb0, OldDanceJacket, Pangogie, PaulRitter, Peptide90, PJB3005, ProfanedBane, Rane, Ranger6012, ScalyChimp, SirDragooon, TaralGit, TekuNut, themias, TimrodDX, UKNOWH, Veritius, Visne, vulppine, WilliamECrew, wrexbe, youarereadingthis, Zumorica*
+*448 content pull requests, authored by: 20kdc, Ablankmann, Acruid, Andre19926, asperger-sind, CrudeWax, Daemon, Delete69, DogZeroX, DrSmugleaf, ElectroSR, Emisse, EmoGarbage404, greenrock64, HoofedEar, hubismal, ike709, jessicamaybe, juliangiebel, Just-a-Unity-Dev, KaiShibaa, keronshb, KIBORG04, lapatison, LittleBuilderJane, LudwigVonChesterfield, Macoron, metalgearsloth, Mirino97, mirrorcult, moony, Morb0, OldDanceJacket, Pangogie, PaulRitter, Peptide90, PJB3005, ProfanedBane, Rane, Ranger6012, ScalyChimp, SirDragooon, TaralGit, TekuNut, themias, TimrodDX, UKNOWH, Veritius, Visne, vulppine, WilliamECrew, wrexbe, youarereadingthis, Zumorica*
 
 ### Patrons
 <!-- Just bully PJB for these -->
