@@ -1,12 +1,12 @@
 +++
-title = "Progress Report #36: Too Much of a Good Thing" TODO bikeshed this
+title = "Progress Report #36: Too Much of a Good Thing"
 author = "DrSmugleaf & ike709"
 date = 2022-07-27
 categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_36" TODO
+thumbnail = "pr_36"
 +++
 There's so much new content that at least one Progress Report author has been driven mad! We've even surpassed /tg/station 13 by contributions per month.
 <!--more-->
@@ -101,7 +101,7 @@ Shuttles have finally arrived! Unlike their SS13 predecessors, the shuttles Actu
 
 Try to avoid slamming into any Salvage Miners!
 
-TODO: Vid
+{{< video-audio "/video/pr_36/cargo.mp4" >}}
 
 {{< newsection >}}
 ### Projectile Spells
@@ -135,7 +135,7 @@ Nuclear Operatives and crewmembers should have an easier time getting around dur
 
 Rotting corpses will now produce miasma, a toxic and disease-ridden gas. Proper corpse disposal (or even just putting them on ice) is now essential for the crew's health.
 
-TODO: Gif of rotting corpse?
+{{< video-auto "/video/pr_36/miasma.mp4" >}}
 
 {{< newsection >}}
 ### Space Dragons & Sushi
@@ -145,7 +145,7 @@ Salvage miners have discovered a new species of space fauna: the Space Dragon! H
 
 In response, the Chef has been armed with a variety of recipes for turning space carp into sushi.
 
-TODO: Pic from PR? Or new pic?
+{{< video-auto "/video/pr_36/dragon.mp4" >}}
 
 {{< newsection >}}
 ### Forensics
@@ -326,7 +326,7 @@ A new, completely original station has been created by OldDanceJacket.
 
 LittleBuilderJane has a spicy new take on the Central Command station, which now accessible via the evac shuttle.
 
-TODO: Maprender (needs to be made)
+{{< imgw "/images/post/pr_36/centcom" >}}
 
 {{< newsection >}}
 ## Technical
