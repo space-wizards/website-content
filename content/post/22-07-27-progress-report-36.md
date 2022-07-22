@@ -55,7 +55,7 @@ Most things now have prices assigned allowing Cargo to, for example, sell fuel t
 
 Attempts to kidnap and sell the Clown will be refused by Central Command.
 
-TODO: Pic?
+{{< imgw "/images/post/pr_36/price" >}}
 
 {{< newsection >}}
 ### Drug & Drunk Shaders
@@ -125,7 +125,7 @@ Central Command has begun sending Emergency Response Teams™ to any stations ex
 
 Nuclear Operatives and crewmembers should have an easier time getting around during EVAs thanks to a brand new set of jetpacks.
 
-TODO: Vid
+{{< video-auto "/video/pr_36/jetpack.mp4" >}}
 
 {{< newsection >}}
 ### Miasma
@@ -153,7 +153,7 @@ TODO: Pic from PR? Or new pic?
 
 Security has been equipped with a set of forensic scanners that can detect the fingerprints or glove fibers that any pesky criminals leave behind at a crime scene. Preliminary reports indicate that chain-smoking while using the scanner doubles the likelihood of solving crimes while only tripling the likelihood of lung cancer. Now *that's* efficiency!
 
-TODO: Make a vid minus detective since detective isn't in yet as of progress report timeline. Plus I have a funny idea for detective in PR37.
+{{< imgw "/images/post/pr_36/forensics" >}}
 
 {{< newsection >}}
 ### Device Network Configuration
