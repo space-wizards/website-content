@@ -311,8 +311,6 @@ Due to length constraints, not everything can get a dedicated section in the pro
 
 {{< newsection >}}
 ## Mapping
-List new maps or map changes in subsections here. Don't forget to do maprenders for major stuff.
-
 ### Lighthouse Station
 *Contributed by OldDanceJacket*
 
