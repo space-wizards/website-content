@@ -1,12 +1,12 @@
 +++
 title = "Progress Report #37: Love, Geoff, and Robots"
-author = "DrSmugleaf & ike709"
-date = TODO
+author = "DrSmugleaf, ike709 & Visne"
+date = 2022-10-08 # TODO Update
 categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_37" TODO
+thumbnail = "pr_36" # TODO Update
 +++
 Better late than never (TODO: write something better.)
 <!--more-->
@@ -28,7 +28,7 @@ Don't forget to run optipng on the pics then the script to convert them to webp.
 
 Security reports that a variety of medibots, cleanbots, and more were smuggled aboard the latest cargo shuttle resupply. They have offered to overlook this unfortunate mishap in exchange for a cleanbot to remove ~~bloodstains~~ trash from holding cells.
 
-TODO: Surely one of the PRs has a vid?
+TODO: Surely one of the PRs has a vid? <!-- no -->
 
 {{< newsection >}}
 ### Identity & Disguises
@@ -38,7 +38,7 @@ After several successful implantations of telepathic inhibitors, crewmembers are
 
 Crewmembers are discouraged from engaging in any anonymous tomfoolery or criminal activity.
 
-TODO: Pic from PR?
+{{< imgw "/images/post/pr_37/identity" >}}
 
 {{< newsection >}}
 ### Magic Staves & Wands
@@ -46,15 +46,15 @@ TODO: Pic from PR?
 
 The Wizard Federation has begun supplying a new arsenal of magic staves and wands to its agents. In the event that you are spontaneously turned into a magic fish, please report to Security for immediate termination.
 
-TODO: Vid from PR
+{{< video-audio "/video/pr_37/wand.mp4" >}}
 
 {{< newsection >}}
-### Damange Masks
+### Damage Masks
 *Contributed by metalgearsloth*
 
 Taking damage now comes with more visual feedback in the form of damage overlays.
 
-TODO: Vid from PR
+{{< video-audio "/video/pr_37/damage_mask.mp4" >}}
 
 {{< newsection >}}
 ### Disease Stages
@@ -72,7 +72,7 @@ Movement has been refactored, resulting in a variety of code cleanup, tweaks, an
 
 Additionally, shuttles can now brake (spacebar) and have separate keys for strafing and rotating.
 
-TODO: Video of vehicle driving? Would it even look different?
+TODO: Video of vehicle driving? Would it even look different? <!-- probably not interesting to players  -->
 
 {{< newsection >}}
 ### Portable Scrubbers
@@ -118,7 +118,7 @@ TODO: Pic of crewmember catching some Z's in dorms or a pic of being blindfolded
 
 Security has received a new shipment of riot shields, which have the ability to Block™ incoming attacks. This should hopefully be self-explanatory, but blocking attacks is encouraged whenever possible to mitigate incoming damage.
 
-TODO: Pic from PR?
+{{< imgw "/images/post/pr_37/shields" >}}
 
 {{< newsection >}}
 ### Boxers (Not the Underwear)
@@ -136,7 +136,7 @@ TODO: Pic of the boxer
 
 Events can now play lofi hip hop beats to relax/study/die horribly to. As an example, sick tunes will now play when the nuclear device is armed. There's a short preview below but you can listen to the full thing [here](https://www.youtube.com/watch?v=G2gVAPKlgqA).
 
-TODO: Vid of nuke countdown song
+{{< video-audio "/video/pr_37/nuke.mp4" >}}
 
 {{< newsection >}}
 ### Frezon
@@ -151,7 +151,7 @@ Atmospherics has received approval to begin producing and deploying Frezon, a ne
 
 *Nanotrasen waives all responsibility for any brain damage resulting from Frezon™ inhalation
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_37/frezon" >}}
 
 {{< newsection >}}
 ### Zombies Game Mode
@@ -167,7 +167,7 @@ TODO: Pic from PR
 
 Admins have a new tool full of potential for ~~abuse~~ enhancing the round—the antag menu! At the click of a button anybody can be turned into a traitor, nuke op, or any other wacky antagonist role.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_37/antag_menu" >}}
 
 {{< newsection >}}
 ## Minor Changes
