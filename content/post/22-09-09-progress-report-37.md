@@ -13,9 +13,9 @@ Better late than never (TODO: write something better.)
 
 <!-- Useful tags: 
 Section splitter: {{< newsection >}}
-Picture: {{< imgw "/images/post/pr_36/picture_name" >}}
-Autoplay video (no audio): {{< video-auto "/video/pr_36/file_name.mp4" >}}
-Paused vid (can do audio): {{< video-audio "/video/pr_36/file_name.mp4" >}}
+Picture: {{< imgw "/images/post/pr_37/picture_name" >}}
+Autoplay video (no audio): {{< video-auto "/video/pr_37/file_name.mp4" >}}
+Paused vid (can do audio): {{< video-audio "/video/pr_37/file_name.mp4" >}}
 
 Don't forget to run optipng on the pics then the script to convert them to webp.
 -->
@@ -28,7 +28,7 @@ Don't forget to run optipng on the pics then the script to convert them to webp.
 
 Security reports that a variety of medibots, cleanbots, and more were smuggled aboard the latest cargo shuttle resupply. They have offered to overlook this unfortunate mishap in exchange for a cleanbot to remove ~~bloodstains~~ trash from holding cells.
 
-TODO: Surely one of the PRs has a vid? <!-- no -->
+{{< imgw "/images/post/pr_37/bots" >}}
 
 {{< newsection >}}
 ### Identity & Disguises
@@ -72,15 +72,13 @@ Movement has been refactored, resulting in a variety of code cleanup, tweaks, an
 
 Additionally, shuttles can now brake (spacebar) and have separate keys for strafing and rotating.
 
-TODO: Video of vehicle driving? Would it even look different? <!-- probably not interesting to players  -->
-
 {{< newsection >}}
 ### Portable Scrubbers
 *Contributed by Rane*
 
 Atmospherics has received a shipment of portable scrubbers. It should now be easier to make a room habitable again after acts of ~~sabotage~~ ~~incompetence~~ accidental gas release.
 
-TODO: Vid of scrubbing
+{{< video-auto "/video/pr_37/scrubber.mp4" >}}
 
 {{< newsection >}}
 ### Shuttle FTL
@@ -90,17 +88,18 @@ All shuttle navigation computers have received an update which, among other thin
 
 Please be advised that the navigation data may have been intercepted by a hostile Syndicate planet.
 
-TODO: Pic of nukie planet
+{{< imgw "/images/post/pr_37/nukieplanet" "50%" >}}
 
 {{< newsection >}}
 ### Stamina
 *Contributed by metalgearsloth*
 
+<!-- description doesnt make it very clear what was changed -->
 After a series of lawsuits, crewmembers are no longer perpetually amped up on epinephrine and amphetamines; instead, everyone is now susceptible to stamina damage! 
 
 Work on your dodging skills or disabler beams will have you stunned in no time.
 
-TODO: Gif of someone getting stunned?
+{{< video-auto "/video/pr_37/stun.mp4" >}}
 
 {{< newsection >}}
 ### Sleeping & Blinding
@@ -110,7 +109,7 @@ As a result of the aforementioned stamina changes and lawsuits, crewmembers are 
 
 To help crewmembers in this endeavor, a supply of ~~blindfolds~~ sleep masks have been issued to all stations. Blindfolds can be acquired from Security by pretending to be able to shoot lasers from your eyes. Crewmembers that can *actually* shoot lasers from their eyes are advised to report to Medical as soon as possible.
 
-TODO: Pic of crewmember catching some Z's in dorms or a pic of being blindfolded
+{{< imgw "/images/post/pr_37/sleep" >}}
 
 {{< newsection >}}
 ### Blocking & Shields
@@ -128,7 +127,7 @@ One of the first station-restricted jobs has been added: Crewmembers can now joi
 
 *"It ain’t about how hard you hit. It’s about how hard you can get hit and keep moving forward; how much you can take and keep moving forward. That’s how winning is done!” - Rocky Balboa*
 
-TODO: Pic of the boxer
+{{< imgw "/images/post/pr_37/boxer" >}}
 
 {{< newsection >}}
 ### Event Music
@@ -159,7 +158,7 @@ Atmospherics has received approval to begin producing and deploying Frezon, a ne
 
 *BRAAAAAAAAAINS...*
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_37/zombie" >}}
 
 {{< newsection >}}
 ### Antagonist Menu
