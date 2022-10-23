@@ -350,7 +350,6 @@ Admins have a new tool full of potential for ~~abuse~~ enhancing the round—the
 {{< newsection >}}
 ## Credits
 ### Contributors Since Last Progress Report
-TODO: Pulse stats
 *13spacemen, 20kdc, Ablankmann, Aerocrux, AJCM-git, asperger-sind, BismarckShuffle, ChilbroBaggins, corentt, CormosLemming, Deahaka, Delete69, DoctorBeard, DogZeroX, drakewill-CRL, Duddino, ElectroSR, Rane, Emisse, EmoGarbage404, fooberticus, FunkySphere, GoodWheatley, HoofedEar, hubismal, ike709, jacksonzck, jessicamaybe, jproads, keronshb, KIBORG04, Kimpes, lapatison, Level10Cybermancer, metalgearsloth, Mirino97, mirrorcult, ModeratelyAware, moony, Morb0, Myctai, notafet, OldDanceJacket, Pangogie, PaulRitter, Peptide90, PJB3005, Rinkashikachi, sBasalto, ShadowCommander, sunbear-dev, TaralGit, TekuNut, themias, TimrodDX, vulppine, wrexbe, Ygg01, Daemon, zerorulez, Zumorica*
 
 ### Patrons
