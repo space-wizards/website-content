@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #37: Love, Geoff, and Robots"
 author = "DrSmugleaf, ike709 & Visne"
-date = 2022-10-08 # TODO Update
+date = 2022-10-23 # TODO Update
 categories = [
     "Progress Report"
 ]
@@ -11,7 +11,7 @@ thumbnail = "pr_37"
 Better late than never (TODO: write something better.)
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
 Picture: {{< imgw "/images/post/pr_37/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_37/file_name.mp4" >}}
@@ -60,7 +60,7 @@ Taking damage now comes with more visual feedback in the form of damage overlays
 ### Disease Stages
 *Contributed by EmoGarbage404*
 
-CentCom Virologists have released a new disease classification system, splitting up disease effects and cures into unique stages based on disease progression. 
+CentCom Virologists have released a new disease classification system, splitting up disease effects and cures into unique stages based on disease progression.
 
 Generally speaking, earlier stages have milder symptoms and are more easily treatable, so crewmembers are advised to report to medical ASAP if they feel more sickly and disgusting than usual.
 
@@ -95,7 +95,7 @@ Please be advised that the navigation data may have been intercepted by a hostil
 *Contributed by metalgearsloth*
 
 <!-- description doesnt make it very clear what was changed -->
-After a series of lawsuits, crewmembers are no longer perpetually amped up on epinephrine and amphetamines; instead, everyone is now susceptible to stamina damage! 
+After a series of lawsuits, crewmembers are no longer perpetually amped up on epinephrine and amphetamines; instead, everyone is now susceptible to stamina damage!
 
 Work on your dodging skills or disabler beams will have you stunned in no time.
 
