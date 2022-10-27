@@ -8,7 +8,7 @@ categories = [
 reddit = ""
 thumbnail = "pr_37"
 +++
-Better late than never (TODO: write something better.)
+Better late than never, we'll hopefully get back on track soon. (And if you'd like to help contribute, progress report writers are always welcome!)
 <!--more-->
 
 <!-- Useful tags:
