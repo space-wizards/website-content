@@ -100,7 +100,7 @@ Please be advised that the navigation data may have been intercepted by a hostil
 <!-- description doesnt make it very clear what was changed -->
 After a series of lawsuits, crewmembers are no longer perpetually amped up on epinephrine and amphetamines; instead, everyone is now susceptible to stamina damage!
 
-Work on your dodging skills or disabler beams will have you stunned in no time.
+Work on your dodging skills or disabler beams will have you stunned in no time, but you're no longer prone to falling over from a single shot of a taser.
 
 {{< video-auto "/video/pr_37/stun.mp4" >}}
 
