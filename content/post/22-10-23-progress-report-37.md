@@ -22,7 +22,10 @@ Don't forget to run optipng on the pics then the script to convert them to webp.
 
 {{< newsection >}}
 ## Content
+### Three-Parter
+This progress report only covers July 2022. The August and September 2022 editions will follow shortly after it.
 
+{{< newsection >}}
 ### Botsplosion
 *Contributed by Rane*
 
