@@ -1,7 +1,7 @@
 +++
 title = "Progress Report #37: Love, Geoff, and Robots"
 author = "DrSmugleaf, ike709 & Visne"
-date = 2022-10-27 # TODO Update
+date = 2022-10-31
 categories = [
     "Progress Report"
 ]
