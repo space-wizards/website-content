@@ -69,7 +69,7 @@ TODO: Pic from PR?
 
 {{< newsection >}}
 ### Plant Genetics
-*Contributed by Partmedia*
+*Contributed by notafet*
 
 After once again rediscovering the twice-lost works of Gregor Mendel, the Botanist is proud to report that plants do, in fact, have genes. New guidelines are being disseminated on how to mutate and cross-pollinate plants. A variety of new genetic plant traits have also been discovered, such as _Seedless_, _Sentient_, or _Bioluminescent_. Happy harvesting!
 
@@ -85,7 +85,7 @@ TODO: Pic from PR of lvl 4 singulo contained.
 
 {{< newsection >}}
 ### Chef Content Update
-*Contributed by Partmedia*
+*Contributed by notafet*
 
 To celebrate three consecutive shifts without a mass-casualty event, Central Command has sent a new recipe book to the Chef. There's now a wider variety of food to cook, more items in Dinnerware vendors, new seeds for Botany, and more! Let's get cooking!
 
@@ -130,7 +130,7 @@ TODO: Pic from PR
 
 {{< newsection >}}
 ### Biomass
-*Contributed by Elijahrane*
+*Contributed by Rane*
 
 The eggheads over in Research & Development raised a fuss about how cloning pods producing clones from nothing violates the "conservation of mass" and a variety of other technobabble. To shut them up, Medical has agreed to start using biomass to build new clones. A new Biomass Reclaimer has been installed to produce it.
 
@@ -156,7 +156,7 @@ TODO: Vid from PR
 
 {{< newsection >}}
 ### Pneumatic Valve & Turing-complete Atmos
-*Contributed by Partmedia*
+*Contributed by notafet*
 
 The Council of Atmosian Elders, the elite few Atmos Techs who can make a pipe sing and who treat the laws of physics as more of a polite suggestion, have announced a new atmospherics device. The Pneumatic Valve will transfer gas from an inlet port to an outlet port, but only if the third control port is connected to a pipe with sufficient pressure.
 
@@ -168,7 +168,7 @@ TODO: NAND gate pic from PR (don't forget to rotate it to fit better)
 
 {{< newsection >}}
 ### Gas Recyclers
-*Contributed by Partmedia*
+*Contributed by notafet*
 
 To improve the station's self-sustainability, Central Command has provided schematics for a new Gas Recycler. These machines take carbon dioxide or nitrous oxide, and produce oxygen or nitrogen respectively. The only caveat is that the inputted gas must have a pressure of at least 3 MPa and a temperature of at least 300 Celsius. That means any gasses coming out of it won't be safe for human consumption without further processing.
 
@@ -176,7 +176,7 @@ TODO: Make a pic since the PR pic has drawings on it.
 
 {{< newsection >}}
 ### Eye Damage
-_Contributed by Elijahrane_
+_Contributed by Rane_
 
 Due to budget cuts, Medical reports that they can no longer afford to supply the crew with indestructible eyeballs. Engineers need to be extra cautious, as welding without protection will now damage their vision.
 
@@ -274,7 +274,7 @@ A variety of changes and improves have been made to melee combat:
 
 {{< newsection >}}
 ### New Inventory Stripping UI
-*Contributed by ElectroJr*
+*Contributed by ElectroSR*
 
 The UI for interacting with other players' inventories has been completely remade; instead of a list of buttons, it now resembles the UI from Space Station 13 where you can view all of the slot contents of players (minus their pocket contents, of course).
 
