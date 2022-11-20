@@ -306,5 +306,4 @@ TODO: stats/contribs
 
 ### Patrons
 <!-- Just bully PJB for these -->
-TODO: Patrons
-*RichGuy1, RichGuy2, etc.*
+*Alex Fry, Altana, Anthony Fleck, AquaDraco, Arthur Norris, Austin Nelson, Bobberunio, BokChoy, Brandon Campbell, BrittaQueenBee, Callum Tubrett, Carbonhell, clyf, Cormos Lemming, CPM311, Dan, Dan Griskardian, Daniel Thompson, Darren Brady, Daskata, DramaBuns, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Florian, Gothryd, Greggo Austin, grhmhome, Hamcha, hh, Jacob Schramm, James Andrew Peoples Jr, Jeremy Hernandez, Jex N, John Edward Hamilton Barchard, Joshington Awesomahee, Kai k, KevKev, Koyki, Kris Piper, lapatison, Late Fox, liltenhead, Matouš Hrdlička, Matthew C Miklaucic, Mikhail, Mitchell Marry, Mono, Nathan Zaldivar, Nicholas Hillblom, Nicholas Williamson, osborn, Oxyclean114, Pasemi, Peter "Azmond" Newhouse, Phillip Inman, Ramiro Agis, Rasmus Cedergren, Robin Rottstock, Serianas, spinnermaster, SpydAxe, ThatGuyGW, The Hateful Flesh, Tomeno, Uinseann, Unknown Kiwi, vifs_vestige, Viridian, Will M., Wrexbe, Zandario*
