@@ -302,7 +302,7 @@ TODO: Maprender from wiki
 ### Contributors Since Last Progress Report
 <!-- Use the script in SS14's tools dir. Make sure any subsection authors have their names replaced if they have an override in the script. -->
 TODO: stats/contribs
-*001 commits, authored by: Person1, Person 2*
+*1430 pull requests, authored by: 0x6273, 20kdc, Ablankmann, Acruid, AJCM-git, aklos, asperger-sind, BasedUser, biometricPsychography, brainfood1183, Carbonhell, Checkraze, ChilbroBaggins, civilCornball, corentt, Daemon, DeathCamel58, DerSheppard, DoctorBeard, DogZeroX, DrSmugleaf, eclips_e, ElectroSR, Emisse, EmoGarbage404, estacaoespacialpirata, exincore, Flareguy, FunkySphere, GTRsound, HoidC, igorsaux, ike709, Illiux, Interrobang01, Jackrost, jessicamaybe, Jezithyr, jproads, juliangiebel, JupiterFive, JustinTrotter, KaiShibaa, keronshb, kognise, lapatison, LarryRussian, Level10Cybermancer, LordEclipse, Macoron, martin69420, Mervill, metalgearsloth, Mirino97, mirrorcult, moony, Morb0, Myctai, Nairodian, NoobyLegion, notafet, och-och, OctoRocket, OldDanceJacket, Pangogie, PaulRitter, Peptide90, PJB3005, PJBot, PrPleGoo, Rane, Rapidgame7, Rinkashikachi, rolfero, Scribbles0, ShadowCommander, SirDragooon, Slyfox333, SpaceManiac, Stealthbomber16, TaralGit, TekuNut, theashtronaut, themias, tomasalves8, tsp01, Veritius, Visne, Vordenburg, vulppine, Willhelm53, WPRobson, wrexbe, YanehCheck, Ygg01, ZeroDiamond, Zumorica*
 
 ### Patrons
 <!-- Just bully PJB for these -->
