@@ -1,5 +1,5 @@
 +++
-title = "Progress Report #38: Title TODO"
+title = "Progress Report #38: Lobby & Bobby"
 author = "DrSmugleaf & ike709"
 date = 2022-11-30
 categories = [
