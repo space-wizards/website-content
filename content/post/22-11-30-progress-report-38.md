@@ -13,9 +13,9 @@ TODO - This is where the short description goes, it'll be shown under each blog 
 
 <!-- Useful tags: 
 Section splitter: {{< newsection >}}
-Picture: {{< imgw "/images/post/pr_32/picture_name" >}}
-Autoplay video (no audio): {{< video-auto "/video/pr_32/file_name.mp4" >}}
-Paused vid (can do audio): {{< video-audio "/video/pr_32/file_name.mp4" >}}
+Picture: {{< imgw "/images/post/pr_38/picture_name" >}}
+Autoplay video (no audio): {{< video-auto "/video/pr_38/file_name.mp4" >}}
+Paused vid (can do audio): {{< video-audio "/video/pr_38/file_name.mp4" >}}
 
 Don't forget to run optipng on the pics then the script to convert them to webp.
 -->
@@ -35,7 +35,7 @@ Oldchat, the ~~objectively better~~ oft-requested HUD layout from Space Station 
 
 There's still some room for improvement, but it's off to a great start! And yes, you can resize the width of it.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_38/oldchat" >}}
 
 {{< newsection >}}
 ### Element Picker
@@ -43,13 +43,13 @@ TODO: Pic from PR
 
 Another UI goodie is the new Element Picker, which allows developers to look at all of the different components of a UI. This'll make debugging and making new UIs a lot easier!
 
-TODO: Vid from PR
+{{< video-audio "/video/pr_38/picker.mp4" >}}
 
 {{< newsection >}}
 ### Tomb of the Unknown Employee
 *Contributed by Carbonhell*
 
-TODO: Pic
+{{< imgw "/images/post/pr_38/tomb" >}}
 
 *Here rests an unknown employee*
 *Unknown by name or rank*
@@ -65,7 +65,9 @@ It can now be found in Space Station 14 at Central Command.
 
 A shipment of instruments intended for the Nanotrasen Symphony Orchestra somehow ended up in Cargo, where the Quartermaster promptly traded them to the Head of Personnel for an emitters crate. The HoP ~~requests~~ demands that every crewmember who can play an instrument report to the Chapel to practice for his new musical production.
 
-TODO: Pic from PR?
+Here's a look at all of the available instruments:
+
+{{< imgw "/images/post/pr_38/instruments" >}}
 
 {{< newsection >}}
 ### Plant Genetics
@@ -73,7 +75,9 @@ TODO: Pic from PR?
 
 After once again rediscovering the twice-lost works of Gregor Mendel, the Botanist is proud to report that plants do, in fact, have genes. New guidelines are being disseminated on how to mutate and cross-pollinate plants. A variety of new genetic plant traits have also been discovered, such as _Seedless_, _Sentient_, or _Bioluminescent_. Happy harvesting!
 
-TODO: Pic from PR
+Hopefully bioluminescence is self-explanatory, but here's a visual aid:
+
+{{< imgw "/images/post/pr_38/genes" >}}
 
 {{< newsection >}}
 ### Containment Field Rework
@@ -81,7 +85,7 @@ TODO: Pic from PR
 
 After a bit of tinkering, the Chief Engineer was able to make some improvements to Lord Singuloth's containment field generators. New improvements include only needing four generators, being able to contain a level 4 singularity (DANGER: Only if there's room), and more!
 
-TODO: Pic from PR of lvl 4 singulo contained.
+{{< imgw "/images/post/pr_38/singuloth" >}}
 
 {{< newsection >}}
 ### Chef Content Update
@@ -89,7 +93,7 @@ TODO: Pic from PR of lvl 4 singulo contained.
 
 To celebrate three consecutive shifts without a mass-casualty event, Central Command has sent a new recipe book to the Chef. There's now a wider variety of food to cook, more items in Dinnerware vendors, new seeds for Botany, and more! Let's get cooking!
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_38/chef" >}}
 
 {{< newsection >}}
 ### Nuclear Operative Win Conditions
@@ -118,7 +122,7 @@ Central Command has reached an agreement with the Syndicate to produce new guide
 
 Engineering reports that they've finally had a breakthrough restoring the station records database after the H.O.N.K. Virus incident of 2561. The crew records are back online and can now be viewed at any Station Records Computer. Medical and Security records, however, are still missing.
 
-TODO: Pic of the records computer
+{{< imgw "/images/post/pr_38/records" >}}
 
 {{< newsection >}}
 ### SS14 Sign
@@ -126,7 +130,7 @@ TODO: Pic of the records computer
 
 Engineering reports that they finally found a machinist that can count to 4, and the new Space Station 14 sign has been completed and installed.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_38/sign" >}}
 
 {{< newsection >}}
 ### Biomass
@@ -134,15 +138,13 @@ TODO: Pic from PR
 
 The eggheads over in Research & Development raised a fuss about how cloning pods producing clones from nothing violates the "conservation of mass" and a variety of other technobabble. To shut them up, Medical has agreed to start using biomass to build new clones. A new Biomass Reclaimer has been installed to produce it.
 
-TODO: biomass reclaimer pic? cloning pod pic? /shrug
-
 {{< newsection >}}
 ### Revenants
 *Contributed by EmoGarbage404*
 
 The Chaplain asks all crewmembers to be on alert for evil spirits haunting the station. Revenants are evil ghosts with a variety of ways to ~~be annoying~~ cause mischief and disrupt the normal functioning of the station.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_38/revs" >}}
 
 {{< newsection >}}
 ### Chameleon Clothing & Voice Masks
@@ -152,19 +154,19 @@ Central Command alerts all Security personnel that Syndicate infiltrators now ha
 
 If you witness anyone wearing chameleon clothing or singing with Elvis's voice, shoot first and clone later.
 
-TODO: Vid from PR
+{{< video-auto "/video/pr_38/chameleon.mp4" >}}
 
 {{< newsection >}}
-### Pneumatic Valve & Turing-complete Atmos
+### Pneumatic Valve
 *Contributed by notafet*
 
-The Council of Atmosian Elders, the elite few Atmos Techs who can make a pipe sing and who treat the laws of physics as more of a polite suggestion, have announced a new atmospherics device. The Pneumatic Valve will transfer gas from an inlet port to an outlet port, but only if the third control port is connected to a pipe with sufficient pressure.
+The Council of Atmosian Elders, the elite few Atmos Techs who treat the laws of physics as more of a polite suggestion, have announced a new atmospherics device. The Pneumatic Valve will transfer gas from an inlet port to an outlet port, but only if the third control port is connected to a pipe with sufficient pressure.
 
-This seemingly simple device is receiving so much attention because the Council claims that atmospherics is now "Turing-complete" and "could theoretically compute anything". We eagerly await the horrors this will inevitably produce.
+This seemingly simple device is receiving so much attention because atmospherics is now Turing-complete and could theoretically compute anything. We eagerly await the horrors this will inevitably produce.
 
-To jumpstart this process, the Council has provided a hint. Here's an unlabeled diagram of a NAND gate that works from left to right: 
+To jumpstart this process, we'll give you a hint. Here's an unlabeled diagram of a NAND gate that works from left to right: 
 
-TODO: NAND gate pic from PR (don't forget to rotate it to fit better)
+{{< imgw "/images/post/pr_38/nand" >}}
 
 {{< newsection >}}
 ### Gas Recyclers
@@ -206,7 +208,7 @@ To help facilitate the Cargo economy rebalance, support for generic stats window
 
 Here's what it looks like for Cargo sell prices:
 
-TODO: Pic from PR (but crop it)
+{{< imgw "/images/post/pr_38/sale" >}}
 
 {{< newsection >}}
 ### NPC & Pathfinding Refactor
@@ -233,7 +235,7 @@ Radiation spreading has been reworked. It can now be blocked by structures like 
 
 Here's a developer debug view of what radiation spreading looks like, note that the radiation source is the tile below the scrubber:
 
-TODO: pic from PR
+{{< imgw "/images/post/pr_38/rads" >}}
 
 {{< newsection >}}
 ### Wizard's Den Roleplaying Rules
@@ -278,7 +280,7 @@ A variety of changes and improves have been made to melee combat:
 
 The UI for interacting with other players' inventories has been completely remade; instead of a list of buttons, it now resembles the UI from Space Station 13 where you can view all of the slot contents of players (minus their pocket contents, of course).
 
-TODO: Vid from PR
+{{< video-auto "/video/pr_38/strip.mp4" >}}
 
 {{< newsection >}}
 ### Character Setup UI Tweaks
@@ -286,7 +288,7 @@ TODO: Vid from PR
 
 The character setup UI has been changed to be part of the lobby UI, rather than a separate screen.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_38/setup" >}}
 
 {{< newsection >}}
 ## Mapping
@@ -295,7 +297,7 @@ TODO: Pic from PR
 
 Kettle Station is now in service as the latest mid-high population map.
 
-TODO: Maprender from wiki
+{{< imgw "/images/post/pr_38/kettle" >}}
 
 {{< newsection >}}
 ## Credits
