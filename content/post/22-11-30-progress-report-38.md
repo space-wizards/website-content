@@ -6,7 +6,7 @@ categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_38" TODO
+thumbnail = "pr_38"
 +++
 We have a ton of huge changes like oldchat, machine upgrade improvements, playtime tracking, and more! We have some catching up to do, so this PR covers August through October 2022. As a consequence, we've ~~gone insane~~ skipped the Minor Changes.
 <!--more-->
