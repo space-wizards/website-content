@@ -8,7 +8,7 @@ categories = [
 reddit = ""
 thumbnail = "pr_38" TODO
 +++
-TODO - This is where the short description goes, it'll be shown under each blog post on the list of blog posts. Don't touch the `<!--more-->` tag, that's important.
+We have a ton of huge changes like oldchat, machine upgrade improvements, playtime tracking, and more! We have some catching up to do, so this PR covers August through October 2022. As a consequence, we've ~~gone insane~~ skipped the Minor Changes.
 <!--more-->
 
 <!-- Useful tags: 
