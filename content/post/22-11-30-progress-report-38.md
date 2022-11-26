@@ -1,5 +1,5 @@
 +++
-title = "Progress Report #38: Lobby & Bobby"
+title = "Progress Report #38: Title TODO"
 author = "DrSmugleaf & ike709"
 date = 2022-11-30
 categories = [
@@ -174,7 +174,7 @@ To jumpstart this process, we'll give you a hint. Here's an unlabeled diagram of
 
 To improve the station's self-sustainability, Central Command has provided schematics for a new Gas Recycler. These machines take carbon dioxide or nitrous oxide, and produce oxygen or nitrogen respectively. The only caveat is that the inputted gas must have a pressure of at least 3 MPa and a temperature of at least 300 Celsius. That means any gasses coming out of it won't be safe for human consumption without further processing.
 
-TODO: Make a pic since the PR pic has drawings on it.
+{{< imgw "/images/post/pr_38/recycler" >}}
 
 {{< newsection >}}
 ### Eye Damage
@@ -182,9 +182,9 @@ _Contributed by Rane_
 
 Due to budget cuts, Medical reports that they can no longer afford to supply the crew with indestructible eyeballs. Engineers need to be extra cautious, as welding without protection will now damage their vision.
 
-Crewmembers experiencing blurry vision are advised to report to medical for a dose of oculine or a pair of prescription glasses.
+Crewmembers experiencing dark or confusing vision are advised to report to medical for a dose of oculine or a pair of prescription glasses.
 
-TODO: Pic of blurry vision?
+{{< imgw "/images/post/pr_38/welder" >}}
 
 {{< newsection >}}
 ### Machine Upgrades Overhaul
@@ -243,7 +243,7 @@ Here's a developer debug view of what radiation spreading looks like, note that 
 
 One of the hallmarks of Space Station 13 is the wide variety of roleplaying servers with different expectations and standards for how players should behave. To facilitate this in SS14, we've written a new, stricter roleplaying-focused ruleset. It's now live on the server Salamander, which is now denoted in the server list as `[US West RP]`. This will not replace the existing rules on our other servers, nor the custom rulesets of community servers.
 
-TODO: Screenshot of RP rules page on Salamander.
+You can find the full, extended version of the rules on our [wiki](https://wiki.spacestation14.io/wiki/Server_Rules).
 
 {{< newsection >}}
 ### Extended Rework & Ramping Event Scheduler
@@ -259,7 +259,7 @@ Total playtime and job playtime are now tracked. The most notable change associa
 
 All of this information is conveyed through the newly updated UI for job selection:
 
-TODO: I don't have much playtime post-tracking so I can make a short vid of the UI
+{{< imgw "/images/post/pr_38/jobs" >}}
 
 {{< newsection >}}
 ### Melee Refactor
