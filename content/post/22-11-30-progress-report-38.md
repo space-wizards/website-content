@@ -51,8 +51,8 @@ Another UI goodie is the new Element Picker, which allows developers to look at 
 
 {{< imgw "/images/post/pr_38/tomb" >}}
 
-*Here rests an unknown employee*
-*Unknown by name or rank*
+*Here rests an unknown employee,*
+*Unknown by name or rank,*
 *Whose acts will not be forgotten*
 
 On a serious note, the Tomb of the Unknown Employee was added to Space Station 13 in honor of a contributor who died in a car accident. It now stands as a monument to all of the contributors who have given a piece of themselves to make these games special and who have since passed away.
