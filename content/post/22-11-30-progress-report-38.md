@@ -295,7 +295,7 @@ The character setup UI has been changed to be part of the lobby UI, rather than 
 ### Kettle Station
 *Contributed by Cheackraze*
 
-Kettle Station is now in service as the latest mid-high population map.
+Kettle Station is now in service as the latest mid-high population map. It's also the only station with a new, unique Zookeeper job.
 
 {{< imgw "/images/post/pr_38/kettle" >}}
 
