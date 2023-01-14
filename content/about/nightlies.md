@@ -24,6 +24,7 @@ layout = "nightlies"
 
 ### Windows:
 
+* Windows 8.1 or above
 * [VC++ 2015 Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ### Linux:
