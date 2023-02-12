@@ -13,9 +13,9 @@ Remember when progress reports used to be released on time every month? Neither 
 
 <!-- Useful tags: 
 Section splitter: {{< newsection >}}
-Picture: {{< imgw "/images/post/pr_32/picture_name" >}}
-Autoplay video (no audio): {{< video-auto "/video/pr_32/file_name.mp4" >}}
-Paused vid (can do audio): {{< video-audio "/video/pr_32/file_name.mp4" >}}
+Picture: {{< imgw "/images/post/pr_39/picture_name" >}}
+Autoplay video (no audio): {{< video-auto "/video/pr_39/file_name.mp4" >}}
+Paused vid (can do audio): {{< video-audio "/video/pr_39/file_name.mp4" >}}
 
 Don't forget to run optipng on the pics then the script to convert them to webp.
 -->
@@ -29,16 +29,16 @@ Artifacts have gotten a big overhaul with the introduction of XenoArcheology! A 
 
 These changes also include an overhauled tech tree and a variety of new machines and items. Go do some science and discover all the new goodies!
 
-TODO: Surely one of the xenoarch PRs has a good pic?
+{{< imgw "/images/post/pr_39/xenoarch" >}}
 
 {{< newsection >}}
 ### RIPLEY Mechs
 *Contributed by EmoGarbage404*
 
 Turns out the schematics for Ripley mechs has been sitting in a filing cabinet in the Science breakroom this whole time.
-
 TODO: Rewrite this with something better probably
-TODO: Vid from PR?
+
+{{< video-audio "/video/pr_39/mech.mp4" >}}
 
 {{< newsection >}}
 ### PDA Catridges & UI Overhaul
@@ -46,7 +46,7 @@ TODO: Vid from PR?
 
 Thinktronic has released a new version of RobustOS™ for all PDA tablets. It includes a complete UI rewrite, support for installing programs via cartridges, a crew manifest, and it now comes in a variety of new colors.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_39/pda" >}}
 
 {{< newsection >}}
 ### NetProbe Cartridge
@@ -54,15 +54,15 @@ TODO: Pic from PR
 
 NetProbe is one of the first all-new PDA cartridges. Use it on any networked device to see its network info, and it can store up to 9 entries!
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_39/netprobe" >}}
 
 {{< newsection >}}
 ### Space Station XIV Lobby Screen
 *Contributed by keronshb*
 
-Welcome to Space Station XIV
+Welcome to Space Station XIV Online
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_39/xiv" >}}
 
 {{< newsection >}}
 ### Rapid Parts Exchange Device
@@ -86,7 +86,7 @@ TODO: Make a vid
 
 After repeated friendly-fire incidents, Central Command has decided to supply Security with a variety of practice targets and a practice laser gun. All officers are encouraged to spend some time at the range. A subsequent request for clarification confirmed that tying up the Clown for target practice is still permitted as long as non-lethal weaponry is used.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_39/targets" >}}
 
 {{< newsection >}}
 ## Fax Machines
@@ -100,7 +100,7 @@ TODO: Literally just use this youtube video: https://www.youtube.com/watch?v=m7f
 
 Intercoms have been added. Unfortunately the marketing department couldn't come up with anything clever to say about it.
 
-TODO: Pic
+{{< imgw "/images/post/pr_39/intercom" >}}
 
 {{< newsection >}}
 ## Prayers
@@ -108,7 +108,7 @@ TODO: Pic
 
 After several complaints from the Chaplain, the Captain has agreed to let crewmembers use the altar to pray to whatever gods may be listening. Tread lightly, or risk invoking their wrath.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_39/prayer" >}}
 
 {{< newsection >}}
 ## Subdermal Implants
@@ -124,7 +124,7 @@ TODO: Dear god please make a video of the sad trombone implant
 
 After numerous complaints in some variation of "That's not in the job description!", Central Command has now written job descriptions for all roles. You can read them via the job priority screen.
 
-TODO: Pic from PR
+{{< imgw "/images/post/pr_39/jobdesc" >}}
 
 {{< newsection >}}
 ## Diona
@@ -132,11 +132,11 @@ TODO: Pic from PR
 
 Central Command has approved the employment of Diona aboard the station. They're a real *tree-t* to be around and they *wood* love to help out.
 
-TODO: Pic from PR?
+{{< imgw "/images/post/pr_39/diona" >}}
 
 {{< newsection >}}
 ## Minor Changes
-Due to length constraints, not everything can get a dedicated section in the progress report and instead will be found listed here. This list is non-exhaustive but covers most player-facing changes.
+Due to length constraints, not everything can get a dedicated section in the progress report and instead will be found listed here.
 
 As of Progress Report 39, the Minor Changes section is now auto-generated from SS14's in-game changelog. So if you read the changelog, you won't see anything new here and you can skip to the next section.
 
@@ -310,7 +310,7 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 
 The Courser is the latest and greatest emergency shuttle for getting the hell out of dodge.
 
-TODO: Honestly the pic from the PR looks pretty good
+{{< imgw "/images/post/pr_39/shuttle" >}}
 
 {{< newsection >}}
 ## Credits
@@ -321,5 +321,4 @@ TODO
 
 ### Patrons
 <!-- Just bully PJB for these -->
-TODO
-*RichGuy1, RichGuy2, etc.*
+*Akira Shiroyanagi [無情な男], Aleksey, Alix Shepard, Altana, Anthony Fleck, AquaDraco, Ari., Austin Nelson, Bobberunio, Brandon Campbell, Carbonhell, clyf, Codmiestero7, Cormos Lemming, CPM311, Dan, Dan Griskardian, Daniel Thompson, Darren Brady, Daskata, Dave, DramaBuns, DubzyVEVO, Durp, Eric VW, Ethan Keller, Evan Armstrong, Farewell Fire, Fiebertraum Illhead, Florian, Gavin Simmons, Gaxeer, Gnomo, Gothryd, Hamcha, ikamuse johnson, Jeff Tatem, Jeremy Hernandez, JhenMaster, John Edward Hamilton Barchard, Joshington Awesomahee, Kevin, KevKev, Kris Piper, lapatison, Late Fox, liltenhead, March, Matouš Hrdlička, Matthew C Miklaucic, Mikhail, Mitchell Marry, Mono, Never Solus, Nicholas Hillblom, Odin The Wanderer, osborn, Pasemi, Peter "Azmond" Newhouse, Ramiro Agis, Rasmus Cedergren, Robin Rottstock, rosysyntax, russell, Samtaro, Saphire, Scott MacCombie, Skarlet, spinnermaster, Tamora Droppa, ThatGuyGW, The Hateful Flesh, TheGoldElite, tokie, Tomeno, tomhendo, Uinseann, Unknown Kiwi, vifs_vestige, Viridian, Wallace Megas, Will M., Wrexbe, Zandario, Александр Белошапка*
