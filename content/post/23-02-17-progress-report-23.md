@@ -316,8 +316,7 @@ The Courser is the latest and greatest emergency shuttle for getting the hell ou
 ## Credits
 ### Contributors Since Last Progress Report
 <!-- Use the script in SS14's tools dir. Make sure any subsection authors have their names replaced if they have an override in the script. -->
-TODO
-*001 commits, authored by: Person1, Person 2*
+*773 pull requests, authored by: 0x6273, AJCM-git, amylizzle, AruMoon, asperger-sind, brainfood1183, Bright0, Carbonhell, Cheackraze, Chief-Engineer, ChilbroBaggins, civilCornball, corentt, Daemon, deathride58, deltanedas, dmnct, DogZeroX, dontbetank, DrSmugleaf, Easypoller, ElectroJr, Elijahrane, Emisse, EmoGarbage404, eoineoineoin, Flareguy, Gaxeer, GoodWheatley, illersaver, Interrobang01, Jackrost, jicksaw, juliangiebel, Just-a-Unity-Dev, JustinTrotter, keronshb, KIBORG04, lapatison, Macoron, Mervill, metalgearsloth, mirrorcult, moony, Morb0, Mr0maks, Nairodian, nikthechampiongr, OldDanceJacket, Pangogie, Partmedia, PaulRitter, PixelTheKermit, PJB3005, PJBot, QuietlyWhisper, rolfero, S1ss3l, Salex08, Scribbles0, ShadowCommander, ssdaniel24, Stealthbomber16, stopka-html, TemporalOroboros, tgrkzus, theashtronaut, Theomund, timothyteakettle, veliebm, Veritius, Vordenburg, Willhelm53, wrexbe, Ygg01, Zumorica*
 
 ### Patrons
 <!-- Just bully PJB for these -->
