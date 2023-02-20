@@ -1,5 +1,5 @@
 +++
-title = "Progress Report #39: TODO"
+title = "Progress Report #39: Happy Holidelays"
 author = "DrSmugleaf & ike709"
 date = 2023-02-17
 categories = [
