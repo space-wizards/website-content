@@ -1,12 +1,12 @@
 +++
 title = "Progress Report #39: Happy Holidelays"
 author = "DrSmugleaf & ike709"
-date = 2023-02-17
+date = 2023-02-27
 categories = [
     "Progress Report"
 ]
 reddit = ""
-thumbnail = "pr_39" TODO
+thumbnail = "pr_39"
 +++
 Remember when progress reports used to be released on time every month? Neither do we! PR39 covers November and December 2022.
 <!--more-->
@@ -35,8 +35,7 @@ These changes also include an overhauled tech tree and a variety of new machines
 ### RIPLEY Mechs
 *Contributed by EmoGarbage404*
 
-Turns out the schematics for Ripley mechs has been sitting in a filing cabinet in the Science breakroom this whole time.
-TODO: Rewrite this with something better probably
+After several years of over-budget and misguided development, the science team has finally created Cargo's beloved mech, the Ripley. For use only for sanctioned cargo transfer (but who cares about the rules?)
 
 {{< video-audio "/video/pr_39/mech.mp4" >}}
 
@@ -70,19 +69,15 @@ Welcome to Space Station XIV Online
 
 Scientists, rejoice! The Rapid Parts Exchange Device is now available. Just fill it up with parts, whack a machine with it, and the upgrade is complete!
 
-TODO: Make a short vid of upgrading a machine
-
 {{< newsection >}}
 ## Button & Airlock Device Linking
 *Contributed by rolfero*
 
 Engineering uncrossed some wires in the airlock circuitry, so now you can link buttons and levers to them and windoors. Assuming you have access, of course.
 
-TODO: Make a vid
-
 {{< newsection >}}
 ## Target Dummies & Practice Guns
-*Contributed by ZeroDayDaemon*
+*Contributed by Daemon*
 
 After repeated friendly-fire incidents, Central Command has decided to supply Security with a variety of practice targets and a practice laser gun. All officers are encouraged to spend some time at the range. A subsequent request for clarification confirmed that tying up the Clown for target practice is still permitted as long as non-lethal weaponry is used.
 
@@ -92,7 +87,9 @@ After repeated friendly-fire incidents, Central Command has decided to supply Se
 ## Fax Machines
 *Contributed by Morb0*
 
-TODO: Literally just use this youtube video: https://www.youtube.com/watch?v=m7f2xnOuERc
+You can now pester Central Command with state-of-the-art fax machines.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m7f2xnOuERc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 {{< newsection >}}
 ## Intercoms
@@ -104,7 +101,7 @@ Intercoms have been added. Unfortunately the marketing department couldn't come 
 
 {{< newsection >}}
 ## Prayers
-*Contributed by Just-a-Unity-Dev*
+*Contributed by eclips_e*
 
 After several complaints from the Chaplain, the Captain has agreed to let crewmembers use the altar to pray to whatever gods may be listening. Tread lightly, or risk invoking their wrath.
 
@@ -114,9 +111,7 @@ After several complaints from the Chaplain, the Captain has agreed to let crewme
 ## Subdermal Implants
 *Contributed by keronshb*
 
-Subdermal implants are now available for implantation. They come in a variety of flavors such as trackers, bombs, storage units, and even one to play music for your funeral:
-
-TODO: Dear god please make a video of the sad trombone implant
+Subdermal implants are now available for implantation. They come in a variety of flavors such as trackers, bombs, and storage units.
 
 {{< newsection >}}
 ## Job Descriptions
@@ -144,14 +139,14 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 
 - Added the technology disk terminal, where you can exchange 2500 research points for a random technology disk. *Contributed by EmoGarbage404*
 - Added the Traversal Distorter, a machine capable of pushing Artifacts' random node traversal in certain directions. Simply place an artifact on the machine and you can choose how you want to encourage it. *Contributed by EmoGarbage404*
-- CentCom now calls the shuttle automatically after a long round. *Contributed by Partmedia*
+- CentCom now calls the shuttle automatically after a long round. *Contributed by notafet*
 - Added the Node Scanner, which can identify the ID of an artifact's node with a single click. *Contributed by EmoGarbage404*
 - Item artifacts. Artifact spawns may now spawn handheld artifacts, which have a suite of new triggers and very useful effects, with more coming. *Contributed by mirrorcult*
 - The radar shown in mass scanners and shuttle consoles now resizes gracefully, scaling as expected with whatever breathing room it has!. *Contributed by deathride58*
 - Radiation suit and hardsuits have built-in geiger counter. *Contributed by Macoron*
 - Medbay can now obtain cryo pods, specialized cryogenics machines used to lower the temperature of a patient to extreme values somewhat safely to use specific chemicals, such as cryoxadone. *Contributed by Carbonhell*
 - Wet floor sparkles are now slightly more opaque and stay invisible for less of their animation cycle. *Contributed by Willhelm53*
-- All humanoid metabolized reagents should apply effects proportional to how much was taken in. Eating 0.1u of a paralyzation drug will stun you for 1/5 the time as eating 0.5u. *Contributed by Elijahrane*
+- All humanoid metabolized reagents should apply effects proportional to how much was taken in. Eating 0.1u of a paralyzation drug will stun you for 1/5 the time as eating 0.5u. *Contributed by rane*
 - The Syndicate has adjusted the price of several uplink items to encourage traitors to use more diverse strategies. *Contributed by GoodWheatley*
 - Added new animal, pig, and new chef's pet-companion. *Contributed by lapatison*
 - All NT personnel have been trained to apply handcuffs in an aggressive manner. *Contributed by dmnct*
@@ -171,7 +166,7 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 - Ghosts can now toggle seeing FoV. *Contributed by mirrorcult*
 - Turrets will now shoot space targets. *Contributed by metalgearsloth*
 - Added hot plates for heating up beakers. No longer are chemists bound to the humble microwave. *Contributed by EmoGarbage404*
-- Burning entities now emit light. *Contributed by ElectroJr*
+- Burning entities now emit light. *Contributed by ElectroSR*
 - Kick AFK players. *Contributed by Morb0*
 - Fixed a server error when spawning nuke ops. *Contributed by DrSmugleaf*
 - NPCs will now smash and pry correctly. *Contributed by metalgearsloth*
@@ -183,14 +178,14 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 - NT has begun distribution of books from the 'Newton's Guide to Atmos' series to stations. *Contributed by Chief-Engineer*
 - Rat servants will pathfind under doors again. *Contributed by metalgearsloth*
 - Added bag for carrying books and cargo order to get more of them. *Contributed by dontbetank*
-- Admins will have an easier time running santa-related events (as santa can see inside gifts). *Contributed by moonheart08*
+- Admins will have an easier time running santa-related events (as santa can see inside gifts). *Contributed by moony*
 - Blood stains now fade out instead of becoming sparkles. *Contributed by EmoGarbage404*
 - Bump NPC avoidance range and fix some instances of unapproved dancing. *Contributed by metalgearsloth*
 - NPCs will ignore stationary allies for separation. Pets in particular will move through other stationary pets. *Contributed by metalgearsloth*
 - NPCs will no longer stall on 1 bad path. *Contributed by metalgearsloth*
 - The internals alert will blink again when your gas tank need to be refilled. *Contributed by corentt*
 - the price of food now depends on its nutritional capacity. *Contributed by corentt*
-- The fallback for the 'keep another traitor alive' condition now just gives you stay alive rather than telling you to keep yourself alive. *Contributed by Elijahrane*
+- The fallback for the 'keep another traitor alive' condition now just gives you stay alive rather than telling you to keep yourself alive. *Contributed by rane*
 - Armor prices are calculated based on damage reduction. *Contributed by rolfero*
 - Changed the laser crate to now require armory access. *Contributed by Nairodian*
 - Upgradeable machines can now be examined to show the effects that the upgrades have. *Contributed by 0x6273*
@@ -205,20 +200,20 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 - Added a volume slider for the lobby & round-end music so you can enjoy it without blowing out your eardrums. *Contributed by theashtronaut*
 - Shot Projectiles cause impulses like it was supposed to. *Contributed by Salex08*
 - Stealth boxes have been rebalanced. They now require players to move slower to stay hidden, collide with bullets, and can no longer trap simple mobs. *Contributed by keronshb*
-- Objectives involving other traitors should be more reliable at providing traitors that are alive and not SSD. *Contributed by Elijahrane*
+- Objectives involving other traitors should be more reliable at providing traitors that are alive and not SSD. *Contributed by rane*
 - fixed windoor hacking. *Contributed by JustinTrotter*
-- Fixed vehicles not working. *Contributed by ElectroJr*
+- Fixed vehicles not working. *Contributed by ElectroSR*
 - Cat ears now cost 26tc. *Contributed by mirrorcult*
 - Added XenoSci things and a mass scanner for salvage crew to Lighthouse. *Contributed by Cheackraze*
 - Overdrawing with a syringe no longer destroys the transferred solution. *Contributed by JustinTrotter*
 - Mousetraps no longer autokill cardboard box users. *Contributed by keronshb*
 - Droppers behave more like injectors. *Contributed by JustinTrotter*
 - The flames of lit welders now look bright in the dark. *Contributed by Vordenburg*
-- You now shove people rather than "disarm" them if they aren't holding anything. *Contributed by Elijahrane*
+- You now shove people rather than "disarm" them if they aren't holding anything. *Contributed by rane*
 - internals tanks with air no longer flash warning. *Contributed by Bright0*
 - Removed duplicate disarm popup when disarming someone with an item in their hands. *Contributed by ShadowCommander*
 - Clarified machine missing messages for the cloner. *Contributed by Vordenburg*
-- You can no longer use machines which require vision while blind. *Contributed by Elijahrane*
+- You can no longer use machines which require vision while blind. *Contributed by rane*
 - Added a Toggle Ghosts button on the ghost GUI to get rid of those pesky apparitions. *Contributed by ShadowCommander*
 - Fixed an issue where crates would clip through firelocks. *Contributed by keronshb*
 - Cell charger is destructible and doesn't block mobs movement. *Contributed by Macoron*
@@ -228,10 +223,10 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 - Alt-clicking can now be used on hands again. *Contributed by ShadowCommander*
 - Wiki now displays the proper names and descriptions for chemistry recipes and the rest instead of the localization keys. *Contributed by Carbonhell*
 - Pets can wear breath/medical masks and air tanks. Save those pets!. *Contributed by JustinTrotter*
-- Fixed collision mispredictions when something like a locker or crates get toggled open and closed. *Contributed by ElectroJr*
+- Fixed collision mispredictions when something like a locker or crates get toggled open and closed. *Contributed by ElectroSR*
 - Ghosts can now toggle the lighting manager to be able to better observe dark areas. *Contributed by Carbonhell*
 - Fixed a bug allowing lathes to infinitely print items when upgraded. *Contributed by EmoGarbage404*
-- You can inject all animals with syringes now. Veterinarians rejoice!. *Contributed by Elijahrane*
+- You can inject all animals with syringes now. Veterinarians rejoice!. *Contributed by rane*
 - Lightning is fixed to properly collide. *Contributed by keronshb*
 - Construction menu displays correct icon for air injector. *Contributed by eoineoineoin*
 - Allowed Proto-Kinetic Accelerators to be stored in the belt slot. *Contributed by civilCornball*
@@ -262,10 +257,10 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 - Fixed rich text wrapping. *Contributed by PJB3005*
 - Added ban list window for admins. *Contributed by DrSmugleaf*
 - Fixed a rounding error which would cause certain parts in machine upgrades to not work. This has mostly affected the artifact analyzer. *Contributed by EmoGarbage404*
-- Combat mode no longer disables alt-clicking. *Contributed by ElectroJr*
+- Combat mode no longer disables alt-clicking. *Contributed by ElectroSR*
 - The savage magnet now has functional LED lights. *Contributed by JustinTrotter*
-- Fixed LOOC chat prefix not working. Now messages starting starting with "(" just be interpreted as LOOC chat. *Contributed by ElectroJr*
-- Origin station has been pulled temporarily due to needing re-review. *Contributed by moonheart08*
+- Fixed LOOC chat prefix not working. Now messages starting starting with "(" just be interpreted as LOOC chat. *Contributed by ElectroSR*
+- Origin station has been pulled temporarily due to needing re-review. *Contributed by moony*
 - Fixes an issue where teleporting would happen if someone raised a riot shield . *Contributed by keronshb*
 - Eswords can damage windows now. *Contributed by GoodWheatley*
 - You can't turn chameleon hat into cat ears. *Contributed by Macoron*
@@ -276,22 +271,22 @@ As of Progress Report 39, the Minor Changes section is now auto-generated from S
 - Fix damage effect persisting indefinitely. *Contributed by metalgearsloth*
 - Chameleon masks and helmets can hide your identity. *Contributed by Macoron*
 - The 'toggle ghosts' button while a ghost is now an action. *Contributed by mirrorcult*
-- Names show during the join announcement again. *Contributed by Elijahrane*
+- Names show during the join announcement again. *Contributed by rane*
 - Resprited the Detective's Coat. *Contributed by EmoGarbage404*
 - Omnitool can cut lattice and pry unpowered doors. *Contributed by Macoron*
 - Added machine upgrades for the medical scanner. You can now decrease the chance that cloning fails on a body. *Contributed by EmoGarbage404*
 - Added damage to gas tanks and utensils!. *Contributed by illersaver*
-- Fixed mice and other small entities becoming unable to move sometimes after they leave a container. *Contributed by Elijahrane*
+- Fixed mice and other small entities becoming unable to move sometimes after they leave a container. *Contributed by rane*
 - the RPED can now actually be printed at protolathes. *Contributed by EmoGarbage404*
 - add missing flame to cowelder. *Contributed by Gaxeer*
 - Item artifacts can now be scanned. *Contributed by EmoGarbage404*
 - Magnet artifacts can now be activated with magboots. *Contributed by EmoGarbage404*
 - You can no longer use an RPED to increase a generator's power output infinitely. *Contributed by EmoGarbage404*
 - Individual stations can now have specific emergency shuttles. *Contributed by Vordenburg*
-- Fixed a bug causing gas/fire visuals to sometimes not update properly. *Contributed by ElectroJr*
+- Fixed a bug causing gas/fire visuals to sometimes not update properly. *Contributed by ElectroSR*
 - Items dropped onto a moving Conveyor by the disposal network move immediately . *Contributed by Mervill*
 - Fix conveyor assemblies being un-interactable after deconstruct. *Contributed by Mervill*
-- Hopefully fixed an issue that was causing entities to sometimes not appear (e.g., "invisible walls"). Please re-report if it reoccurs on updated servers. *Contributed by ElectroJr*
+- Hopefully fixed an issue that was causing entities to sometimes not appear (e.g., "invisible walls"). Please re-report if it reoccurs on updated servers. *Contributed by ElectroSR*
 - The RPG-7 can be loaded again with its proper ammo. *Contributed by Vordenburg*
 - Heterochromia is now available through the markings tab, located under the head section. *Contributed by Scribbles0*
 - Fixed missing text regarding voice triggers. *Contributed by EmoGarbage404*
@@ -316,7 +311,7 @@ The Courser is the latest and greatest emergency shuttle for getting the hell ou
 ## Credits
 ### Contributors Since Last Progress Report
 <!-- Use the script in SS14's tools dir. Make sure any subsection authors have their names replaced if they have an override in the script. -->
-*773 pull requests, authored by: 0x6273, AJCM-git, amylizzle, AruMoon, asperger-sind, brainfood1183, Bright0, Carbonhell, Cheackraze, Chief-Engineer, ChilbroBaggins, civilCornball, corentt, Daemon, deathride58, deltanedas, dmnct, DogZeroX, dontbetank, DrSmugleaf, Easypoller, ElectroJr, Elijahrane, Emisse, EmoGarbage404, eoineoineoin, Flareguy, Gaxeer, GoodWheatley, illersaver, Interrobang01, Jackrost, jicksaw, juliangiebel, Just-a-Unity-Dev, JustinTrotter, keronshb, KIBORG04, lapatison, Macoron, Mervill, metalgearsloth, mirrorcult, moony, Morb0, Mr0maks, Nairodian, nikthechampiongr, OldDanceJacket, Pangogie, Partmedia, PaulRitter, PixelTheKermit, PJB3005, PJBot, QuietlyWhisper, rolfero, S1ss3l, Salex08, Scribbles0, ShadowCommander, ssdaniel24, Stealthbomber16, stopka-html, TemporalOroboros, tgrkzus, theashtronaut, Theomund, timothyteakettle, veliebm, Veritius, Vordenburg, Willhelm53, wrexbe, Ygg01, Zumorica*
+*773 pull requests, authored by: 0x6273, AJCM-git, amylizzle, AruMoon, asperger-sind, brainfood1183, Bright0, Carbonhell, Cheackraze, Chief-Engineer, ChilbroBaggins, civilCornball, corentt, Daemon, deathride58, deltanedas, dmnct, DogZeroX, dontbetank, DrSmugleaf, Easypoller, ElectroSR, rane, Emisse, EmoGarbage404, eoineoineoin, Flareguy, Gaxeer, GoodWheatley, illersaver, Interrobang01, Jackrost, jicksaw, juliangiebel, eclips_e, JustinTrotter, keronshb, KIBORG04, lapatison, Macoron, Mervill, metalgearsloth, mirrorcult, moony, Morb0, Mr0maks, Nairodian, nikthechampiongr, OldDanceJacket, Pangogie, notafet, PaulRitter, PixelTheKermit, PJB3005, QuietlyWhisper, rolfero, S1ss3l, Salex08, Scribbles0, ShadowCommander, ssdaniel24, Stealthbomber16, stopka-html, TemporalOroboros, tgrkzus, theashtronaut, Theomund, timothyteakettle, veliebm, Veritius, Vordenburg, Willhelm53, wrexbe, Ygg01, Zumorica*
 
 ### Patrons
 <!-- Just bully PJB for these -->
