@@ -130,6 +130,16 @@ Central Command has approved the employment of Diona aboard the station. They're
 {{< imgw "/images/post/pr_39/diona" >}}
 
 {{< newsection >}}
+## Mapping
+
+### Courser Emergency Evacuation Shuttle
+*Contributed by Cheackraze*
+
+The Courser is the latest and greatest emergency shuttle for getting the hell out of dodge.
+
+{{< imgw "/images/post/pr_39/shuttle" >}}
+
+{{< newsection >}}
 ## Minor Changes
 Due to length constraints, not everything can get a dedicated section in the progress report and instead will be found listed here.
 
