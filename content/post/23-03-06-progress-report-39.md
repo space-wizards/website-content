@@ -57,7 +57,7 @@ NetProbe is one of the first all-new PDA cartridges. Use it on any networked dev
 
 {{< newsection >}}
 ### Space Station XIV Lobby Screen
-*Contributed by keronshb*
+*Contributed by keronshb, art by https://twitter.com/aby_doodles*
 
 Welcome to Space Station XIV Online
 
