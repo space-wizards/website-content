@@ -70,13 +70,13 @@ Welcome to Space Station XIV Online
 Scientists, rejoice! The Rapid Parts Exchange Device is now available. Just fill it up with parts, whack a machine with it, and the upgrade is complete!
 
 {{< newsection >}}
-## Button & Airlock Device Linking
+### Button & Airlock Device Linking
 *Contributed by rolfero*
 
 Engineering uncrossed some wires in the airlock circuitry, so now you can link buttons and levers to them and windoors. Assuming you have access, of course.
 
 {{< newsection >}}
-## Target Dummies & Practice Guns
+### Target Dummies & Practice Guns
 *Contributed by Daemon*
 
 After repeated friendly-fire incidents, Central Command has decided to supply Security with a variety of practice targets and a practice laser gun. All officers are encouraged to spend some time at the range. A subsequent request for clarification confirmed that tying up the Clown for target practice is still permitted as long as non-lethal weaponry is used.
@@ -84,7 +84,7 @@ After repeated friendly-fire incidents, Central Command has decided to supply Se
 {{< imgw "/images/post/pr_39/targets" >}}
 
 {{< newsection >}}
-## Fax Machines
+### Fax Machines
 *Contributed by Morb0*
 
 You can now pester Central Command with state-of-the-art fax machines.
@@ -92,7 +92,7 @@ You can now pester Central Command with state-of-the-art fax machines.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m7f2xnOuERc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 {{< newsection >}}
-## Intercoms
+### Intercoms
 *Contributed by EmoGarbage404*
 
 Intercoms have been added. Unfortunately the marketing department couldn't come up with anything clever to say about it.
@@ -100,7 +100,7 @@ Intercoms have been added. Unfortunately the marketing department couldn't come 
 {{< imgw "/images/post/pr_39/intercom" >}}
 
 {{< newsection >}}
-## Prayers
+### Prayers
 *Contributed by eclips_e*
 
 After several complaints from the Chaplain, the Captain has agreed to let crewmembers use the altar to pray to whatever gods may be listening. Tread lightly, or risk invoking their wrath.
@@ -108,13 +108,13 @@ After several complaints from the Chaplain, the Captain has agreed to let crewme
 {{< imgw "/images/post/pr_39/prayer" >}}
 
 {{< newsection >}}
-## Subdermal Implants
+### Subdermal Implants
 *Contributed by keronshb*
 
 Subdermal implants are now available for implantation. They come in a variety of flavors such as trackers, bombs, and storage units.
 
 {{< newsection >}}
-## Job Descriptions
+### Job Descriptions
 *Contributed by mirrorcult*
 
 After numerous complaints in some variation of "That's not in the job description!", Central Command has now written job descriptions for all roles. You can read them via the job priority screen.
@@ -122,7 +122,7 @@ After numerous complaints in some variation of "That's not in the job descriptio
 {{< imgw "/images/post/pr_39/jobdesc" >}}
 
 {{< newsection >}}
-## Diona
+### Diona
 *Contributed by EmoGarbage404*
 
 Central Command has approved the employment of Diona aboard the station. They're a real *tree-t* to be around and they *wood* love to help out.
