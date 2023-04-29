@@ -103,3 +103,6 @@ You can ask for help in our [Discord server](https://discord.ss14.io) in the [#b
 
 ### Q: How do I enable logging?
 On the launcher's options tab, enable "log client" and "log launcher". Press "Open Log directory" to see the logs.
+
+### Q: Will the game run on Windows 7?
+The game will not run on Windows 7 and there's nothing anyone can do to change this. We suggest you upgrade to a modern and supported operating system.

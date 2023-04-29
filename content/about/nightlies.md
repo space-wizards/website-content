@@ -50,3 +50,7 @@ No. If you're paranoid you can download the code yourself and build from source 
 #### What about ARM?
 
 ARM is currently supported for Linux servers but nowhere else.
+
+#### What about Windows 7?
+
+Windows 7 is not supported and never will be, period.
