@@ -88,7 +88,7 @@ Yes, we even have templates for both [singleplayer](https://github.com/space-wiz
 ### Q: Is There a Patreon? Can I donate?
 [Yes.](https://www.patreon.com/spacestation14) We started a Patreon in order to pay for productivity software, server hosting, art commissions, and more! In addition to providing rewards, we will also regularly post a financial statement that shows how our income is being used in the game's development. We want to give our patrons full trust and confidence, and we believe that being 100% transparent about how the money is being used is best.
 
-Our finances are public in this regularly updated [google sheet](https://docs.google.com/spreadsheets/d/1iP3qOeTxrwN0DyeJvPndE7i1_nXeKL25j96wFIgYcU8/edit?usp=sharing).
+Our finances are public in this regularly updated [google sheet](https://docs.google.com/spreadsheets/d/1_EIs2myVyatmbuPxkhwvgIGzQ543v4LewhbDivJdV_o/edit?usp=sharing).
 
 ### Q: How can I appeal an in-game ban?
 If you have been banned from the official "Wizard's Den" servers, you can appeal your ban in our [forums](https://forum.spacestation14.io/index.php?/forum/4-ban-appeals/).
