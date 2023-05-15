@@ -34,8 +34,7 @@ layout = "nightlies"
 
 ### macOS:
 
-* High Sierra or greater
-* M1 Macs probably do not work
+* Catalina (10.15) or greater
 
 ## FAQ
 
