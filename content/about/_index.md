@@ -54,7 +54,7 @@ Originally, the SS14 project was a continuation of [Goonstation](https://forum.s
 
  From that point on I spent two years just learning and spent the majority of my time actually learning OpenGL.
 
- Then PJB hit me up and he took the reins of refactoring the ever living shit out of this project trying to make everything modular. Bobdabiscuit made this discord and everyone here has worked to create a common ground for codebases to branch off of
+ Then PJB hit me up and she took the reins of refactoring the ever living shit out of this project trying to make everything modular. Bobdabiscuit made this discord and everyone here has worked to create a common ground for codebases to branch off of
 
  That's pretty much it for the history, the rest is to be created.
 
