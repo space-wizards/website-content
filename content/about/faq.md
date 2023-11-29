@@ -22,7 +22,7 @@ Any other domain is not affiliated with us.
 - [Official Forums](https://forum.ss14.io)
 
 #### Socials
-- [Patreon](https://www.patreon.com/spacestation14) ([Finances](https://docs.google.com/spreadsheets/d/1iP3qOeTxrwN0DyeJvPndE7i1_nXeKL25j96wFIgYcU8))
+- [Patreon](https://www.patreon.com/spacestation14) ([Finances](https://docs.google.com/spreadsheets/d/1_EIs2myVyatmbuPxkhwvgIGzQ543v4LewhbDivJdV_o/edit?usp=sharing))
 - [Lemmy](https://lemmy.spacestation14.com)
 - [Discord](https://discord.ss14.io)
 - [Mastodon](https://mastodon.gamedev.place/@spacestation14)
