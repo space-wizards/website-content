@@ -34,12 +34,12 @@ Rome was not built in a day, and neither was SS14. We can always use extra hands
 
 We primarily communicate through Discord:
 
-* [Discord Invite](https://discord.gg/T5EejNS)
+* [Discord Invite](https://discord.ss14.io/)
 
 We also have some other project services set up:
 
 * [Automatic Content Builds](/about/nightlies)
-* [Wikijs Documentation](https://docs.ss14.io)
+* [Developer Documentation](https://docs.ss14.io)
 
 ## History
 
