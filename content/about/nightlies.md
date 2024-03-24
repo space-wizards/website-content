@@ -34,7 +34,7 @@ layout = "nightlies"
 
 ### macOS:
 
-* Catalina (10.15) or greater
+* Monterey (12) or greater
 
 ## FAQ
 
@@ -50,6 +50,6 @@ No. If you're paranoid you can download the code yourself and build from source 
 
 ARM is currently supported for Linux servers but nowhere else.
 
-#### What about Windows 7?
+#### What about Windows 7 and Windows 8?
 
-Windows 7 is not supported and never will be, period.
+Windows 7 and 8 are not supported and never will be, period.
