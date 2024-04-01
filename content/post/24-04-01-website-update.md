@@ -2,6 +2,7 @@
 title = "Website Update"
 author = "PJB3005"
 date = 2024-04-01
+thumbnail = "website-update"
 +++
 
 This isn't an April's Fools joke, I just happened to do this on Aprils First.
