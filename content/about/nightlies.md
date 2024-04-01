@@ -40,7 +40,7 @@ layout = "nightlies"
 
 #### What about 32-bit support?
 
-32-bit (x86) is not supported. All modern CPUs are 32-bit, there is no reason for us to continue supporting it.
+32-bit (x86) is not supported. All modern CPUs are 64-bit, there is no reason for us to continue supporting 32-bit.
 
 #### Is Apple Silicon supported?
 
