@@ -215,7 +215,7 @@ Here's what it looks like for Cargo sell prices:
 ### NPC & Pathfinding Refactor
 *Contributed by metalgearsloth*
 
-People who have been following SS14 for a long time may remember that advanced NPCs were implemented all the way back in 2020 during [Progress Report 22](https://spacestation14.io/post/20-06-07-progress-report-22/#utility-ai-still-wip). Ever since then they've largely been untouched and left to rot as the rest of the project evolved around them, but not anymore!
+People who have been following SS14 for a long time may remember that advanced NPCs were implemented all the way back in 2020 during [Progress Report 22](https://spacestation14.com/post/20-06-07-progress-report-22/#utility-ai-still-wip). Ever since then they've largely been untouched and left to rot as the rest of the project evolved around them, but not anymore!
 
 NPC AI and pathfinding have been completely rewritten to bring it up to par with everything else. There's not much to visually showcase, but there are some notable improvements:
 

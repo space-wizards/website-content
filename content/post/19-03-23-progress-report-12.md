@@ -70,7 +70,7 @@ I was gonna post a video here but the screen recorder I'm using broke and I'm to
 
 ## Nightly Builds Back Up.
 
-[Try SS14 out today here!](https://spacestation14.io/about/nightlies/)
+[Try SS14 out today here!](https://spacestation14.com/about/nightlies/)
 
 I finally re-installed Jenkins on the builds server and got the builds producing again. Woo! You can try out SS14 for yourself now (and still be disappointed).
 

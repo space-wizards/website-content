@@ -19,7 +19,7 @@ SS14 now has playable, albeit **barebones**, rounds. As we add more features the
 ## Clarification about the Steam release
 We're all excited for SS14's [upcoming Steam release](https://store.steampowered.com/app/1255460/Space_Station_14/), and we're grateful for the community's enthusiasm, but we also want to temper some unrealistic expectations. SS14 isn't finished, and won't be any time soon. **We're launching on Steam mainly as a way to make it easier to discover, download, and play the game.** The Steam release doesn't mean the game's done, or that it has most of the features you'd expect in a remake. Don't forget that we're only releasing into **Early Access**.
 
-So while SS14 is [already "playable"](https://spacestation14.io/about/nightlies/), **we don't expect or encourage players to jump from SS13 to SS14 yet**, nor do we expect our servers to be populated outside of playtesting events. And if you'd like to help playtest, ask for the Tester role over on our discord.
+So while SS14 is [already "playable"](https://spacestation14.com/about/nightlies/), **we don't expect or encourage players to jump from SS13 to SS14 yet**, nor do we expect our servers to be populated outside of playtesting events. And if you'd like to help playtest, ask for the Tester role over on our discord.
 
 Anyway, let's see the new features we've added!
 
