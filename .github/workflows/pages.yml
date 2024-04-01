@@ -23,6 +23,9 @@ jobs:
       - name: Npm install
         run: npm install
 
+      - name: Npm build
+        run: npm run build
+
       - name: Build
         run: hugo --minify
 

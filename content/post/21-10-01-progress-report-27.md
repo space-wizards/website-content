@@ -3,7 +3,8 @@ title = "Progress Report #27: Transported to the Chess Dimension"
 author = "Space Wizards"
 date = 2021-09-29
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = "https://www.reddit.com/r/SS13/comments/q44pwe/space_station_14_progress_report_27_transported/"
 thumbnail = "pr_27"

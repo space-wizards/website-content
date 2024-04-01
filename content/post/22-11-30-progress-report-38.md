@@ -3,7 +3,8 @@ title = "Progress Report #38: Oh Baby a Triple"
 author = "DrSmugleaf & ike709"
 date = 2022-11-30
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_38"
@@ -11,7 +12,7 @@ thumbnail = "pr_38"
 Oh yeah. We have a ton of huge changes like oldchat, machine upgrade improvements, playtime tracking, and more! We have some catching up to do, so this PR covers August through October 2022. As a consequence, we've ~~gone insane~~ skipped the Minor Changes.
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
 Picture: {{< imgw "/images/post/pr_38/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_38/file_name.mp4" >}}
@@ -164,7 +165,7 @@ The Council of Atmosian Elders, the elite few Atmos Techs who treat the laws of 
 
 This seemingly simple device is receiving so much attention because atmospherics is now Turing-complete and could theoretically compute anything. We eagerly await the horrors this will inevitably produce.
 
-To jumpstart this process, we'll give you a hint. Here's an unlabeled diagram of a NAND gate that works from left to right: 
+To jumpstart this process, we'll give you a hint. Here's an unlabeled diagram of a NAND gate that works from left to right:
 
 {{< imgw "/images/post/pr_38/nand" >}}
 

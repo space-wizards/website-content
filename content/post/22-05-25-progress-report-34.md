@@ -3,7 +3,8 @@ title = "Progress Report #34: Manifest Destiny"
 author = "DrSmugleaf, ike709, and Timrod"
 date = 2022-05-25
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_34"

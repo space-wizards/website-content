@@ -3,7 +3,8 @@ title = "Progress Report #28: Atmosia Rising"
 author = "Timrod"
 date = 2021-11-24
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = "https://www.reddit.com/r/ss14/comments/r1dcs7/progress_report_28_atmosia_rising/"
 thumbnail = "pr_28"

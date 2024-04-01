@@ -3,7 +3,8 @@ title = "Progress Report #31: Duck, Duck, Weh"
 author = "ike709"
 date = 2022-03-16
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_31"

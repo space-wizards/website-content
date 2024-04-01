@@ -14,11 +14,13 @@
 		{{ partial "head_includes.html" }}
 	</head>
 	<body lang="en">
+		{{ partial "vue_templates.html" }}
+
 		<div class="section-shadow mt-2">
 			<div id="header" class="container angle-rect optional">
 			<nav class="navbar navbar-expand-lg navbar-dark p-0">
 						<a href="/" id="name" class="navbar-brand">
-							<img id="logo" src="/images/main/variations/trans/icon.svg" alt="" height="50" />
+							<img id="logo" src="/images/main/variations/trans/icon.svg" alt="The small logo of Space Station 14, in transgender flag colors" height="50" />
 						</a>
 
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +36,9 @@
 								</li>
 								<li class="nav-item">
 									<a class="nav-link navlink {{if eq $nla "posts" }} active {{ end }}" href="/post/">News</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "updates" }} active {{ end }}" href="/categories/update">Updates</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link navlink {{if eq $nla "play" }} active {{ end }}" href="/about/nightlies/">Download</a>

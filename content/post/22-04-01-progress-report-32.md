@@ -3,7 +3,8 @@ title = "Progress Report #32: Geoff"
 author = "DrSmugleaf, ike709, & Timrod"
 date = 2022-04-01
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_32"

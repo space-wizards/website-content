@@ -3,7 +3,8 @@ title = "Progress Report #29: A Lot To Unpack"
 author = "Timrod"
 date = 2021-12-09
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_29"

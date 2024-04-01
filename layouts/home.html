@@ -62,6 +62,11 @@
 						SS14 is a remake of the cult classic <strong>Space Station 13</strong>. The game is under active development and completely <a href="https://github.com/space-wizards/space-station-14/">open source</a>. Anybody can contribute, even you!
 					</p>
 				</div>
+				<div class="home-button-list mx-3">
+					<a href="https://discord.ss14.io/"><img src="/images/logo/discord.svg" width="200" /></a>
+					<a href="https://store.steampowered.com/app/1255460/Space_Station_14/"><img src="/images/logo/steam.svg" width="200" /></a>
+					<a href="https://github.com/space-wizards/space-station-14/"><img src="/images/logo/github.svg" width="155" /></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -70,21 +75,57 @@
 <div class="section-shadow">
 	<div class="container section-bg mb-4 py-3 angle-rect optional">
 		<div class="row">
-			<div id="home-posts" class="col-md-9">
+			<div id="home-posts" class="col-md-12">
 				<div class="mx-3">
 					<h2>Updates</h2>
-					{{ range first 3 .Site.RegularPages }}
+					{{ range .Site.Taxonomies.categories.update | first 3 }}
 						{{ .Render "summary"}}
 					{{ end }}
-
-					<a href="/post" class="fs-5">See all posts</a>
+					<a href="/categories/update" class="fs-5">See all updates</a>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="d-flex flex-column align-items-center me-md-2 mt-3 mt-md-0" id="logos-container">
-					<a href="https://discord.ss14.io/"><img src="/images/logo/discord.svg" width="200" /></a>
-					<a href="https://store.steampowered.com/app/1255460/Space_Station_14/"><img src="/images/logo/steam.svg" width="200" /></a>
-					<a href="https://github.com/space-wizards/space-station-14/"><img src="/images/logo/github.svg" width="155" /></a>
+		</div>
+	</div>
+</div>
+
+<div class="section-shadow">
+	<div class="container section-bg mb-4 py-3 angle-rect optional">
+		<div class="row">
+		<div class="row">
+			<div id="home-posts" class="col-md-12">
+				<div class="mx-3">
+					<h2>News</h2>
+					{{ range where .Site.RegularPages "Section" "in" .Site.MainSections | first 3 }}
+						{{ .Render "summary"}}
+					{{ end }}
+					<a href="/post" class="fs-5">See all news</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-shadow">
+	<div class="container section-bg mb-4 py-3 angle-rect optional">
+		<div class="row">
+			<div id="home-posts" class="col-md-12">
+				<div class="mx-3">
+					<h2>Online Servers</h2>
+
+					<div id="home-servers" class="server-list-short" v-scope="shortServerList()" @vue:mounted="mounted">
+						<div v-if="loading" class="server-list-loading">
+							Loading servers...
+						</div>
+						<div v-else class="server-list-contents">
+							<div v-for="item in servers" class="server-entry">
+								<div v-scope="serverEntry(item)"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="home-servers-explainer">
+						Top English servers, by player count. Browse the full list and connect by <a href="/about/nightlies/">downloading the launcher</a>.
+					</div>
 				</div>
 			</div>
 		</div>

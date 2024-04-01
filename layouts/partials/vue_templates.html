@@ -1,0 +1,26 @@
+<template id="server-entry-template">
+	<div class="server-entry-title">
+		<img class="server-entry-icon" src="/images/main/icon.svg" alt="" />
+		<span class="server-entry-name">{{ "{{statusData.name}}" }}</span>
+	</div>
+
+	<div class="server-entry-info-labels">
+		<div class="server-entry-info-label">
+			Players online: <span class="server-entry-info-label-value">{{ "{{statusData.players}}" }}</span>
+		</div>
+		<div v-if="statusData.map" class="server-entry-info-label">
+			Map: <span class="server-entry-info-label-value">{{ "{{statusData.map}}" }}</span>
+		</div>
+		<div v-if="statusData.run_level == 0" class="server-entry-info-label">
+			Round is in the <span class="server-entry-info-label-value">lobby</span>
+		</div>
+		<div v-else-if="statusData.run_level == 1 && statusData.round_start_time" class="server-entry-info-label">
+			Round started <span class="server-entry-info-label-value">{{ "{{ roundStartedAgo }}" }} ago</span>
+		</div>
+		<div v-else-if="statusData.run_level == 2" class="server-entry-info-label">
+			Round <span class="server-entry-info-label-value">just ended</span>
+		</div>
+	</div>
+
+	<code class="server-entry-address">{{ "{{address}}" }}</span>
+</template>

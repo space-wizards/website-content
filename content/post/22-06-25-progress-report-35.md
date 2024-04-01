@@ -3,7 +3,8 @@ title = "Progress Report #35: Going Nuclear"
 author = "DrSmugleaf, ike709, & Timrod"
 date = 2022-06-25
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_35"
@@ -11,7 +12,7 @@ thumbnail = "pr_35"
 Nuclear Operatives, magic, and more!
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
 Picture: {{< imgw "/images/post/pr_35/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_35/file_name.mp4" >}}
@@ -289,7 +290,7 @@ Central Command noticed that crewmembers and vending machines didn't actually ma
 ### Typing Indicator
 *Contributed by Macoron*
 
-Central Command has noted a 30% decrease in awkward conversations after the addition of chat bubbles, which now pop up when someone is typing. 
+Central Command has noted a 30% decrease in awkward conversations after the addition of chat bubbles, which now pop up when someone is typing.
 
 {{< video-auto "/video/pr_35/typing.mp4" >}}
 

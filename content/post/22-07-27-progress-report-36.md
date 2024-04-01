@@ -3,7 +3,8 @@ title = "Progress Report #36: Too Much of a Good Thing"
 author = "DrSmugleaf & ike709"
 date = 2022-07-27
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_36"
@@ -11,7 +12,7 @@ thumbnail = "pr_36"
 There's so much new content that at least one Progress Report author has been driven mad! We've even surpassed /tg/station 13 by contributions per month.
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
 Picture: {{< imgw "/images/post/pr_36/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_36/file_name.mp4" >}}
@@ -51,7 +52,7 @@ Here's the highlights:
 ### Item Pricing & Piracy
 *Contributed by moony*
 
-Most things now have prices assigned allowing Cargo to, for example, sell fuel tanks for a couple hundred spacebucks. Consequentially, an increase of space piracy has been detected in the sector. 
+Most things now have prices assigned allowing Cargo to, for example, sell fuel tanks for a couple hundred spacebucks. Consequentially, an increase of space piracy has been detected in the sector.
 
 Attempts to kidnap and sell the Clown will be refused by Central Command.
 
@@ -79,7 +80,7 @@ Engineering finally bothered to install the rest of the station's telecommunicat
 ### Modular Landmines
 *Contributed by mirrorcult*
 
-The lads down in the Department of Interstellar War Crimes™ have developed a new modular landmine platform which accepts customized payloads. Casualties guaranteed or your money back! 
+The lads down in the Department of Interstellar War Crimes™ have developed a new modular landmine platform which accepts customized payloads. Casualties guaranteed or your money back!
 
 Make sure to watch your step.
 
@@ -348,7 +349,7 @@ var interactUsingEvent = new InteractUsingEvent(user, used, target, clickLocatio
 RaiseLocalEvent(target, interactUsingEvent, true);
 ```
 
-The table of events to raise on which components is stored per-entity, since we assume each entity can have its own set of components. A large amount of work on entity creation was building this table incrementally. 
+The table of events to raise on which components is stored per-entity, since we assume each entity can have its own set of components. A large amount of work on entity creation was building this table incrementally.
 
 The low hanging fruit (so somewhat medium hanging) is removing special "component events" from the tables. These are events like `ComponentAdd` which are sent only to one component at once (as opposed to all listening components on an entity). They don't use the regular event tables, but were still being tracked there uselessly. This already cut down a massive amount of subscriptions, saving work and memory.
 
