@@ -56,4 +56,4 @@ Windows 7 and 8 are out of support from Microsoft. Due to changes in various com
 
 #### Is there a difference between the Steam version and non-Steam version?
 
-Not currently. In the future we are planning to add Steam-specific features such as automatic login with your Steam accoutn, but in the present there's no difference yet.
+Not currently. In the future we plan to add Steam-specific features such as automatic login with your Steam account, but there's currently no difference.
