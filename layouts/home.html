@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 {{ $paginator := .Paginator }}
 
 <div class="section-shadow">
@@ -132,4 +132,4 @@
 	</div>
 </div>
 
-{{ partial "footer.html" . }}
+{{ end }}
