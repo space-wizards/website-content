@@ -43,21 +43,14 @@ We also have some other project services set up:
 
 ## History
 
-**Space Station 14** (SS14 for short) is a community driven project to get the open source game [Space Station 13](https://spacestation13.com/) into a new engine and free from its current engine, [BYOND](https://secure.byond.com/). BYOND is an incredibly dated engine, and is not cutting it. It's a pain to develop for, slow, proprietary, and looks like it's from 2005. Along with this we will try to make the game more enjoyable all around, such as pixel movement and a consistent style.
+The original **Space Station 13** dates back all the way to February **2003**, and is built on the [BYOND](https://secure.byond.com/) game engine. Over years of constant community development, SS13 slowly outgrew BYOND, and the engine's limitations became more and more obvious. Dozens of attempts have been made by people from all over the community to "remake" SS13 onto a new engine. While almost all of these projects have since succumbed to "The Curse", **Space Station 14** has actually succeeded.
 
-Originally, the SS14 project was a continuation of [Goonstation](https://forum.ss13.co/)'s remake attempt, which was abandoned and [open sourced on 19 of January, 2015](https://archive.fo/xey2L).
+SS14 itself starts around 2011. A couple developers hailing from the *Goonstation* branch of SS13 started a remake project that showed a lot of promise. It was hosted at [https://spacestation13.com](https://web.archive.org/web/20111001131200/http://spacestation13.com/?cat=4) and was also just called "Space Station 13". They posted occasional development updates on their blog, but otherwise development was closed. Eventually, the people involved got busy with their lives and development slowly crawled to a stop. In [January 2015](https://web.archive.org/web/20151009091029/http://spacestation13.com/2015/01/open-sourced-ss13) they made the decision to release the project's code **open source**, so that the rest of SS13's community could continue what they started.
 
-<details>
-  <summary>Silver's Account 09/11/2017</summary>
+**Space Station 14** was started from this open source release. Dozens of people gathered into an IRC channel. The name was picked, organization was made, project infrastructure was set up, and so on. There was a ton of enthusiasm at first, but none of it lasted very long. The game in 2015 was still years away from being playable. Worse, many core systems such as the rendering engine had to be replaced, and this effectively halted other development at the time. Within about half a year momentum had ground to a halt once again. A few dedicated developers kept chipping away, but the rest of the SS13 community put SS14 in the "failed remakes" category and moved on.
 
-  The project was open sourced January of 2014. Many developers came together from many codebases to form the Open Source team. Much progress was made here, but then the daunting task of replacing the engine in order to make the game cross platform was created. Two developers tried to replace the rendering engine (gorgon), of which both either left for real life or other reasons. This Open source period lasted about four months before developers started trickling away as nothing could be done until the rendering engine was replaced. I started here and took the task of adding SFML. I completed it after three months of work but it was too late as most of the developers were already gone.
+In May 2017, things slowly started turning around. A couple more SS13 developers started working on SS14, deciding it was best to work on the existing one than start Yet Another Remake. The Discord was made. A new website was set up, and we started posting some updates blogs. Large chunks of the engine were rewritten, making sure community servers can thrive better than they ever could in SS13. And then the engine was rewritten some more. And some more. People in the SS13 community made jokes that we rewrote the engine too much, but we persevered.
 
- From that point on I spent two years just learning and spent the majority of my time actually learning OpenGL.
+Even though the game was still far from playable, more and more people started contributing just for the sake of it. Things slowly accelerated. We created the Steam page. Under Steam's playtest system, we started hosting regular playtest events.
 
- Then PJB hit me up and she took the reins of refactoring the ever living shit out of this project trying to make everything modular. Bobdabiscuit made this discord and everyone here has worked to create a common ground for codebases to branch off of
-
- That's pretty much it for the history, the rest is to be created.
-
-</details>
-
-Space Station 14 has been built from the ground to be fast, modular, cross-platform, as well as fully moddable and extendable. Anyone can add basic items or variations to the game via the easily accessible YAML prototype system, and with some knowledge of C#, add or modify even core functionalities and systems.
+In late 2021 we finally managed to have consistent, round-the-clock player count on official game servers. This roughly coincided with a large burst of popularity in the Russian community, thanks you YouTubers and other content creators in that sphere covering the game. The game has only grown from there.
