@@ -1,7 +1,15 @@
-﻿.trailer-header
+﻿#trailer-landing-page {
+	display: block;
+	background-image: none;
+	height: fit-content;
+	min-height: 100vh
+}
+
+.trailer-header
 {
 	position: relative;
-	height: 100%;
+	height: fit-content;
+	min-height: 100vh;
 }
 .trailer-header::before
 {
@@ -40,7 +48,6 @@
 
 	.trailer-header:before {
 		background-position-x: 415px;
-		background-position-y: -350px;
 	}
 
 	#logo {
