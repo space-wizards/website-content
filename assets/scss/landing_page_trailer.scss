@@ -1,6 +1,7 @@
 ﻿.trailer-header
 {
 	position: relative;
+	height: 100%;
 }
 .trailer-header::before
 {
@@ -26,4 +27,23 @@
 	list-style: none;
 	justify-content: center;
 	flex: 1 0 25%;
+}
+
+@media (max-width: 700px) {
+	.trailer-header-logos > li {
+		flex: revert !important;
+	}
+
+	.trailer-header-logos {
+		flex-direction: column;
+	}
+
+	.trailer-header:before {
+		background-position-x: 415px;
+		background-position-y: -350px;
+	}
+
+	#logo {
+		margin-top: 200px;
+	}
 }
