@@ -65,6 +65,7 @@ $fa-font-path: "/fonts/fontawesome";
 @import "toc.scss";
 @import "media.scss";
 @import "serverBrowser.scss";
+@import "landing_page_trailer.scss";
 
 @import "fonts/fira_code.scss";
 @import "fonts/montserrat.scss";
@@ -161,4 +162,8 @@ article#main-article {
 	&:focus {
 		top: 0;
 	}
+}
+
+.d-contents {
+	disabled: contents;
 }
