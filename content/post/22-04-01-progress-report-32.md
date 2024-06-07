@@ -3,7 +3,8 @@ title = "Progress Report #32: Geoff"
 author = "DrSmugleaf, ike709, & Timrod"
 date = 2022-04-01
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_32"
@@ -43,7 +44,7 @@ NSS Pillar goes for a wide and thin station rather than something sprawling with
 {{< newsection >}}
 ## Content
 ### Two-Parter
-In case you missed the [previous progress report](https://spacestation14.io/post/22-03-16-progress-report-31/), this is the second part of a two-part special to bring the progress reports up-to-date with the laundry list of changes recently. This progress report covers February 2022.
+In case you missed the [previous progress report](https://spacestation14.com/post/22-03-16-progress-report-31/), this is the second part of a two-part special to bring the progress reports up-to-date with the laundry list of changes recently. This progress report covers February 2022.
 
 {{< newsection >}}
 ### Drones & Drone Hats

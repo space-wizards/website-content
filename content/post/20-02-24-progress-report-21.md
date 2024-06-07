@@ -137,7 +137,7 @@ Also, we're not sponsored by HackMD or anything - they're some Chinese company t
 
 We've been accepted into Steam!
 
-Now, before you panic, there are absolutely no plans to make the game Steam-exclusive. We will always support downloading and playing the game without a Steam account. The main reasons for us to get on Steam have been covered in [the previous progress report](https://spacestation14.io/post/20_01_24-progress-report-20/#planning-for-a-steam-release). TL;DR, it's more convenient for both us and you.
+Now, before you panic, there are absolutely no plans to make the game Steam-exclusive. We will always support downloading and playing the game without a Steam account. The main reasons for us to get on Steam have been covered in [the previous progress report](https://spacestation14.com/post/20_01_24-progress-report-20/#planning-for-a-steam-release). TL;DR, it's more convenient for both us and you.
 
 Anyway, we've just been accepted, so we don't *yet* have a public store page. We still have to get a bunch of art together, string together a description, get it all reviewed by Valve, etc... but you can expect an Early Access store page to be public soon, and being able to download the game via Steam in a few weeks after that.
 

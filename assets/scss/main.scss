@@ -1,5 +1,7 @@
 $fa-font-path: "/fonts/fontawesome";
 
+@import "colors.scss";
+
 // Bootstrap and FontAwesome are available here due to Hugo's VFS mounts in config.yml.
 
 @import "fontawesome/fontawesome.scss";
@@ -62,6 +64,7 @@ $fa-font-path: "/fonts/fontawesome";
 @import "layout.scss";
 @import "toc.scss";
 @import "media.scss";
+@import "serverBrowser.scss";
 
 @import "fonts/fira_code.scss";
 @import "fonts/montserrat.scss";
@@ -147,5 +150,15 @@ article#main-article {
 		display: block;
 		margin: 0 auto;
 		margin-bottom: 1rem;
+	}
+}
+
+.skip-link {
+	position: absolute;
+	top: -3em;
+	background: #fff;
+
+	&:focus {
+		top: 0;
 	}
 }

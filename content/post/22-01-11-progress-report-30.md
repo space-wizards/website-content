@@ -3,7 +3,8 @@ title = "Progress Report #30: A Short Freeze for Winter"
 author = "Timrod"
 date = 2022-01-17
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_30"

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+
+		{{ partial "meta.html" . }}
+
+		{{ if .Title }}<title>{{ .Title }} - SS14</title>{{ else }}<title>Space Station 14</title>{{ end }}
+		<link rel="canonical" href="{{ .Permalink }}" />
+		{{ range .AlternativeOutputFormats -}}
+    	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}
+
+		{{ partial "head_includes.html" }}
+	</head>
+	<body lang="en">
+		<a href="#main" class="skip-link">Skip to main content</a>
+		{{ partial "vue_templates.html" }}
+
+		<div class="section-shadow mt-2">
+			<div id="header" class="container angle-rect optional">
+			<nav class="navbar navbar-expand-lg navbar-dark p-0">
+						<a href="/" id="name" class="navbar-brand">
+							<img id="logo" src="/images/main/variations/trans/icon.svg" alt="The small logo of Space Station 14, in transgender flag colors" height="50" />
+						</a>
+
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						{{ $nla := .Params.navlinkactive }}
+
+						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "home" }} active {{ end }}" href="/">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "posts" }} active {{ end }}" href="/post/">News</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "updates" }} active {{ end }}" href="/categories/update">Updates</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "play" }} active {{ end }}" href="/about/nightlies/">Download</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "about" }} active {{ end }}" href="/about/about/">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "contact" }} active {{ end }}" href="/about/contact/">Contact</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link navlink {{if eq $nla "faq" }} active {{ end }}" href="/about/faq/">FAQ</a>
+								</li>
+							</ul>
+						</div>
+				</nav>
+			</div>
+		</div>
+			<main class="d-flex flex-column" id="main">
+				{{ block "main" . }}
+				this page NOT intentionally left blank
+				{{ end }}
+			</main>
+			<div id="footer-wrap" class="section-shadow">
+			<footer class="bottom-links container angle-rect optional mb-2">
+				<ul class="m-2 p-0 d-flex flex-wrap justify-content-center">
+					<li><a href="https://github.com/space-wizards" title="GitHub"><i class="fab fa-github"></i> GitHub</a></li>
+					<li><a href="https://docs.spacestation14.com" title="Documentation"><i class="fas fa-file-alt"></i> Developer Wiki</a></li>
+					<li><a href="https://wiki.spacestation14.io/wiki/Main_Page" title="Player Wiki"><i class="fas fa-file-alt"></i> Player Wiki</a></li>
+					<li><a href="https://store.steampowered.com/app/1255460/Space_Station_14/" title="Steam"><i class="fab fa-steam-symbol"></i> Steam</a></li>
+					<li><a href="https://www.patreon.com/spacestation14" title="Patreon"><i class="fab fa-patreon"></i> Patreon</a></li>
+					<li><a href="https://discord.ss14.io/" title="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+					<li><a href="https://forum.ss14.io" title="SS14 Forums"><i class="fas fa-comments"></i> Forum</a></li>
+					<li><a href="https://lemmy.spacestation14.com" title="Lemmy"><i class="fas fa-stream"></i> Lemmy</a></li>
+					<li><a href="https://mastodon.gamedev.place/@spacestation14" rel="me" title="RSS"><i class="fab fa-mastodon"></i> Mastodon</a></li>
+					<li><a href="/about/contact/#email" title="Email"><i class="fas fa-envelope"></i> Email</a></li>
+					<li><a href="/index.xml" title="RSS"><i class="fas fa-rss"></i> RSS</a></li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>
+

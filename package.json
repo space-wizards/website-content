@@ -1,11 +1,19 @@
 {
 	"name": "ss14-website",
 	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "tsc"
+	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.3",
 		"autoprefixer": "10.3.1",
 		"bootstrap": "5.0.2",
-		"postcss": "8.3.5",
+		"petite-vue": "^0.4.1",
+		"postcss": "8.4.31",
 		"postcss-cli": "8.3.1"
+	},
+	"devDependencies": {
+		"typescript": "^5.2.2"
 	}
 }

@@ -3,7 +3,8 @@ title = "Progress Report #39: Happy Holidelays"
 author = "DrSmugleaf & ike709"
 date = 2023-03-06
 categories = [
-    "Progress Report"
+    "Progress Report",
+    "update"
 ]
 reddit = ""
 thumbnail = "pr_39"
@@ -11,7 +12,7 @@ thumbnail = "pr_39"
 Remember when progress reports used to be released on time every month? Neither do we! PR39 covers November and December 2022.
 <!--more-->
 
-<!-- Useful tags: 
+<!-- Useful tags:
 Section splitter: {{< newsection >}}
 Picture: {{< imgw "/images/post/pr_39/picture_name" >}}
 Autoplay video (no audio): {{< video-auto "/video/pr_39/file_name.mp4" >}}

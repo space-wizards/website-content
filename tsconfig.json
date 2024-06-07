@@ -1,14 +1,11 @@
 {
-	"files": [
-		"main.ts"
-	],
+	"include": ["assets/ts/*.ts"],
 	"compileOnSave": true,
 	"compilerOptions": {
-		"outDir": "../js",
+		"outDir": "static/js/",
 		"removeComments": true,
 		"alwaysStrict": true,
-		"charset": "utf-8",
 		"newLine": "LF",
-		"target": "es3"
+		"target": "es6",
 	}
 }

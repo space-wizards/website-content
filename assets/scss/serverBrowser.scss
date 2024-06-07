@@ -1,0 +1,76 @@
+.server-list-short {
+	--angle-rect-clip-size: 8px;
+	@include angle-rect(var(--angle-rect-clip-size));
+	background-color: var(--color-panel-bg);
+	margin-bottom: $spacer / 3;
+}
+
+.server-list-contents {
+	display: flex;
+	flex-direction: column;
+	padding: $spacer / 3;
+}
+
+.server-entry {
+	--angle-rect-clip-size: 8px;
+
+	background-color: var(--color-server-entry-bg);
+	padding: $spacer / 3;
+	margin-bottom: $spacer / 3;
+}
+
+.server-entry:first-child {
+	@include angle-rect-open-bl(var(--angle-rect-clip-size));
+}
+
+.server-entry:last-child {
+	@include angle-rect-open-tr(var(--angle-rect-clip-size));
+	margin-bottom: 0;
+}
+
+.server-entry-info-labels {
+	margin: $spacer / 4 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.server-entry-info-label {
+	margin-right: $spacer / 2;
+}
+
+.server-entry-info-label-value {
+	font-weight: 600;
+}
+
+.server-entry-title {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 4px;
+}
+
+.server-entry-icon {
+	height: 30px;
+	margin-right: 5px;
+}
+
+.server-list-loading {
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+.server-entry-name {
+	font-size: 1.5rem;
+}
+
+.server-entry-address {
+	color: #aaaaaa;
+}
+
+.home-servers-explainer {
+	font-size: 0.9rem;
+	font-style: italic;
+}

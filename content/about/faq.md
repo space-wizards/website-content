@@ -22,7 +22,7 @@ Any other domain is not affiliated with us.
 - [Official Forums](https://forum.ss14.io)
 
 #### Socials
-- [Patreon](https://www.patreon.com/spacestation14) ([Finances](https://docs.google.com/spreadsheets/d/1iP3qOeTxrwN0DyeJvPndE7i1_nXeKL25j96wFIgYcU8))
+- [Patreon](https://www.patreon.com/spacestation14) ([Finances](https://docs.google.com/spreadsheets/d/1_EIs2myVyatmbuPxkhwvgIGzQ543v4LewhbDivJdV_o/edit?usp=sharing))
 - [Lemmy](https://lemmy.spacestation14.com)
 - [Discord](https://discord.ss14.io)
 - [Mastodon](https://mastodon.gamedev.place/@spacestation14)
@@ -99,10 +99,10 @@ Make sure your post follows the [ban template](https://forum.spacestation14.io/i
 You can read them [here](https://wiki.spacestation14.io/wiki/Server_Rules).
 
 ### Q: Help! My game is crashing, where do I get help?
-You can ask for help in our [Discord server](https://discord.ss14.io) in the [#bugs-feedback-help](https://discord.com/channels/310555209753690112/790656972801572905) channel, or on our [forums](https://forum.spacestation14.io/index.php?/forum/10-space-station-14/).
+You can ask for help in our [Discord server](https://discord.ss14.io) in the [#help](https://discord.com/channels/310555209753690112/790656972801572905) channel, or on our [forums](https://forum.spacestation14.io/index.php?/forum/10-space-station-14/).
 
 ### Q: How do I enable logging?
 On the launcher's options tab, enable "log client" and "log launcher". Press "Open Log directory" to see the logs.
 
-### Q: Will the game run on Windows 7?
-The game will not run on Windows 7 and there's nothing anyone can do to change this. We suggest you upgrade to a modern and supported operating system.
+### Q: Will the game run on Windows 7 or 8?
+The game will not run on Windows 7/Windows 8 and there's nothing anyone can do to change this. We suggest you upgrade to a modern and supported operating system.

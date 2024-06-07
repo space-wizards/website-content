@@ -1,4 +1,4 @@
-{{ $thumb := resources.Get (printf "images/thumbnails/%s.png" .Params.thumbnail) }}
+{{ $thumb := resources.Get (printf "images/thumbnails/%s.%s" .Params.thumbnail (or .Params.thumbnail_ext "png")) }}
 {{ $webp := $thumb.Fit "200x200 webp q85" }}
 {{ $jpeg := $thumb.Fit "200x200 jpeg q85" }}
 
