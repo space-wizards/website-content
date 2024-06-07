@@ -4,6 +4,9 @@ title: "Space Station 14"
 ignoreFiles: ["\\.ts$", "tsconfig.json$"]
 mainSections: ["post"]
 
+params:
+  mainFeedSections: ["post", "updates"]
+
 # PYGMENTS (Syntax Highlighting) settings!
 # I couldn't get Chroma to parse C# at all.
 PygmentsUseClassic: true
