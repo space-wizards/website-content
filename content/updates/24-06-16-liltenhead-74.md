@@ -1,7 +1,7 @@
 +++
 title = "Update Vlog - 74 - (Meteor Swarm Revamp, Pipe Stacking Removal, General Game Balancing)"
 author = "Liltenhead"
-date = 2024-06-22
+date = 2024-06-16
 categories = [
 	"update"
 ]
