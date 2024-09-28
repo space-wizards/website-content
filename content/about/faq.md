@@ -18,8 +18,8 @@ Any other domain is not affiliated with us.
 #### Space Station 14
 - [Downloads](/about/nightlies/)
 - [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
-- [Game Wiki](https://wiki.ss14.io/)
-- [Official Forums](https://forum.ss14.io)
+- [Game Wiki](https://wiki.spacestation14.com)
+- [Official Forums](https://forum.spacestation14.com)
 
 #### Socials
 - [Patreon](https://www.patreon.com/spacestation14) ([Finances](https://docs.google.com/spreadsheets/d/1_EIs2myVyatmbuPxkhwvgIGzQ543v4LewhbDivJdV_o/edit?usp=sharing))
@@ -32,13 +32,13 @@ Any other domain is not affiliated with us.
 - [GitHub Organization](https://github.com/space-wizards)
 - [Game Repository](https://github.com/space-wizards/space-station-14)
 - [Engine Repository](https://github.com/space-wizards/RobustToolbox)
-- [Documentation](https://docs.ss14.io)
+- [Documentation](https://docs.spacestation14.com)
 - [RSIEdit](https://github.com/space-wizards/RSIEdit)
 
 ### Official Servers
 
 The official servers are called "Wizard's Den" on the launcher/hub.
-If you've been banned in any of them, you may appeal your ban [here](https://forum.spacestation14.io/index.php?/forum/4-ban-appeals/).
+If you've been banned in any of them, you may appeal your ban [here](https://forum.spacestation14.com/w/ban-appeal).
 
 If you've been banned in a third-party server, there's nothing we can do.
 You'll have to appeal your ban with them.
@@ -62,7 +62,7 @@ No. Steam does get automatic updates to the launcher but otherwise they are func
 In the future we intend to add some better integration such as the ability to log into the game via Steam or Steam Cloud synchronization of settings, but these are not currently present.
 
 ### Q: How do I learn to play the game?
-Check out our [beginner's guide](https://wiki.spacestation14.io/wiki/Getting_Started) and the rest of our [player wiki](https://wiki.ss14.io).
+Check out our [beginner's guide](https://wiki.spacestation14.com/wiki/Getting_Started) and the rest of our [player wiki](https://wiki.spacestation14.com).
 
 ### Q: Are you the original creator of SS13?
 Yes/No. The original creator of SS13 would be Exadv1 in 2003. Since its open-sourcing in 2006, the community has been the developers of SS13.
@@ -72,15 +72,13 @@ Many of our devs are coders, contributors, admins and hosts of various SS13 comm
 It's written in C# using our own engine; [Robust Toolbox](https://github.com/space-wizards/RobustToolbox). C# is a good language and it's perfect for this project. It's easy to pick up, comfortable to write and pretty fast.
 
 ### Q: Can I help?
-Of course! Our [Discord](http://discord.ss14.io/) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://docs.ss14.io) on [getting setup](https://docs.spacestation14.io/getting-started/dev-setup) and [coding](https://docs.spacestation14.io/getting-started/how-do-i-code).
+Of course! Our [Discord](http://discord.ss14.io/) server is the best place to ask questions and get help. We also have guides on our [Dev Wiki](https://docs.spacestation14.com) on [getting setup](https://docs.spacestation14.com/en/general-development/setup/setting-up-a-development-environment.html) and [coding](https://docs.spacestation14.com/en/general-development/setup/howdoicode.html).
 
 ### Q: Does SS14 support multiple codebases/servers like SS13?
-Of course! You can checkout our [hosting guide](https://docs.spacestation14.io/en/getting-started/hosting) to get started.
-
-Note: If you're just looking to host a private server to mess around in solo play or test stuff, it's much less hassle to just [build the game yourself](https://docs.spacestation14.io/en/getting-started/dev-setup) which will compile a local client/server for you.
+Of course! You can checkout our [hosting guide](https://docs.spacestation14.com/en/general-development/setup/server-hosting-tutorial.html) to get started.
 
 ### Q: Where can I read the rules for servers using the public hub?
-You can read them [here](https://docs.spacestation14.io/hosting/hub-rules).
+You can read them [here](https://docs.spacestation14.com/en/community/space-wizards-hub-rules.html).
 
 ### Q: Can I use SS14's engine to make other games?
 Yes, we even have templates for both [singleplayer](https://github.com/space-wizards/RobustToolboxTemplateSingleplayer) and [multiplayer](https://github.com/space-wizards/RobustToolboxTemplate) games to help get you started.
@@ -91,15 +89,15 @@ Yes, we even have templates for both [singleplayer](https://github.com/space-wiz
 Our finances are public in this regularly updated [google sheet](https://docs.google.com/spreadsheets/d/1_EIs2myVyatmbuPxkhwvgIGzQ543v4LewhbDivJdV_o/edit?usp=sharing).
 
 ### Q: How can I appeal an in-game ban?
-If you have been banned from the official "Wizard's Den" servers, you can appeal your ban in our [forums](https://forum.spacestation14.io/index.php?/forum/4-ban-appeals/).
+If you have been banned from the official "Wizard's Den" servers, you can appeal your ban in our [forums](https://forum.spacestation14.com/w/ban-appeal).
 
-Make sure your post follows the [ban template](https://forum.spacestation14.io/index.php?/topic/50-ban-appeal-template-read-before-posting)
+If you were banned from another server you will need to ask them about appealing, most servers have some social links if you click on them in the launcher.
 
 ### Q: Where can I read the rules for the official game servers?
-You can read them [here](https://wiki.spacestation14.io/wiki/Server_Rules).
+You can read them [here](https://wiki.spacestation14.com/wiki/Server_Rules).
 
 ### Q: Help! My game is crashing, where do I get help?
-You can ask for help in our [Discord server](https://discord.ss14.io) in the [#help](https://discord.com/channels/310555209753690112/790656972801572905) channel, or on our [forums](https://forum.spacestation14.io/index.php?/forum/10-space-station-14/).
+You can ask for help in our [Discord server](https://discord.ss14.io) in the [#help](https://discord.com/channels/310555209753690112/790656972801572905) channel, or on our [forums](https://forum.spacestation14.com/c/general/help/46).
 
 ### Q: How do I enable logging?
 On the launcher's options tab, enable "log client" and "log launcher". Press "Open Log directory" to see the logs.
