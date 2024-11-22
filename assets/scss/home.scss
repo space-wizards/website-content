@@ -128,3 +128,53 @@
 	margin-bottom: $spacer;
 	flex-direction: row-reverse;
 }
+
+.version-date {
+	border-bottom: solid 2px;
+	margin-bottom: 0.7em;
+	:not(:first-child)
+	{
+		margin-top: 0.7em;
+	}
+}
+
+.change-author {
+	margin-bottom: 2px;
+}
+
+.changelog-version > * {
+	margin-left: 2rem;
+}
+
+.version-change[data-type="Add"] {
+	list-style-type: "🆕";
+}
+
+.version-change[data-type="Fix"] {
+	list-style-type: "🐛";
+}
+
+.version-change[data-type="Tweak"] {
+	list-style-type: "⚒️";
+}
+
+.version-change[data-type="Remove"] {
+	list-style-type: "❌";
+}
+
+.version-change {
+	padding-inline-start: 1ch;
+	margin-bottom: 12px;
+	color: darken(white, 20);
+}
+
+.version-change::marker {
+	font-size: 24px;
+}
+
+#changelog-output {
+	max-height: 800px;
+	overflow-y: auto;
+	background-color: #16161a;
+	--angle-rect-clip-size: 8px;
+}
