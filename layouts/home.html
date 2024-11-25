@@ -113,8 +113,11 @@
 					<div class="mx-3">
 						<h2>Changelogs</h2>
 						<div id="changelog-output" class="angle-rect">
-							<span style="padding: 16px">Failed to retrieve changelogs</span>
-							<button id="changelog-reload-button" onclick="fetchChangelog()" hidden>Reload</button>
+							<span class="p-3">Loading changelogs</span>
+							<div id="changelog-reload-button" class="d-flex p-3 gap-3">
+								<p>Failed to load changelogs</p>
+								<a class="fancybutton" onclick="fetchChangelog()">Reload</a>
+							</div>
 						</div>
 					</div>
 				</div>

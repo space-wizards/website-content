@@ -1,8 +1,10 @@
 ﻿// noinspection CssInvalidHtmlTagReference
 
+const changelogUrl = 'https://moon.spacestation14.com/changelog.xml';
+
 export async function fetchChangelog()
 {
-	const response = await fetch('https://moon.spacestation14.com/changelog.xml');
+	const response = await fetch(changelogUrl);
 	if (!response.ok)
 	{
 		document.getElementById('changelog-reload-button').hidden = false;
