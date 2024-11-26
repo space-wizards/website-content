@@ -128,3 +128,54 @@
 	margin-bottom: $spacer;
 	flex-direction: row-reverse;
 }
+
+.version-date {
+	border-bottom: solid 2px;
+	margin-bottom: 0.7em;
+	margin-top: 0.4rem;
+	:not(:first-child)
+	{
+		margin-top: 0.7em;
+	}
+}
+
+.change-author {
+	margin-bottom: 2px;
+}
+
+.changelog-version > * {
+	margin-left: 2rem;
+}
+
+.version-change {
+	padding-inline-start: 1ch;
+	margin-bottom: 12px;
+	color: darken(white, 20);
+
+	&[data-type="Add"] {
+		list-style-type: "🆕";
+	}
+
+	&[data-type="Fix"] {
+		list-style-type: "🐛";
+	}
+
+	&[data-type="Tweak"] {
+		list-style-type: "⚒️";
+	}
+
+	&[data-type="Remove"] {
+		list-style-type: "❌";
+	}
+}
+
+.version-change::marker {
+	font-size: 24px;
+}
+
+#changelog-output {
+	max-height: 800px;
+	overflow-y: auto;
+	background-color: #16161a;
+	--angle-rect-clip-size: 8px;
+}

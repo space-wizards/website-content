@@ -2,6 +2,7 @@
 import { createApp, reactive } from "./vue/petite-vue.es.js"
 import { whenReady } from "./util.js";
 import { getServerList, ServerStatusData, ServerStatusEntry } from "./hub_api.js";
+import { fetchChangelog } from "./changelog.js";
 
 // Code for the home page.
 
@@ -126,6 +127,7 @@ function setupServerList() {
 whenReady(() => {
 	setupGallery();
 	setupServerList();
+	fetchChangelog();
 });
 
 export {}
