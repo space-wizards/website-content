@@ -10,6 +10,7 @@ tags = [
 ]
 thumbnail = "liltenhead_70"
 thumbnail_ext = "jpg"
+hide_toc = true
 +++
 
 This week brings customizable role-specific loadouts. In the lobby, you can customize your loadout for every role, from jumpsuits to backpack types. Botanists can now grow their own personalized army through the form of killer tomatoes. The chameleon projector allows syndicate agents to blend into their environment by copying the appearance of nearly any object. As well as other content additions, bug fixes, and balancing tweaks over the week.

@@ -10,6 +10,7 @@ tags = [
 ]
 thumbnail = "liltenhead_77"
 thumbnail_ext = "jpg"
+hide_toc = true
 +++
 
 This week brings a powerful new suit of armor, available only to nuclear operatives. It is a well-rounded suit that is not space-faring, meaning it must be used with specific plans in mind. Throwing has been changed to allow for significantly more precision when throwing objects and weapons. Bartenders now have to shake or stir specific drinks, giving a bit more variety in their bartending methods.

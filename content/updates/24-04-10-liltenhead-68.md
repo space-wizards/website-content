@@ -9,6 +9,7 @@ tags = [
 	"liltenhead"
 ]
 thumbnail = "liltenhead_68"
+hide_toc = true
 +++
 
 {{< youtube-full "https://www.youtube.com/embed/vcatQyoag14" "SS14 - Weekly Update Vlog - 68 - (RCD Overhaul, New Anomaly Mechanics, Inventory QoL)" >}}

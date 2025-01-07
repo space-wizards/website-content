@@ -10,6 +10,7 @@ tags = [
 ]
 thumbnail = "liltenhead_78"
 thumbnail_ext = "jpg"
+hide_toc = true
 +++
 
 This week brings major buffs to both syndicate and nuclear operative reinforcements. Nuclear operative reinforcements now are loaded up with a blood-red and a chest rig, just like a regular nukie. Syndicate reinforcements now have loadouts ranging from medical items to spy equipment. Atmos techs can now build pipes inside walls, giving them extra room for whatever projects they are working on. Dead space dragons will no longer despawn, meaning that anyone who got devoured won't disappear into the void. Botany also has new mutations that range from medicinal to lethal. As well as many bug fixes and other additions.

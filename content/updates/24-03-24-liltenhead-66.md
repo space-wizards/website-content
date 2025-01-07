@@ -9,6 +9,7 @@ tags = [
 	"liltenhead"
 ]
 thumbnail = "liltenhead_66"
+hide_toc = true
 +++
 
 {{< youtube-full "https://www.youtube.com/embed/Vl-Gvp2UDkg" "SS14 - Update Vlog - 66 - (Throwing Knives, Lone Ops Buff, Hacking Tweaks)" >}}
