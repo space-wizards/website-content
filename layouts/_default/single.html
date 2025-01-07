@@ -24,10 +24,12 @@
 	</div>
 
 
+	{{ if not .Params.hide_toc }}
 	<div class="mb-3">
 		<!-- The links from the Toc redirect by default to the siteURL, this is my workaround to that -->
 		{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}
 	</div>
+	{{ end }}
 	{{  .Content }}
 
 	{{ if .Params.reddit }}
