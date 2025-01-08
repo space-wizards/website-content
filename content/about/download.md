@@ -2,7 +2,8 @@
 title = "Downloads"
 date = "2018-04-13"
 navlinkactive = "play"
-layout = "nightlies"
+layout = "download"
+aliases = "nightlies"
 +++
 
 
