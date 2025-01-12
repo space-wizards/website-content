@@ -6,7 +6,7 @@
 		"build": "tsc"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.3",
+		"@fortawesome/fontawesome-free": "^6.7.2",
 		"autoprefixer": "10.3.1",
 		"bootstrap": "5.0.2",
 		"petite-vue": "^0.4.1",
