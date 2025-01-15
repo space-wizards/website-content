@@ -45,6 +45,9 @@ We do not share any other data such as your email address (via game servers or A
 
 ## Game Server Privacy Policy
 
+> **Updated January 19th, 2025:** Our game servers now check IP addresses with IPIntel to detect VPNs. Also specified usage of Discord.
+{.notice}
+
 This section of the privacy policy applies only if you play on our first-party SS14 servers.
 
 Some terminology used in this section:
@@ -57,6 +60,10 @@ We log all connections you make to our game servers, storing IP address, HWID an
 Connection logs (including IP/HWID) are shared with trusted server administrators for enforcement of server rules such as, but not limited to, enforcing server bans. Connection logs are not shared publically.
 
 Logs of in-game actions may be made public for anybody to view, once again for the purposes of rule enforcement. This includes private conversations had with server administrators in-game.
+
+New players may have their IP address sent to the third-party [IPIntel](https://getipintel.net/) service to detect and deny VPN connections. We deny VPN-based connections by default as they are commonly used for purposes such as ban evasion. You may request an exemption for using VPNs on our forum, which will also stop your IP being sent to IPIntel.
+
+Some interactions (talking in OOC, conversations with server staff) may be sent to our Discord community and will therefore be logged there.
 
 ## Forum Privacy Policy
 
