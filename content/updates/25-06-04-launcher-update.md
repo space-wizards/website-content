@@ -24,4 +24,4 @@ Minor fixes and localization updates.
 * Added Italian and Norwegian Bokmål translation.
 * Updated the localization files.
 
-This update will be made available on all platforms as soon as possible. For manual downloads, [get them here](https://github.com/space-wizards/SS14.Launcher/releases/tag/v0.32.0).
+This update will be made available on all platforms as soon as possible. For manual downloads, [get them here](https://github.com/space-wizards/SS14.Launcher/releases).
