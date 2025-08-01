@@ -1,6 +1,5 @@
 +++
 title = "Launcher Update v0.32.0"
-author = "Liltenhead"
 date = 2025-06-04
 categories = [
 	"update"
