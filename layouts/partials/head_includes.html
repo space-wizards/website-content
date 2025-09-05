@@ -5,9 +5,11 @@
 {{ $sass := resources.Get "scss/main.scss" | toCSS $sassOptions  }}
 
 {{- if eq hugo.Environment "production" -}}
-	{{ $postCssOptions := (dict "config" "./postcss.config.js")}}
-	{{ $sass = $sass | resources.PostCSS $postCssOptions | resources.Minify }}
+  {{ $postCssOptions := dict "config" "./postcss.config.js" }}
+  {{ $sass = $sass | css.PostCSS $postCssOptions }}
+  {{ $sass = $sass | minify }}
 {{- end -}}
+
 
 <link rel="stylesheet" type="text/css" href="{{ $sass.RelPermalink }}" />
 <script async type="module" src="/js/main.js"></script>
