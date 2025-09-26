@@ -10,6 +10,9 @@ tags = [
 thumbnail = "launcher"
 thumbnail_ext = "png"
 hide_toc = true
+aliases = [
+	"/updates/25-08-01-launcher-update-v0-32-0"
+]
 +++
 
 Updater improvements and localization updates.
