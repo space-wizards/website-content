@@ -43,13 +43,11 @@ aliases = "nightlies"
 
 32-bit (x86) is not supported. All modern CPUs are 64-bit, there is no reason for us to continue supporting 32-bit.
 
-#### Is Apple Silicon supported?
+#### Is Apple Silicon/ARM64 supported?
 
-Apple Silicon machines (M1, M2, M3, ...) are supported through Rosetta 2. While this does not provide optimal performance and battery life, it is totally playable. Proper support for Apple Silicon will probably happen some time.
+Space Station 14 supports ARM64 devices natively. Please note that older game servers may not support ARM64.
 
-#### What about ARM?
-
-ARM is currently supported for Linux servers but nowhere else.
+At this current time, Windows ARM64 devices are not supported natively due to driver bugs and will be supported down the line. You can still however play via emulation just fine.
 
 #### What about Windows 7 and Windows 8?
 
