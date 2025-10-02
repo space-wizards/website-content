@@ -45,7 +45,7 @@ aliases = "nightlies"
 
 #### Is Apple Silicon/ARM64 supported?
 
-Space Station 14 supports ARM64 devices natively. Do note some older server versions may not support ARM64 but the most popular ones should.
+Space Station 14 supports ARM64 devices natively. Please note that older game servers may not support ARM64.
 
 At this current time, Windows ARM64 devices are not supported natively due to driver bugs and will be supported down the line. You can still however play via emulation just fine.
 
