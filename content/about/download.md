@@ -43,6 +43,12 @@ aliases = "nightlies"
 
 32-bit (x86) is not supported. All modern CPUs are 64-bit, there is no reason for us to continue supporting 32-bit.
 
+#### Is Apple Silicon/ARM64 supported?
+
+Space Station 14 supports ARM64 devices natively. Do note some older server versions may not support ARM64 but the most popular ones should.
+
+At this current time, Windows ARM64 devices are not supported natively due to driver bugs and will be supported down the line. You can still however play via emulation just fine.
+
 #### What about Windows 7 and Windows 8?
 
 Windows 7 and 8 are out of support from Microsoft. Due to changes in various components we use such as the .NET runtime it is impossible for us to keep supporting them. Please upgrade to Windows 10 or switch to Linux if you are using one of these operating systems.
