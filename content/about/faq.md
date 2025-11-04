@@ -1,6 +1,6 @@
 +++
 title = "Frequently Asked Questions"
-date = "2020-06-09"
+date = "2025-11-04"
 navlinkactive = "faq"
 +++
 
@@ -23,7 +23,6 @@ Any other domain is not affiliated with us.
 
 #### Socials
 - [Patreon](https://www.patreon.com/spacestation14) ([Finances](https://docs.google.com/spreadsheets/d/1_EIs2myVyatmbuPxkhwvgIGzQ543v4LewhbDivJdV_o/edit?usp=sharing))
-- [Lemmy](https://lemmy.spacestation14.com)
 - [Discord](https://discord.ss14.io)
 - [Mastodon](https://mastodon.gamedev.place/@spacestation14)
 - [Twitter](https://twitter.com/space_station14)
