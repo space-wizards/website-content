@@ -34,7 +34,7 @@ Rome was not built in a day, and neither was SS14. We can always use extra hands
 
 We primarily communicate through Discord:
 
-* [Discord Invite](https://discord.ss14.io/)
+* [Discord Invite](https://discord.gg/ss14/)
 
 We also have some other project services set up:
 
