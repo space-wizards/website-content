@@ -26,6 +26,8 @@ Any other domain is not affiliated with us.
 - [Discord](https://discord.gg/ss14)
 - [Mastodon](https://mastodon.gamedev.place/@spacestation14)
 - [Bluesky](https://bsky.app/profile/spacestation14.com)
+- [Youtube](https://www.youtube.com/@SpaceWizardsFederation)
+- [Twitch](https://www.twitch.tv/spacestation_14)
 
 #### Development
 - [GitHub Organization](https://github.com/space-wizards)
@@ -59,7 +61,7 @@ In our [downloads page](/about/nightlies/).
 
 ### Q: Where can I sign up for the Steam Playtest?
 In our [official Steam page](https://store.steampowered.com/app/1255460/Space_Station_14/).
-Access is given automatically upon signing up, may take up to 24 hours for access to be given.
+You should be given access automatically after signing up, but it may sometimes take up to 24 hours for Steam's processing.
 
 ### Q: Are there any differences between the Steam and Standalone versions of the game?
 No. Steam does get automatic updates to the launcher, but otherwise they are functionally identical.
