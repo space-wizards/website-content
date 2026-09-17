@@ -9,6 +9,9 @@ navlinkactive = "contact"
 <div class="contact"><a href="https://discord.gg/ss14">Discord</a></div>
 <div class="contact"><a href="https://forum.spacestation14.com/">Forum</a></div>
 <hr></hr>
-<div id="email" class="contact"><div>Email</div><div><code>support@spacestation14.com</code></div></div>
+<div id="email" class="contact"><div>Account help and general support</div><div><code>support@spacestation14.com</code></div></div>
+<br>
+<div id="hub-support" class="contact"><div>Hub support</div><div><code>hub-support@spacestation14.com</code></div></div>
+<br>
+<div id="management" class="contact"><div>Management</div><div><code>c@spacestation14.com</code></div></div>
 <hr></hr>
-
