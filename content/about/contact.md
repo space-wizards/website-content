@@ -13,5 +13,5 @@ navlinkactive = "contact"
 <br>
 <div id="hub-support" class="contact"><div>Hub support</div><div><code>hub-support@spacestation14.com</code></div></div>
 <br>
-<div id="management" class="contact"><div>Management</div><div><code>c@spacestation14.com</code></div></div>
+<div id="management" class="contact"><div>Management</div><div><code>contact-us@robustinteractive.com</code></div></div>
 <hr></hr>
